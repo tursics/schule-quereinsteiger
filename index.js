@@ -1,12 +1,11 @@
 /* schulsanierung.tursics.de - JavaScript file */
 
 /*jslint browser: true*/
-/*global $,L*/
+/*global $,L,window,document*/
 
 var map = null;
 var layerPopup = null;
 var layerGroup = null;
-var maxVal = 0;
 
 // -----------------------------------------------------------------------------
 
@@ -20,25 +19,6 @@ String.prototype.startsWith = String.prototype.startsWith || function (prefix) {
 
 function mapAction() {
 	'use strict';
-}
-
-// -----------------------------------------------------------------------------
-
-function fixEuro(item) {
-	'use strict';
-
-	if (item === '') {
-		return 0;
-	} else if (item === null) {
-		return 0;
-	} else if ('undefined' === typeof item) {
-		return 0;
-	} else if ('number' === typeof item) {
-		return item;
-	} else if ('T€' === item.substring(item.length - 2)) {
-		return parseInt(item.substring(0, item.length - 2).replace('.', '').replace(',', '.'), 10) * 1000;
-	}
-	return item;
 }
 
 // -----------------------------------------------------------------------------
@@ -76,86 +56,78 @@ function formatNumber(txt) {
 function enrichMissingData(data) {
 	'use strict';
 
-/*	try {
-		$.each(data, function (key, value) {
+	try {
+		$.each(data, function (key, val) {
+			var all, q, s;
+
+			if (!val.AlleLehrkraefte_2017 || (val.AlleLehrkraefte_2017 === '')) {
+				val.AlleLehrkraefte_2017 = 'keine Angabe';
+			}
+
+			if (!val.AlleLehrkraefte_2018 || (val.AlleLehrkraefte_2018 === '')) {
+				val.AlleLehrkraefte_2018 = 'keine Angabe';
+			}
+
+			if (!val.AlleQ_2017 || (val.AlleQ_2017 === '')) {
+				val.AlleQ_2017 = '0 %';
+			}
+
+			if (!val.AlleQS_2018 || (val.AlleQS_2018 === '')) {
+				val.AlleQS_2018 = '0 %';
+			}
+
+			if (val.Q1_5_2018 && (val.Q1_5_2018 !== '')) {
+				val.AlleQ_2018 = val.Q1_5_2018;
+			} else if (val.Q6_x_2018 && (val.Q6_x_2018 !== '')) {
+				val.AlleQ_2018 = val.Q6_x_2018;
+			} else {
+				val.AlleQ_2018 = '0 %';
+			}
+
+			if (val.S1_5_2018 && (val.S1_5_2018 !== '')) {
+				val.AlleS_2018 = val.S1_5_2018;
+			} else if (val.S6_x_2018 && (val.S6_x_2018 !== '')) {
+				val.AlleS_2018 = val.S6_x_2018;
+			} else {
+				val.AlleS_2018 = '0 %';
+			}
+
+			all = parseInt(val.AlleLehrkraefte_2017, 10);
+			q = parseInt(val.AlleQ_2017, 10);
+			s = 0;
+			if (isNaN(all)) {
+				all = 0;
+			}
+			val.count_2017 = Math.round(all * q / 100) + Math.round(all * s / 100);
+
+			all = parseInt(val.AlleLehrkraefte_2018, 10);
+			q = parseInt(val.AlleQ_2018, 10);
+			s = parseInt(val.AlleS_2018, 10);
+			if (isNaN(all)) {
+				all = 0;
+			}
+			val.count_2018 = Math.round(all * q / 100) + Math.round(all * s / 100);
 		});
 	} catch (e) {
 //		console.log(e);
-	}*/
+	}
 
 	return data;
 }
 
 // -----------------------------------------------------------------------------
 
-function createStatistics(data) {
+function getColor(data) {
 	'use strict';
 
-	var objBln = { Schulnummer: '', Schulname: 'Berlin', Schulart: 'Stadt', lat: 52.518413, lng: 13.408368, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
-		obj01  = { Schulnummer: '01', Schulname: 'Mitte', Schulart: 'Bezirk', lat: 52.521168, lng: 13.423244, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
-		obj02  = { Schulnummer: '02', Schulname: 'Friedrichshain-Kreuzberg', Schulart: 'Bezirk', lat: 52.515235, lng: 13.461909, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
-		obj03  = { Schulnummer: '03', Schulname: 'Pankow', Schulart: 'Bezirk', lat: 52.541561, lng: 13.427734, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
-		obj04  = { Schulnummer: '04', Schulname: 'Charlottenburg-Wilmersdorf', Schulart: 'Bezirk', lat: 52.489209, lng: 13.311817, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
-		obj05  = { Schulnummer: '05', Schulname: 'Spandau', Schulart: 'Bezirk', lat: 52.534998, lng: 13.200768, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
-		obj06  = { Schulnummer: '06', Schulname: 'Steglitz-Zehlendorf', Schulart: 'Bezirk', lat: 52.433044, lng: 13.258876, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
-		obj07  = { Schulnummer: '07', Schulname: 'Tempelhof-Schöneberg', Schulart: 'Bezirk', lat: 52.484935, lng: 13.344267, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
-		obj08  = { Schulnummer: '08', Schulname: 'Neukölln', Schulart: 'Bezirk', lat: 52.481347, lng: 13.434969, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
-		obj09  = { Schulnummer: '09', Schulname: 'Treptow-Köpenick', Schulart: 'Bezirk', lat: 52.445412, lng: 13.575023, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
-		obj10  = { Schulnummer: '10', Schulname: 'Marzahn-Hellersdorf', Schulart: 'Bezirk', lat: 52.537172, lng: 13.603757, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
-		obj11  = { Schulnummer: '11', Schulname: 'Lichtenberg', Schulart: 'Bezirk', lat: 52.515807, lng: 13.479470, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
-		obj12  = { Schulnummer: '12', Schulname: 'Reinickendorf', Schulart: 'Bezirk', lat: 52.5890247, lng: 13.324019, PLZ: '', Strasse: '', Kosten: 0, Prio: 0};
+	var val = 0;
 
-	try {
-		$.each(data, function (key, val) {
-			val = fixData(val);
-			if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
-				if (0 === val.Schulnummer.indexOf(obj01.Schulnummer)) {
-					obj01.Kosten += parseInt(val.Kosten, 10);
-				} else if (0 === val.Schulnummer.indexOf(obj02.Schulnummer)) {
-					obj02.Kosten += parseInt(val.Kosten, 10);
-				} else if (0 === val.Schulnummer.indexOf(obj03.Schulnummer)) {
-					obj03.Kosten += parseInt(val.Kosten, 10);
-				} else if (0 === val.Schulnummer.indexOf(obj04.Schulnummer)) {
-					obj04.Kosten += parseInt(val.Kosten, 10);
-				} else if (0 === val.Schulnummer.indexOf(obj05.Schulnummer)) {
-					obj05.Kosten += parseInt(val.Kosten, 10);
-				} else if (0 === val.Schulnummer.indexOf(obj06.Schulnummer)) {
-					obj06.Kosten += parseInt(val.Kosten, 10);
-				} else if (0 === val.Schulnummer.indexOf(obj07.Schulnummer)) {
-					obj07.Kosten += parseInt(val.Kosten, 10);
-				} else if (0 === val.Schulnummer.indexOf(obj08.Schulnummer)) {
-					obj08.Kosten += parseInt(val.Kosten, 10);
-				} else if (0 === val.Schulnummer.indexOf(obj09.Schulnummer)) {
-					obj09.Kosten += parseInt(val.Kosten, 10);
-				} else if (0 === val.Schulnummer.indexOf(obj10.Schulnummer)) {
-					obj10.Kosten += parseInt(val.Kosten, 10);
-				} else if (0 === val.Schulnummer.indexOf(obj11.Schulnummer)) {
-					obj11.Kosten += parseInt(val.Kosten, 10);
-				} else if (0 === val.Schulnummer.indexOf(obj12.Schulnummer)) {
-					obj12.Kosten += parseInt(val.Kosten, 10);
-				}
-				objBln.Kosten += parseInt(val.Kosten, 10);
-			}
-		});
+	val = data.count_2018;
 
-		data.push(obj01);
-		data.push(obj02);
-		data.push(obj03);
-		data.push(obj04);
-		data.push(obj05);
-		data.push(obj06);
-		data.push(obj07);
-		data.push(obj08);
-		data.push(obj09);
-		data.push(obj10);
-		data.push(obj11);
-		data.push(obj12);
-		data.push(objBln);
-	} catch (e) {
-//		console.log(e);
-	}
+	return val >= 10 ? 'red' :
+			val > 0 ? 'orange' :
+					'green';
 }
-
 // -----------------------------------------------------------------------------
 
 function updateMapSelectItem(data) {
@@ -175,43 +147,21 @@ function updateMapSelectItem(data) {
 
 	mapAction();
 
-	var key, item, kosten, moneyPot = 0;
+	var key;
 
 	for (key in data) {
 		setText(key, data[key]);
 	}
 
-	setText('PrioritaetGesamt', (data.Prio === 0 ? '' : (data.Prio === 1 ? 'Höchste Priorität' : (data.Kosten >= 5000000 ? 'Priorität 2 oder 3' : 'unbekannte Priorität'))));
+//	setText('PrioritaetGesamt', (data.Prio === 0 ? '' : (data.Prio === 1 ? 'Höchste Priorität' : (data.Kosten >= 5000000 ? 'Priorität 2 oder 3' : 'unbekannte Priorität'))));
 
-	if (moneyPot > 0) {
-		$('#iPlanung').html('<br>In den Jahren 2015 bis 2019 werden über ' + formatNumber(moneyPot) + ' Euro ' + ((data.Schulart === 'Bezirk') || (data.Schulart === 'Stadt') ? 'in die Schulen' : 'in diese Schule') + ' investiert.' + (data.Kosten > 0 ? ' Trotz dieser Summe bleibt immer noch ein Sanierungsbedarf von ' + formatNumber(data.Kosten) + ' Euro.' : ' Danach ist sie vollständig saniert.'));
-	} else {
-		$('#iPlanung').html('<br>Diese Schule hat einen Sanierungsbedarf von ' + formatNumber(data.Kosten) + ' Euro.');
+	if (data.AlleQ_2018 && (data.AlleQ_2018 !== '')) {
+		console.log('');
+		console.log('2017:', data.count_2017);
+		console.log('2018:', data.count_2018);
 	}
 
-	$('.priceBox').removeClass('priceRed').removeClass('priceOrange').removeClass('priceBlue').removeClass('priceGreen').removeClass('priceGray')
-		.addClass((data.Schulart === 'Bezirk') || (data.Schulart === 'Stadt') ? 'priceGray' :
-								data.Kosten >= 10000000 ? 'priceRed' :
-										data.Kosten >= 5000000 ? 'priceOrange' :
-												data.Kosten >= 1000 ? 'priceBlue' :
-														'priceGreen');
 	$('#receiptBox').css('display', 'block');
-
-	if ((data.Schulart === 'Bezirk') || (data.Schulart === 'Stadt')) {
-		$('.priceTriangle div:nth-child(1)').css('margin-left', parseInt(150, 10) + '%');
-	} else if (data.Kosten >= 10000000) {
-		$('.priceTriangle div:nth-child(1)').css('margin-left', parseInt(25 - (data.Kosten - 10000000) * 22 / (maxVal - 10000000), 10) + '%');
-		$('.priceTriangle div:nth-child(2)').addClass('priceRed').removeClass('priceOrange').removeClass('priceBlue').removeClass('priceGreen');
-	} else if (data.Kosten >= 5000000) {
-		$('.priceTriangle div:nth-child(1)').css('margin-left', parseInt(50 - (data.Kosten - 5000000) * 25 / 5000000, 10) + '%');
-		$('.priceTriangle div:nth-child(2)').removeClass('priceRed').addClass('priceOrange').removeClass('priceBlue').removeClass('priceGreen');
-	} else if (data.Kosten >= 1000) {
-		$('.priceTriangle div:nth-child(1)').css('margin-left', parseInt(75 - (data.Kosten - 1000) * 25 / 5000000, 10) + '%');
-		$('.priceTriangle div:nth-child(2)').removeClass('priceRed').removeClass('priceOrange').addClass('priceBlue').removeClass('priceGreen');
-	} else {
-		$('.priceTriangle div:nth-child(1)').css('margin-left', parseInt(87.5, 10) + '%');
-		$('.priceTriangle div:nth-child(2)').removeClass('priceRed').removeClass('priceOrange').removeClass('priceBlue').addClass('priceGreen');
-	}
 }
 
 // -----------------------------------------------------------------------------
@@ -238,13 +188,36 @@ function updateMapHoverItem(coordinates, data, icon) {
 
 // -----------------------------------------------------------------------------
 
-function updateMapVoidItem(data) {
+function updateMapVoidItem() {
 	'use strict';
 
 	if (layerPopup && map) {
 		map.closePopup(layerPopup);
 		layerPopup = null;
     }
+}
+
+// -----------------------------------------------------------------------------
+
+function createMarkerGroup() {
+	'use strict';
+
+	try {
+		layerGroup = L.featureGroup([]);
+		layerGroup.addTo(map);
+
+		layerGroup.addEventListener('click', function (evt) {
+			updateMapSelectItem(evt.layer.options.data);
+		});
+		layerGroup.addEventListener('mouseover', function (evt) {
+			updateMapHoverItem([evt.latlng.lat, evt.latlng.lng], evt.layer.options.data, evt.layer.options.icon);
+		});
+		layerGroup.addEventListener('mouseout', function (evt) {
+			updateMapVoidItem(evt.layer.options.data);
+		});
+	} catch (e) {
+//		console.log(e);
+	}
 }
 
 // -----------------------------------------------------------------------------
@@ -272,48 +245,23 @@ function createMarker(data) {
 				icon: 'fa-building-o',
 				prefix: 'fa',
 				markerColor: 'red'
-			}),
-			minVal = 100000000,
-			isDistrict;
-
-		layerGroup = L.featureGroup([]);
-		layerGroup.addTo(map);
-
-		layerGroup.addEventListener('click', function (evt) {
-			updateMapSelectItem(evt.layer.options.data);
-		});
-		layerGroup.addEventListener('mouseover', function (evt) {
-			updateMapHoverItem([evt.latlng.lat, evt.latlng.lng], evt.layer.options.data, evt.layer.options.icon);
-		});
-		layerGroup.addEventListener('mouseout', function (evt) {
-			updateMapVoidItem(evt.layer.options.data);
-		});
+			});
 
 		$.each(data, function (key, val) {
-			isDistrict = false;
-			if ((val.Schulart === 'Bezirk') || (val.Schulart === 'Stadt')) {
-				isDistrict = true;
-			}
 			if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
-				var marker = L.marker([parseFloat(val.lat), parseFloat(val.lng)], {
+				var color = getColor(val),
+					marker = L.marker([parseFloat(val.lat), parseFloat(val.lng)], {
 						data: fixData(val),
-						icon: val.Kosten >= 10000000 ? markerRed :
-								val.Kosten >= 5000000 ? markerOrange :
-										val.Kosten >= 1000 ? markerBlue :
-												markerGreen,
-						opacity: isDistrict ? 0 : 1,
-						clickable: isDistrict ? 0 : 1
+						icon: color === 'red' ? markerRed :
+								color === 'orange' ? markerOrange :
+										color === 'green' ? markerGreen :
+												markerBlue,
+						opacity: 1,
+						clickable: 1
 					});
 				layerGroup.addLayer(marker);
-				if (!isDistrict) {
-					minVal = Math.min(minVal, val.Kosten);
-					maxVal = Math.max(maxVal, val.Kosten);
-				}
 			}
 		});
-
-		$('.priceBar3 .right').html('0 €&nbsp;&nbsp;');
-		$('.priceBar3 .left').html('&nbsp;' + formatNumber(maxVal) + ' €');
 	} catch (e) {
 //		console.log(e);
 	}
@@ -457,7 +405,7 @@ function initMap(elementName, lat, lng, zoom) {
 
 		$.getJSON(dataUrl, function (data) {
 			data = enrichMissingData(data);
-			createStatistics(data);
+			createMarkerGroup();
 			createMarker(data);
 			initSearchBox(data);
 //			initSocialMedia();
@@ -487,36 +435,36 @@ $(document).on("pageshow", "#pageMap", function () {
 	initMap('mapContainer', 52.518413, 13.408368, 13);
 
 	$('#autocomplete').val('');
-	$('#receipt .group').on('click', function (e) {
+	$('#receipt .group').on('click', function () {
 		$(this).toggleClass('groupClosed');
 	});
-	$('#receiptClose').on('click', function (e) {
+	$('#receiptClose').on('click', function () {
 		$('#receiptBox').css('display', 'none');
 	});
-	$('#searchBox .sample a:nth-child(1)').on('click', function (e) {
+	$('#searchBox .sample a:nth-child(1)').on('click', function () {
 		$('#autocomplete').val('Clay-Schule (08K05)');
 		selectSuggestion('08K05');
 	});
-	$('#searchBox .sample a:nth-child(2)').on('click', function (e) {
+	$('#searchBox .sample a:nth-child(2)').on('click', function () {
 		$('#autocomplete').val('Pankow');
 		selectSuggestion('03');
 	});
 
-	$("#popupShare").on('popupafteropen', function (e, ui) {
+	$("#popupShare").on('popupafteropen', function () {
 		$('#shareLink input').focus().select();
 	});
-	$('#tabShareLink').on('click', function (e) {
+	$('#tabShareLink').on('click', function () {
 		$('#popupShare').popup('reposition', 'positionTo: window');
 		$('#shareLink input').focus().select();
 	});
-	$('#tabEmbedMap').on('click', function (e) {
+	$('#tabEmbedMap').on('click', function () {
 		updateEmbedURI();
 		$('#popupShare').popup('reposition', 'positionTo: window');
 		$('#embedMap input').focus().select();
 	});
 
 	$('#selectEmbedSize').val('400x300').selectmenu('refresh');
-	$('#selectEmbedSize').on('change', function (e) {
+	$('#selectEmbedSize').on('change', function () {
 		updateEmbedURI();
 		$('#popupShare').popup('reposition', 'positionTo: window');
 	});
