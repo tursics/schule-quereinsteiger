@@ -384,30 +384,31 @@ function updateVoronoi(svg, g, data, voronoi) {
 	var positions = [],
 //		marker,
 		polygons,
-		selectDistrict = $('#searchBox #selectDistrict option:selected').val();
+		selectDistrict = $('#searchBox #selectDistrict option:selected').val(),
+		selectSchoolType = $('#searchBox #selectSchoolType option:selected').val();
 
 	$.each(data, function (key, val) {
 		if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
 			var latlng = new L.LatLng(val.lat, val.lng),
 				color = getColor(val),
 				district = val.BSN.substr(0, 2),
+				schoolType = val.BSN.substr(2, 1),
 				hexColor = color === 'red' ? '#d63e2a' :
 								color === 'orange' ? '#f69730' :
 										color === 'green' ? '#72b026' :
 												'#a3a3a3',
-//				hexColorBrighter = color === 'red' ? '#ea9e94' :
-//								color === 'orange' ? '#facb97' :
-//										color === 'green' ? '#b8d792' :
-//												'#d1d1d1';
 				hexColorBrighter = '#ffffff';
 
-			positions.push({
-				x: map.latLngToLayerPoint(latlng).x,
-				y: map.latLngToLayerPoint(latlng).y,
-				tooltipColor: color,
-				markerColor: hexColor,
-				color: (selectDistrict === district) || (selectDistrict === 'berlin') ? hexColor + '80' : hexColorBrighter + '80'
-			});
+			if (('all' === selectSchoolType) || (schoolType === selectSchoolType)) {
+				positions.push({
+					index: key,
+					x: map.latLngToLayerPoint(latlng).x,
+					y: map.latLngToLayerPoint(latlng).y,
+					tooltipColor: color,
+					markerColor: hexColor,
+					color: (selectDistrict === district) || (selectDistrict === 'berlin') ? hexColor + '80' : hexColorBrighter + '80'
+				});
+			}
 		}
 	});
 
@@ -458,17 +459,17 @@ function updateVoronoi(svg, g, data, voronoi) {
 			}
 		})
 		.on("mouseover", function (d, i) {
-			updateMapHoverItem([data[i].lat, data[i].lng], data[i], {
+			updateMapHoverItem([data[positions[i].index].lat, data[positions[i].index].lng], data[positions[i].index], {
 				options: {
 					markerColor: d.point.tooltipColor
 				}
 			}, 6);
 		})
 		.on("mouseout", function (d, i) {
-			updateMapVoidItem(data[i]);
+			updateMapVoidItem(data[positions[i].index]);
 		})
 		.on('click', function (d, i) {
-			updateMapSelectItem(data[i]);
+			updateMapSelectItem(data[positions[i].index]);
 		});
 }
 
@@ -574,6 +575,9 @@ function initVoronoi(elementName, data) {
 		updateVoronoi(svg, g, data, voronoi);
 	});
 	$('#searchBox #selectDistrict').change(function () {
+		updateVoronoi(svg, g, data, voronoi);
+	});
+	$('#searchBox #selectSchoolType').change(function () {
 		updateVoronoi(svg, g, data, voronoi);
 	});
 }
