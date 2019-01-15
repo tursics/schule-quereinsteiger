@@ -235,10 +235,12 @@
 #searchBox h3 {
 	margin: 0;
 }
-#searchBox .sample {
+#searchBox .sample, #searchBox .ui-checkbox .ui-btn, #searchBox .ui-radio .ui-btn {
 	font-size: 13px;
-	padding: .5em 0;
 	color: #999;
+}
+#searchBox .sample {
+	padding: .5em 0;
 }
 #searchBox .sample a {
 	font-weight: 400;

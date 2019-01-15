@@ -120,16 +120,17 @@ function enrichMissingData(data) {
 function getColor(data) {
 	'use strict';
 
-	var val = 0;
+	var val = 0,
+		cbRelative = $('#searchBox #cbRelative').is(':checked');
 
-	// relative
-	val = parseInt(data.AlleQS_2018, 10);
+	if (cbRelative) {
+		val = parseInt(data.AlleQS_2018, 10);
 
-	return val >= 25 ? 'red' :
-			val > 0 ? 'orange' :
-					'green';
+		return val >= 25 ? 'red' :
+				val > 0 ? 'orange' :
+						'green';
+	}
 
-	// absolute
 	val = data.count_2018;
 
 	return val >= 10 ? 'red' :
@@ -161,6 +162,9 @@ function updateMapSelectItem(data) {
 		setText(key, data[key]);
 	}
 
+	setText('count2017', data.count_2017 || 0);
+	setText('count2018', data.count_2018 || 0);
+
 	$('#receiptBox').css('display', 'block');
 }
 
@@ -174,10 +178,18 @@ function updateMapHoverItem(coordinates, data, icon, offsetY) {
 		offset: L.point(0, offsetY),
 		className: 'printerLabel'
 	},
-		str = '';
+		str = '',
+		value = '',
+		cbRelative = $('#searchBox #cbRelative').is(':checked');
+
+	if (cbRelative) {
+		value = (data.AlleQS_2018 || '0 %');
+	} else {
+		value = (data.count_2018 || '0');
+	}
 
 	str += '<div class="top ' + icon.options.markerColor + '">' + data.Schulname + '</div>';
-	str += '<div class="middle">' + (data.AlleQS_2018 || '0 %') + '</div>';
+	str += '<div class="middle">' + value + '</div>';
 	str += '<div class="bottom">Quereinsteiger 2018</div>';
 
 	layerPopup = L.popup(options)
@@ -221,7 +233,7 @@ function createMarkerGroup() {
 }
 
 // -----------------------------------------------------------------------------
-
+/*
 function createMarker(data) {
 	'use strict';
 
@@ -266,7 +278,7 @@ function createMarker(data) {
 //		console.log(e);
 	}
 }
-
+*/
 // -----------------------------------------------------------------------------
 
 function selectSuggestion(selection) {
@@ -370,8 +382,9 @@ function updateVoronoi(svg, g, data, voronoi) {
 	'use strict';
 
 	var positions = [],
-		marker,
-		polygons;
+//		marker,
+		polygons,
+		selectDistrict = $('#searchBox #selectDistrict option:selected').val();
 
 	$.each(data, function (key, val) {
 		if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
@@ -381,14 +394,19 @@ function updateVoronoi(svg, g, data, voronoi) {
 				hexColor = color === 'red' ? '#d63e2a' :
 								color === 'orange' ? '#f69730' :
 										color === 'green' ? '#72b026' :
-												'#a3a3a3';
+												'#a3a3a3',
+//				hexColorBrighter = color === 'red' ? '#ea9e94' :
+//								color === 'orange' ? '#facb97' :
+//										color === 'green' ? '#b8d792' :
+//												'#d1d1d1';
+				hexColorBrighter = '#ffffff';
 
 			positions.push({
 				x: map.latLngToLayerPoint(latlng).x,
 				y: map.latLngToLayerPoint(latlng).y,
 				tooltipColor: color,
 				markerColor: hexColor,
-				color: '01' === district ? hexColor + '80' : hexColor + '40'
+				color: (selectDistrict === district) || (selectDistrict === 'berlin') ? hexColor + '80' : hexColorBrighter + '80'
 			});
 		}
 	});
@@ -455,20 +473,20 @@ function updateVoronoi(svg, g, data, voronoi) {
 }
 
 // -----------------------------------------------------------------------------
-
+/*
 function clipVoronoi(data) {
 	'use strict';
 
 	// http://publicatodo.co/Detalles/6043/Create-d3-hull-to-clip-voronoi-diagram-on-leaflet-map
 
 	var pointsFilteredToSelectedTypes = function () {
-		return data.filter(function (/*item*/) {
+		return data.filter(function (item) {
 			return true;
 		});
 	};
 
 	var bounds = map.getBounds(),
-	drawLimit = bounds.pad(0.4);
+		drawLimit = bounds.pad(0.4);
 
 	// Hull Function to create polygon from points //
 	var hullPoints = pointsFilteredToSelectedTypes().filter(function (d) {
@@ -480,9 +498,9 @@ function clipVoronoi(data) {
 
 		var point = map.latLngToLayerPoint(latlng);
 
-/*	key = point.toString();
-	if (existing.has(key)) { return false };
-	existing.add(key);*/
+key = point.toString();
+if (existing.has(key)) { return false };
+existing.add(key);
 
 		d.x = point.x;
 		d.y = point.y;
@@ -526,7 +544,7 @@ function clipVoronoi(data) {
 		});
 	}
 }
-
+*/
 // -----------------------------------------------------------------------------
 
 function initVoronoi(elementName, data) {
@@ -551,6 +569,13 @@ function initVoronoi(elementName, data) {
 	});
 	updateVoronoi(svg, g, data, voronoi);
 //	clipVoronoi(data);
+
+	$('#searchBox #cbRelative').on('click', function () {
+		updateVoronoi(svg, g, data, voronoi);
+	});
+	$('#searchBox #selectDistrict').change(function () {
+		updateVoronoi(svg, g, data, voronoi);
+	});
 }
 
 // -----------------------------------------------------------------------------

@@ -72,6 +72,27 @@
 				<div><i class="fa fa-search" aria-hidden="true"></i></div>
 			</div>
 			<div class="priceBar"><div class="priceRed"></div><div class="priceOrange"></div><div class="priceBlue"></div><div class="priceGreen"></div></div>
+			<div class="sample" style="padding: 1em 0 0 0;">
+				<i class="fa fa-filter" aria-hidden="true"></i> Passe die Darstellung an:
+				<input type="checkbox" checked name="cbRelative" id="cbRelative"><label for="cbRelative">Zeige relative Werte</label>
+				<select id="selectDistrict" data-native-menu="false" data-inline="false">
+					<option value="">Bezirk</option>
+					<option value="berlin" selected>Berlin</option>
+					<option value="04">Charlottenburg-Wilmersdorf</option>
+					<option value="02">Friedrichshain-Kreuzberg</option>
+					<option value="11">Lichtenberg</option>
+					<option value="10">Marzahn-Hellersdorf</option>
+					<option value="01">Mitte</option>
+					<option value="08">Neukölln</option>
+					<option value="03">Pankow</option>
+					<option value="12">Reinickendorf</option>
+					<option value="05">Spandau</option>
+					<option value="06">Steglitz-Zehlendorf</option>
+					<option value="07">Tempelhof-Schöneberg</option>
+					<option value="09">Treptow-Köpenick</option>
+				</select>
+			</div>
+			<div class="priceBar"><div class="priceRed"></div><div class="priceOrange"></div><div class="priceBlue"></div><div class="priceGreen"></div></div>
 			<div id="receiptBox">
 				<div id="receipt" class="normal">
 					<div class="full bold" id="recSchulname"></div>
@@ -84,12 +105,14 @@
 					<div class="bold">==============</div>
 					<div class="bold">Lehrer*innen: <span id="recAlleLehrkraefte_2017"></span></div>
 					<div class="bold">Quereinsteiger*innen: <span id="recAlleQ_2017"></span></div>
+					<div class="bold">Gesamt: <span id="reccount2017"></span></div>
 					<div class="empty"></div>
 					<div class="bold">Schuljahr 2018/19</div>
 					<div class="bold">==============</div>
 					<div class="bold">Lehrer*innen: <span id="recAlleLehrkraefte_2018"></span></div>
 					<div class="bold">Quereinsteiger*innen: <span id="recAlleQ_2018"></span></div>
 					<div class="bold">Seiteneinsteiger*innen: <span id="recAlleS_2018"></span></div>
+					<div class="bold">Gesamt: <span id="reccount2018"></span></div>
 				</div>
 				<div id="receiptClose"><i class="fa fa-chevron-up" aria-hidden="true"></i>verkleinern</div>
 			</div>
