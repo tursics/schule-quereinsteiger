@@ -1,7 +1,7 @@
 /* schulsanierung.tursics.de - JavaScript file */
 
 /*jslint browser: true*/
-/*global $,L,window,document*/
+/*global $,L,window,document,d3*/
 
 var map = null;
 var layerPopup = null;
@@ -151,14 +151,6 @@ function updateMapSelectItem(data) {
 
 	for (key in data) {
 		setText(key, data[key]);
-	}
-
-//	setText('PrioritaetGesamt', (data.Prio === 0 ? '' : (data.Prio === 1 ? 'Höchste Priorität' : (data.Kosten >= 5000000 ? 'Priorität 2 oder 3' : 'unbekannte Priorität'))));
-
-	if (data.AlleQ_2018 && (data.AlleQ_2018 !== '')) {
-		console.log('');
-		console.log('2017:', data.count_2017);
-		console.log('2018:', data.count_2018);
 	}
 
 	$('#receiptBox').css('display', 'block');
@@ -366,6 +358,101 @@ function initSocialMedia() {
 */
 // -----------------------------------------------------------------------------
 
+function updateVoronoi(svg, g, data, voronoi) {
+	'use strict';
+
+	var positions = [],
+//		marker,
+		polygons;
+
+	$.each(data, function (key, val) {
+		if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
+			var latlng = new L.LatLng(val.lat, val.lng),
+				color = getColor(val);
+
+			positions.push({
+				x: map.latLngToLayerPoint(latlng).x,
+				y: map.latLngToLayerPoint(latlng).y,
+				color: color === 'red' ? '#d63e2a80' :
+								color === 'orange' ? '#f6973080' :
+										color === 'green' ? '#72b02680' :
+												'#a3a3a380'
+			});
+		}
+	});
+
+	d3.selectAll('.AEDpoint').remove();
+
+/*	marker = g.selectAll('circle')
+		.data(positions)
+		.enter()
+		.append('circle')
+		.attr('class', 'AEDpoint')
+		.attr({
+			'cx': function (d) {
+				return d.x;
+			},
+			'cy': function (d) {
+				return d.y;
+			},
+			'r': 5,
+			fill: '#38aadd'
+		});*/
+
+	polygons = voronoi(positions);
+	polygons.forEach(function (v) {
+		v.cell = v;
+	});
+
+	svg.selectAll('.volonoi').remove();
+	svg.selectAll('path')
+		.data(polygons)
+		.enter()
+		.append('svg:path')
+		.attr('class', 'volonoi')
+		.attr({
+			'd': function (d) {
+				if (!d) {
+					return null;
+				}
+				return 'M' + d.cell.join('L') + 'Z';
+			},
+			stroke: '#777',
+			fill: function (d) {
+				if (d && d.point && d.point.color) {
+					return d.point.color;
+				}
+				return 'none';
+			}
+		});
+}
+
+// -----------------------------------------------------------------------------
+
+function initVoronoi(elementName, data) {
+	'use strict';
+
+	map._initPathRoot();
+
+	var svg = d3.select('#' + elementName).select('svg');
+	var g = svg.append('g').attr('class', 'leaflet-zoom-hide');
+
+	var voronoi = d3.geom.voronoi()
+		.x(function (d) {
+			return d.x;
+		})
+		.y(function (d) {
+			return d.y;
+		});
+
+	map.on('viewreset moveend', function () {
+		updateVoronoi(svg, g, data, voronoi);
+	});
+	updateVoronoi(svg, g, data, voronoi);
+}
+
+// -----------------------------------------------------------------------------
+
 var ControlInfo = L.Control.extend({
 	options: {
 		position: 'bottomright'
@@ -409,6 +496,7 @@ function initMap(elementName, lat, lng, zoom) {
 			createMarker(data);
 			initSearchBox(data);
 //			initSocialMedia();
+			initVoronoi(elementName, data);
 		});
 	}
 }
