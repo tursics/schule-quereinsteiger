@@ -668,6 +668,14 @@ $(document).on("pageshow", "#pageMap", function () {
 		$('#autocomplete').val('Pankow');
 		selectSuggestion('03');
 	});
+	$('#filterOpen').on('click', function () {
+		$('#filterBox').css('display', 'block');
+		$('#filterOpen').css('display', 'none');
+	});
+	$('#filterClose').on('click', function () {
+		$('#filterBox').css('display', 'none');
+		$('#filterOpen').css('display', 'inline-block');
+	});
 
 	$("#popupShare").on('popupafteropen', function () {
 		$('#shareLink input').focus().select();

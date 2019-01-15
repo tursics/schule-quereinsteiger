@@ -82,6 +82,9 @@
 
 /* receipt at left */
 
+#filterBox {
+	display:none;
+}
 #receiptBox {
 	display:none;
 	width: 18em;
@@ -172,7 +175,7 @@
 	font-size: 2em;
 	vertical-align: middle;
 }
-#receiptClose {
+#receiptClose, #filterOpen, #filterClose {
 	color: #555;
 	border-bottom: 1px solid #999;
 	margin: .5em 0 0 0;
@@ -185,10 +188,10 @@
 	-o-transition: background-color 200ms linear;
 	transition: background-color 200ms linear;
 }
-#receiptClose:hover {
+#receiptClose:hover, #filterOpen:hover, #filterClose:hover {
 	background: #ffff99;
 }
-#receiptClose i {
+#receiptClose i, #filterOpen i, #filterClose i {
 	padding: 0 .5em 0 0;
 }
 #receiptInfo {
@@ -208,7 +211,7 @@
 	#receipt .group:hover {
 		background: transparent;
 	}
-	#receiptClose {
+	#receiptClose, #filterOpen, #filterClose {
 		padding: 1em 0 0 0;
 	}
 	#receiptInfo {
@@ -235,20 +238,20 @@
 #searchBox h3 {
 	margin: 0;
 }
-#searchBox .sample, #searchBox .ui-checkbox .ui-btn, #searchBox .ui-radio .ui-btn {
+#searchBox .sample, #searchBox .filter, #searchBox .ui-checkbox .ui-btn, #searchBox .ui-radio .ui-btn {
 	font-size: 13px;
 	color: #999;
 }
-#searchBox .sample {
+#searchBox .sample, #searchBox .filter {
 	padding: .5em 0;
 }
-#searchBox .sample a {
+#searchBox .sample a, #searchBox .filter a {
 	font-weight: 400;
 	color: #38aadd;
 	text-decoration: none;
 	border-bottom: 2px solid transparent;
 }
-#searchBox .sample a:hover {
+#searchBox .sample a:hover, #searchBox .filter a:hover {
 	border-bottom-color: #38aadd;
 }
 #searchBox .searchInput {
@@ -305,7 +308,7 @@
 		display: none;
 		font-size: 18px;
 	}
-	#searchBox .sample {
+	#searchBox .sample, #searchBox .filter {
 		display: none;
 	}
 }
