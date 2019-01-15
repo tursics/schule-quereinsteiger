@@ -122,6 +122,14 @@ function getColor(data) {
 
 	var val = 0;
 
+	// relative
+	val = parseInt(data.AlleQS_2018, 10);
+
+	return val >= 25 ? 'red' :
+			val > 0 ? 'orange' :
+					'green';
+
+	// absolute
 	val = data.count_2018;
 
 	return val >= 10 ? 'red' :
@@ -158,12 +166,12 @@ function updateMapSelectItem(data) {
 
 // -----------------------------------------------------------------------------
 
-function updateMapHoverItem(coordinates, data, icon) {
+function updateMapHoverItem(coordinates, data, icon, offsetY) {
 	'use strict';
 
 	var options = {
 		closeButton: false,
-		offset: L.point(0, -32),
+		offset: L.point(0, offsetY),
 		className: 'printerLabel'
 	},
 		str = '';
@@ -202,7 +210,7 @@ function createMarkerGroup() {
 			updateMapSelectItem(evt.layer.options.data);
 		});
 		layerGroup.addEventListener('mouseover', function (evt) {
-			updateMapHoverItem([evt.latlng.lat, evt.latlng.lng], evt.layer.options.data, evt.layer.options.icon);
+			updateMapHoverItem([evt.latlng.lat, evt.latlng.lng], evt.layer.options.data, evt.layer.options.icon, -32);
 		});
 		layerGroup.addEventListener('mouseout', function (evt) {
 			updateMapVoidItem(evt.layer.options.data);
@@ -322,7 +330,7 @@ function initSearchBox(data) {
 		},
 		formatResult: function (suggestion, currentValue) {
 			var color = suggestion.color,
-				icon  = 'fa-building-o',
+				icon = 'fa-building-o',
 				str = '';
 
 			str += '<div class="autocomplete-icon back' + color + '"><i class="fa ' + icon + '" aria-hidden="true"></i></div>';
@@ -362,21 +370,25 @@ function updateVoronoi(svg, g, data, voronoi) {
 	'use strict';
 
 	var positions = [],
-//		marker,
+		marker,
 		polygons;
 
 	$.each(data, function (key, val) {
 		if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
 			var latlng = new L.LatLng(val.lat, val.lng),
-				color = getColor(val);
+				color = getColor(val),
+				district = val.BSN.substr(0, 2),
+				hexColor = color === 'red' ? '#d63e2a' :
+								color === 'orange' ? '#f69730' :
+										color === 'green' ? '#72b026' :
+												'#a3a3a3';
 
 			positions.push({
 				x: map.latLngToLayerPoint(latlng).x,
 				y: map.latLngToLayerPoint(latlng).y,
-				color: color === 'red' ? '#d63e2a80' :
-								color === 'orange' ? '#f6973080' :
-										color === 'green' ? '#72b02680' :
-												'#a3a3a380'
+				tooltipColor: color,
+				markerColor: hexColor,
+				color: '01' === district ? hexColor + '80' : hexColor + '40'
 			});
 		}
 	});
@@ -395,8 +407,10 @@ function updateVoronoi(svg, g, data, voronoi) {
 			'cy': function (d) {
 				return d.y;
 			},
-			'r': 5,
-			fill: '#38aadd'
+			'r': '5',
+			fill: function (d) {
+				return d.markerColor;
+			}
 		});*/
 
 	polygons = voronoi(positions);
@@ -424,7 +438,93 @@ function updateVoronoi(svg, g, data, voronoi) {
 				}
 				return 'none';
 			}
+		})
+		.on("mouseover", function (d, i) {
+			updateMapHoverItem([data[i].lat, data[i].lng], data[i], {
+				options: {
+					markerColor: d.point.tooltipColor
+				}
+			}, 6);
+		})
+		.on("mouseout", function (d, i) {
+			updateMapVoidItem(data[i]);
+		})
+		.on('click', function (d, i) {
+			updateMapSelectItem(data[i]);
 		});
+}
+
+// -----------------------------------------------------------------------------
+
+function clipVoronoi(data) {
+	'use strict';
+
+	// http://publicatodo.co/Detalles/6043/Create-d3-hull-to-clip-voronoi-diagram-on-leaflet-map
+
+	var pointsFilteredToSelectedTypes = function () {
+		return data.filter(function (/*item*/) {
+			return true;
+		});
+	};
+
+	var bounds = map.getBounds(),
+	drawLimit = bounds.pad(0.4);
+
+	// Hull Function to create polygon from points //
+	var hullPoints = pointsFilteredToSelectedTypes().filter(function (d) {
+		var latlng = new L.LatLng(d.lat, d.lng);
+
+		if (!drawLimit.contains(latlng)) {
+			return false
+		};
+
+		var point = map.latLngToLayerPoint(latlng);
+
+/*	key = point.toString();
+	if (existing.has(key)) { return false };
+	existing.add(key);*/
+
+		d.x = point.x;
+		d.y = point.y;
+		return true;
+	});
+
+	var hullFunction = d3.geom.hull()
+		.x(function (d) {
+			return d.x;
+		})
+		.y(function (d) {
+			return d.y;
+		});
+
+	var svgHull = d3.select(map.getPanes().overlayPane).append("svg")
+		.attr("id", "overlay")
+		.attr("class", "leaflet-zoom-hide")
+		.style("width", map.getSize().x + "px")
+		.style("height", map.getSize().y + "px");
+
+	svgHull.append("rect")
+		.attr("width", map.getSize().x + "px")
+		.attr("height", map.getSize().y + "px");
+
+	var hull = svgHull.append("path")
+		.attr("class", "hull");
+
+	var circle = svgHull.selectAll("circle");
+
+	redraw();
+
+	function redraw() {
+		hull.datum(d3.geom.hull(hullPoints)).attr("d", function (d) {
+			return "M" + d.join("L") + "Z";
+		});
+
+		circle = circle.data(hullPoints);
+		circle.enter().append("circle").attr("r", 3);
+		circle.attr("transform", function(d) {
+			return "translate(" + d + ")";
+		});
+	}
 }
 
 // -----------------------------------------------------------------------------
@@ -444,11 +544,13 @@ function initVoronoi(elementName, data) {
 		.y(function (d) {
 			return d.y;
 		});
+//		.clipExtent([[0, 0], [width, height]]);
 
 	map.on('viewreset moveend', function () {
 		updateVoronoi(svg, g, data, voronoi);
 	});
 	updateVoronoi(svg, g, data, voronoi);
+//	clipVoronoi(data);
 }
 
 // -----------------------------------------------------------------------------
@@ -493,7 +595,7 @@ function initMap(elementName, lat, lng, zoom) {
 		$.getJSON(dataUrl, function (data) {
 			data = enrichMissingData(data);
 			createMarkerGroup();
-			createMarker(data);
+//			createMarker(data);
 			initSearchBox(data);
 //			initSocialMedia();
 			initVoronoi(elementName, data);
