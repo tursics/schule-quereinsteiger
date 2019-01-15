@@ -121,17 +121,18 @@ function getColor(data) {
 	'use strict';
 
 	var val = 0,
-		cbRelative = $('#searchBox #cbRelative').is(':checked');
+		cbRelative = $('#searchBox #cbRelative').is(':checked'),
+		selectYear = parseInt($('#searchBox #selectYear option:selected').val(), 10);
 
 	if (cbRelative) {
-		val = parseInt(data.AlleQS_2018, 10);
+		val = parseInt(selectYear === 2017 ? data.AlleQ_2017 : data.AlleQS_2018, 10);
 
 		return val >= 25 ? 'red' :
 				val > 0 ? 'orange' :
 						'green';
 	}
 
-	val = data.count_2018;
+	val = selectYear === 2017 ? data.count_2017 : data.count_2018;
 
 	return val >= 10 ? 'red' :
 			val > 0 ? 'orange' :
@@ -180,17 +181,18 @@ function updateMapHoverItem(coordinates, data, icon, offsetY) {
 	},
 		str = '',
 		value = '',
-		cbRelative = $('#searchBox #cbRelative').is(':checked');
+		cbRelative = $('#searchBox #cbRelative').is(':checked'),
+		selectYear = parseInt($('#searchBox #selectYear option:selected').val(), 10);
 
 	if (cbRelative) {
-		value = (data.AlleQS_2018 || '0 %');
+		value = (selectYear === 2017 ? data.AlleQ_2017 : data.AlleQS_2018) || '0 %';
 	} else {
-		value = (data.count_2018 || '0');
+		value = (selectYear === 2017 ? data.count_2017 : data.count_2018) || '0';
 	}
 
 	str += '<div class="top ' + icon.options.markerColor + '">' + data.Schulname + '</div>';
 	str += '<div class="middle">' + value + '</div>';
-	str += '<div class="bottom">Quereinsteiger 2018</div>';
+	str += '<div class="bottom">Quereinsteiger ' + selectYear + '</div>';
 
 	layerPopup = L.popup(options)
 		.setLatLng(coordinates)
@@ -578,6 +580,9 @@ function initVoronoi(elementName, data) {
 		updateVoronoi(svg, g, data, voronoi);
 	});
 	$('#searchBox #selectSchoolType').change(function () {
+		updateVoronoi(svg, g, data, voronoi);
+	});
+	$('#searchBox #selectYear').change(function () {
 		updateVoronoi(svg, g, data, voronoi);
 	});
 }
