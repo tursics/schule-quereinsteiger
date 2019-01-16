@@ -460,14 +460,14 @@ function updateVoronoi(svg, g, data, voronoi) {
 				return 'none';
 			}
 		})
-		.on("mouseover", function (d, i) {
+		.on('mouseover', function (d, i) {
 			updateMapHoverItem([data[positions[i].index].lat, data[positions[i].index].lng], data[positions[i].index], {
 				options: {
 					markerColor: d.point.tooltipColor
 				}
 			}, 6);
 		})
-		.on("mouseout", function (d, i) {
+		.on('mouseout', function (d, i) {
 			updateMapVoidItem(data[positions[i].index]);
 		})
 		.on('click', function (d, i) {
@@ -553,10 +553,24 @@ existing.add(key);
 function initVoronoi(elementName, data) {
 	'use strict';
 
-	map._initPathRoot();
+	var version = L.version.split('.'),
+		majorVersion = parseInt(version[0], 10);
 
-	var svg = d3.select('#' + elementName).select('svg');
-	var g = svg.append('g').attr('class', 'leaflet-zoom-hide');
+	if (0 === majorVersion) {
+		map._initPathRoot();
+	} else {
+		L.svg().addTo(map);
+	}
+
+	var svg = d3.select('#' + elementName).select('svg'),
+		g;
+
+	if (0 === majorVersion) {
+	    g = svg.append('g').attr('class', 'leaflet-zoom-hide');
+	} else {
+		g = svg.select('g');
+		g.attr('class', 'leaflet-zoom-hide');
+	}
 
 	var voronoi = d3.geom.voronoi()
 		.x(function (d) {
