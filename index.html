@@ -101,6 +101,7 @@
 						<option value="S">Schulen mit Förderschwerpunkt</option>
 						<option value="B">Berufliche Schulen</option>
 						<option value="A">Kolleg und Volkshochschulen</option>
+<!--						<option value="P">Privatschulen</option> -->
 					</select>
 					<select id="selectYear" data-native-menu="false" data-inline="false">
 						<option value="">Schuljahr</option>
@@ -108,6 +109,7 @@
 						<option value="2018" selected>2018/19</option>
 					</select>
 					<input type="checkbox" checked name="cbRelative" id="cbRelative"><label for="cbRelative">Zeige relative Werte</label>
+					<input type="checkbox" checked name="cbHotspot" id="cbHotspot"><label for="cbHotspot">Zeige Brennpunktschulen</label>
 					<div id="filterClose"><i class="fa fa-chevron-up" aria-hidden="true"></i>verkleinern</div>
 				</div>
 			</div>
@@ -132,6 +134,8 @@
 					<div class="bold">Quereinsteiger*innen: <span id="recAlleQ_2018"></span></div>
 					<div class="bold">Seiteneinsteiger*innen: <span id="recAlleS_2018"></span></div>
 					<div class="bold">Gesamt: <span id="reccount2018"></span></div>
+					<div class="empty"></div>
+					<div class="bold">Brennpunktschule: <span id="rechotspot"></span></div>
 				</div>
 				<div id="receiptClose"><i class="fa fa-chevron-up" aria-hidden="true"></i>verkleinern</div>
 			</div>

@@ -165,6 +165,7 @@ function updateMapSelectItem(data) {
 
 	setText('count2017', data.count_2017 || 0);
 	setText('count2018', data.count_2018 || 0);
+	setText('hotspot', 'x' === data['Brennpunktschule-2018'] ? 'ja' : 'nein');
 
 	$('#receiptBox').css('display', 'block');
 }
@@ -384,10 +385,11 @@ function updateVoronoi(svg, g, data, voronoi) {
 	'use strict';
 
 	var positions = [],
-//		marker,
+		marker,
 		polygons,
 		selectDistrict = $('#searchBox #selectDistrict option:selected').val(),
-		selectSchoolType = $('#searchBox #selectSchoolType option:selected').val();
+		selectSchoolType = $('#searchBox #selectSchoolType option:selected').val(),
+		cbHotspot = $('#searchBox #cbHotspot').is(':checked');
 
 	$.each(data, function (key, val) {
 		if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
@@ -408,6 +410,7 @@ function updateVoronoi(svg, g, data, voronoi) {
 					y: map.latLngToLayerPoint(latlng).y,
 					tooltipColor: color,
 					markerColor: hexColor,
+					hotSpot: 'x' === val['Brennpunktschule-2018'],
 					color: (selectDistrict === district) || (selectDistrict === 'berlin') ? hexColor + '80' : hexColorBrighter + '80'
 				});
 			}
@@ -416,23 +419,25 @@ function updateVoronoi(svg, g, data, voronoi) {
 
 	d3.selectAll('.AEDpoint').remove();
 
-/*	marker = g.selectAll('circle')
-		.data(positions)
-		.enter()
-		.append('circle')
-		.attr('class', 'AEDpoint')
-		.attr({
-			'cx': function (d) {
-				return d.x;
-			},
-			'cy': function (d) {
-				return d.y;
-			},
-			'r': '5',
-			fill: function (d) {
-				return d.markerColor;
-			}
-		});*/
+	if (cbHotspot) {
+		marker = g.selectAll('circle')
+			.data(positions)
+			.enter()
+			.append('circle')
+			.attr('class', 'AEDpoint')
+			.attr({
+				'cx': function (d) {
+					return d.x;
+				},
+				'cy': function (d) {
+					return d.y;
+				},
+				'r': '5',
+				fill: function (d) {
+					return d.hotSpot ? d.markerColor : 'none';
+				}
+			});
+	}
 
 	polygons = voronoi(positions);
 	polygons.forEach(function (v) {
@@ -588,6 +593,9 @@ function initVoronoi(elementName, data) {
 //	clipVoronoi(data);
 
 	$('#searchBox #cbRelative').on('click', function () {
+		updateVoronoi(svg, g, data, voronoi);
+	});
+	$('#searchBox #cbHotspot').on('click', function () {
 		updateVoronoi(svg, g, data, voronoi);
 	});
 	$('#searchBox #selectDistrict').change(function () {
