@@ -223,22 +223,25 @@
 
 #searchBox {
 	position: absolute;
-	top: -1px;
+	top: 0;
 	right: 0;
 	width: auto;
+	max-height: 100vh;
 	max-width: 20em;
 	background: rgba(255,255,255,.8);
 	border-left: 2px solid #38aadd;
 	border-top: 1px solid #38aadd60;
-	padding: .5em;
+	overflow-y: scroll;
+	padding: 0 .5em;
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	z-index: 1001;
 }
 #searchBox h3 {
-	margin: 0;
+	margin: .5em 0 0 0;
 }
-#searchBox .sample, #searchBox .filter, #searchBox .ui-checkbox .ui-btn, #searchBox .ui-radio .ui-btn {
+#searchBox .sample, #searchBox .filter, #searchBox .ui-checkbox .ui-btn, #searchBox .ui-radio .ui-btn,
+#searchBox label, #searchBox .ui-controlgroup-label {
 	font-size: 13px;
 	color: #999;
 }
@@ -250,6 +253,9 @@
 	color: #38aadd;
 	text-decoration: none;
 	border-bottom: 2px solid transparent;
+}
+#searchBox .ui-slider-handle {
+	border-color: #38aadd !important;
 }
 #searchBox .sample a:hover, #searchBox .filter a:hover {
 	border-bottom-color: #38aadd;
@@ -316,7 +322,7 @@
 /* price bar */
 
 .priceBar {
-	margin: .2em -.5em -4px -.6em;
+	margin: .2em -.5em 4px -.6em;
 	height: 4px;
 	line-height: 5px;
 }

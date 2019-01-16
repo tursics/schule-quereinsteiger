@@ -108,13 +108,19 @@
 						<option value="2017">2017/18</option>
 						<option value="2018" selected>2018/19</option>
 					</select>
-					<input type="checkbox" checked name="cbRelative" id="cbRelative"><label for="cbRelative">Zeige relative Werte</label>
 					<input type="checkbox" checked name="cbHotspot" id="cbHotspot"><label for="cbHotspot">Zeige Brennpunktschulen</label>
+					<input type="checkbox" checked name="cbRelative" id="cbRelative"><label for="cbRelative">Zeige relative Werte</label>
+					<div data-role="rangeslider">
+						<label for="rangeMin">Färbe Schulen in gelb bei Werten von:</label>
+						<input name="rangeMin" id="rangeMin" min="0" max="45" value="1" type="range" />
+						<label for="rangeMax">Färbe Schulen in gelb bei Werten von:</label>
+						<input name="rangeMax" id="rangeMax" min="0" max="45" value="24" type="range" />
+					</div>
 					<div id="filterClose"><i class="fa fa-chevron-up" aria-hidden="true"></i>verkleinern</div>
 				</div>
 			</div>
 			<div class="priceBar"><div class="priceRed"></div><div class="priceOrange"></div><div class="priceBlue"></div><div class="priceGreen"></div></div>
-			<div id="receiptBox">
+			<div id="receiptBox" style="padding: 0 0 .5em 0;">
 				<div id="receipt" class="normal">
 					<div class="full bold" id="recSchulname"></div>
 					<div class="empty"></div>

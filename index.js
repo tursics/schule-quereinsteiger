@@ -122,20 +122,18 @@ function getColor(data) {
 
 	var val = 0,
 		cbRelative = $('#searchBox #cbRelative').is(':checked'),
-		selectYear = parseInt($('#searchBox #selectYear option:selected').val(), 10);
+		selectYear = parseInt($('#searchBox #selectYear option:selected').val(), 10),
+		rangeMin = parseInt($('#searchBox #rangeMin').val(), 10),
+		rangeMax = parseInt($('#searchBox #rangeMax').val(), 10);
 
 	if (cbRelative) {
 		val = parseInt(selectYear === 2017 ? data.AlleQ_2017 : data.AlleQS_2018, 10);
-
-		return val >= 25 ? 'red' :
-				val > 0 ? 'orange' :
-						'green';
+	} else {
+		val = selectYear === 2017 ? data.count_2017 : data.count_2018;
 	}
 
-	val = selectYear === 2017 ? data.count_2017 : data.count_2018;
-
-	return val >= 10 ? 'red' :
-			val > 0 ? 'orange' :
+	return val > rangeMax ? 'red' :
+			val >= rangeMin ? 'orange' :
 					'green';
 }
 // -----------------------------------------------------------------------------
@@ -605,6 +603,12 @@ function initVoronoi(elementName, data) {
 		updateVoronoi(svg, g, data, voronoi);
 	});
 	$('#searchBox #selectYear').change(function () {
+		updateVoronoi(svg, g, data, voronoi);
+	});
+	$('#searchBox #rangeMin').change(function () {
+		updateVoronoi(svg, g, data, voronoi);
+	});
+	$('#searchBox #rangeMax').change(function () {
 		updateVoronoi(svg, g, data, voronoi);
 	});
 }
