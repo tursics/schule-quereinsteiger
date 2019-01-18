@@ -7,6 +7,16 @@ var map = null;
 var layerPopup = null;
 var layerGroup = null;
 
+var settings = {
+	relativeValues: true,
+	showHotspots: true,
+	district: 'berlin',
+	type: 'all',
+	year: 2018,
+	rangeMin: 1,
+	rangeMax: 24,
+};
+
 // -----------------------------------------------------------------------------
 
 String.prototype.startsWith = String.prototype.startsWith || function (prefix) {
@@ -120,20 +130,16 @@ function enrichMissingData(data) {
 function getColor(data) {
 	'use strict';
 
-	var val = 0,
-		cbRelative = $('#searchBox #cbRelative').is(':checked'),
-		selectYear = parseInt($('#searchBox #selectYear option:selected').val(), 10),
-		rangeMin = parseInt($('#searchBox #rangeMin').val(), 10),
-		rangeMax = parseInt($('#searchBox #rangeMax').val(), 10);
+	var val = 0;
 
-	if (cbRelative) {
-		val = parseInt(selectYear === 2017 ? data.AlleQ_2017 : data.AlleQS_2018, 10);
+	if (settings.relativeValues) {
+		val = parseInt(settings.year === 2017 ? data.AlleQ_2017 : data.AlleQS_2018, 10);
 	} else {
-		val = selectYear === 2017 ? data.count_2017 : data.count_2018;
+		val = settings.year === 2017 ? data.count_2017 : data.count_2018;
 	}
 
-	return val > rangeMax ? 'red' :
-			val >= rangeMin ? 'orange' :
+	return val > settings.rangeMax ? 'red' :
+			val >= settings.rangeMin ? 'orange' :
 					'green';
 }
 // -----------------------------------------------------------------------------
@@ -179,19 +185,17 @@ function updateMapHoverItem(coordinates, data, icon, offsetY) {
 		className: 'printerLabel'
 	},
 		str = '',
-		value = '',
-		cbRelative = $('#searchBox #cbRelative').is(':checked'),
-		selectYear = parseInt($('#searchBox #selectYear option:selected').val(), 10);
+		value = '';
 
-	if (cbRelative) {
-		value = (selectYear === 2017 ? data.AlleQ_2017 : data.AlleQS_2018) || '0 %';
+	if (settings.relativeValues) {
+		value = (settings.year === 2017 ? data.AlleQ_2017 : data.AlleQS_2018) || '0 %';
 	} else {
-		value = (selectYear === 2017 ? data.count_2017 : data.count_2018) || '0';
+		value = (settings.year === 2017 ? data.count_2017 : data.count_2018) || '0';
 	}
 
 	str += '<div class="top ' + icon.options.markerColor + '">' + data.Schulname + '</div>';
 	str += '<div class="middle">' + value + '</div>';
-	str += '<div class="bottom">Quereinsteiger ' + selectYear + '</div>';
+	str += '<div class="bottom">Quereinsteiger ' + settings.year + '</div>';
 
 	layerPopup = L.popup(options)
 		.setLatLng(coordinates)
@@ -384,10 +388,7 @@ function updateVoronoi(svg, g, data, voronoi) {
 
 	var positions = [],
 		marker,
-		polygons,
-		selectDistrict = $('#searchBox #selectDistrict option:selected').val(),
-		selectSchoolType = $('#searchBox #selectSchoolType option:selected').val(),
-		cbHotspot = $('#searchBox #cbHotspot').is(':checked');
+		polygons;
 
 	$.each(data, function (key, val) {
 		if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
@@ -401,7 +402,7 @@ function updateVoronoi(svg, g, data, voronoi) {
 												'#a3a3a3',
 				hexColorBrighter = '#ffffff';
 
-			if (('all' === selectSchoolType) || (schoolType === selectSchoolType)) {
+			if (('all' === settings.type) || (schoolType === settings.type)) {
 				positions.push({
 					index: key,
 					x: map.latLngToLayerPoint(latlng).x,
@@ -409,7 +410,7 @@ function updateVoronoi(svg, g, data, voronoi) {
 					tooltipColor: color,
 					markerColor: hexColor,
 					hotSpot: 'x' === val['Brennpunktschule-2018'],
-					color: (selectDistrict === district) || (selectDistrict === 'berlin') ? hexColor + '80' : hexColorBrighter + '80'
+					color: (settings.district === district) || (settings.district === 'berlin') ? hexColor + '80' : hexColorBrighter + '80'
 				});
 			}
 		}
@@ -417,7 +418,7 @@ function updateVoronoi(svg, g, data, voronoi) {
 
 	d3.selectAll('.AEDpoint').remove();
 
-	if (cbHotspot) {
+	if (settings.showHotspots) {
 		marker = g.selectAll('circle')
 			.data(positions)
 			.enter()
@@ -591,24 +592,31 @@ function initVoronoi(elementName, data) {
 //	clipVoronoi(data);
 
 	$('#searchBox #cbRelative').on('click', function () {
+		settings.relativeValues = $('#searchBox #cbRelative').is(':checked');
 		updateVoronoi(svg, g, data, voronoi);
 	});
 	$('#searchBox #cbHotspot').on('click', function () {
+		settings.showHotspots = $('#searchBox #cbHotspot').is(':checked');
 		updateVoronoi(svg, g, data, voronoi);
 	});
 	$('#searchBox #selectDistrict').change(function () {
+		settings.district = $('#searchBox #selectDistrict option:selected').val();
 		updateVoronoi(svg, g, data, voronoi);
 	});
 	$('#searchBox #selectSchoolType').change(function () {
+		settings.type = $('#searchBox #selectSchoolType option:selected').val();
 		updateVoronoi(svg, g, data, voronoi);
 	});
 	$('#searchBox #selectYear').change(function () {
+		settings.year = parseInt($('#searchBox #selectYear option:selected').val(), 10);
 		updateVoronoi(svg, g, data, voronoi);
 	});
 	$('#searchBox #rangeMin').change(function () {
+		settings.rangeMin = parseInt($('#searchBox #rangeMin').val(), 10);
 		updateVoronoi(svg, g, data, voronoi);
 	});
 	$('#searchBox #rangeMax').change(function () {
+		settings.rangeMax = parseInt($('#searchBox #rangeMax').val(), 10);
 		updateVoronoi(svg, g, data, voronoi);
 	});
 }
