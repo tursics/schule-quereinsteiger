@@ -14,7 +14,7 @@ var settings = {
 	type: 'all',
 	year: 2018,
 	rangeMin: 1,
-	rangeMax: 24,
+	rangeMax: 24
 };
 
 // -----------------------------------------------------------------------------
@@ -29,14 +29,6 @@ String.prototype.startsWith = String.prototype.startsWith || function (prefix) {
 
 function mapAction() {
 	'use strict';
-}
-
-// -----------------------------------------------------------------------------
-
-function fixData(val) {
-	'use strict';
-
-	return val;
 }
 
 // -----------------------------------------------------------------------------
@@ -164,7 +156,9 @@ function updateMapSelectItem(data) {
 	var key;
 
 	for (key in data) {
-		setText(key, data[key]);
+		if (data.hasOwnProperty(key)) {
+			setText(key, data[key]);
+		}
 	}
 
 	setText('count2017', data.count_2017 || 0);
@@ -387,7 +381,6 @@ function updateVoronoi(svg, g, data, voronoi) {
 	'use strict';
 
 	var positions = [],
-		marker,
 		polygons;
 
 	$.each(data, function (key, val) {
@@ -419,7 +412,7 @@ function updateVoronoi(svg, g, data, voronoi) {
 	d3.selectAll('.AEDpoint').remove();
 
 	if (settings.showHotspots) {
-		marker = g.selectAll('circle')
+		g.selectAll('circle')
 			.data(positions)
 			.enter()
 			.append('circle')
@@ -559,7 +552,10 @@ function initVoronoi(elementName, data) {
 	'use strict';
 
 	var version = L.version.split('.'),
-		majorVersion = parseInt(version[0], 10);
+		majorVersion = parseInt(version[0], 10),
+		svg,
+		g,
+		voronoi;
 
 	if (0 === majorVersion) {
 		map._initPathRoot();
@@ -567,17 +563,16 @@ function initVoronoi(elementName, data) {
 		L.svg().addTo(map);
 	}
 
-	var svg = d3.select('#' + elementName).select('svg'),
-		g;
+	svg = d3.select('#' + elementName).select('svg');
 
 	if (0 === majorVersion) {
-	    g = svg.append('g').attr('class', 'leaflet-zoom-hide');
+		g = svg.append('g').attr('class', 'leaflet-zoom-hide');
 	} else {
 		g = svg.select('g');
 		g.attr('class', 'leaflet-zoom-hide');
 	}
 
-	var voronoi = d3.geom.voronoi()
+	voronoi = d3.geom.voronoi()
 		.x(function (d) {
 			return d.x;
 		})
@@ -629,7 +624,7 @@ var ControlInfo = L.Control.extend({
 		position: 'bottomright'
 	},
 
-	onAdd: function (map) {
+	onAdd: function () {
 		'use strict';
 
 		var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
