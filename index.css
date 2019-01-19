@@ -670,23 +670,23 @@
 /* color theme for printer labels and autocomplete list */
 
 .printerLabel div.blue, .autocomplete-suggestion div.blue {
-	color: #38aadd;
+	color: #1f78b4;
 }
 .autocomplete-icon.backblue, .priceBlue {
-	background: #38aadd;
+	background: #1f78b4;
 }
 .priceTriangle div.priceBlue {
-	border-color: transparent transparent #38aadd transparent;
+	border-color: transparent transparent #1f78b4 transparent;
 	background: none;
 }
 .printerLabel div.orange, .autocomplete-suggestion div.orange {
-	color: #f69730;
+	color: #fdbf6f;
 }
 .autocomplete-icon.backorange, .priceOrange {
-	background: #f69730;
+	background: #fdbf6f;
 }
 .priceTriangle div.priceOrange {
-	border-color: transparent transparent #f69730 transparent;
+	border-color: transparent transparent #fdbf6f transparent;
 	background: none;
 }
 .printerLabel div.purple, .autocomplete-suggestion div.purple {
@@ -696,13 +696,13 @@
 	background: #d252b9;
 }
 .printerLabel div.red, .autocomplete-suggestion div.red {
-	color: #d63e2a;
+	color: #e31a1c;
 }
 .autocomplete-icon.backred, .priceRed {
-	background: #d63e2a;
+	background: #e31a1c;
 }
 .priceTriangle div.priceRed {
-	border-color: transparent transparent #d63e2a transparent;
+	border-color: transparent transparent #e31a1c transparent;
 	background: none;
 }
 .printerLabel div.gray, .autocomplete-suggestion div.gray {
@@ -712,13 +712,13 @@
 	background: #a3a3a3;
 }
 .printerLabel div.green, .autocomplete-suggestion div.green {
-	color: #72b026;
+	color: #33a02c;
 }
 .autocomplete-icon.backgreen, .priceGreen {
-	background: #72b026;
+	background: #33a02c;
 }
 .priceTriangle div.priceGreen {
-	border-color: transparent transparent #72b026 transparent;
+	border-color: transparent transparent #33a02c transparent;
 	background: none;
 }
 

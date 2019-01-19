@@ -396,9 +396,9 @@ function updateVoronoi(svg, g, data, voronoi) {
 				color = getColor(val),
 				district = val.BSN.substr(0, 2),
 				schoolType = val.BSN.substr(2, 1),
-				hexColor = color === 'red' ? '#d63e2a' :
-								color === 'orange' ? '#f69730' :
-										color === 'green' ? '#72b026' :
+				hexColor = color === 'red' ? '#e31a1c' :
+								color === 'orange' ? '#fdbf6f' :
+										color === 'green' ? '#33a02c' :
 												'#a3a3a3',
 				hexColorBrighter = '#ffffff';
 
@@ -408,7 +408,7 @@ function updateVoronoi(svg, g, data, voronoi) {
 					x: map.latLngToLayerPoint(latlng).x,
 					y: map.latLngToLayerPoint(latlng).y,
 					tooltipColor: color,
-					markerColor: hexColor,
+					markerColor: color === 'orange' ? '#ff7f00' : hexColor,
 					hotSpot: 'x' === val['Brennpunktschule-2018'],
 					color: (settings.district === district) || (settings.district === 'berlin') ? hexColor + '80' : hexColorBrighter + '80'
 				});
@@ -493,6 +493,7 @@ function clipVoronoi(data) {
 	};
 
 	var bounds = map.getBounds(),
+		existing = d3.set(),
 		drawLimit = bounds.pad(0.4);
 
 	// Hull Function to create polygon from points //
@@ -505,9 +506,9 @@ function clipVoronoi(data) {
 
 		var point = map.latLngToLayerPoint(latlng);
 
-key = point.toString();
-if (existing.has(key)) { return false };
-existing.add(key);
+		var key = point.toString();
+		if (existing.has(key)) { return false };
+		existing.add(key);
 
 		d.x = point.x;
 		d.y = point.y;
