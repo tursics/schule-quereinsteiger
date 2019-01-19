@@ -1,4 +1,4 @@
-/* schulsanierung.tursics.de - JavaScript file */
+/* tursics.de/story/ - JavaScript file */
 
 /*jslint browser: true*/
 /*global $,L,window,document,d3*/
@@ -6,6 +6,7 @@
 var map = null;
 var layerPopup = null;
 var layerGroup = null;
+var layerPolygons = null;
 
 var settings = {
 	relativeValues: true,
@@ -283,12 +284,21 @@ function createMarker(data) {
 function selectSuggestion(selection) {
 	'use strict';
 
-	$.each(layerGroup._layers, function (key, val) {
-		if (val.options.data.Schulnummer === selection) {
-			map.panTo(new L.LatLng(val.options.data.lat, val.options.data.lng));
-			updateMapSelectItem(val.options.data);
-		}
-	});
+	if (layerGroup && layerGroup._layers && (layerGroup._layers.length > 0)) {
+		$.each(layerGroup._layers, function (key, val) {
+			if (val.options.data.BSN === selection) {
+				map.panTo(new L.LatLng(val.options.data.lat, val.options.data.lng));
+				updateMapSelectItem(val.options.data);
+			}
+		});
+	} else {
+		$.each(layerPolygons, function (key, val) {
+			if (val && (val.point.data.BSN === selection)) {
+				map.panTo(new L.LatLng(val.point.data.lat, val.point.data.lng));
+				updateMapSelectItem(val.point.data);
+			}
+		});
+	}
 }
 
 //-----------------------------------------------------------------------------
@@ -301,16 +311,13 @@ function initSearchBox(data) {
 	try {
 		$.each(data, function (key, val) {
 			if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
-				var name = val.Schulname, color = 'gray';
-				if ('' !== val.Schulnummer) {
-					name += ' (' + val.Schulnummer + ')';
+				var name = val.Schulname,
+					color = getColor(val);
+
+				if ('' !== val.BSN) {
+					name += ' (' + val.BSN + ')';
 				}
-				color = ((val.Schulart === 'Bezirk') || (val.Schulart === 'Stadt') ? 'gray' :
-								val.Kosten >= 10000000 ? 'red' :
-										val.Kosten >= 5000000 ? 'orange' :
-												val.Kosten >= 1000 ? 'blue' :
-														'green');
-				schools.push({ value: name, data: val.Schulnummer, color: color, desc: val.Schulart });
+				schools.push({ value: name, data: val.BSN, color: color, desc: val.Schulart });
 			}
 		});
 	} catch (e) {
@@ -380,8 +387,9 @@ function initSocialMedia() {
 function updateVoronoi(svg, g, data, voronoi) {
 	'use strict';
 
-	var positions = [],
-		polygons;
+	var positions = [];
+
+	layerPolygons = null;
 
 	$.each(data, function (key, val) {
 		if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
@@ -400,6 +408,7 @@ function updateVoronoi(svg, g, data, voronoi) {
 					index: key,
 					x: map.latLngToLayerPoint(latlng).x,
 					y: map.latLngToLayerPoint(latlng).y,
+					data: val,
 					tooltipColor: color,
 					markerColor: color === 'orange' ? '#ff7f00' : hexColor,
 					hotSpot: 'x' === val['Brennpunktschule-2018'],
@@ -431,14 +440,14 @@ function updateVoronoi(svg, g, data, voronoi) {
 			});
 	}
 
-	polygons = voronoi(positions);
-	polygons.forEach(function (v) {
+	layerPolygons = voronoi(positions);
+	layerPolygons.forEach(function (v) {
 		v.cell = v;
 	});
 
 	svg.selectAll('.volonoi').remove();
 	svg.selectAll('path')
-		.data(polygons)
+		.data(layerPolygons)
 		.enter()
 		.append('svg:path')
 		.attr('class', 'volonoi')
@@ -696,12 +705,12 @@ $(document).on("pageshow", "#pageMap", function () {
 		$('#receiptBox').css('display', 'none');
 	});
 	$('#searchBox .sample a:nth-child(1)').on('click', function () {
-		$('#autocomplete').val('Clay-Schule (08K05)');
-		selectSuggestion('08K05');
+		$('#autocomplete').val('32. Schule (Grundschule) (11G32)');
+		selectSuggestion('11G32');
 	});
 	$('#searchBox .sample a:nth-child(2)').on('click', function () {
-		$('#autocomplete').val('Pankow');
-		selectSuggestion('03');
+		$('#autocomplete').val('Staatliche Ballettschule Berlin und Schule für Artistik (03B08)');
+		selectSuggestion('03B08');
 	});
 	$('#filterOpen').on('click', function () {
 		$('#filterBox').css('display', 'block');
