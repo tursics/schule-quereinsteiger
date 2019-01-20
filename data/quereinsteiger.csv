@@ -26,7 +26,7 @@ BSN;Schulname;Strasse;PLZ;Schulart;lat;lng;AlleLehrkraefte_2017;AlleQ_2017;AlleL
 09G15;Schule am Mohnweg (Grundschule);Mohnweg 20;12524;Grundschule;52.40733;13.53679;36;8 %;37;10 %;5 %;;5 %;;
 09G13;Schule am Altglienicker Wasserturm (Grundschule);Sachsenstr. 22;12524;Grundschule;52.41079;13.55406;15;13 %;18;17 %;11 %;;6 %;;
 09S05;Schule am Altglienicker Wasserturm (Förderzentrum);Sachsenstr. 22;12524;"Förderschwerp.""Lernen""";52.411340;13.554156;7;0 %;;;;;;;
-06B02;Louise-Schroeder-Schule (OSZ Bürowirtschaft und Verwaltung);Lippstädter Str. 9-11;12207;;52.411247;13.305736;146;1 %;139;1 %;;;1 %;;
+06B02;Louise-Schroeder-Schule (OSZ Bürowirtschaft und Verwaltung);Lippstädter Str. 9-11;12207;;52.411247;13.305736;146;1 %;139;1 %;;;1 %;;
 07G36;Grundschule am Dielingsgrund;Dielingsgrund 35;12305;Grundschule;52.41166;13.40863;34;12 %;33;6 %;6 %;;;;
 08G11;Schliemann-Schule (Grundschule);Groß-Ziethener Chaussee 73;12355;Grundschule;52.41198;13.48526;31;10 %;34;6 %;3 %;;3 %;;
 07G34;Marienfelder Schule (Grundschule);Erbendorfer Weg 13;12279;Grundschule;52.41209;13.35184;41;10 %;41;15 %;;15 %;;;x
@@ -70,7 +70,7 @@ BSN;Schulname;Strasse;PLZ;Schulart;lat;lng;AlleLehrkraefte_2017;AlleQ_2017;AlleL
 06A05;Volkshochschule Steglitz-Zehlendorf;Goethestr. 9-11;12207;;52.429216;13.316553;19;0 %;17;6 %;6 %;;;;
 08K01;Walter-Gropius-Schule (Gemeinschaftsschule);Fritz-Erler-Allee 86;12351;Integrierte Sekundarschule;52.42934;13.46355;95;2 %;95;2 %;2 %;;;;x
 08G22;Schule am Regenweiher (Grundschule);Johannisthaler Chaussee 328;12351;Grundschule;52.42985;13.45178;23;4 %;26;8 %;;;8 %;;x
-06B03;OSZ Bürowirtschaft I;Ostpreußendamm 40;12207;;52.430294;13.317130;77;0 %;83;3 %;1 %;;2 %;;
+06B03;OSZ Bürowirtschaft I;Ostpreußendamm 40;12207;;52.430294;13.317130;77;0 %;83;3 %;1 %;;2 %;;
 08B02;Lise-Meitner-Schule (OSZ Chemie, Physik und Biologie);Rudower Str. 184;12351;;52.430295;13.475099;122;5 %;126;4 %;3 %;;1 %;;
 08G29;Wetzlar-Schule (Grundschule);Tischlerzeile 34;12351;Grundschule;52.43092;13.44294;29;0 %;;;;;;;
 06G21;Paul-Schneider-Grundschule;Seydlitzstr. 30-34;12249;Grundschule;52.431002;13.341243;31;3 %;33;9 %;9 %;;;;
@@ -297,7 +297,7 @@ BSN;Schulname;Strasse;PLZ;Schulart;lat;lng;AlleLehrkraefte_2017;AlleQ_2017;AlleL
 11S04;Paul-und-Charlotte-Kniese-Schule;Erich-Kurz-Str. 6-10;10319;Übrige Förderschwerpunkte;52.498162;13.519196;9;11 %;11;9 %;9 %;;;;x
 04S05;Ernst-Adolf-Eschke-Schule für Gehörlose;Waldschulallee 29;14055;Fachschule;52.4989;13.26508;42;0 %;;;;;;;x
 02B02;Hans-Böckler-Schule (OSZ Konstruktionsbautechnik);Lobeckstraße 76;10969;;52.499135;13.403127;70;6 %;65;8 %;6 %;;2 %;;
-07B02;Marie-Elisabeth-Lüders-Oberschule;Steinmetzstraße 79;10783;;52.499243;13.364800;47;4 %;38;8 %;3 %;;5 %;;
+07B02;Marie-Elisabeth-Lüders-Oberschule;Steinmetzstraße 79;10783;;52.499243;13.364800;47;4 %;38;8 %;3 %;;5 %;;
 02K08;Refik-Veseli-Schule (Integrierte Sekundarschule);Skalitzer Str. 55;10997;Integrierte Sekundarschule;52.49962;13.43555;59;3 %;59;8 %;8 %;;;;x
 02G24;Otto-Wels-Grundschule;Alexandrinenstr. 12;10969;Grundschule;52.499923;13.401623;58;9 %;56;7 %;7 %;;;;x
 04G21;Halensee-Grundschule;Joachim-Friedrich-Str. 35-36;10711;Grundschule;52.49993;13.2961;29;3 %;27;4 %;4 %;;;;
@@ -314,7 +314,7 @@ BSN;Schulname;Strasse;PLZ;Schulart;lat;lng;AlleLehrkraefte_2017;AlleQ_2017;AlleL
 04G06;Wald-Grundschule;Waldschulallee 83-93;14055;Grundschule;52.50259;13.259;29;0 %;;;;;;;
 02B01;August-Sander-Schule;Naglerstraße 1-3;10245;;52.502696;13.450472;93;1 %;95;7 %;4 %;;3 %;;
 02K06;Emanuel-Lasker-Schule;Modersohnstr. 53;10245;Integrierte Sekundarschule;52.50277;13.45729;39;10 %;43;11 %;9 %;;2 %;;
-11B04;Friedrich-List-Schule (OSZ Büromanagement und Wirtschaftssprachen);Marktstraße 2 - 3;10317;;52.503016;13.474535;86;2 %;84;8 %;2 %;;6 %;;
+11B04;Friedrich-List-Schule (OSZ Büromanagement und Wirtschaftssprachen);Marktstraße 2 - 3;10317;;52.503016;13.474535;86;2 %;84;8 %;2 %;;6 %;;
 02G19;Fanny-Hensel-Grundschule;Schöneberger Str. 23;10963;Grundschule;52.50303;13.38014;28;4 %;24;8 %;8 %;;;;x
 01Y07;Französisches Gymnasium;Derfflingerstr. 7;10785;Gymnasium;52.50318;13.35549;64;0 %;64;14 %;3 %;;;11 %;
 07A05;Kolleg Schöneberg;Nürnberger Str. 63;10787;;52.503250;13.341364;40;0 %;;;;;;;
@@ -329,7 +329,7 @@ BSN;Schulname;Strasse;PLZ;Schulart;lat;lng;AlleLehrkraefte_2017;AlleQ_2017;AlleL
 01G10;City-Grundschule;Sebastianstr. 57;10179;Grundschule;52.50737;13.40892;26;4 %;33;12 %;3 %;;9 %;;x
 11K01;Alexander-Puschkin-Schule;Massower Str. 37;10315;Integrierte Sekundarschule;52.50795;13.51556;42;0 %;;;;;;;
 04A04;Charlotte-Wolff-Kolleg;Pestalozzistraße 40;10627;;52.508095;13.303442;30;3 %;;;;;;;
-11G09;Bürgermeister-Ziethen-Schule (Grundschule);Massower Str. 39;10315;Grundschule;52.50818;13.51665;37;14 %;34;9 %;9 %;;;;x
+11G09;Bürgermeister-Ziethen-Schule (Grundschule);Massower Str. 39;10315;Grundschule;52.50818;13.51665;37;14 %;34;9 %;9 %;;;;x
 05G12;Grundschule am Weinmeisterhorn;Daberkowstr. 27;13593;Grundschule;52.50825;13.1742;23;13 %;26;8 %;8 %;;;;
 04G15;Charles-Dickens-Grundschule;Dickensweg 15;14055;Grundschule;52.508946;13.236971;39;5 %;40;13 %;5 %;;8 %;;
 02G09;Zille-Grundschule;Boxhagener Str. 46;10245;Grundschule;52.50898;13.4653;29;0 %;27;7 %;7 %;;;;
@@ -508,12 +508,12 @@ BSN;Schulname;Strasse;PLZ;Schulart;lat;lng;AlleLehrkraefte_2017;AlleQ_2017;AlleL
 10K05;Jean-Piaget-Schule;Mittenwalder Str. 5;12629;Integrierte Sekundarschule;52.54542;13.59615;42;0 %;44;7 %;5 %;;2 %;;x
 05Y04;Carl-Friedrich-von-Siemens-Gymnasium;Jungfernheideweg 79;13629;Gymnasium;52.54559;13.26983;46;11 %;54;15 %;;15 %;;;
 05K06;Wolfgang-Borchert-Schule (Integrierte Sekundarschule);Blumenstr. 13;13585;Integrierte Sekundarschule;52.54571;13.1967;52;2 %;62;23 %;;18 %;5 %;;x
-03B07;Elinor-Ostrom-Schule (OSZ Bürowirtschaft und Dienstleistungen);Mandelstraße 6-8;10409;;52.545723;13.441338;93;2 %;90;7 %;4 %;;3 %;;
+03B07;Elinor-Ostrom-Schule (OSZ Bürowirtschaft und Dienstleistungen);Mandelstraße 6-8;10409;;52.545723;13.441338;93;2 %;90;7 %;4 %;;3 %;;
 03Y03;Käthe-Kollwitz-Gymnasium;Dunckerstr. 65-66;10439;Gymnasium;52.5458;13.42271;68;0 %;;;;;;;
 11A07;Schul- und Leistungssportzentrum Berlin (Sportforum);Fritz-Lesch-Straße 35;13053;;52.545961;13.476850;141;1 %;142;2 %;;;2 %;;
 01G31;Wedding-Grundschule;Antonstr. 10;13347;Grundschule;52.546206;13.362468;46;11 %;49;16 %;;14 %;2 %;;x
 01K06;Herbert-Hoover-Schule (Integrierte Sekundarschule);Pankstr. 18-19;13357;Integrierte Sekundarschule;52.546324;13.373398;47;4 %;53;15 %;6 %;;9 %;;x
-03B08;Staatliche Ballettschule Berlin und Schule für Artistik;Erich-Weinert-Straße 103;10409;;52.546387;13.435002;68;0 %;69;35 %;;;;35 %;
+03B08;Staatliche Ballettschule Berlin und Schule für Artistik;Erich-Weinert-Straße 103;10409;;52.546387;13.435002;68;0 %;69;35 %;;;;35 %;
 03G09;Thomas-Mann-Grundschule;Greifenhagener Str. 58-59;10437;Grundschule;52.54663;13.41479;32;13 %;32;13 %;13 %;;;;
 03Y04;Heinrich-Schliemann-Gymnasium;Dunckerstr. 64;10439;Gymnasium;52.54663;13.42365;70;6 %;64;5 %;5 %;;;;
 10G17;Beatrix-Potter-Grundschule;Ludwigsfelder Str. 7;12629;Grundschule;52.54682;13.58926;42;10 %;42;14 %;12 %;;2 %;;x
@@ -647,7 +647,7 @@ BSN;Schulname;Strasse;PLZ;Schulart;lat;lng;AlleLehrkraefte_2017;AlleQ_2017;AlleL
 12Y04;Gabriele-von-Bülow-Gymnasium;Tile-Brügge-Weg 63;13509;Gymnasium;52.592148;13.297061;66;0 %;69;1 %;1 %;;;;
 03G21;Grundschule unter den Bäumen;Alt-Blankenburg 26;13129;Grundschule;52.592262;13.454422;24;4 %;26;4 %;;;4 %;;
 12G09;Grundschule an der Peckwisch;Tornower Weg 26-34;13439;Grundschule;52.59299;13.34869;40;10 %;43;16 %;;14 %;2 %;;x
-03B02;Berufliche Schule für Sozialwesen Pankow;Erbeskopfweg 6;13158;;52.594076;13.400333;57;2 %;62;12 %;6 %;;6 %;;
+03B02;Berufliche Schule für Sozialwesen Pankow;Erbeskopfweg 6;13158;;52.594076;13.400333;57;2 %;62;12 %;6 %;;6 %;;
 12S04;Schule am Park;Eichborndamm 276-284;13437;"Förderschwerp.""Geistige Entwicklung""";52.594285;13.330313;33;3 %;;;;;;;x
 12G26;Märkische Grundschule;Dannenwalder Weg 163-165;13439;Grundschule;52.5952;13.36016;38;0 %;40;8 %;3 %;;5 %;;
 12G32;Charlie-Chaplin-Grundschule;Wilhelmsruher Damm 90-94;13439;Grundschule;52.59744;13.36465;40;3 %;42;5 %;5 %;;;;x
