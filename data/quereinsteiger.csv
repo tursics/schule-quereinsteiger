@@ -1,687 +1,687 @@
 BSN;Schulname;Strasse;PLZ;Schulart;lat;lng;AlleLehrkraefte_2017;AlleQ_2017;AlleLehrkraefte_2018;AlleQS_2018;Q1_5_2018;Q6_x_2018;S1_5_2018;S6_x_2018;Brennpunktschule-2018
-01A04;Berlin-Kolleg;Turmstr. 75;10551;Berlin-Kolleg;52.526574;13.334076;66;0 %;66;5 %;2 %;;3 %;;
-01B01;OSZ Banken, Immobilien und Versicherungen;Alt-Moabit 10;10557;;52.524055;13.357851;103;0 %;99;2 %;2 %;;;;
-01B02;Staatliche Technikerschule Berlin;Bochumer Straße 8b;10555;;52.522747;13.338053;86;6 %;81;29 %;4 %;;;25 %;
-01B03;OSZ Kommunikations-, Informations- und Medientechnik;Osloer Str. 23 – 26;13359;;52.556676;13.379415;89;2 %;84;5 %;4 %;;1 %;;
-01B04;OSZ Gesundheit I;Schwyzer Str. 6;13349;;52.558542;13.354708;102;7 %;90;5 %;2 %;;3 %;;
-01B05;Staatliche Wirtschaftsfachschule für Hotellerie und Gastronomie Berlin;Niederwallstraße 6;10117;;52.512364;13.397973;23;0 %;;;;;;;
-01G01;Grundschule am Arkonaplatz;Ruppiner Str. 47-48;10115;Grundschule;52.53684;13.40039;31;3 %;31;9 %;6 %;;3 %;;
-01G02;Papageno-Grundschule;Bergstr. 58;10115;Grundschule;52.532833;13.391048;38;13 %;41;15 %;10 %;;5 %;;
-01G04;Kastanienbaum-Grundschule;Gipsstr. 23A;10119;Grundschule;52.52678;13.4018;27;4 %;26;8 %;8 %;;;;
-01G05;Grundschule Neues Tor;Hannoversche Str. 20;10115;Grundschule;52.52759;13.38033;35;6 %;36;17 %;3 %;;14 %;;
-01G07;GutsMuths-Grundschule;Singerstr. 8;10179;Grundschule;52.516365;13.42412;26;8 %;27;7 %;7 %;;;;
-01G08;Grundschule am Brandenburger Tor;Wilhelmstr. 52;10117;Grundschule;52.51318;13.38276;42;2 %;39;11 %;3 %;;8 %;;
-01G10;City-Grundschule;Sebastianstr. 57;10179;Grundschule;52.50737;13.40892;26;4 %;33;12 %;3 %;;9 %;;x
-01G11;Kurt-Tucholsky-Grundschule;Rathenower Str. 18;10559;Grundschule;52.53026;13.35303;50;10 %;55;19 %;;15 %;4 %;;x
-01G15;Anne-Frank-Grundschule;Paulstr. 20B;10557;Grundschule;52.51827;13.35527;25;4 %;27;7 %;7 %;;;;
-01G16;Moabiter Grundschule;Paulstr. 28;10557;Grundschule;52.521974;13.35657;35;14 %;34;15 %;12 %;;3 %;;
-01G18;Carl-Bolle-Grundschule;Waldenserstr. 20-21;10551;Grundschule;52.528894;13.331807;35;20 %;34;27 %;;24 %;3 %;;x
-01G19;Hansa-Grundschule;Lessingstr. 5;10555;Grundschule;52.5214;13.34019;25;0 %;26;12 %;8 %;;4 %;;
-01G24;Gottfried-Röhl-Grundschule;Ungarnstr. 75;13349;Grundschule;52.55719;13.35717;43;9 %;45;29 %;;27 %;2 %;;x
-01G25;Rudolf-Wissell-Grundschule;Ellerbeker Str. 7-8;13357;Grundschule;52.55158;13.39611;40;8 %;41;15 %;10 %;;5 %;;x
-01G27;Gesundbrunnen-Grundschule;Prinzenallee 8;13357;Grundschule;52.55338;13.38292;48;10 %;48;19 %;;15 %;4 %;;x
-01G28;Brüder-Grimm-Grundschule;Tegeler Str. 18-19;13353;Grundschule;52.54146;13.35783;40;8 %;36;14 %;11 %;;3 %;;x
-01G29;Wilhelm-Hauff-Grundschule;Gotenburger Str. 8;13359;Grundschule;52.557813;13.384347;40;20 %;41;25 %;;20 %;5 %;;x
-01G31;Wedding-Grundschule;Antonstr. 10;13347;Grundschule;52.546206;13.362468;46;11 %;49;16 %;;14 %;2 %;;x
-01G32;Carl-Kraemer-Grundschule;Zechliner Str. 4;13359;Grundschule;52.56107;13.38284;43;23 %;42;36 %;;26 %;10 %;;x
-01G35;Humboldthain-Grundschule;Grenzstr. 7;13355;Grundschule;52.54323;13.380143;43;7 %;48;14 %;10 %;;4 %;;x
-01G36;Andersen-Grundschule;Kattegatstr. 26;13359;Grundschule;52.56553;13.38891;29;7 %;29;10 %;10 %;;;;x
-01G37;Heinrich-Seidel-Grundschule;Ramlerstr. 9-10;13355;Grundschule;52.54695;13.39407;43;9 %;47;13 %;;13 %;;;x
-01G38;Gustav-Falke-Grundschule;Strelitzer Str. 42;13355;Grundschule;52.53795;13.39162;33;12 %;35;29 %;;20 %;9 %;;x
-01G39;Vineta-Grundschule;Demminer Str. 27;13355;Grundschule;52.54222;13.3969;35;11 %;36;14 %;14 %;;;;x
-01G40;Möwensee-Grundschule;Afrikanische Str. 123-125;13351;Grundschule;52.55575;13.33375;35;9 %;37;14 %;11 %;;3 %;;x
-01G41;Erika-Mann-Grundschule;Utrechter Str. 25-27;13347;Grundschule;52.55099;13.35786;57;9 %;62;18 %;;13 %;5 %;;x
-01G42;Anna-Lindh-Schule (Grundschule);Guineastr. 17-18;13351;Grundschule;52.550375;13.341886;69;4 %;70;13 %;;10 %;3 %;;x
-01G43;Albert-Gutzmann-Schule (Grundschule);Orthstr. 1;13357;Grundschule;52.549234;13.373261;26;4 %;26;20 %;8 %;;12 %;;x
-01G44;Allegro-Grundschule;Lützowstr. 83-85;10785;Grundschule;52.503571;13.363001;36;3 %;46;15 %;;13 %;2 %;;x
-01G45;Leo-Lionni-Grundschule;Müllerstr. 158;13353;Grundschule;52.544342;13.361352;55;7 %;53;9 %;9 %;;;;x
-01G46;Grundschule am Koppenplatz;Koppenplatz 12;10115;Grundschule;52.52778;13.39745;54;7 %;59;11 %;8 %;;3 %;;
-01G47;Miriam-Makeba-Grundschule;Zinzendorfstr. 15-16;10555;Grundschule;52.52232;13.331446;40;5 %;41;19 %;12 %;;7 %;;x
-01K01;Willy-Brandt-Schule;Grüntaler Str. 5;13357;Integrierte Sekundarschule;52.55101;13.386048;52;21 %;54;20 %;;11 %;9 %;;x
-01K02;Ernst-Schering-Schule;Lütticher Str. 47-48;13353;Integrierte Sekundarschule;52.54701;13.34782;56;7 %;56;9 %;7 %;;2 %;;x
-01K03;Ernst-Reuter-Schule;Stralsunder Str. 57;13355;Integrierte Sekundarschule;52.538896;13.394373;111;11 %;109;15 %;;9 %;;6 %;x
-01K04;Heinrich-von-Stephan-Schule (Gemeinschaftsschule);Neues Ufer 6;10553;Integrierte Sekundarschule;52.524775;13.316714;69;4 %;72;7 %;3 %;;4 %;;
-01K06;Herbert-Hoover-Schule (Integrierte Sekundarschule);Pankstr. 18-19;13357;Integrierte Sekundarschule;52.546324;13.373398;47;4 %;53;15 %;6 %;;9 %;;x
-01K07;Hemingway-Schule;Gartenstr. 10-17;10115;Integrierte Sekundarschule;52.530483;13.391682;44;5 %;48;10 %;6 %;;4 %;;x
-01K08;Schule am Schillerpark (Integrierte Sekundarschule);Ofener Str. 6;13349;Integrierte Sekundarschule;52.55628;13.3457;66;3 %;74;8 %;4 %;;4 %;;x
-01K09;Hedwig-Dohm-Schule (Integrierte Sekundarschule);Stephanstr. 27;10559;Integrierte Sekundarschule;52.53367;13.34651;49;6 %;54;15 %;;13 %;2 %;;x
-01K10;Theodor-Heuss-Schule (Gemeinschaftsschule);Quitzowstr. 141;10559;Integrierte Sekundarschule;52.535722;13.354875;106;3 %;103;8 %;5 %;;3 %;;x
-01S01;Schule am Zille-Park;Ravenéstr. 10-12;13347;Integrierte Sekundarschule;52.542859;13.372782;34;9 %;35;9 %;6 %;;3 %;;x
-01S05;Schule in der Charité;Augustenburger Platz 1;13353;Übrige Förderschwerpunkte;52.542216;13.347104;55;2 %;;;;;;;
-01S06;Albert-Gutzmann-Schule;Orthstr. 1;13357;Integrierte Sekundarschule;52.549234;13.373261;32;9 %;30;3 %;3 %;;;;x
-01S07;Charlotte-Pfeffer-Schule;Berolinastr. 8;10178;"Förderschwerp.""Geistige Entwicklung""";52.52226;13.42328;23;4 %;;;;;;;x
-01Y02;John-Lennon-Gymnasium;Zehdenicker Str. 17;10119;Gymnasium;52.530923;13.404105;67;1 %;69;3 %;3 %;;;;
-01Y04;Musikgymnasium Carl Philipp Emanuel Bach;Rheinsberger Str. 4-5;10115;;52.536666;13.395655;17;0 %;;;;;;;
-01Y07;Französisches Gymnasium;Derfflingerstr. 7;10785;Gymnasium;52.50318;13.35549;64;0 %;64;14 %;3 %;;;11 %;
-01Y08;Lessing-Gymnasium;Schöningstr. 17;13349;Gymnasium;52.55734;13.34371;76;5 %;78;4 %;4 %;;;;
-01Y09;Diesterweg-Gymnasium;Böttgerstr. 2-6;13357;Gymnasium;52.550012;13.378338;50;2 %;51;6 %;;;6 %;;x
-01Y11;Max-Planck-Gymnasium;Singerstr. 8A;10179;Gymnasium;52.516365;13.42412;67;0 %;67;6 %;3 %;;3 %;;x
-01Y12;Gymnasium Tiergarten;Altonaer Str. 26;10555;Gymnasium;52.51935;13.3394;85;1 %;81;1 %;;;1 %;;
-02B01;August-Sander-Schule;Naglerstraße 1-3;10245;;52.502696;13.450472;93;1 %;95;7 %;4 %;;3 %;;
-02B02;Hans-Böckler-Schule (OSZ Konstruktionsbautechnik);Lobeckstraße 76;10969;;52.499135;13.403127;70;6 %;65;8 %;6 %;;2 %;;
-02B03;OSZ Bekleidung und Mode;Kochstraße 9;10969;;52.505965;13.389044;69;1 %;69;4 %;3 %;;1 %;;
-02B04;OSZ Handel 1;Wrangelstraße 98;10997;;52.500976;13.436659;200;0 %;195;3 %;1 %;;2 %;;
-02B05;Jane-Addams-Schule (OSZ Sozialwesen);Straßmannstraße 14/16;10249;;52.521658;13.448591;144;4 %;131;5 %;2 %;;3 %;;
-02G01;Spartacus-Grundschule;Friedenstr. 40-45;10249;Grundschule;52.52106;13.43582;31;10 %;36;8 %;8 %;;;;
-02G02;Hausburg-Grundschule;Hausburgstr. 20;10249;Grundschule;52.524208;13.454324;43;2 %;45;17 %;;13 %;4 %;;
-02G03;Justus-von-Liebig-Grundschule;Liebigstr. 18A;10247;Grundschule;52.518699;13.457697;41;12 %;39;8 %;8 %;;;;
-02G04;Pettenkofer-Grundschule;Pettenkoferstr. 20-24;10247;Grundschule;52.518656;13.471;32;9 %;38;11 %;8 %;;3 %;;
-02G07;Ludwig-Hoffmann-Grundschule;Lasdehner Str. 21-23;10243;Grundschule;52.514357;13.448886;27;0 %;27;4 %;4 %;;;;
-02G08;Grundschule am Traveplatz;Jessnerstr. 24-32;10247;Grundschule;52.511492;13.471855;27;4 %;27;4 %;4 %;;;;
-02G09;Zille-Grundschule;Boxhagener Str. 46;10245;Grundschule;52.50898;13.4653;29;0 %;27;7 %;7 %;;;;
-02G10;Modersohn-Grundschule;Niemannstr. 3;10245;Grundschule;52.50705;13.46024;32;0 %;38;10 %;5 %;;5 %;;
-02G11;Thalia-Grundschule;Alt-Stralau 34;10245;Grundschule;52.492881;13.476151;22;14 %;25;8 %;8 %;;;;
-02G12;Kurt-Schumacher-Grundschule;Puttkamerstr. 19;10969;Grundschule;52.504384;13.388493;26;12 %;24;17 %;17 %;;;;x
-02G13;Charlotte-Salomon-Grundschule;Großbeerenstr. 40;10965;Grundschule;52.49041;13.38183;45;7 %;41;2 %;2 %;;;;
-02G14;Galilei-Grundschule;Friedrichstr. 13;10969;Grundschule;52.501885;13.391531;33;0 %;;;;;;;x
-02G16;Lenau-Grundschule;Nostitzstr. 60;10961;Grundschule;52.49381;13.39154;40;10 %;39;8 %;8 %;;;;x
-02G18;Nürtingen-Grundschule;Mariannenplatz 28;10997;Grundschule;52.505469;13.426859;56;4 %;52;12 %;8 %;;4 %;;x
-02G19;Fanny-Hensel-Grundschule;Schöneberger Str. 23;10963;Grundschule;52.50303;13.38014;28;4 %;24;8 %;8 %;;;;x
-02G20;Bürgermeister-Herz-Grundschule;Wilmsstr. 10;10961;Grundschule;52.49488;13.40516;37;0 %;36;6 %;6 %;;;;x
-02G21;Reinhardswald-Grundschule;Gneisenaustr. 73-74;10961;Grundschule;52.49059;13.3999;46;2 %;49;6 %;6 %;;;;x
-02G22;Jens-Nydahl-Grundschule;Kohlfurter Str. 20;10999;Grundschule;52.497294;13.41619;42;10 %;44;25 %;;20 %;5 %;;x
-02G23;Fichtelgebirge-Grundschule;Görlitzer Ufer 2;10997;Grundschule;52.49575;13.44495;36;8 %;36;12 %;6 %;;6 %;;
-02G24;Otto-Wels-Grundschule;Alexandrinenstr. 12;10969;Grundschule;52.499923;13.401623;58;9 %;56;7 %;7 %;;;;x
-02G26;Lemgo-Grundschule;Böckhstr. 5;10967;Grundschule;52.494198;13.416454;36;8 %;37;22 %;14 %;;8 %;;x
-02G27;Hunsrück-Grundschule;Manteuffelstr. 79;10999;Grundschule;52.497732;13.426632;44;14 %;47;13 %;;13 %;;;x
-02G29;Heinrich-Zille-Grundschule;Waldemarstr. 118;10997;Grundschule;52.500729;13.429182;42;2 %;42;9 %;2 %;;7 %;;x
-02G31;Adolf-Glaßbrenner-Grundschule;Hagelberger Str. 34;10965;Grundschule;52.49085;13.38065;35;0 %;37;8 %;5 %;;3 %;;
-02G32;Clara-Grunwald-Grundschule;Hallesche Str. 24;10963;Grundschule;52.50077;13.38313;27;0 %;;;;;;;
-02G33;Aziz-Nesin-Grundschule;Urbanstr. 15;10961;Grundschule;52.49312;13.40611;35;3 %;35;12 %;9 %;;3 %;;x
-02G34;34. Schule (Grundschule);Scharnweberstr. 19;10247;Grundschule;52.51279;13.46783;27;4 %;29;3 %;;;3 %;;
-02G35;Rosa-Parks-Grundschule;Reichenberger Str. 65;10999;Grundschule;52.495472;13.43052;43;7 %;41;5 %;5 %;;;;x
-02G36;Blumen-Grundschule;Andreasstr. 50;10243;Übrige Förderschwerpunkte;52.51663;13.43215;56;4 %;51;10 %;8 %;;2 %;;x
-02K01;Ellen-Key-Schule;Rüdersdorfer Str. 20-28;10243;Integrierte Sekundarschule;52.5152;13.43689;72;0 %;72;3 %;;;3 %;;x
-02K02;Carl-von-Ossietzky-Schule (Gemeinschaftsschule);Blücherstr. 46;10961;Integrierte Sekundarschule;52.491647;13.404491;131;5 %;125;11 %;;5 %;;6 %;x
-02K03;Hector-Peterson-Schule;Tempelhofer Ufer 15;10963;Integrierte Sekundarschule;52.49832;13.3841;36;6 %;36;22 %;14 %;;8 %;;x
-02K04;Lina-Morgenstern-Schule (Gemeinschaftsschule);Gneisenaustr. 7;10961;Integrierte Sekundarschule;52.49178;13.38971;60;0 %;66;5 %;2 %;;3 %;;x
-02K05;Schule am Königstor (Integrierte Sekundarschule);Weinstr. 3;10249;Integrierte Sekundarschule;52.525666;13.425987;46;9 %;45;16 %;7 %;;9 %;;x
-02K06;Emanuel-Lasker-Schule;Modersohnstr. 53;10245;Integrierte Sekundarschule;52.50277;13.45729;39;10 %;43;11 %;9 %;;2 %;;
-02K07;Georg-Weerth-Schule;Eckertstr. 16;10249;Integrierte Sekundarschule;52.518996;13.450401;36;0 %;40;16 %;13 %;;3 %;;x
-02K08;Refik-Veseli-Schule (Integrierte Sekundarschule);Skalitzer Str. 55;10997;Integrierte Sekundarschule;52.49962;13.43555;59;3 %;59;8 %;8 %;;;;x
-02K09;Albrecht-von-Graefe-Schule (Integrierte Sekundarschule);Graefestr. 85-88;10967;Integrierte Sekundarschule;52.494205;13.418709;24;4 %;35;12 %;9 %;;3 %;;x
-02K10;Ferdinand-Freiligrath-Schule (Integrierte Sekundarschule);Bergmannstr. 64;10961;Integrierte Sekundarschule;52.488798;13.40149;33;0 %;35;3 %;3 %;;;;x
-02S01;Schule am Friedrichshain;Lasdehner Str. 19;10243;Integrierte Sekundarschule;52.51449;13.4491;38;0 %;41;5 %;5 %;;;;x
-02S02;Gustav-Meyer-Schule;Kohlfurter Str. 22;10999;"Förderschwerp.""Geistige Entwicklung""";52.497102;13.416721;33;12 %;40;8 %;8 %;;;;x
-02S03;Margarethe-von-Witzleben-Schule;Palisadenstr. 76-77;10243;Übrige Förderschwerpunkte;52.51984;13.4346;40;8 %;38;11 %;11 %;;;;
-02S06;Liebmann-Schule;Friedrichstr. 13;10969;Übrige Förderschwerpunkte;52.501885;13.391531;19;16 %;18;6 %;6 %;;;;x
-02Y01;Andreas-Oberschule;Koppenstr. 76;10243;Gymnasium;52.514039;13.434606;70;0 %;70;1 %;1 %;;;;
-02Y03;Heinrich-Hertz-Oberschule;Rigaer Str. 81-82;10247;Gymnasium;52.51695;13.46306;46;0 %;;;;;;;
-02Y04;Georg-Friedrich-Händel-Gymnasium;Frankfurter Allee 6A;10247;Gymnasium;52.515331;13.455796;45;2 %;43;5 %;;;5 %;;
-02Y05;Dathe-Gymnasium;Helsingforser Str. 11-13;10243;Gymnasium;52.510001;13.445399;68;0 %;69;1 %;;;1 %;;
-02Y06;Leibniz-Gymnasium;Schleiermacherstr. 23;10961;Gymnasium;52.48978;13.39747;68;0 %;63;2 %;;;2 %;;
-02Y07;Robert-Koch-Gymnasium;Dieffenbachstr. 60;10967;Gymnasium;52.49323;13.41596;48;2 %;47;4 %;2 %;;2 %;;x
-02Y08;Hermann-Hesse-Gymnasium;Böckhstr. 16;10967;Gymnasium;52.493579;13.419151;51;4 %;53;4 %;2 %;;2 %;;x
-03A04;Abendgymnasium Prenzlauer Berg;Driesener Str. 22,;10439;;52.552049;13.405651;22;5 %;18;6 %;;;6 %;;
-03A05;Volkshochschule Pankow;Prenzlauer Allee 227/228;10405;;52.533245;13.420298;5;0 %;;;;;;;
-03B02;Berufliche Schule für Sozialwesen Pankow;Erbeskopfweg 6;13158;;52.594076;13.400333;57;2 %;62;12 %;6 %;;6 %;;
-03B04;Brillat-Savarin-Schule (OSZ Gastgewerbe);Buschallee 23A;13088;;52.552926;13.475441;151;0 %;;;;;;;
-03B06;Konrad-Zuse-Schule;Hermann-Hesse-Straße 34/36;13156;;52.579357;13.395789;44;0 %;46;2 %;;;2 %;;
-03B07;Elinor-Ostrom-Schule (OSZ Bürowirtschaft und Dienstleistungen);Mandelstraße 6-8;10409;;52.545723;13.441338;93;2 %;90;7 %;4 %;;3 %;;
-03B08;Staatliche Ballettschule Berlin und Schule für Artistik;Erich-Weinert-Straße 103;10409;;52.546387;13.435002;68;0 %;69;35 %;;;;35 %;
-03B10;Max-Bill-Schule (OSZ Planen, Bauen, Gestalten);Gustav-Adolf-Straße 66;13086;;52.557919;13.451605;181;2 %;171;7 %;2 %;;;5 %;
-03G01;Schule am Hamburger Platz (Grundschule);Gustav-Adolf-Str. 21;13086;Grundschule;52.55381;13.43681;26;0 %;31;6 %;6 %;;;;
-03G02;Heinrich-Roller-Grundschule;Heinrich-Roller-Str. 18;10405;Grundschule;52.53064;13.42364;26;0 %;;;;;;;
-03G03;Grundschule am Kollwitzplatz;Knaackstr. 67;10435;Grundschule;52.53768;13.41489;30;3 %;;;;;;;
-03G04;Grundschule an der Marie;Christburger Str. 7;10405;Grundschule;52.536148;13.42559;29;0 %;29;7 %;7 %;;;;
-03G05;Homer-Grundschule;Pasteurstr. 10-12;10407;Grundschule;52.53371;13.43237;34;12 %;32;13 %;13 %;;;;
-03G06;Bötzow-Grundschule;John-Schehr-Str. 38;10407;Grundschule;52.535104;13.439793;27;4 %;28;4 %;4 %;;;;
-03G08;Grundschule am Planetarium;Ella-Kay-Str. 47;10405;Grundschule;52.54145;13.43118;44;14 %;45;18 %;;18 %;;;
-03G09;Thomas-Mann-Grundschule;Greifenhagener Str. 58-59;10437;Grundschule;52.54663;13.41479;32;13 %;32;13 %;13 %;;;;
-03G10;Grundschule am Hohen Feld;Bedeweg 1;13125;Grundschule;52.61492;13.49606;36;3 %;40;3 %;;;3 %;;
-03G11;Schule am Falkplatz (Grundschule);Gleimstr. 49;10437;Grundschule;52.54749;13.40538;39;3 %;42;7 %;7 %;;;;
-03G12;Paul-Lincke-Grundschule;Pieskower Weg 39;10409;Grundschule;52.54129;13.44553;33;3 %;37;11 %;8 %;;3 %;;
-03G13;Rudolf-Dörrier-Grundschule;Kastanienallee 59;13158;Grundschule;52.59125;13.37612;26;0 %;29;7 %;7 %;;;;
-03G14;Bornholmer Grundschule;Ibsenstr. 17;10439;Grundschule;52.55572;13.40768;35;3 %;38;8 %;8 %;;;;
-03G15;Schule am Senefelderplatz;Schönhauser Allee 165;10435;;52.534482;13.411913;26;8 %;32;13 %;13 %;;;;
-03G16;Grundschule am Teutoburger Platz;Templiner Str. 1-3;10119;Grundschule;52.533635;13.408651;29;3 %;30;3 %;3 %;;;;
-03G17;Grundschule am Weißen See;Amalienstr. 6;13086;Grundschule;52.555294;13.457004;30;7 %;29;7 %;7 %;;;;
-03G18;Picasso-Grundschule;Gounodstr. 71;13088;Grundschule;52.547032;13.460359;38;8 %;39;5 %;5 %;;;;
-03G20;Grundschule im Moselviertel;Brodenbacher Weg 31;13088;Grundschule;52.559028;13.475454;26;8 %;27;7 %;7 %;;;;
-03G21;Grundschule unter den Bäumen;Alt-Blankenburg 26;13129;Grundschule;52.592262;13.454422;24;4 %;26;4 %;;;4 %;;
-03G22;Grundschule am Wasserturm;Tino-Schwierzina-Str. 66;13089;Grundschule;52.56546;13.43664;21;5 %;26;4 %;4 %;;;;
-03G23;Grundschule Alt-Karow;Bahnhofstr. 32;13125;Grundschule;52.609682;13.479743;18;6 %;19;5 %;5 %;;;;
-03G24;Grundschule im Panketal;Achillesstr. 31;13125;Grundschule;52.61986;13.486729;35;6 %;;;;;;;
-03G25;Carl-Humann-Grundschule;Scherenbergstr. 7;10439;Grundschule;52.55101;13.42173;29;3 %;;;;;;;
-03G26;Arnold-Zweig-Grundschule;Wollankstr. 131;13187;Grundschule;52.56868;13.40012;35;3 %;34;9 %;6 %;;3 %;;
-03G27;Elizabeth-Shaw-Grundschule;Grunowstr. 17;13187;Grundschule;52.56831;13.41044;26;8 %;29;10 %;10 %;;;;
-03G28;Grundschule im Hasengrund;Charlottenstr. 19;13156;Grundschule;52.59089;13.410577;33;3 %;33;18 %;15 %;;3 %;;
-03G29;Grundschule Am Sandhaus;Wiltbergstr. 37-39;13125;Grundschule;52.637343;13.490967;25;8 %;29;21 %;;21 %;;;
-03G32;Grundschule an den Buchen;Wilhelm-Wolff-Str. 19;13156;Grundschule;52.579207;13.394536;24;0 %;;;;;;;
-03G33;Jeanne-Barez-Schule (Grundschule);Hauptstr. 66;13127;Grundschule;52.60417;13.43415;35;3 %;36;6 %;6 %;;;;
-03G34;Mendel-Grundschule;Stiftsweg 3;13187;Grundschule;52.573478;13.416325;37;8 %;45;9 %;7 %;;2 %;;
-03G35;Platanengrundschule;Hauptstr. 20;13159;Grundschule;52.618258;13.389549;9;0 %;;;;;;;
-03G36;Elisabeth-Christinen-Grundschule;Lindenberger Str. 12;13156;Grundschule;52.58294;13.41741;22;9 %;22;14 %;9 %;;5 %;;
-03G37;Klecks-Grundschule;Brixener Str. 40;13187;Grundschule;52.55989;13.40756;29;10 %;28;11 %;11 %;;;;
-03G38;Grundschule im Blumenviertel;Syringenplatz 30;10407;Grundschule;52.535141;13.458074;33;3 %;37;3 %;3 %;;;;
-03G39;Grundschule Wolkenstein;Neumannstr. 65;13189;Grundschule;52.56527;13.42024;31;3 %;33;6 %;6 %;;;;
-03G40;Schule am Birkenhof;Arnouxstr. 18;13127;Grundschule;52.60791;13.42388;29;7 %;30;10 %;10 %;;;;
-03G41;Trelleborg-Schule (Grundschule);Eschengraben 40;13189;Grundschule;52.556012;13.421818;32;6 %;36;6 %;6 %;;;;
-03G43;Grundschule Wilhelmsruh;Lessingstr. 44;13158;Grundschule;52.5903;13.36421;27;0 %;28;4 %;4 %;;;;
-03G44;Georg-Zacharias-Grundschule;Sulzfelder Str. 15;13088;Grundschule;52.55219;13.47502;20;5 %;22;5 %;5 %;;;;
-03G45;Grundschule im Hofgarten;Danziger Str. 50;10435;Grundschule;52.53921;13.41918;25;12 %;30;10 %;10 %;;;;
-03G46;Grundschule im Eliashof;Senefelderstr. 6;10437;Grundschule;52.540786;13.422734;21;10 %;22;19 %;14 %;;5 %;;
-03G47;Schule an der Strauchwiese;Mendelstr. 54;13187;Grundschule;52.57805;13.41782;15;13 %;21;10 %;10 %;;;;x
-03K01;Kurt-Schwitters-Schule;Greifswalder Str. 25;10405;Integrierte Sekundarschule;52.5314;13.42807;88;3 %;92;3 %;1 %;;2 %;;
-03K02;Kurt-Tucholsky-Schule (Integrierte Sekundarschule);Neumannstr. 9-11;13189;Integrierte Sekundarschule;52.55812;13.42333;69;0 %;77;6 %;5 %;;1 %;;
-03K03;Konrad-Duden-Schule (Integrierte Sekundarschule);Rolandstr. 35;13156;Integrierte Sekundarschule;52.58183;13.41744;34;3 %;38;3 %;3 %;;;;
-03K04;Gustave-Eiffel-Schule;Hanns-Eisler-Str. 78-80;10409;Integrierte Sekundarschule;52.540662;13.44844;39;3 %;;;;;;;
-03K05;Heinz-Brandt-Schule;Langhansstr. 120;13086;Integrierte Sekundarschule;52.551192;13.441808;44;5 %;44;4 %;2 %;;2 %;;
-03K06;Reinhold-Burger-Schule;Neue Schönholzer Str. 32;13187;Integrierte Sekundarschule;52.56838;13.40303;46;9 %;47;9 %;9 %;;;;
-03K07;Tesla-Schule (Gemeinschaftsschule);Rudi-Arndt-Str. 18;10407;Integrierte Sekundarschule;52.529086;13.446061;41;2 %;45;11 %;11 %;;;;
-03K08;Hagenbeck-Schule;Gustav-Adolf-Str. 60;13086;Integrierte Sekundarschule;52.55879;13.44729;38;3 %;38;8 %;5 %;;3 %;;
-03K09;Janusz-Korczak-Schule (Integrierte Sekundarschule);Dolomitenstr. 94;13187;Integrierte Sekundarschule;52.562908;13.407559;31;0 %;32;3 %;3 %;;;;
-03K10;Hufeland-Schule (Integrierte Sekundarschule);Walter-Friedrich-Str. 16-18;13125;Integrierte Sekundarschule;52.63325;13.49373;48;6 %;54;6 %;4 %;;2 %;;
-03K11;Wilhelm-von-Humboldt-Schule (Gemeinschaftsschule);Erich-Weinert-Str. 70;10439;Integrierte Sekundarschule;52.54845;13.42476;72;8 %;77;6 %;3 %;;3 %;;
-03S03;Helene-Haeusler-Schule;Mendelssohnstr. 10;10405;"Förderschwerp.""Geistige Entwicklung""";52.5267;13.42002;35;0 %;34;6 %;;;6 %;;x
-03S06;Schule am Birkenhof;Arnouxstraße 18;13127;;52.607843;13.423999;15;0 %;;;;;;;
-03S07;Schule an der Heide;Hermann-Hesse-Str. 48-52;13156;"Förderschwerp.""Lernen""";52.578097;13.394472;12;0 %;;;;;;;
-03S08;Panke-Schule;Galenusstr. 64;13187;"Förderschwerp.""Geistige Entwicklung""";52.57877;13.41699;24;0 %;24;16 %;8 %;;8 %;;x
-03S09;Schule an der Strauchwiese;Mendelstr. 54;13187;Übrige Förderschwerpunkte;52.57805;13.41782;19;0 %;;;;;;;x
-03S10;Marianne-Buggenhagen-Schule;Ernst-Busch-Str. 29;13125;Übrige Förderschwerpunkte;52.62953;13.49149;46;7 %;45;9 %;9 %;;;;
-03Y03;Käthe-Kollwitz-Gymnasium;Dunckerstr. 65-66;10439;Gymnasium;52.5458;13.42271;68;0 %;;;;;;;
-03Y04;Heinrich-Schliemann-Gymnasium;Dunckerstr. 64;10439;Gymnasium;52.54663;13.42365;70;6 %;64;5 %;5 %;;;;
-03Y08;Carl-von-Ossietzky-Gymnasium;Görschstr. 42-44;13187;Gymnasium;52.566429;13.40007;80;3 %;78;4 %;3 %;;1 %;;
-03Y10;Rosa-Luxemburg-Gymnasium;Kissingenstr. 12;13189;Gymnasium;52.56669;13.41948;94;9 %;92;2 %;;;2 %;;
-03Y13;Felix-Mendelssohn-Bartholdy-Gymnasium;Eugen-Schönhaar-Str. 18;10407;Gymnasium;52.537087;13.437857;69;1 %;76;5 %;4 %;;1 %;;
-03Y14;Primo-Levi-Gymnasium;Pistoriusstr. 133;13086;Gymnasium;52.5516;13.45369;92;0 %;96;1 %;;;1 %;;
-03Y15;Max-Delbrück-Gymnasium;Kuckhoffstr. 2-22;13156;Gymnasium;52.583884;13.402118;74;0 %;;;;;;;
-03Y16;Robert-Havemann-Gymnasium;Achillesstr. 79;13125;Gymnasium;52.615393;13.494218;74;1 %;74;1 %;1 %;;;;
-03Y17;17. Schule (Gymnasium);Conrad-Blenkle-Str. 34;10407;Gymnasium;52.534329;13.447008;19;5 %;28;7 %;7 %;;;;
-04A04;Charlotte-Wolff-Kolleg;Pestalozzistraße 40;10627;;52.508095;13.303442;30;3 %;;;;;;;
-04A06;Peter-A.-Silbermann-Schule;Blissestraße 22;10713;;52.484515;13.319460;15;0 %;;;;;;;
-04A08;Sportschule im Olympiapark - Poelchau-Schule;Prinz-Friedrich-Karl-Weg 1;14053;;52.521087;13.241917;57;7 %;61;13 %;8 %;;5 %;;
-04B01;Loschmidt-Oberschule;Loschmidtstraße 19;10587;;52.517155;13.313183;51;0 %;51;2 %;2 %;;;;
-04B02;Hans-Litten-Schule (OSZ Recht und Wirtschaft);Danckelmannstraße 25;14059;;52.511797;13.291284;119;4 %;127;7 %;;6 %;1 %;;
-04B03;OSZ Kraftfahrzeugtechnik;Gierkepl. 1;10585;;52.516542;13.301925;71;6 %;74;7 %;7 %;;;;
-04B04;Ruth-Cohn-Schule (OSZ Sozialwesen);Bismarckstraße 20;10625;;52.512273;13.312921;92;3 %;92;6 %;2 %;;4 %;;
-04B05;Anna-Freud-Schule (OSZ Sozialwesen);Halemweg 22;13627;;52.537810;13.287005;140;6 %;136;10 %;;7 %;3 %;;
-04B06;Leopold-Ullstein-Schule (OSZ Wirtschaft);Prinzregentenstraße 32;10715;;52.483494;13.332888;63;2 %;63;5 %;2 %;;3 %;;
-04B07;OSZ Körperpflege;Schillerstraße 120;10625;;52.510728;13.318963;68;1 %;68;8 %;1 %;;7 %;;
-04B08;Kläre-Bloch-Schule;Prinzregentenstraße 60;10715;;52.481962;13.333151;22;0 %;22;5 %;;;5 %;;
-04G01;Eichendorff-Grundschule;Goethestr. 19;10625;Grundschule;52.50921;13.31305;32;3 %;31;10 %;10 %;;;;
-04G02;Lietzensee-Grundschule;Witzlebenstr. 34;14057;Grundschule;52.5094;13.29502;28;14 %;28;14 %;14 %;;;;
-04G04;Joan-Miró-Grundschule;Bleibtreustr. 43;10623;Grundschule;52.50357;13.32014;66;5 %;67;15 %;;9 %;6 %;;
-04G05;Dietrich-Bonhoeffer-Grundschule;Spandauer Damm 205-215;14050;Grundschule;52.521371;13.26202;22;0 %;21;5 %;5 %;;;;
-04G06;Wald-Grundschule;Waldschulallee 83-93;14055;Grundschule;52.50259;13.259;29;0 %;;;;;;;
-04G07;Ludwig-Cauer-Grundschule;Cauerstr. 36-38;10587;Grundschule;52.515043;13.315123;27;0 %;28;4 %;4 %;;;;
-04G08;Mierendorff-Grundschule;Mierendorffstr. 20-24;10589;Grundschule;52.523791;13.303338;38;13 %;39;13 %;8 %;;5 %;;x
-04G09;Erwin-von-Witzleben-Grundschule;Halemweg 34;13627;Grundschule;52.53967;13.2873;26;0 %;33;6 %;3 %;;3 %;;x
-04G11;Helmuth-James-von-Moltke-Grundschule;Heckerdamm 221;13627;Grundschule;52.53903;13.30104;38;16 %;40;18 %;;18 %;;;x
-04G12;Schinkel-Grundschule;Nithackstr. 8;10585;Grundschule;52.51782;13.29876;41;10 %;44;7 %;7 %;;;;
-04G13;Nehring-Grundschule;Nehringstr. 9-10;14059;Grundschule;52.514893;13.293865;35;3 %;40;5 %;5 %;;;;
-04G14;Reinhold-Otto-Grundschule;Leistikowstr. 7-8;14050;Grundschule;52.513329;13.268399;29;3 %;31;3 %;3 %;;;;
-04G15;Charles-Dickens-Grundschule;Dickensweg 15;14055;Grundschule;52.508946;13.236971;39;5 %;40;13 %;5 %;;8 %;;
-04G17;Johann-Peter-Hebel-Grundschule;Emser Str. 50;10719;Grundschule;52.49541;13.31942;40;3 %;39;3 %;3 %;;;;
-04G18;Ernst-Habermann-Grundschule;Prinzregentenstr. 33-34;10715;Grundschule;52.48328;13.33269;20;0 %;;;;;;;
-04G19;Grundschule am Rüdesheimer Platz;Rüdesheimer Str. 24-30;14197;Grundschule;52.47113;13.31312;59;3 %;58;10 %;;10 %;;;
-04G20;Katharina-Heinroth-Grundschule;Münstersche Str. 15-17;10709;Grundschule;52.494;13.30619;40;0 %;47;6 %;6 %;;;;x
-04G21;Halensee-Grundschule;Joachim-Friedrich-Str. 35-36;10711;Grundschule;52.49993;13.2961;29;3 %;27;4 %;4 %;;;;
-04G22;Grunewald-Grundschule;Delbrückstr. 20A;14193;Grundschule;52.484525;13.281094;35;11 %;36;3 %;3 %;;;;
-04G23;Alt-Schmargendorf-Grundschule;Reichenhaller Str. 8;14199;Grundschule;52.477085;13.293432;33;0 %;36;6 %;3 %;;3 %;;
-04G24;Carl-Orff-Grundschule;Berkaer Str. 9-10;14199;Grundschule;52.47841;13.28709;35;0 %;;;;;;;
-04G25;Cecilien-Schule (Grundschule);Nikolsburger Platz 5;10717;Grundschule;52.49331;13.32769;31;10 %;33;15 %;12 %;;3 %;;
-04G26;Birger-Forell-Grundschule;Koblenzer Str. 22-24;10715;Grundschule;52.480726;13.321893;28;4 %;29;3 %;3 %;;;;
-04G27;Judith-Kerr-Grundschule;Friedrichshaller Straße 13;14199;;52.475278;13.294929;33;3 %;32;12 %;3 %;;9 %;;
-04K02;Friedensburg-Schule;Goethestr. 8-9;10623;Integrierte Sekundarschule;52.50908;13.32082;109;0 %;113;5 %;1 %;;4 %;;
-04K03;Robert-Jungk-Schule;Sächsische Str. 58;10707;Integrierte Sekundarschule;52.49448;13.31872;101;0 %;103;2 %;;;2 %;;
-04K04;Nelson-Mandela-Schule;Pfalzburger Str. 23;10719;;52.493672;13.321710;140;0 %;135;10 %;;;;10 %;
-04K05;Paula-Fürst-Schule (Gemeinschaftsschule);Sybelstr. 20-21;10629;Integrierte Sekundarschule;52.50227;13.30194;94;4 %;100;3 %;2 %;;1 %;;
-04K06;Schule am Schloss (Integrierte Sekundarschule);Schloßstr. 55A;14059;Integrierte Sekundarschule;52.5161;13.29812;46;2 %;45;2 %;;;2 %;;x
-04K07;Integrierte Sekundarschule Wilmersdorf;Kranzer Str. 3;14199;Integrierte Sekundarschule;52.482808;13.296098;35;6 %;;;;;;;
-04K08;Peter-Ustinov-Schule;Kuno-Fischer-Str. 22-26;14057;Integrierte Sekundarschule;52.505241;13.290548;58;10 %;58;12 %;;10 %;2 %;;x
-04K09;Otto-von-Guericke-Schule (Integrierte Sekundarschule);Eisenzahnstr. 47-48;10709;Integrierte Sekundarschule;52.49276;13.30516;41;5 %;42;2 %;2 %;;;;x
-04S02;Arno-Fuchs-Schule;Richard-Wagner-Str. 30;10585;"Förderschwerp.""Geistige Entwicklung""";52.51489;13.30717;32;0 %;29;3 %;;;3 %;;x
-04S04;Reinfelder-Schule;Maikäferpfad 30;14055;Grundschule;52.49693;13.26373;61;0 %;62;2 %;2 %;;;;
-04S05;Ernst-Adolf-Eschke-Schule für Gehörlose;Waldschulallee 29;14055;Fachschule;52.4989;13.26508;42;0 %;;;;;;;x
-04S06;Finkenkrug-Schule;Mannheimer Str. 21-22;10713;"Förderschwerp.""Geistige Entwicklung""";52.48448;13.31606;25;0 %;;;;;;;
-04S07;Comenius-Schule;Gieselerstr. 4;10713;Grundschule;52.48869;13.3181;101;3 %;96;2 %;2 %;;;;
-04Y01;Schiller-Gymnasium;Schillerstr. 125-127;10625;Gymnasium;52.50993;13.321596;82;1 %;79;3 %;3 %;;;;
-04Y02;Wald-Gymnasium;Waldschulallee 95;14055;Gymnasium;52.50343;13.25701;63;0 %;;;;;;;
-04Y03;Sophie-Charlotte-Gymnasium;Sybelstr. 2;10629;Gymnasium;52.5023;13.31237;77;0 %;73;4 %;1 %;;3 %;;
-04Y04;Gottfried-Keller-Gymnasium;Olbersstr. 38;10589;Gymnasium;52.52888;13.3022;66;0 %;;;;;;;
-04Y05;Herder-Gymnasium;Westendallee 45-46;14052;Gymnasium;52.510663;13.257932;54;2 %;;;;;;;
-04Y06;Heinz-Berggruen-Gymnasium;Bayernallee 4;14052;Gymnasium;52.51103;13.26722;72;1 %;71;1 %;1 %;;;;
-04Y07;Friedrich-Ebert-Gymnasium;Blissestr. 22;10713;Gymnasium;52.484621;13.319289;70;0 %;70;1 %;1 %;;;;
-04Y08;Hildegard-Wegscheider-Gymnasium;Lassenstr. 16-20;14193;Gymnasium;52.485116;13.275931;43;7 %;42;7 %;7 %;;;;
-04Y09;Walther-Rathenau-Gymnasium;Herbertstr. 2-6;14193;Gymnasium;52.49143;13.28135;43;2 %;41;5 %;5 %;;;;
-04Y10;Marie-Curie-Gymnasium;Weimarische Str. 21;10715;Gymnasium;52.480119;13.324748;61;0 %;61;2 %;2 %;;;;
-04Y11;Goethe-Gymnasium;Gasteiner Str. 23;10717;Gymnasium;52.48759;13.3225;46;0 %;48;2 %;;;2 %;;
-05A03;Volkshochschule Spandau;Carl-Schurz-Straße 17;13597;;52.536267;13.201291;5;0 %;;;;;;;
-05B01;OSZ TIEM (Technische Informatik, Industrieelektronik und EnergieManagement);Goldbeckweg 8;13599;;52.544109;13.230141;102;4 %;102;4 %;3 %;;1 %;;
-05B02;Knobelsdorff-Schule (OSZ Bautechnik I);Nonnendammallee 140 - 143;13599;;52.539387;13.241813;144;1 %;147;3 %;2 %;;1 %;;
-05G01;Ernst-Ludwig-Heim-Grundschule;Grunewaldstr. 8;13597;Grundschule;52.5304;13.20672;35;17 %;38;16 %;;16 %;;;x
-05G02;Grundschule am Eichenwald;Gaismannshofer Weg 2;13587;Grundschule;52.558423;13.199146;30;3 %;33;9 %;9 %;;;;
-05G04;Klosterfeld-Grundschule;Seegefelder Str. 125;13583;Grundschule;52.53861;13.17968;34;12 %;39;16 %;13 %;;3 %;;x
-05G05;Christoph-Földerich-Grundschule;Földerichplatz 5;13595;Grundschule;52.51986;13.193276;44;7 %;47;11 %;9 %;;2 %;;x
-05G06;Siegerland-Grundschule;Hermann-Schmidt-Weg 4;13589;Grundschule;52.55125;13.175203;33;9 %;38;16 %;;16 %;;;x
-05G07;Lynar-Grundschule;Lutherstr. 19-20;13585;Grundschule;52.54766;13.20683;46;13 %;51;16 %;;16 %;;;x
-05G08;Konkordia-Grundschule;Elsflether Weg 26;13581;Grundschule;52.53018;13.19202;29;10 %;34;3 %;3 %;;;;
-05G10;Grundschule am Birkenhain;Seeburger Str. 59;13581;Grundschule;52.52596;13.180519;28;7 %;35;17 %;;17 %;;;x
-05G11;Robert-Reinick-Grundschule;Jungfernheideweg 33-48;13629;Grundschule;52.54065;13.27277;41;10 %;49;18 %;;16 %;2 %;;x
-05G12;Grundschule am Weinmeisterhorn;Daberkowstr. 27;13593;Grundschule;52.50825;13.1742;23;13 %;26;8 %;8 %;;;;
-05G13;Bernd-Ryke-Grundschule;Daumstr. 12;13599;Grundschule;52.54494;13.2325;34;6 %;43;12 %;12 %;;;;x
-05G14;Linden-Grundschule;Staakener Feldstr. 6-8;13591;Grundschule;52.53517;13.14081;40;8 %;42;10 %;10 %;;;;
-05G15;Askanier-Grundschule;Borkzeile 34;13583;Grundschule;52.54049;13.19242;30;0 %;38;5 %;5 %;;;;x
-05G16;Zeppelin-Grundschule;Heidebergplan 3-4;13591;Grundschule;52.5409;13.14635;19;5 %;22;9 %;9 %;;;;
-05G17;Astrid-Lindgren-Grundschule;Südekumzeile 5;13591;Grundschule;52.5311;13.15652;38;3 %;49;14 %;10 %;;4 %;;x
-05G18;Grundschule im Beerwinkel;Im Spektefeld 31;13589;Grundschule;52.549023;13.154969;45;13 %;49;16 %;;16 %;;;x
-05G19;Grundschule am Ritterfeld;Schallweg 31;14089;Grundschule;52.455239;13.138357;31;3 %;32;6 %;6 %;;;;
-05G20;Carl-Schurz-Grundschule;Hakenfelder Str. 32;13587;Grundschule;52.56751;13.199061;35;20 %;40;13 %;13 %;;;;x
-05G21;Paul Moor Schule;Adamstr. 24-25;13595;Grundschule;52.521;13.19029;33;6 %;35;6 %;6 %;;;;
-05G22;Christian-Morgenstern-Grundschule;Räcknitzer Steig 12;13593;Grundschule;52.5227;13.16816;46;15 %;55;29 %;;24 %;5 %;;x
-05G23;Grundschule am Brandwerder;Spandauer Str. 86;13591;Grundschule;52.53595;13.15293;25;8 %;27;22 %;;22 %;;;
-05G24;Grundschule am Windmühlenberg;Am Kinderdorf 23-37;14089;Grundschule;52.48547;13.17431;21;0 %;;;;;;;
-05G25;Grundschule am Wasserwerk;Pionierstr. 197;13589;Grundschule;52.55625;13.16467;15;7 %;;;;;;;x
-05G26;Grundschule am Amalienhof;Weinmeisterhornweg 122;13593;Grundschule;52.51289;13.1667;34;9 %;35;6 %;6 %;;;;x
-05G27;Charlie-Rivel-Grundschule;Flankenschanze 20;13585;Grundschule;52.543893;13.1996;44;11 %;49;16 %;;12 %;4 %;;x
-05G28;Grundschule an der Pulvermühle;Grützmacherweg 7;13599;Grundschule;52.544061;13.228327;26;15 %;32;19 %;;19 %;;;x
-05G29;Mary-Poppins-Grundschule;Am Flugplatz Gatow 20;14089;Grundschule;52.472209;13.127426;32;13 %;33;9 %;9 %;;;;
-05G30;Birken-Grundschule;Hügelschanze 8-9;13585;Grundschule;52.54863;13.19756;50;18 %;56;25 %;;21 %;4 %;;x
-05K01;Martin-Buber-Oberschule (Integrierte Sekundarschule);Im Spektefeld 33;13589;Integrierte Sekundarschule;52.54895;13.1565;95;1 %;95;2 %;2 %;;;;
-05K02;Carlo-Schmid-Oberschule (Integrierte Sekundarschule);Lutoner Str. 15-19;13581;Integrierte Sekundarschule;52.5259;13.17464;94;6 %;107;7 %;;6 %;1 %;;x
-05K03;Bertolt-Brecht-Oberschule (Integrierte Sekundarschule);Wilhelmstr. 10;13595;Integrierte Sekundarschule;52.525308;13.192692;103;4 %;111;7 %;;7 %;;;
-05K04;Heinrich-Böll-Oberschule (Integrierte Sekundarschule);Am Forstacker 9-11;13587;Integrierte Sekundarschule;52.565166;13.199033;87;10 %;94;13 %;;13 %;;;
-05K05;B.-Traven-Gemeinschaftsschule;Recklinghauser Weg 26-32;13583;Integrierte Sekundarschule;52.5469;13.17403;42;7 %;46;11 %;9 %;;2 %;;x
-05K06;Wolfgang-Borchert-Schule (Integrierte Sekundarschule);Blumenstr. 13;13585;Integrierte Sekundarschule;52.54571;13.1967;52;2 %;62;23 %;;18 %;5 %;;x
-05K07;Schule an der Jungfernheide (Integrierte Sekundarschule);Lenther Steig 1-3;13629;Integrierte Sekundarschule;52.53843;13.26697;44;2 %;49;4 %;2 %;;2 %;;x
-05K08;Schule an der Haveldüne (Integrierte Sekundarschule);Jaczostr. 53-67;13595;Integrierte Sekundarschule;52.51098;13.18567;65;2 %;72;7 %;7 %;;;;
-05K09;Schule am Staakener Kleeblatt (Integrierte Sekundarschule);Brunsbütteler Damm 431-437;13591;Integrierte Sekundarschule;52.5349;13.13491;27;7 %;33;33 %;;27 %;6 %;;x
-05S01;Schule am Grüngürtel;Askanierring 42;13585;"Förderschwerp.""Lernen""";52.549099;13.1934;15;0 %;;;;;;;x
-05S03;Schule am Gartenfeld;Gartenfelder Str. 81;13599;"Förderschwerp.""Geistige Entwicklung""";52.543211;13.24234;28;7 %;30;3 %;3 %;;;;x
-05S04;Schule am Stadtrand;Pionierstr. 197;13589;Übrige Förderschwerpunkte;52.55625;13.16467;33;3 %;35;3 %;3 %;;;;x
-05Y01;Freiherr-vom-Stein-Gymnasium;Galenstr. 40-44;13597;Gymnasium;52.539684;13.198479;68;6 %;68;4 %;4 %;;;;
-05Y02;Kant-Gymnasium;Bismarckstr. 54;13585;Gymnasium;52.54286;13.20115;52;4 %;;;;;;;
-05Y03;Hans-Carossa-Gymnasium;Am Landschaftspark Gatow 40;14089;Gymnasium;52.47244;13.13028;84;1 %;83;1 %;1 %;;;;
-05Y04;Carl-Friedrich-von-Siemens-Gymnasium;Jungfernheideweg 79;13629;Gymnasium;52.54559;13.26983;46;11 %;54;15 %;;15 %;;;
-05Y05;Lily-Braun-Gymnasium;Münsingerstr. 2;13597;Gymnasium;52.538567;13.199029;58;5 %;57;2 %;2 %;;;;
-06A05;Volkshochschule Steglitz-Zehlendorf;Goethestr. 9-11;12207;;52.429216;13.316553;19;0 %;17;6 %;6 %;;;;
-06B01;Peter-Lenné-Schule (OSZ Natur und Umwelt);Hartmannsweilerweg 29;14163;;52.441969;13.248907;85;2 %;83;10 %;5 %;;5 %;;
-06B02;Louise-Schroeder-Schule (OSZ Bürowirtschaft und Verwaltung);Lippstädter Str. 9-11;12207;;52.411247;13.305736;146;1 %;139;1 %;;;1 %;;
-06B03;OSZ Bürowirtschaft I;Ostpreußendamm 40;12207;;52.430294;13.317130;77;0 %;83;3 %;1 %;;2 %;;
-06B04;Wilhelm-Ostwald-Schule (OSZ Gestaltung);Immenweg 6;12169;;52.453366;13.345392;99;3 %;95;7 %;5 %;;2 %;;
-06G01;Nord-Grundschule;Potsdamer Str. 7;14163;Grundschule;52.435951;13.25558;30;7 %;32;6 %;6 %;;;;
-06G02;Süd-Grundschule;Claszeile 56;14165;Grundschule;52.4189;13.25839;28;4 %;26;8 %;4 %;;4 %;;
-06G03;Johannes-Tews-Grundschule;Wasgenstr. 50;14129;Grundschule;52.43162;13.21262;31;3 %;28;4 %;4 %;;;;
-06G04;Erich-Kästner-Grundschule;Bachstelzenweg 2-8;14195;Grundschule;52.458141;13.283199;27;4 %;29;7 %;7 %;;;;
-06G05;Conrad-Schule (Grundschule);Schulstr. 4;14109;Grundschule;52.415181;13.146695;30;7 %;29;7 %;7 %;;;;
-06G06;Mühlenau-Grundschule;Molsheimer Str. 7;14195;Grundschule;52.443206;13.276002;50;4 %;50;2 %;2 %;;;;
-06G07;Zinnowwald-Grundschule;Wilskistr. 78;14163;Grundschule;52.44543;13.246529;33;9 %;;;;;;;
-06G08;Schweizerhof-Grundschule;Leo-Baeck-Str. 28-30;14167;Grundschule;52.42278;13.26571;33;3 %;34;3 %;3 %;;;;
-06G09;Dreilinden-Grundschule;Dreilindenstr. 65;14109;Grundschule;52.4205;13.18369;21;5 %;21;5 %;5 %;;;;
-06G10;Grundschule am Buschgraben;Ludwigsfelder Str. 43-47;14165;Grundschule;52.42192;13.242834;21;5 %;20;5 %;5 %;;;;
-06G12;Quentin-Blake-Grundschule;Hüttenweg 40;14195;Grundschule;52.454097;13.27055;34;6 %;39;13 %;5 %;;8 %;;
-06G14;Sachsenwald-Grundschule;Sachsenwaldstr. 20-21;12157;Grundschule;52.46151;13.3354;34;3 %;35;6 %;3 %;;3 %;;
-06G15;Dunant-Grundschule;Gritznerstr. 19-23;12163;Grundschule;52.46486;13.31818;36;0 %;40;8 %;8 %;;;;
-06G16;Rothenburg-Grundschule;Rothenburgstr. 18;12165;Grundschule;52.45398;13.31302;21;5 %;23;17 %;17 %;;;;
-06G17;Grundschule am Insulaner;Hanstedter Weg 11-15;12169;Grundschule;52.45185;13.34956;34;6 %;33;9 %;6 %;;3 %;;
-06G18;Athene-Grundschule;Curtiusstr. 37;12205;Grundschule;52.440565;13.290632;37;8 %;37;8 %;5 %;;3 %;;
-06G20;Alt-Lankwitzer Grundschule;Schulstr. 17-21;12247;Grundschule;52.437023;13.351096;31;3 %;30;7 %;7 %;;;;
-06G21;Paul-Schneider-Grundschule;Seydlitzstr. 30-34;12249;Grundschule;52.431002;13.341243;31;3 %;33;9 %;9 %;;;;
-06G22;Giesensdorfer Grundschule;Ostpreußendamm 63;12207;Grundschule;52.422226;13.31101;26;4 %;27;11 %;11 %;;;;
-06G23;Kronach-Grundschule;Moltkestr. 24-26;12203;Grundschule;52.44167;13.313098;33;0 %;;;;;;;
-06G24;Grundschule unter den Kastanien;Kastanienstr. 6 -8;12209;Grundschule;52.42546;13.32527;30;3 %;32;3 %;3 %;;;;
-06G25;Clemens-Brentano-Grundschule;Kommandantenstr. 83-84;12205;Grundschule;52.433511;13.29316;32;3 %;;;;;;;
-06G26;Käthe-Kruse-Grundschule;Tietzenweg 108;12203;Grundschule;52.438186;13.310138;24;0 %;26;4 %;4 %;;;;
-06G27;Grundschule am Königsgraben;Gallwitzallee 136-144;12249;Grundschule;52.42303;13.34815;24;8 %;27;7 %;7 %;;;;
-06G28;Ludwig-Bechstein-Grundschule;Halbauer Weg 25;12249;Grundschule;52.43255;13.36236;23;0 %;;;;;;;x
-06G29;Grundschule am Karpfenteich;Hildburghauser Str. 135;12209;Grundschule;52.417401;13.333982;28;0 %;30;3 %;;;3 %;;
-06G30;Mercator-Grundschule;Mercatorweg 8-10;12207;Grundschule;52.41225;13.317376;35;6 %;33;6 %;6 %;;;;x
-06G31;Grundschule an der Bäke;Haydnstr. 15;12203;Grundschule;52.447783;13.318838;33;6 %;37;14 %;11 %;;3 %;;
-06G32;Grundschule am Stadtpark Steglitz;Karl-Stieler-Str. 10-11;12167;Grundschule;52.449314;13.34298;37;5 %;39;8 %;8 %;;;;
-06G33;Friedrich-Drake-Schule;Drakestr. 80;12205;Grundschule;52.43254;13.30621;14;7 %;17;6 %;6 %;;;;
-06K01;John-F.-Kennedy-Schule;Teltower Damm 87-93;14167;Integrierte Sekundarschule;52.42589;13.26273;150;1 %;154;10 %;;;;10 %;
-06K02;Wilma-Rudolph-Schule (Integrierte Sekundarschule);Am Hegewinkel 2A;14169;Integrierte Sekundarschule;52.45479;13.26097;90;1 %;92;1 %;1 %;;;;
-06K03;Kopernikus-Schule (Integrierte Sekundarschule);Lepsiusstr. 24-28;12163;Integrierte Sekundarschule;52.4643;13.32069;83;5 %;83;4 %;4 %;;;;
-06K04;Bröndby-Schule (Integrierte Sekundarschule);Dessauerstr. 63;12249;Integrierte Sekundarschule;52.428237;13.345888;98;3 %;93;3 %;3 %;;;;
-06K08;Max-von-Laue-Schule;Dürerstr. 27;12203;Integrierte Sekundarschule;52.43725;13.305628;42;5 %;;;;;;;
-06K09;Gail-S.-Halvorsen-Integrierte Sekundarschule;Im Gehege 6;14195;Integrierte Sekundarschule;52.459454;13.284371;46;11 %;43;19 %;;19 %;;;
-06K10;Helene-Lange-Schule (Integrierte Sekundarschule);Lauenburger Str. 110;12169;Integrierte Sekundarschule;52.4528;13.33586;51;0 %;;;;;;;
-06K11;Anna-Essinger-Gemeinschaftsschule;Tietzenweg 101;12203;;52.438827;13.309841;95;7 %;92;6 %;3 %;;3 %;;
-06S01;Pestalozzi-Schule;Hartmannsweilerweg 47;14163;Integrierte Sekundarschule;52.44346;13.24838;41;5 %;43;7 %;7 %;;;;
-06S02;Biesalski-Schule;Hüttenweg 40;14195;Übrige Förderschwerpunkte;52.454097;13.27055;48;4 %;48;2 %;;;2 %;;
-06S03;Peter-Frankenfeld-Schule;Wedellstr. 26;12247;"Förderschwerp.""Geistige Entwicklung""";52.43515;13.35522;21;0 %;;;;;;;x
-06S05;J.-A.-Zeune-Schule für Blinde und Berufsfachschule Dr. Silex;Rothenburgstr. 14;12165;Berufsschule mit sonderpäd. Aufgaben;52.455569;13.315047;41;0 %;44;2 %;;;2 %;;x
-06Y01;Schadow-Gymnasium;Beuckestr. 27-29;14163;Gymnasium;52.43149;13.25463;101;1 %;94;2 %;;;2 %;;
-06Y02;Droste-Hülshoff-Oberschule;Schönower Str. 8;14165;Gymnasium;52.42846;13.25673;71;0 %;;;;;;;
-06Y03;Arndt-Gymnasium Dahlem;Königin-Luise-Str. 80-84;14195;Gymnasium;52.45916;13.28001;64;0 %;62;2 %;;;2 %;;
-06Y04;Dreilinden-Gymnasium;Dreilindenstr. 49;14109;Gymnasium;52.42057;13.18778;52;2 %;53;2 %;2 %;;;;
-06Y05;Werner-von-Siemens-Oberschule;Beskidenstr. 3;14129;Gymnasium;52.43194;13.21159;61;0 %;60;2 %;;;2 %;;
-06Y06;Beethoven-Oberschule;Barbarastr. 9;12249;Gymnasium;52.43293;13.34283;71;0 %;;;;;;;
-06Y07;Paulsen-Gymnasium;Gritznerstr. 57;12163;Gymnasium;52.46219;13.314388;54;4 %;54;6 %;2 %;;4 %;;
-06Y08;Hermann-Ehlers-Oberschule;Elisenstr. 3-4;12169;Gymnasium;52.45297;13.33373;50;6 %;49;6 %;6 %;;;;
-06Y09;Fichtenberg-Oberschule;Rothenburgstr. 18;12165;Gymnasium;52.45398;13.31302;69;1 %;73;2 %;1 %;;1 %;;
-06Y10;Lilienthal-Gymnasium;Ringstr. 2-3;12203;Gymnasium;52.43595;13.31215;58;2 %;58;2 %;;;2 %;;
-06Y11;Goethe-Gymnasium Lichterfelde;Drakestr. 72-75;12205;Gymnasium;52.434929;13.305363;66;0 %;65;2 %;2 %;;;;
-06Y12;Willi-Graf-Gymnasium;Ostpreußendamm 166;12207;Gymnasium;52.43469;13.32096;46;0 %;;;;;;;
-06Y13;Gymnasium Steglitz;Heesestr. 15;12169;Gymnasium;52.45671;13.32644;72;0 %;72;2 %;1 %;;1 %;;
-07A05;Kolleg Schöneberg;Nürnberger Str. 63;10787;;52.503250;13.341364;40;0 %;;;;;;;
-07A06;Volkshochschule Tempelhof-Schöneberg;Barbarossapl. 5;10781;;52.492305;13.349828;10;0 %;;;;;;;
-07B02;Marie-Elisabeth-Lüders-Oberschule;Steinmetzstraße 79;10783;;52.499243;13.364800;47;4 %;38;8 %;3 %;;5 %;;
-07B03;OSZ Lotis (Logistik, Touristik und Steuern);Dudenstraße 35/37;10965;;52.484707;13.380283;117;1 %;115;3 %;3 %;;;;
-07G01;Spreewald-Grundschule;Pallasstr. 15;10781;Grundschule;52.49539;13.35693;28;7 %;32;16 %;16 %;;;;x
-07G02;Finow-Grundschule;Welserstr. 16-22;10777;Grundschule;52.49823;13.34251;44;5 %;43;2 %;2 %;;;;
-07G03;Werbellinsee-Grundschule;Luitpoldstr. 38;10781;Grundschule;52.495036;13.348236;37;3 %;43;7 %;7 %;;;;
-07G05;Havelland-Grundschule;Kolonnenstr. 30;10829;Grundschule;52.484772;13.367681;32;3 %;34;6 %;6 %;;;;
-07G06;Sternberg-Grundschule;Mettestr. 8;10825;Grundschule;52.48047;13.33924;25;4 %;23;13 %;9 %;;4 %;;x
-07G07;Lindenhof-Grundschule;Reglinstr. 29;12105;Grundschule;52.45809;13.36325;29;0 %;29;3 %;3 %;;;;x
-07G10;Teltow-Grundschule;Feurigstr. 57;10827;Grundschule;52.484327;13.356154;42;12 %;43;11 %;9 %;;2 %;;x
-07G12;Scharmützelsee-Grundschule;Hohenstaufenstr. 49;10779;Grundschule;52.494177;13.343268;38;3 %;37;3 %;3 %;;;;
-07G13;Neumark-Grundschule;Steinmetzstr. 46-50;10783;Grundschule;52.49282;13.36249;26;0 %;28;7 %;7 %;;;;x
-07G14;Löcknitz-Grundschule;Berchtesgadener Str. 10-11;10779;Grundschule;52.489558;13.343356;26;4 %;;;;;;;
-07G15;Fläming-Grundschule;Illstr. 4-6;12161;Grundschule;52.46839;13.3329;46;7 %;48;4 %;4 %;;;;
-07G16;Ruppin-Grundschule;Offenbacher Str. 5A;14197;Grundschule;52.47538;13.32137;41;5 %;42;7 %;7 %;;;;
-07G17;Stechlinsee-Grundschule;Rheingaustr. 7;12161;Grundschule;52.46934;13.32242;35;0 %;41;2 %;2 %;;;;
-07G18;Grundschule am Barbarossaplatz;Barbarossaplatz 5;10781;Grundschule;52.49235;13.34978;35;0 %;32;3 %;;;3 %;;
-07G19;Paul-Simmel-Grundschule;Felixstr. 26-58;12099;Grundschule;52.46137;13.3926;37;3 %;38;5 %;;;5 %;;
-07G20;Maria-Montessori-Grundschule;Friedrich-Wilhelm-Str. 72-74;12103;Grundschule;52.45817;13.38069;36;8 %;37;14 %;14 %;;;;
-07G21;Grundschule auf dem Tempelhofer Feld;Schulenburgring 7-11;12101;Grundschule;52.48081;13.38185;36;6 %;37;5 %;5 %;;;;
-07G22;Paul-Klee-Grundschule;Konradinstr. 15-17;12105;Grundschule;52.454;13.37538;47;6 %;48;6 %;6 %;;;;
-07G23;Schätzelberg-Grundschule;Wolfsburger Weg 13-19;12109;Grundschule;52.4487;13.40066;21;0 %;;;;;;;
-07G24;Tempelherren-Grundschule;Boelckestr. 58-60;12101;Grundschule;52.478603;13.37647;25;16 %;23;13 %;13 %;;;;x
-07G25;Ludwig-Heck-Grundschule;Königstr. 32;12105;Grundschule;52.447125;13.383928;32;3 %;35;14 %;14 %;;;;x
-07G26;Grundschule im Taunusviertel;Wiesbadener Str. 20;12309;Grundschule;52.40019;13.41799;24;17 %;24;21 %;21 %;;;;
-07G27;Rudolf-Hildebrand-Grundschule;Friedenstr. 23-25;12107;Grundschule;52.43886;13.3855;31;3 %;30;3 %;3 %;;;;x
-07G28;Kiepert-Grundschule;Prechtlstr. 21-23;12277;Grundschule;52.41591;13.37327;40;8 %;38;5 %;5 %;;;;
-07G29;Käthe-Kollwitz-Grundschule;Mellener Str. 38-42;12307;Grundschule;52.3862;13.40487;40;0 %;;;;;;;
-07G30;Annedore-Leber-Grundschule;Halker Zeile 137-149;12305;Grundschule;52.39757;13.40197;41;7 %;45;9 %;7 %;;2 %;;
-07G31;Carl-Sonnenschein-Grundschule;Am Hellespont 4-6;12109;Grundschule;52.443699;13.408152;29;10 %;32;13 %;13 %;;;;
-07G32;Bruno-H.-Bürgel-Grundschule;Rackebüller Weg 70;12305;Grundschule;52.404902;13.402536;33;12 %;34;12 %;12 %;;;;
-07G34;Marienfelder Schule (Grundschule);Erbendorfer Weg 13;12279;Grundschule;52.41209;13.35184;41;10 %;41;15 %;;15 %;;;x
-07G35;Nahariya-Grundschule;Nahariyastr. 13-17;12309;Grundschule;52.39085;13.41943;41;5 %;44;11 %;11 %;;;;x
-07G36;Grundschule am Dielingsgrund;Dielingsgrund 35;12305;Grundschule;52.41166;13.40863;34;12 %;33;6 %;6 %;;;;
-07G37;Ikarus-Grundschule;Körtingstr. 45;12107;Grundschule;52.43363;13.38389;35;6 %;34;12 %;12 %;;;;
-07K01;Sophie-Scholl-Schule;Elßholzstr. 34-37;10781;Integrierte Sekundarschule;52.492808;13.356583;118;1 %;119;5 %;;;;5 %;
-07K02;Carl-Zeiss-Schule;Barnetstr. 12-14;12305;Integrierte Sekundarschule;52.39571;13.40258;92;3 %;;;;;;;
-07K03;Gustav-Heinemann-Schule;Waldsassener Str. 62;12279;Integrierte Sekundarschule;52.40662;13.34754;107;1 %;108;3 %;3 %;;;;
-07K04;Theodor-Haubach-Schule;Grimmstr. 9-11;12305;Integrierte Sekundarschule;52.398399;13.403988;36;6 %;37;8 %;8 %;;;;x
-07K05;Solling-Schule;Alt-Marienfelde 52;12277;Integrierte Sekundarschule;52.41397;13.36527;46;4 %;49;6 %;6 %;;;;
-07K06;Georg-von-Giesche-Schule;Hohenstaufenstr. 47-48;10779;Integrierte Sekundarschule;52.494144;13.342529;50;4 %;48;16 %;6 %;;10 %;;
-07K07;Johanna-Eck-Schule (Integrierte Sekundarschule);Ringstr. 103-106;12105;Integrierte Sekundarschule;52.44692;13.36411;61;0 %;57;7 %;7 %;;;;x
-07K09;Gustav-Langenscheidt-Schule;Belziger Str. 43-51;10823;Integrierte Sekundarschule;52.485997;13.350718;40;0 %;39;3 %;3 %;;;;x
-07K10;Friedrich-Bergius-Schule;Perelsplatz 6-9;12159;Integrierte Sekundarschule;52.47618;13.33314;39;0 %;;;;;;;x
-07K11;Hugo-Gaudig-Schule;Boelckestraße 58-60;12101;;52.478586;13.376498;45;4 %;50;10 %;6 %;;4 %;;x
-07K12;Friedenauer Gemeinschaftsschule;Rubensstr. 63;12157;Integrierte Sekundarschule;52.469784;13.344068;84;5 %;91;8 %;5 %;;3 %;;x
-07K13;Schule am Berlinickeplatz (Integrierte Sekundarschule);Alt-Tempelhof 53-57;12103;Integrierte Sekundarschule;52.465657;13.379583;36;6 %;35;6 %;6 %;;;;x
-07S01;Prignitz-Schule;Pöppelmannstr. 2;12157;"Förderschwerp.""Lernen""";52.46884;13.34519;19;16 %;26;15 %;15 %;;;;x
-07S03;Steinwald-Schule;Hanielweg 7-9;12277;"Förderschwerp.""Geistige Entwicklung""";52.41783;13.36458;21;0 %;;;;;;;x
-07S04;Marianne-Cohn-Schule;Holzmannstr. 7;12099;"Förderschwerp.""Geistige Entwicklung""";52.46433;13.41815;22;0 %;;;;;;;x
-07Y01;Robert-Blum-Gymnasium;Kolonnenstr. 21;10829;Gymnasium;52.48483;13.36487;64;3 %;;;;;;;
-07Y02;Rückert-Gymnasium;Mettestr. 8;10825;Gymnasium;52.48047;13.33924;57;0 %;56;2 %;2 %;;;;
-07Y03;Rheingau-Gymnasium;Schwalbacher Str. 3-4;12161;Gymnasium;52.470206;13.322611;63;0 %;;;;;;;
-07Y04;Paul-Natorp-Gymnasium;Goßlerstr. 13-15;12161;Gymnasium;52.46939;13.32431;65;3 %;66;4 %;2 %;;2 %;;
-07Y05;Luise-Henriette-Gymnasium;Germaniastr. 4-6;12099;Gymnasium;52.46546;13.39059;54;2 %;52;4 %;2 %;;2 %;;
-07Y06;Askanisches Gymnasium;Kaiserin-Augusta-Str. 19-20;12103;Gymnasium;52.45992;13.37992;52;0 %;;;;;;;
-07Y07;Eckener-Gymnasium;Kaiserstr. 17-21;12105;Gymnasium;52.4451;13.38052;62;2 %;61;2 %;2 %;;;;
-07Y08;Ulrich-von-Hutten-Gymnasium;Rehagener Str. 35-37;12307;Gymnasium;52.38563;13.40388;64;0 %;;;;;;;
-07Y09;Georg-Büchner-Gymnasium;Lichtenrader Damm 224;12305;Gymnasium;52.39186;13.406604;50;0 %;50;2 %;;;2 %;;
-08B01;Annedore-Leber-Oberschule;Paster-Behrens-Strasse 88;12359;;52.443799;13.444280;53;2 %;57;6 %;2 %;;4 %;;
-08B02;Lise-Meitner-Schule (OSZ Chemie, Physik und Biologie);Rudower Str. 184;12351;;52.430295;13.475099;122;5 %;126;4 %;3 %;;1 %;;
-08B04;OSZ Informations- und Medizintechnik;Haarlemer Str. 23-27;12359;;52.457838;13.449527;144;8 %;135;9 %;;7 %;2 %;;
-08B05;Carl-Legien-Schule;Leinestraße 37;12049;;52.472605;13.424240;32;0 %;32;26 %;13 %;;13 %;;
-08G01;Rixdorfer Schule (Grundschule);Donaustr. 120;12043;Grundschule;52.484904;13.431792;35;3 %;40;15 %;10 %;;5 %;;x
-08G02;Theodor-Storm-Schule (Grundschule);Hobrechtstr. 76;12043;Grundschule;52.486488;13.426763;20;10 %;20;5 %;5 %;;;;x
-08G03;Hans-Fallada-Schule (Grundschule);Harzer Str. 73;12059;Grundschule;52.483564;13.451851;40;3 %;39;11 %;8 %;;3 %;;x
-08G05;Elbe-Schule (Grundschule);Elbestr. 11;12045;Grundschule;52.48442;13.44062;25;4 %;25;12 %;12 %;;;;x
-08G06;Karl-Weise-Schule (Grundschule);Weisestr. 20;12049;Grundschule;52.476503;13.423961;24;8 %;27;19 %;19 %;;;;x
-08G07;Hermann-Boddin-Schule (Grundschule);Boddinstr. 55;12053;Grundschule;52.480416;13.431252;29;7 %;26;16 %;8 %;;8 %;;x
-08G08;Karlsgarten-Schule (Grundschule);Karlsgartenstr. 7;12049;Grundschule;52.482099;13.422505;39;5 %;39;8 %;8 %;;;;x
-08G09;Regenbogen-Schule (Grundschule);Morusstr. 32;12053;Grundschule;52.47578;13.43333;43;2 %;44;5 %;5 %;;;;x
-08G11;Schliemann-Schule (Grundschule);Groß-Ziethener Chaussee 73;12355;Grundschule;52.41198;13.48526;31;10 %;34;6 %;3 %;;3 %;;
-08G12;Peter-Petersen-Schule (Grundschule);Jonasstr. 15;12053;Grundschule;52.47189;13.43548;20;0 %;;;;;;;x
-08G13;Bruno-Taut-Schule (Grundschule);Bruno-Taut-Ring 9C;12359;Grundschule;52.44095;13.44886;30;7 %;31;10 %;10 %;;;;
-08G14;Konrad-Agahd-Schule (Grundschule);Thomasstr. 39;12053;Grundschule;52.4725;13.43556;28;18 %;25;8 %;8 %;;;;x
-08G15;Hermann-Sander-Schule (Grundschule);Mariendorfer Weg 69;12051;Grundschule;52.46416;13.43005;42;2 %;;;;;;;x
-08G16;Hugo-Heimann-Schule;Hugo-Heimann-Str. 20;12353;Grundschule;52.42538;13.45705;21;14 %;23;22 %;22 %;;;;x
-08G17;Richard-Schule (Grundschule);Richardplatz 14;12055;Grundschule;52.47359;13.44439;31;6 %;35;14 %;11 %;;3 %;;x
-08G18;Eduard-Mörike-Schule (Grundschule);Stuttgarter Str. 35-39;12059;Grundschule;52.477969;13.450143;35;29 %;35;26 %;;26 %;;;x
-08G19;Herman-Nohl-Schule (Grundschule);Hannemannstr. 69;12347;Grundschule;52.455159;13.43894;49;14 %;56;18 %;;16 %;2 %;;x
-08G20;Sonnen-Schule (Grundschule);Dammweg 228;12057;Grundschule;52.47197;13.46714;31;16 %;36;28 %;;25 %;3 %;;x
-08G21;Silberstein-Schule (Grundschule);Silbersteinstr. 42;12051;Grundschule;52.466965;13.434906;25;24 %;27;22 %;;22 %;;;x
-08G22;Schule am Regenweiher (Grundschule);Johannisthaler Chaussee 328;12351;Grundschule;52.42985;13.45178;23;4 %;26;8 %;;;8 %;;x
-08G23;Zürich-Schule (Grundschule);Wederstr. 49;12347;Grundschule;52.462585;13.439533;31;10 %;34;6 %;6 %;;;;x
-08G24;Schule am Teltowkanal (Grundschule);Rungiusstr. 46;12347;Grundschule;52.45925;13.44063;28;7 %;30;17 %;17 %;;;;x
-08G25;Michael-Ende-Schule (Grundschule);Neuhofer Str. 41;12355;Grundschule;52.41346;13.50984;25;8 %;;;;;;;
-08G26;Christoph-Ruden-Schule (Grundschule);An den Achterhöfen 13;12349;Grundschule;52.421067;13.435095;25;8 %;22;23 %;23 %;;;;x
-08G27;Oskar-Heinroth-Schule (Grundschule);Rohrdommelweg 1;12359;Grundschule;52.44057;13.47209;31;0 %;36;8 %;8 %;;;;
-08G28;Matthias-Claudius-Schule (Grundschule);Köpenicker Str. 148;12355;Grundschule;52.420381;13.501675;27;4 %;27;15 %;11 %;;4 %;;
-08G29;Wetzlar-Schule (Grundschule);Tischlerzeile 34;12351;Grundschule;52.43092;13.44294;29;0 %;;;;;;;
-08G30;Schule am Sandsteinweg (Grundschule);Hornblendeweg 2;12349;Grundschule;52.41829;13.40469;48;2 %;47;8 %;4 %;;4 %;;
-08G31;Janusz-Korczak-Schule (Grundschule);Wildhüterweg 5;12353;Grundschule;52.42179;13.45659;20;5 %;21;19 %;14 %;;5 %;;x
-08G33;Schule am Fliederbusch (Grundschule);Kornradenstr. 2;12357;Grundschule;52.42424;13.48673;20;15 %;27;19 %;19 %;;;;x
-08G34;Lisa-Tetzner-Schule (Grundschule);Hasenhegerweg 12;12353;Grundschule;52.42254;13.44504;29;3 %;34;18 %;15 %;;3 %;;x
-08G35;Schule in der Köllnischen Heide (Grundschule);Hänselstr. 6;12057;Grundschule;52.4666;13.4721;48;6 %;46;9 %;7 %;;2 %;;x
-08G36;Löwenzahn-Schule (Grundschule);Drorystr. 3;12055;Grundschule;52.472499;13.448771;28;11 %;28;18 %;18 %;;;;x
-08G37;Rose-Oehmichen-Schule (Grundschule);Lieselotte-Berger-Str. 65;12355;Grundschule;52.401126;13.501995;18;0 %;;;;;;;
-08K01;Walter-Gropius-Schule (Gemeinschaftsschule);Fritz-Erler-Allee 86;12351;Integrierte Sekundarschule;52.42934;13.46355;95;2 %;95;2 %;2 %;;;;x
-08K02;Hermann-von-Helmholtz-Schule;Wutzkyallee 68;12353;Integrierte Sekundarschule;52.421823;13.472974;72;14 %;79;17 %;;16 %;1 %;;x
-08K03;Otto-Hahn-Schule;Buschkrugallee 63;12359;Integrierte Sekundarschule;52.45809;13.449;74;7 %;79;8 %;5 %;;3 %;;x
-08K04;Heinrich-Mann-Schule;Gerlinger Str. 22;12353;Integrierte Sekundarschule;52.41578;13.43231;40;15 %;42;12 %;12 %;;;;x
-08K05;Clay-Schule;Bildhauerweg 9;12355;Integrierte Sekundarschule;52.41759;13.48999;105;4 %;109;5 %;5 %;;;;
-08K06;Fritz-Karsen-Schule (Gemeinschaftsschule);Onkel-Bräsig-Str. 76-78;12359;Integrierte Sekundarschule;52.44865;13.44389;117;5 %;125;9 %;;9 %;;;
-08K08;Gemeinschaftsschule auf dem Campus Rütli;Rütlistr. 41;12045;Integrierte Sekundarschule;52.487309;13.434226;85;0 %;94;3 %;1 %;;2 %;;x
-08K09;Röntgen-Schule;Wildenbruchstr. 53;12435;Integrierte Sekundarschule;52.488886;13.449558;43;2 %;44;4 %;2 %;;2 %;;x
-08K10;Zuckmayer-Schule;Kopfstr. 55;12053;Integrierte Sekundarschule;52.4761;13.43129;40;10 %;44;7 %;5 %;;2 %;;x
-08K11;Alfred-Nobel-Schule;Britzer Damm 164;12347;Integrierte Sekundarschule;52.448;13.43469;55;4 %;58;10 %;;10 %;;;x
-08K12;Kepler-Schule;Zwillingestr. 21;12057;Integrierte Sekundarschule;52.46737;13.46477;38;8 %;48;12 %;8 %;;4 %;;x
-08K13;Gemeinschaftsschule Campus Efeuweg;Efeuweg 34;12357;Integrierte Sekundarschule;52.427206;13.47409;76;14 %;81;16 %;;14 %;2 %;;x
-08S01;Adolf-Reichwein-Schule;Sonnenallee 188;12059;"Förderschwerp.""Lernen""";52.475733;13.450826;30;3 %;31;3 %;3 %;;;;x
 08S04;Schule am Zwickauer Damm;Zwickauer Damm 17-22;12353;Integrierte Sekundarschule;52.422;13.48315;30;7 %;28;11 %;7 %;;4 %;;x
-08S05;Schule am Hasenhegerweg;Hasenhegerweg 12;12353;"Förderschwerp.""Lernen""";52.42254;13.44504;13;0 %;13;15 %;15 %;;;;x
-08S06;Hans-Fallada-Schule;Harzer Str. 73-74;12059;"Förderschwerp.""Lernen""";52.483564;13.451851;22;0 %;;;;;;;x
-08S07;Schule am Bienwaldring;Breitunger Weg 1;12349;"Förderschwerp.""Geistige Entwicklung""";52.42178;13.42537;39;0 %;;;;;;;x
-08S08;Schilling-Schule;Paster-Behrens-Str. 81;12359;Übrige Förderschwerpunkte;52.442637;13.444198;53;4 %;53;4 %;4 %;;;;x
-08S09;Schule an der Windmühle;Buckower Damm 176;12349;Integrierte Sekundarschule;52.42741;13.43451;17;0 %;;;;;;;x
-08Y01;Albrecht-Dürer-Gymnasium;Emser Str. 132-137;12051;Gymnasium;52.46947;13.43907;48;0 %;;;;;;;
-08Y02;Albert-Schweitzer-Gymnasium;Karl-Marx-Str. 14;12043;Gymnasium;52.4852;13.42649;55;2 %;54;9 %;7 %;;2 %;;x
-08Y03;Albert-Einstein-Gymnasium;Parchimer Allee 109;12359;Gymnasium;52.44553;13.44245;101;1 %;;;;;;;
-08Y04;Ernst-Abbe-Gymnasium;Sonnenallee 79;12045;Gymnasium;52.48349;13.43711;47;4 %;49;6 %;6 %;;;;x
-08Y05;Leonardo-da-Vinci-Gymnasium;Haewererweg 35;12349;Gymnasium;52.41623;13.42658;62;2 %;59;4 %;2 %;;2 %;;
+08K11;Alfred-Nobel-Schule;Britzer Damm 164;12347;Integrierte Sekundarschule;52.448;13.43469;55;4 %;58;10 %;;10 %;;;x
+07G22;Paul-Klee-Grundschule;Konradinstr. 15-17;12105;Grundschule;52.454;13.37538;47;6 %;48;6 %;6 %;;;;
+04G20;Katharina-Heinroth-Grundschule;Münstersche Str. 15-17;10709;Grundschule;52.494;13.30619;40;0 %;47;6 %;6 %;;;;x
+11G23;Friedrichsfelder Grundschule;Lincolnstr. 67;10315;Grundschule;52.503;13.50355;33;9 %;38;24 %;;24 %;;;
+05G21;Paul Moor Schule;Adamstr. 24-25;13595;Grundschule;52.521;13.19029;33;6 %;35;6 %;6 %;;;;
+12G30;Reineke-Fuchs-Grundschule;Foxweg 15;13403;Grundschule;52.574;13.30985;40;5 %;42;19 %;;17 %;2 %;;x
+09G29;Schmöckwitzer Insel-Schule (Grundschule);Adlergestell 776;12527;Grundschule;52.376769;13.647546;14;7 %;14;21 %;14 %;;7 %;;
+07Y08;Ulrich-von-Hutten-Gymnasium;Rehagener Str. 35-37;12307;Gymnasium;52.38563;13.40388;64;0 %;;;;;;;
+07G29;Käthe-Kollwitz-Grundschule;Mellener Str. 38-42;12307;Grundschule;52.3862;13.40487;40;0 %;;;;;;;
+07G35;Nahariya-Grundschule;Nahariyastr. 13-17;12309;Grundschule;52.39085;13.41943;41;5 %;44;11 %;11 %;;;;x
+07Y09;Georg-Büchner-Gymnasium;Lichtenrader Damm 224;12305;Gymnasium;52.39186;13.406604;50;0 %;50;2 %;;;2 %;;
+07K02;Carl-Zeiss-Schule;Barnetstr. 12-14;12305;Integrierte Sekundarschule;52.39571;13.40258;92;3 %;;;;;;;
+07G30;Annedore-Leber-Grundschule;Halker Zeile 137-149;12305;Grundschule;52.39757;13.40197;41;7 %;45;9 %;7 %;;2 %;;
+07K04;Theodor-Haubach-Schule;Grimmstr. 9-11;12305;Integrierte Sekundarschule;52.398399;13.403988;36;6 %;37;8 %;8 %;;;;x
+09Y04;Anne-Frank-Gymnasium;Uranusstr. 15 -17;12524;Gymnasium;52.399327;13.525296;65;0 %;60;2 %;2 %;;;;
+07G26;Grundschule im Taunusviertel;Wiesbadener Str. 20;12309;Grundschule;52.40019;13.41799;24;17 %;24;21 %;21 %;;;;
+08G37;Rose-Oehmichen-Schule (Grundschule);Lieselotte-Berger-Str. 65;12355;Grundschule;52.401126;13.501995;18;0 %;;;;;;;
+09K03;Fritz-Kühn-Schule (Integrierte Sekundarschule);Dahmestr. 45;12526;Integrierte Sekundarschule;52.40141;13.5647;36;8 %;34;6 %;6 %;;;;
 08Y06;Hannah-Arendt-Gymnasium;Elfriede-Kuhr-Str. 17;12355;Gymnasium;52.40411;13.508639;60;3 %;61;2 %;2 %;;;;
-09A05;Treptow-Kolleg;Kiefholzstr. 274;12437;Volkshochschul-Kolleg;52.46818;13.48463;39;0 %;;;;;;;
-09A06;Volkshochschule Treptow-Köpenick;Baumschulenstraße 79-81;12437;;52.464357;13.485266;6;0 %;;;;;;;
-09A07;Flatow-Oberschule;Birkenstraße 11;12559;;52.446605;13.602438;39;0 %;37;3 %;;;3 %;;
-09B03;Hermann-Scheer-Schule (OSZ Wirtschaft);Helmholtzstraße 37;12459;;52.466318;13.507320;83;4 %;85;8 %;6 %;;2 %;;
-09G01;Bouché-Schule (Grundschule);Bouchestr. 5-10;12435;Grundschule;52.49327;13.45252;30;13 %;38;13 %;13 %;;;;
-09G03;Schule am Heidekampgraben (Grundschule);Hänselstr. 14;12437;Grundschule;52.46872;13.47837;25;16 %;27;7 %;7 %;;;;
-09G04;Sonnenblumen-Schule (Grundschule);Radenzer Str. 16;12437;Grundschule;52.46163;13.48872;30;17 %;28;21 %;;21 %;;;
-09G05;Schule am Ginkobaum (Grundschule);Springbornstr. 250;12487;Grundschule;52.44014;13.4979;28;11 %;33;9 %;9 %;;;;
-09G06;Melli-Beese-Schule (Grundschule);Engelhardstr. 18;12487;Grundschule;52.44696;13.51031;23;13 %;26;27 %;;27 %;;;
-09G07;Schule an der alten Feuerwache (Grundschule);Schnellerstr. 31;12439;Grundschule;52.45459;13.51379;27;19 %;35;20 %;;17 %;3 %;;
-09G09;Heide-Schule (Grundschule);Florian-Geyer-Str. 87;12489;Grundschule;52.438648;13.543713;28;11 %;32;3 %;3 %;;;;
-09G10;Schule am Berg (Grundschule);Köpenicker Str. 31;12524;Grundschule;52.41866;13.538044;32;9 %;32;9 %;9 %;;;;
+07G32;Bruno-H.-Bürgel-Grundschule;Rackebüller Weg 70;12305;Grundschule;52.404902;13.402536;33;12 %;34;12 %;12 %;;;;
 09G11;Schule am Pegasuseck (Grundschule);Pegasuseck 5;12524;Grundschule;52.40638;13.5294;29;3 %;34;12 %;12 %;;;;x
-09G13;Schule am Altglienicker Wasserturm (Grundschule);Sachsenstr. 22;12524;Grundschule;52.41079;13.55406;15;13 %;18;17 %;11 %;;6 %;;
+07K03;Gustav-Heinemann-Schule;Waldsassener Str. 62;12279;Integrierte Sekundarschule;52.40662;13.34754;107;1 %;108;3 %;3 %;;;;
 09G14;Schule am Buntzelberg (Grundschule);Schulzendorfer Str. 112;12526;Grundschule;52.40671;13.57427;29;0 %;;;;;;;
 09G15;Schule am Mohnweg (Grundschule);Mohnweg 20;12524;Grundschule;52.40733;13.53679;36;8 %;37;10 %;5 %;;5 %;;
-09G16;Wendenschloß-Schule (Grundschule);Köpenzeile 123;12557;Grundschule;52.42845;13.5953;23;9 %;23;13 %;4 %;;9 %;;
-09G17;Uhlenhorst-Grundschule;Wongrowitzer Steig 37;12555;Grundschule;52.467512;13.579352;26;4 %;;;;;;;
-09G18;Schule in der Köllnischen Vorstadt (Grundschule);Rudower Str. 201;12557;Grundschule;52.43946;13.56429;34;6 %;35;12 %;3 %;;9 %;;x
-09G19;Amtsfeld-Schule (Grundschule);Pablo-Neruda-Str. 8;12559;Grundschule;52.44262;13.58891;32;9 %;32;16 %;16 %;;;;
+09G13;Schule am Altglienicker Wasserturm (Grundschule);Sachsenstr. 22;12524;Grundschule;52.41079;13.55406;15;13 %;18;17 %;11 %;;6 %;;
+09S05;Schule am Altglienicker Wasserturm (Förderzentrum);Sachsenstr. 22;12524;"Förderschwerp.""Lernen""";52.411340;13.554156;7;0 %;;;;;;;
+06B02;Louise-Schroeder-Schule (OSZ Bürowirtschaft und Verwaltung);Lippstädter Str. 9-11;12207;;52.411247;13.305736;146;1 %;139;1 %;;;1 %;;
+07G36;Grundschule am Dielingsgrund;Dielingsgrund 35;12305;Grundschule;52.41166;13.40863;34;12 %;33;6 %;6 %;;;;
+08G11;Schliemann-Schule (Grundschule);Groß-Ziethener Chaussee 73;12355;Grundschule;52.41198;13.48526;31;10 %;34;6 %;3 %;;3 %;;
+07G34;Marienfelder Schule (Grundschule);Erbendorfer Weg 13;12279;Grundschule;52.41209;13.35184;41;10 %;41;15 %;;15 %;;;x
+06G30;Mercator-Grundschule;Mercatorweg 8-10;12207;Grundschule;52.41225;13.317376;35;6 %;33;6 %;6 %;;;;x
+08G25;Michael-Ende-Schule (Grundschule);Neuhofer Str. 41;12355;Grundschule;52.41346;13.50984;25;8 %;;;;;;;
+07K05;Solling-Schule;Alt-Marienfelde 52;12277;Integrierte Sekundarschule;52.41397;13.36527;46;4 %;49;6 %;6 %;;;;
 09G20;Müggelheimer Schule (Grundschule);Odernheimer Str. 28;12559;Grundschule;52.41469;13.66739;18;0 %;19;5 %;;;5 %;;
-09G21;Edison-Grundschule;Wattstr. 69-70;12459;Grundschule;52.46607;13.50886;39;10 %;43;12 %;12 %;;;;
-09G22;Schule an der Wuhlheide (Grundschule);Kottmeierstr. 2;12459;Grundschule;52.462579;13.524106;38;5 %;42;12 %;10 %;;2 %;;
-09G23;Hauptmann-von-Köpenick-Schule (Grundschule);Borgmannstr. 2;12555;Grundschule;52.45624;13.58095;23;13 %;24;8 %;8 %;;;;
-09G24;Müggelsee-Schule (Grundschule);Aßmannstr. 63;12587;Grundschule;52.45072;13.62746;21;5 %;22;5 %;5 %;;;;
-09G25;Müggelschlößchen-Schule (Grundschule);Alfred-Randt-Str. 56;12559;Grundschule;52.43884;13.6059;23;4 %;25;8 %;4 %;;4 %;;
-09G26;Schule an den Püttbergen (Grundschule);Fürstenwalder Allee 182;12589;Grundschule;52.43385;13.70158;28;4 %;28;7 %;;;7 %;;
-09G27;Friedrichshagener Schule (Grundschule);Peter-Hille-Str. 7;12587;Grundschule;52.454606;13.621399;29;7 %;29;10 %;7 %;;3 %;;
-09G29;Schmöckwitzer Insel-Schule (Grundschule);Adlergestell 776;12527;Grundschule;52.376769;13.647546;14;7 %;14;21 %;14 %;;7 %;;
-09G30;Kiefholz-Grundschule;Kiefholzstr. 45;12435;Grundschule;52.48626;13.45609;21;19 %;21;5 %;5 %;;;;
-09K01;Merian-Schule (Integrierte Sekundarschule);Hoernlestr. 80;12555;Integrierte Sekundarschule;52.46431;13.57643;78;1 %;77;6 %;5 %;;1 %;;
-09K02;Anna-Seghers-Schule (Gemeinschaftsschule);Radickestr. 43;12489;Integrierte Sekundarschule;52.435416;13.548246;91;2 %;89;4 %;3 %;;1 %;;
-09K03;Fritz-Kühn-Schule (Integrierte Sekundarschule);Dahmestr. 45;12526;Integrierte Sekundarschule;52.40141;13.5647;36;8 %;34;6 %;6 %;;;;
-09K04;Isaac-Newton-Schule (Integrierte Sekundarschule);Zeppelinstr. 76-80;12459;Integrierte Sekundarschule;52.4659;13.51817;34;0 %;34;12 %;9 %;;3 %;;
-09K05;Wilhelm-Bölsche-Schule (Integrierte Sekundarschule);Aßmannstr. 11;12587;Integrierte Sekundarschule;52.45109;13.61894;43;2 %;44;5 %;5 %;;;;
-09K06;Hans-Grade-Schule (Integrierte Sekundarschule);Heubergerweg 37;12487;Integrierte Sekundarschule;52.444484;13.499022;36;3 %;;;;;;;
-09K07;Sophie-Brahe-Schule (Gemeinschaftsschule);Am Plänterwald 17-23;12435;Integrierte Sekundarschule;52.48171;13.47804;66;5 %;67;1 %;1 %;;;;
-09K08;Schule an der Dahme (Integrierte Sekundarschule);Glienicker Str. 24 -30;12557;Integrierte Sekundarschule;52.44056;13.56727;39;0 %;;;;;;;
+06G05;Conrad-Schule (Grundschule);Schulstr. 4;14109;Grundschule;52.415181;13.146695;30;7 %;29;7 %;7 %;;;;
+08K04;Heinrich-Mann-Schule;Gerlinger Str. 22;12353;Integrierte Sekundarschule;52.41578;13.43231;40;15 %;42;12 %;12 %;;;;x
+07G28;Kiepert-Grundschule;Prechtlstr. 21-23;12277;Grundschule;52.41591;13.37327;40;8 %;38;5 %;5 %;;;;
+08Y05;Leonardo-da-Vinci-Gymnasium;Haewererweg 35;12349;Gymnasium;52.41623;13.42658;62;2 %;59;4 %;2 %;;2 %;;
+06G29;Grundschule am Karpfenteich;Hildburghauser Str. 135;12209;Grundschule;52.417401;13.333982;28;0 %;30;3 %;;;3 %;;
+08K05;Clay-Schule;Bildhauerweg 9;12355;Integrierte Sekundarschule;52.41759;13.48999;105;4 %;109;5 %;5 %;;;;
+07S03;Steinwald-Schule;Hanielweg 7-9;12277;"Förderschwerp.""Geistige Entwicklung""";52.41783;13.36458;21;0 %;;;;;;;x
+08G30;Schule am Sandsteinweg (Grundschule);Hornblendeweg 2;12349;Grundschule;52.41829;13.40469;48;2 %;47;8 %;4 %;;4 %;;
+09G10;Schule am Berg (Grundschule);Köpenicker Str. 31;12524;Grundschule;52.41866;13.538044;32;9 %;32;9 %;9 %;;;;
+06G02;Süd-Grundschule;Claszeile 56;14165;Grundschule;52.4189;13.25839;28;4 %;26;8 %;4 %;;4 %;;
 09K09;Grünauer Schule (Gemeinschaftsschule);Walchenseestr. 40;12527;Integrierte Sekundarschule;52.419368;13.576124;73;4 %;80;1 %;1 %;;;;
-09S03;Albatros-Schule;Treskowallee 222;12459;"Förderschwerp.""Geistige Entwicklung""";52.471245;13.516154;29;3 %;31;13 %;;;13 %;;x
-09S04;Ahorn-Schule;Peter-Hille-Str. 118;12587;Übrige Förderschwerpunkte;52.44782;13.61966;28;4 %;28;8 %;4 %;;4 %;;x
-09S05;Schule am Altglienicker Wasserturm (Förderzentrum);Sachsenstr. 22;12524;"Förderschwerp.""Lernen""";52.41079;13.55406;7;0 %;;;;;;;
-09S06;Schule am Wildgarten;Köpenicker Landstr. 185A;12437;Grundschule;52.473436;13.48707;30;0 %;34;9 %;6 %;;3 %;;x
-09Y03;Archenhold-Gymnasium;Rudower Str. 7;12439;Gymnasium;52.4514;13.52271;49;2 %;;;;;;;
-09Y04;Anne-Frank-Gymnasium;Uranusstr. 15 -17;12524;Gymnasium;52.399327;13.525296;65;0 %;60;2 %;2 %;;;;
-09Y05;Alexander-von-Humboldt-Gymnasium;Oberspreestr. 173;12555;Gymnasium;52.445252;13.566972;49;2 %;47;4 %;2 %;;2 %;;
-09Y06;Gerhart-Hauptmann-Gymnasium;Bruno-Wille-Str. 37-45;12587;Gymnasium;52.45227;13.63269;54;0 %;55;2 %;;;2 %;;
-09Y10;Gebrüder-Montgolfier-Gymnasium;Ellernweg 20-22;12487;Gymnasium;52.44833;13.50379;63;0 %;69;2 %;1 %;;1 %;;
+08G28;Matthias-Claudius-Schule (Grundschule);Köpenicker Str. 148;12355;Grundschule;52.420381;13.501675;27;4 %;27;15 %;11 %;;4 %;;
+06G09;Dreilinden-Grundschule;Dreilindenstr. 65;14109;Grundschule;52.4205;13.18369;21;5 %;21;5 %;5 %;;;;
+06Y04;Dreilinden-Gymnasium;Dreilindenstr. 49;14109;Gymnasium;52.42057;13.18778;52;2 %;53;2 %;2 %;;;;
+08G26;Christoph-Ruden-Schule (Grundschule);An den Achterhöfen 13;12349;Grundschule;52.421067;13.435095;25;8 %;22;23 %;23 %;;;;x
+08S07;Schule am Bienwaldring;Breitunger Weg 1;12349;"Förderschwerp.""Geistige Entwicklung""";52.42178;13.42537;39;0 %;;;;;;;x
+08G31;Janusz-Korczak-Schule (Grundschule);Wildhüterweg 5;12353;Grundschule;52.42179;13.45659;20;5 %;21;19 %;14 %;;5 %;;x
+08K02;Hermann-von-Helmholtz-Schule;Wutzkyallee 68;12353;Integrierte Sekundarschule;52.421823;13.472974;72;14 %;79;17 %;;16 %;1 %;;x
+06G10;Grundschule am Buschgraben;Ludwigsfelder Str. 43-47;14165;Grundschule;52.42192;13.242834;21;5 %;20;5 %;5 %;;;;
+06G22;Giesensdorfer Grundschule;Ostpreußendamm 63;12207;Grundschule;52.422226;13.31101;26;4 %;27;11 %;11 %;;;;
+08G34;Lisa-Tetzner-Schule (Grundschule);Hasenhegerweg 12;12353;Grundschule;52.42254;13.44504;29;3 %;34;18 %;15 %;;3 %;;x
+08S05;Schule am Hasenhegerweg;Hasenhegerweg 12;12353;"Förderschwerp.""Lernen""";52.422399;13.446725 ;13;0 %;13;15 %;15 %;;;;x
+06G08;Schweizerhof-Grundschule;Leo-Baeck-Str. 28-30;14167;Grundschule;52.42278;13.26571;33;3 %;34;3 %;3 %;;;;
+06G27;Grundschule am Königsgraben;Gallwitzallee 136-144;12249;Grundschule;52.42303;13.34815;24;8 %;27;7 %;7 %;;;;
+08G33;Schule am Fliederbusch (Grundschule);Kornradenstr. 2;12357;Grundschule;52.42424;13.48673;20;15 %;27;19 %;19 %;;;;x
+08G16;Hugo-Heimann-Schule;Hugo-Heimann-Str. 20;12353;Grundschule;52.42538;13.45705;21;14 %;23;22 %;22 %;;;;x
+06G24;Grundschule unter den Kastanien;Kastanienstr. 6 -8;12209;Grundschule;52.42546;13.32527;30;3 %;32;3 %;3 %;;;;
+06K01;John-F.-Kennedy-Schule;Teltower Damm 87-93;14167;Integrierte Sekundarschule;52.42589;13.26273;150;1 %;154;10 %;;;;10 %;
+08K13;Gemeinschaftsschule Campus Efeuweg;Efeuweg 34;12357;Integrierte Sekundarschule;52.427206;13.47409;76;14 %;81;16 %;;14 %;2 %;;x
+08S09;Schule an der Windmühle;Buckower Damm 176;12349;Integrierte Sekundarschule;52.42741;13.43451;17;0 %;;;;;;;x
+06K04;Bröndby-Schule (Integrierte Sekundarschule);Dessauerstr. 63;12249;Integrierte Sekundarschule;52.428237;13.345888;98;3 %;93;3 %;3 %;;;;
+09G16;Wendenschloß-Schule (Grundschule);Köpenzeile 123;12557;Grundschule;52.42845;13.5953;23;9 %;23;13 %;4 %;;9 %;;
+06Y02;Droste-Hülshoff-Oberschule;Schönower Str. 8;14165;Gymnasium;52.42846;13.25673;71;0 %;;;;;;;
+06A05;Volkshochschule Steglitz-Zehlendorf;Goethestr. 9-11;12207;;52.429216;13.316553;19;0 %;17;6 %;6 %;;;;
+08K01;Walter-Gropius-Schule (Gemeinschaftsschule);Fritz-Erler-Allee 86;12351;Integrierte Sekundarschule;52.42934;13.46355;95;2 %;95;2 %;2 %;;;;x
+08G22;Schule am Regenweiher (Grundschule);Johannisthaler Chaussee 328;12351;Grundschule;52.42985;13.45178;23;4 %;26;8 %;;;8 %;;x
+06B03;OSZ Bürowirtschaft I;Ostpreußendamm 40;12207;;52.430294;13.317130;77;0 %;83;3 %;1 %;;2 %;;
+08B02;Lise-Meitner-Schule (OSZ Chemie, Physik und Biologie);Rudower Str. 184;12351;;52.430295;13.475099;122;5 %;126;4 %;3 %;;1 %;;
+08G29;Wetzlar-Schule (Grundschule);Tischlerzeile 34;12351;Grundschule;52.43092;13.44294;29;0 %;;;;;;;
+06G21;Paul-Schneider-Grundschule;Seydlitzstr. 30-34;12249;Grundschule;52.431002;13.341243;31;3 %;33;9 %;9 %;;;;
+06Y01;Schadow-Gymnasium;Beuckestr. 27-29;14163;Gymnasium;52.43149;13.25463;101;1 %;94;2 %;;;2 %;;
+06G03;Johannes-Tews-Grundschule;Wasgenstr. 50;14129;Grundschule;52.43162;13.21262;31;3 %;28;4 %;4 %;;;;
+06Y05;Werner-von-Siemens-Oberschule;Beskidenstr. 3;14129;Gymnasium;52.43194;13.21159;61;0 %;60;2 %;;;2 %;;
+06G33;Friedrich-Drake-Schule;Drakestr. 80;12205;Grundschule;52.43254;13.30621;14;7 %;17;6 %;6 %;;;;
+06G28;Ludwig-Bechstein-Grundschule;Halbauer Weg 25;12249;Grundschule;52.43255;13.36236;23;0 %;;;;;;;x
+06Y06;Beethoven-Oberschule;Barbarastr. 9;12249;Gymnasium;52.43293;13.34283;71;0 %;;;;;;;
+06G25;Clemens-Brentano-Grundschule;Kommandantenstr. 83-84;12205;Grundschule;52.433511;13.29316;32;3 %;;;;;;;
+07G37;Ikarus-Grundschule;Körtingstr. 45;12107;Grundschule;52.43363;13.38389;35;6 %;34;12 %;12 %;;;;
+09G26;Schule an den Püttbergen (Grundschule);Fürstenwalder Allee 182;12589;Grundschule;52.43385;13.70158;28;4 %;28;7 %;;;7 %;;
+06Y12;Willi-Graf-Gymnasium;Ostpreußendamm 166;12207;Gymnasium;52.43469;13.32096;46;0 %;;;;;;;
+06Y11;Goethe-Gymnasium Lichterfelde;Drakestr. 72-75;12205;Gymnasium;52.434929;13.305363;66;0 %;65;2 %;2 %;;;;
+06S03;Peter-Frankenfeld-Schule;Wedellstr. 26;12247;"Förderschwerp.""Geistige Entwicklung""";52.43515;13.35522;21;0 %;;;;;;;x
+09K02;Anna-Seghers-Schule (Gemeinschaftsschule);Radickestr. 43;12489;Integrierte Sekundarschule;52.435416;13.548246;91;2 %;89;4 %;3 %;;1 %;;
+06Y10;Lilienthal-Gymnasium;Ringstr. 2-3;12203;Gymnasium;52.43595;13.31215;58;2 %;58;2 %;;;2 %;;
+06G01;Nord-Grundschule;Potsdamer Str. 7;14163;Grundschule;52.435951;13.25558;30;7 %;32;6 %;6 %;;;;
+06G20;Alt-Lankwitzer Grundschule;Schulstr. 17-21;12247;Grundschule;52.437023;13.351096;31;3 %;30;7 %;7 %;;;;
+06K08;Max-von-Laue-Schule;Dürerstr. 27;12203;Integrierte Sekundarschule;52.43725;13.305628;42;5 %;;;;;;;
+06G26;Käthe-Kruse-Grundschule;Tietzenweg 108;12203;Grundschule;52.438186;13.310138;24;0 %;26;4 %;4 %;;;;
+09G09;Heide-Schule (Grundschule);Florian-Geyer-Str. 87;12489;Grundschule;52.438648;13.543713;28;11 %;32;3 %;3 %;;;;
+06K11;Anna-Essinger-Gemeinschaftsschule;Tietzenweg 101;12203;;52.438827;13.309841;95;7 %;92;6 %;3 %;;3 %;;
+09G25;Müggelschlößchen-Schule (Grundschule);Alfred-Randt-Str. 56;12559;Grundschule;52.43884;13.6059;23;4 %;25;8 %;4 %;;4 %;;
+07G27;Rudolf-Hildebrand-Grundschule;Friedenstr. 23-25;12107;Grundschule;52.43886;13.3855;31;3 %;30;3 %;3 %;;;;x
+09G18;Schule in der Köllnischen Vorstadt (Grundschule);Rudower Str. 201;12557;Grundschule;52.43946;13.56429;34;6 %;35;12 %;3 %;;9 %;;x
+09G05;Schule am Ginkobaum (Grundschule);Springbornstr. 250;12487;Grundschule;52.44014;13.4979;28;11 %;33;9 %;9 %;;;;
+09K08;Schule an der Dahme (Integrierte Sekundarschule);Glienicker Str. 24 -30;12557;Integrierte Sekundarschule;52.44056;13.56727;39;0 %;;;;;;;
+06G18;Athene-Grundschule;Curtiusstr. 37;12205;Grundschule;52.440565;13.290632;37;8 %;37;8 %;5 %;;3 %;;
+08G27;Oskar-Heinroth-Schule (Grundschule);Rohrdommelweg 1;12359;Grundschule;52.44057;13.47209;31;0 %;36;8 %;8 %;;;;
+08G13;Bruno-Taut-Schule (Grundschule);Bruno-Taut-Ring 9C;12359;Grundschule;52.44095;13.44886;30;7 %;31;10 %;10 %;;;;
+06G23;Kronach-Grundschule;Moltkestr. 24-26;12203;Grundschule;52.44167;13.313098;33;0 %;;;;;;;
+06B01;Peter-Lenné-Schule (OSZ Natur und Umwelt);Hartmannsweilerweg 29;14163;;52.441969;13.248907;85;2 %;83;10 %;5 %;;5 %;;
+09G19;Amtsfeld-Schule (Grundschule);Pablo-Neruda-Str. 8;12559;Grundschule;52.44262;13.58891;32;9 %;32;16 %;16 %;;;;
+08S08;Schilling-Schule;Paster-Behrens-Str. 81;12359;Übrige Förderschwerpunkte;52.442637;13.444198;53;4 %;53;4 %;4 %;;;;x
 09Y11;Emmy-Noether-Gymnasium;Pablo-Neruda-Str. 6-7;12559;Gymnasium;52.44275;13.588735;67;0 %;71;1 %;1 %;;;;
-10A04;Victor-Klemperer-Kolleg;Martha-Arendsee-Str. 15;12681;Volkshochschul-Kolleg;52.5363;13.53885;43;0 %;46;7 %;7 %;;;;
-10B01;Oscar-Tietz-Schule (OSZ Handel II);Marzahner Chaussee 231;12681;;52.530093;13.533162;78;0 %;79;1 %;1 %;;;;
-10B02;Rahel-Hirsch-Schule (OSZ Gesundheit/Medizin);Peter-Weiss-Gasse 8;12627;;52.538157;13.607874;84;4 %;87;2 %;1 %;;1 %;;
-10G01;Paavo-Nurmi-Grundschule;Schorfheidestr. 42;12689;Grundschule;52.54728;13.56405;27;11 %;26;15 %;15 %;;;;x
-10G03;Selma-Lagerlöf-Grundschule;Wörlitzer Str. 31;12689;Marzahn-Hellersdorf;52.56767;13.57023;31;10 %;31;6 %;6 %;;;;x
-10G04;Falken-Grundschule;Geraer Ring 2;12689;Grundschule;52.56593;13.5564;24;4 %;26;4 %;4 %;;;;x
-10G05;Ebereschen-Grundschule;Borkheider Str. 27;12689;Grundschule;52.56407;13.57294;27;4 %;;;;;;;x
-10G07;Karl-Friedrich-Friesen-Grundschule;Max-Herrmann-Str. 5;12687;Grundschule;52.55335;13.56415;29;7 %;31;13 %;13 %;;;;x
-10G08;Wilhelm-Busch-Grundschule;Parsteiner Ring 24;12679;Grundschule;52.55325;13.58137;38;8 %;40;15 %;;15 %;;;x
-10G09;Grundschule am Bürgerpark;Jan-Petersen-Str. 18B;12679;Grundschule;52.55062;13.56569;29;3 %;33;12 %;9 %;;3 %;;
-10G10;Peter-Pan-Grundschule;Stolzenhagener Str. 9;12679;Grundschule;52.548156;13.551672;40;10 %;39;13 %;10 %;;3 %;;x
-10G11;Grundschule an der Mühle;Kienbergstr. 59;12685;Grundschule;52.53976;13.5657;28;7 %;32;6 %;6 %;;;;
-10G12;Grundschule an der Geißenweide;Amanlisweg 40;12685;Grundschule;52.537783;13.551797;31;3 %;28;4 %;4 %;;;;
-10G13;Johann-Strauss-Grundschule;Cecilienstr. 81;12683;Grundschule;52.52982;13.55966;38;0 %;;;;;;;
-10G14;Grundschule unter dem Regenbogen;Murtzaner Ring 37;12681;Grundschule;52.5301;13.54212;54;4 %;56;5 %;5 %;;;;x
-10G16;Grundschule am Fuchsberg;Dankratweg 19;12683;Grundschule;52.49039;13.551484;25;0 %;;;;;;;
-10G17;Beatrix-Potter-Grundschule;Ludwigsfelder Str. 7;12629;Grundschule;52.54682;13.58926;42;10 %;42;14 %;12 %;;2 %;;x
-10G18;Pusteblume-Grundschule;Kastanienallee 118;12627;Grundschule;52.54256;13.6001;41;17 %;43;19 %;;19 %;;;x
-10G19;Bücherwurm-Schule am Weiher (Grundschule);Eilenburger Str. 1;12627;Grundschule;52.54068;13.62913;35;0 %;;;;;;;x
-10G22;Kolibri-Grundschule;Schönewalder Str. 9;12627;Grundschule;52.532527;13.618558;45;7 %;54;19 %;;19 %;;;
-10G25;Grundschule am Schleipfuhl;Nossener Str. 85;12627;Grundschule;52.52913;13.6081;35;0 %;34;3 %;3 %;;;;x
-10G26;Friedrich-Schiller-Grundschule;An der Schule 13-17;12623;Grundschule;52.5115;13.614782;18;0 %;;;;;;;
-10G28;Grundschule am Hollerbusch;Erich-Kästner-Str. 64;12619;Grundschule;52.52593;13.59512;45;7 %;48;6 %;6 %;;;;x
-10G29;Grundschule an der Wuhle;Teterower Ring 79;12619;Grundschule;52.52118;13.58041;32;0 %;36;9 %;6 %;;3 %;;
-10G30;Mahlsdorfer Grundschule;Feldrain 47;12623;Grundschule;52.522102;13.628787;26;0 %;;;;;;;
-10G31;Franz-Carl-Achard-Grundschule;Flämingstr. 16-18;12621;Grundschule;52.56382;13.56592;25;4 %;30;10 %;10 %;;;;
-10G32;Kiekemal-Schule (Grundschule);Hultschiner Damm 219;12623;Grundschule;52.49407;13.60915;27;0 %;30;3 %;3 %;;;;
-10G33;Ulmen-Grundschule;Ulmenstr. 79-85;12621;Grundschule;52.48584;13.58006;34;3 %;40;8 %;8 %;;;;
-10G34;Schule am grünen Stadtrand;Geraer Ring 54;12689;"Förderschwerp.""Lernen""";52.56973;13.56193;17;0 %;;;;;;;x
-10K01;Rudolf-Virchow-Schule;Glambecker Ring 90;12679;Integrierte Sekundarschule;52.5555;13.57573;97;6 %;104;5 %;5 %;;;;
-10K02;Ernst-Haeckel-Schule;Luckenwalder Str. 53;12629;Integrierte Sekundarschule;52.54322;13.58574;58;0 %;63;2 %;2 %;;;;x
-10K03;Kerschensteiner-Schule;Golliner Str. 2;12689;Integrierte Sekundarschule;52.56681;13.579505;26;0 %;;;;;;;x
-10K05;Jean-Piaget-Schule;Mittenwalder Str. 5;12629;Integrierte Sekundarschule;52.54542;13.59615;42;0 %;44;7 %;5 %;;2 %;;x
-10K06;Georg-Klingenberg-Schule;Alberichstr. 24;12683;Integrierte Sekundarschule;52.49015;13.55783;32;9 %;34;3 %;3 %;;;;
-10K07;Caspar-David-Friedrich-Schule;Alte Hellersdorfer Str. 7;12629;Integrierte Sekundarschule;52.535223;13.591017;45;4 %;43;4 %;2 %;;2 %;;
-10K08;Johann-Julius-Hecker-Schule;Hohenwalder Str. 2;12689;Integrierte Sekundarschule;52.56993;13.57866;36;0 %;38;3 %;;;3 %;;x
-10K09;Konrad-Wachsmann-Schule;Geithainer Str. 12;12627;Integrierte Sekundarschule;52.529047;13.622082;39;3 %;41;7 %;7 %;;;;
-10K10;Wolfgang-Amadeus-Mozart-Schule (Gemeinschaftsschule);Cottbusser Str. 23;12627;Integrierte Sekundarschule;52.53699;13.59663;68;10 %;79;16 %;;10 %;6 %;;x
-10K11;Marcana-Schule (Gemeinschaftsschule);Flämingstr. 16-18;12689;Integrierte Sekundarschule;52.56382;13.56592;22;5 %;23;13 %;9 %;;4 %;;x
-10K12;Gretel-Bergmann-Gemeinschaftsschule;Liebensteiner Str. 24;12687;;52.558094;13.560166;93;5 %;99;9 %;;8 %;1 %;;x
-10S04;Schule am Pappelhof;Ketschendorfer Weg 21;12683;"Förderschwerp.""Geistige Entwicklung""";52.531157;13.553338;29;7 %;29;10 %;7 %;;3 %;;x
-10S07;Schule am Rosenhain;Klingenthaler Str. 32;12627;Integrierte Sekundarschule;52.53;13.60199;39;0 %;43;5 %;5 %;;;;x
-10S08;Schule am Mummelsoll;Eilenburger Str. 4;12627;"Förderschwerp.""Geistige Entwicklung""";52.540282;13.629414;30;3 %;;;;;;;x
-10Y01;Tagore-Gymnasium;Sella-Hasse-Str. 25;12687;Gymnasium;52.55271;13.55658;65;3 %;67;4 %;3 %;;1 %;;
-10Y02;Otto-Nagel-Gymnasium;Schulstr. 11;12683;Gymnasium;52.511922;13.549199;62;2 %;62;5 %;5 %;;;;
-10Y03;Wilhelm-von-Siemens-Gymnasium;Allee der Kosmonauten 134;12683;Gymnasium;52.533571;13.551106;66;2 %;;;;;;;
-10Y08;Sartre-Gymnasium;Kyritzer Str. 103;12629;Gymnasium;52.54332;13.59106;53;4 %;56;4 %;2 %;;2 %;;
-10Y11;Melanchthon-Gymnasium;Adele-Sandrock-Str. 73-75;12627;Gymnasium;52.534367;13.618584;60;0 %;64;7 %;5 %;;2 %;;
-11A07;Schul- und Leistungssportzentrum Berlin (Sportforum);Fritz-Lesch-Straße 35;13053;;52.545961;13.476850;141;1 %;142;2 %;;;2 %;;
-11B01;Hein-Moeller-Schule (OSZ Energietechnik II);Allee der Kosmonauten 18;10315;;52.523374;13.512337;63;16 %;66;23 %;;20 %;3 %;;
-11B02;Max-Taut-Schule (OSZ Gebäude, Umwelt, Technik);Fischerstraße 36;10317;;52.501125;13.486998;102;10 %;100;15 %;;11 %;4 %;;
-11B04;Friedrich-List-Schule (OSZ Büromanagement und Wirtschaftssprachen);Marktstraße 2 - 3;10317;;52.503016;13.474535;86;2 %;84;8 %;2 %;;6 %;;
-11G01;Sonnenuhr-Grundschule;Franz-Jacob-Str. 33;10369;Grundschule;52.52933;13.46695;33;3 %;33;6 %;3 %;;3 %;;
-11G02;Schule am Roederplatz (Grundschule);Bernhard-Bästlein-Str. 22;10367;Grundschule;52.52899;13.48214;34;15 %;36;22 %;;19 %;3 %;;x
-11G03;Grundschule im Gutspark;Josef-Orlopp-Str. 20;10367;Grundschule;52.52237;13.48307;33;6 %;29;3 %;3 %;;;;
-11G05;Grundschule auf dem lichten Berg;Atzpodienstr. 19;10365;Grundschule;52.51686;13.49421;30;17 %;32;12 %;9 %;;3 %;;
-11G06;Adam-Ries-Schule (Grundschule);Alt-Friedrichsfelde 66;10315;Grundschule;52.5114;13.53125;27;7 %;28;8 %;4 %;;4 %;;x
-11G07;Hermann-Gmeiner-Schule (Grundschule);Harnackstr. 17;10365;Grundschule;52.5101;13.48594;28;18 %;33;30 %;;27 %;3 %;;x
-11G08;Robinson-Grundschule;Wönnichstr. 7;10317;Grundschule;52.510047;13.50046;22;14 %;22;14 %;14 %;;;;
-11G09;Bürgermeister-Ziethen-Schule (Grundschule);Massower Str. 39;10315;Grundschule;52.50818;13.51665;37;14 %;34;9 %;9 %;;;;x
-11G10;Schule im Ostseekarree (Grundschule);Barther Str. 27;13051;Grundschule;52.56409;13.50024;26;8 %;30;23 %;;23 %;;;x
-11G11;Bernhard-Grzimek-Schule (Grundschule);Sewanstr. 184;10319;Grundschule;52.49572;13.51176;34;6 %;34;3 %;;;3 %;;x
-11G12;Lew-Tolstoi-Grundschule;Römerweg 120;10318;Grundschule;52.49199;13.53678;36;6 %;38;13 %;8 %;;5 %;;
-11G13;Karlshorster Grundschule;Lisztstr. 6;10318;Grundschule;52.48925;13.51994;36;8 %;42;12 %;10 %;;2 %;;
+06G06;Mühlenau-Grundschule;Molsheimer Str. 7;14195;Grundschule;52.443206;13.276002;50;4 %;50;2 %;2 %;;;;
+06S01;Pestalozzi-Schule;Hartmannsweilerweg 47;14163;Integrierte Sekundarschule;52.44346;13.24838;41;5 %;43;7 %;7 %;;;;
+07G31;Carl-Sonnenschein-Grundschule;Am Hellespont 4-6;12109;Grundschule;52.443699;13.408152;29;10 %;32;13 %;13 %;;;;
+08B01;Annedore-Leber-Oberschule;Paster-Behrens-Strasse 88;12359;;52.443799;13.444280;53;2 %;57;6 %;2 %;;4 %;;
+09K06;Hans-Grade-Schule (Integrierte Sekundarschule);Heubergerweg 37;12487;Integrierte Sekundarschule;52.444484;13.499022;36;3 %;;;;;;;
+07Y07;Eckener-Gymnasium;Kaiserstr. 17-21;12105;Gymnasium;52.4451;13.38052;62;2 %;61;2 %;2 %;;;;
+09Y05;Alexander-von-Humboldt-Gymnasium;Oberspreestr. 173;12555;Gymnasium;52.445252;13.566972;49;2 %;47;4 %;2 %;;2 %;;
+06G07;Zinnowwald-Grundschule;Wilskistr. 78;14163;Grundschule;52.44543;13.246529;33;9 %;;;;;;;
+08Y03;Albert-Einstein-Gymnasium;Parchimer Allee 109;12359;Gymnasium;52.44553;13.44245;101;1 %;;;;;;;
+09A07;Flatow-Oberschule;Birkenstraße 11;12559;;52.446605;13.602438;39;0 %;37;3 %;;;3 %;;
+07K07;Johanna-Eck-Schule (Integrierte Sekundarschule);Ringstr. 103-106;12105;Integrierte Sekundarschule;52.44692;13.36411;61;0 %;57;7 %;7 %;;;;x
+09G06;Melli-Beese-Schule (Grundschule);Engelhardstr. 18;12487;Grundschule;52.44696;13.51031;23;13 %;26;27 %;;27 %;;;
+07G25;Ludwig-Heck-Grundschule;Königstr. 32;12105;Grundschule;52.447125;13.383928;32;3 %;35;14 %;14 %;;;;x
+06G31;Grundschule an der Bäke;Haydnstr. 15;12203;Grundschule;52.447783;13.318838;33;6 %;37;14 %;11 %;;3 %;;
+09S04;Ahorn-Schule;Peter-Hille-Str. 118;12587;Übrige Förderschwerpunkte;52.44782;13.61966;28;4 %;28;8 %;4 %;;4 %;;x
+09Y10;Gebrüder-Montgolfier-Gymnasium;Ellernweg 20-22;12487;Gymnasium;52.44833;13.50379;63;0 %;69;2 %;1 %;;1 %;;
+08K06;Fritz-Karsen-Schule (Gemeinschaftsschule);Onkel-Bräsig-Str. 76-78;12359;Integrierte Sekundarschule;52.44865;13.44389;117;5 %;125;9 %;;9 %;;;
+07G23;Schätzelberg-Grundschule;Wolfsburger Weg 13-19;12109;Grundschule;52.4487;13.40066;21;0 %;;;;;;;
+06G32;Grundschule am Stadtpark Steglitz;Karl-Stieler-Str. 10-11;12167;Grundschule;52.449314;13.34298;37;5 %;39;8 %;8 %;;;;
+09G24;Müggelsee-Schule (Grundschule);Aßmannstr. 63;12587;Grundschule;52.45072;13.62746;21;5 %;22;5 %;5 %;;;;
+09K05;Wilhelm-Bölsche-Schule (Integrierte Sekundarschule);Aßmannstr. 11;12587;Integrierte Sekundarschule;52.45109;13.61894;43;2 %;44;5 %;5 %;;;;
+09Y03;Archenhold-Gymnasium;Rudower Str. 7;12439;Gymnasium;52.4514;13.52271;49;2 %;;;;;;;
+06G17;Grundschule am Insulaner;Hanstedter Weg 11-15;12169;Grundschule;52.45185;13.34956;34;6 %;33;9 %;6 %;;3 %;;
+09Y06;Gerhart-Hauptmann-Gymnasium;Bruno-Wille-Str. 37-45;12587;Gymnasium;52.45227;13.63269;54;0 %;55;2 %;;;2 %;;
+06K10;Helene-Lange-Schule (Integrierte Sekundarschule);Lauenburger Str. 110;12169;Integrierte Sekundarschule;52.4528;13.33586;51;0 %;;;;;;;
+06Y08;Hermann-Ehlers-Oberschule;Elisenstr. 3-4;12169;Gymnasium;52.45297;13.33373;50;6 %;49;6 %;6 %;;;;
+06B04;Wilhelm-Ostwald-Schule (OSZ Gestaltung);Immenweg 6;12169;;52.453366;13.345392;99;3 %;95;7 %;5 %;;2 %;;
+06G16;Rothenburg-Grundschule;Rothenburgstr. 18;12165;Grundschule;52.454508;13.313715;21;5 %;23;17 %;17 %;;;;
+06Y09;Fichtenberg-Oberschule;Rothenburgstr. 18;12165;Gymnasium;52.45398;13.31302;69;1 %;73;2 %;1 %;;1 %;;
+06G12;Quentin-Blake-Grundschule;Hüttenweg 40;14195;Grundschule;52.454097;13.27055;34;6 %;39;13 %;5 %;;8 %;;
+06S02;Biesalski-Schule;Hüttenweg 40;14195;Übrige Förderschwerpunkte;52.454973;13.269192;48;4 %;48;2 %;;;2 %;;
+09G07;Schule an der alten Feuerwache (Grundschule);Schnellerstr. 31;12439;Grundschule;52.45459;13.51379;27;19 %;35;20 %;;17 %;3 %;;
+09G27;Friedrichshagener Schule (Grundschule);Peter-Hille-Str. 7;12587;Grundschule;52.454606;13.621399;29;7 %;29;10 %;7 %;;3 %;;
+06K02;Wilma-Rudolph-Schule (Integrierte Sekundarschule);Am Hegewinkel 2A;14169;Integrierte Sekundarschule;52.45479;13.26097;90;1 %;92;1 %;1 %;;;;
+08G19;Herman-Nohl-Schule (Grundschule);Hannemannstr. 69;12347;Grundschule;52.455159;13.43894;49;14 %;56;18 %;;16 %;2 %;;x
+05G19;Grundschule am Ritterfeld;Schallweg 31;14089;Grundschule;52.455239;13.138357;31;3 %;32;6 %;6 %;;;;
+06S05;J.-A.-Zeune-Schule für Blinde und Berufsfachschule Dr. Silex;Rothenburgstr. 14;12165;Berufsschule mit sonderpäd. Aufgaben;52.455569;13.315047;41;0 %;44;2 %;;;2 %;;x
+09G23;Hauptmann-von-Köpenick-Schule (Grundschule);Borgmannstr. 2;12555;Grundschule;52.45624;13.58095;23;13 %;24;8 %;8 %;;;;
+06Y13;Gymnasium Steglitz;Heesestr. 15;12169;Gymnasium;52.45671;13.32644;72;0 %;72;2 %;1 %;;1 %;;
+08B04;OSZ Informations- und Medizintechnik;Haarlemer Str. 23-27;12359;;52.457838;13.449527;144;8 %;135;9 %;;7 %;2 %;;
+07G07;Lindenhof-Grundschule;Reglinstr. 29;12105;Grundschule;52.45809;13.36325;29;0 %;29;3 %;3 %;;;;x
+08K03;Otto-Hahn-Schule;Buschkrugallee 63;12359;Integrierte Sekundarschule;52.45809;13.449;74;7 %;79;8 %;5 %;;3 %;;x
+06G04;Erich-Kästner-Grundschule;Bachstelzenweg 2-8;14195;Grundschule;52.458141;13.283199;27;4 %;29;7 %;7 %;;;;
+07G20;Maria-Montessori-Grundschule;Friedrich-Wilhelm-Str. 72-74;12103;Grundschule;52.45817;13.38069;36;8 %;37;14 %;14 %;;;;
+06Y03;Arndt-Gymnasium Dahlem;Königin-Luise-Str. 80-84;14195;Gymnasium;52.45916;13.28001;64;0 %;62;2 %;;;2 %;;
+08G24;Schule am Teltowkanal (Grundschule);Rungiusstr. 46;12347;Grundschule;52.45925;13.44063;28;7 %;30;17 %;17 %;;;;x
+06K09;Gail-S.-Halvorsen-Integrierte Sekundarschule;Im Gehege 6;14195;Integrierte Sekundarschule;52.459454;13.284371;46;11 %;43;19 %;;19 %;;;
+07Y06;Askanisches Gymnasium;Kaiserin-Augusta-Str. 19-20;12103;Gymnasium;52.45992;13.37992;52;0 %;;;;;;;
+07G19;Paul-Simmel-Grundschule;Felixstr. 26-58;12099;Grundschule;52.46137;13.3926;37;3 %;38;5 %;;;5 %;;
+06G14;Sachsenwald-Grundschule;Sachsenwaldstr. 20-21;12157;Grundschule;52.46151;13.3354;34;3 %;35;6 %;3 %;;3 %;;
+09G04;Sonnenblumen-Schule (Grundschule);Radenzer Str. 16;12437;Grundschule;52.46163;13.48872;30;17 %;28;21 %;;21 %;;;
+06Y07;Paulsen-Gymnasium;Gritznerstr. 57;12163;Gymnasium;52.46219;13.314388;54;4 %;54;6 %;2 %;;4 %;;
+09G22;Schule an der Wuhlheide (Grundschule);Kottmeierstr. 2;12459;Grundschule;52.462579;13.524106;38;5 %;42;12 %;10 %;;2 %;;
+08G23;Zürich-Schule (Grundschule);Wederstr. 49;12347;Grundschule;52.462585;13.439533;31;10 %;34;6 %;6 %;;;;x
+08G15;Hermann-Sander-Schule (Grundschule);Mariendorfer Weg 69;12051;Grundschule;52.46416;13.43005;42;2 %;;;;;;;x
+06K03;Kopernikus-Schule (Integrierte Sekundarschule);Lepsiusstr. 24-28;12163;Integrierte Sekundarschule;52.4643;13.32069;83;5 %;83;4 %;4 %;;;;
+09K01;Merian-Schule (Integrierte Sekundarschule);Hoernlestr. 80;12555;Integrierte Sekundarschule;52.46431;13.57643;78;1 %;77;6 %;5 %;;1 %;;
+07S04;Marianne-Cohn-Schule;Holzmannstr. 7;12099;"Förderschwerp.""Geistige Entwicklung""";52.46433;13.41815;22;0 %;;;;;;;x
+09A06;Volkshochschule Treptow-Köpenick;Baumschulenstraße 79-81;12437;;52.464357;13.485266;6;0 %;;;;;;;
+06G15;Dunant-Grundschule;Gritznerstr. 19-23;12163;Grundschule;52.46486;13.31818;36;0 %;40;8 %;8 %;;;;
+07Y05;Luise-Henriette-Gymnasium;Germaniastr. 4-6;12099;Gymnasium;52.46546;13.39059;54;2 %;52;4 %;2 %;;2 %;;
+07K13;Schule am Berlinickeplatz (Integrierte Sekundarschule);Alt-Tempelhof 53-57;12103;Integrierte Sekundarschule;52.465657;13.379583;36;6 %;35;6 %;6 %;;;;x
+09K04;Isaac-Newton-Schule (Integrierte Sekundarschule);Zeppelinstr. 76-80;12459;Integrierte Sekundarschule;52.4659;13.51817;34;0 %;34;12 %;9 %;;3 %;;
+09G21;Edison-Grundschule;Wattstr. 69-70;12459;Grundschule;52.46607;13.50886;39;10 %;43;12 %;12 %;;;;
+09B03;Hermann-Scheer-Schule (OSZ Wirtschaft);Helmholtzstraße 37;12459;;52.466318;13.507320;83;4 %;85;8 %;6 %;;2 %;;
+08G35;Schule in der Köllnischen Heide (Grundschule);Hänselstr. 6;12057;Grundschule;52.4666;13.4721;48;6 %;46;9 %;7 %;;2 %;;x
+08G21;Silberstein-Schule (Grundschule);Silbersteinstr. 42;12051;Grundschule;52.466965;13.434906;25;24 %;27;22 %;;22 %;;;x
+08K12;Kepler-Schule;Zwillingestr. 21;12057;Integrierte Sekundarschule;52.46737;13.46477;38;8 %;48;12 %;8 %;;4 %;;x
+09G17;Uhlenhorst-Grundschule;Wongrowitzer Steig 37;12555;Grundschule;52.467512;13.579352;26;4 %;;;;;;;
+09A05;Treptow-Kolleg;Kiefholzstr. 274;12437;Volkshochschul-Kolleg;52.46818;13.48463;39;0 %;;;;;;;
+07G15;Fläming-Grundschule;Illstr. 4-6;12161;Grundschule;52.46839;13.3329;46;7 %;48;4 %;4 %;;;;
+09G03;Schule am Heidekampgraben (Grundschule);Hänselstr. 14;12437;Grundschule;52.46872;13.47837;25;16 %;27;7 %;7 %;;;;
+07S01;Prignitz-Schule;Pöppelmannstr. 2;12157;"Förderschwerp.""Lernen""";52.46884;13.34519;19;16 %;26;15 %;15 %;;;;x
+07G17;Stechlinsee-Grundschule;Rheingaustr. 7;12161;Grundschule;52.46934;13.32242;35;0 %;41;2 %;2 %;;;;
+07Y04;Paul-Natorp-Gymnasium;Goßlerstr. 13-15;12161;Gymnasium;52.46939;13.32431;65;3 %;66;4 %;2 %;;2 %;;
+08Y01;Albrecht-Dürer-Gymnasium;Emser Str. 132-137;12051;Gymnasium;52.46947;13.43907;48;0 %;;;;;;;
+07K12;Friedenauer Gemeinschaftsschule;Rubensstr. 63;12157;Integrierte Sekundarschule;52.469784;13.344068;84;5 %;91;8 %;5 %;;3 %;;x
+07Y03;Rheingau-Gymnasium;Schwalbacher Str. 3-4;12161;Gymnasium;52.470206;13.322611;63;0 %;;;;;;;
+04G19;Grundschule am Rüdesheimer Platz;Rüdesheimer Str. 24-30;14197;Grundschule;52.47113;13.31312;59;3 %;58;10 %;;10 %;;;
+09S03;Albatros-Schule;Treskowallee 222;12459;"Förderschwerp.""Geistige Entwicklung""";52.471245;13.516154;29;3 %;31;13 %;;;13 %;;x
+08G12;Peter-Petersen-Schule (Grundschule);Jonasstr. 15;12053;Grundschule;52.47189;13.43548;20;0 %;;;;;;;x
+08G20;Sonnen-Schule (Grundschule);Dammweg 228;12057;Grundschule;52.47197;13.46714;31;16 %;36;28 %;;25 %;3 %;;x
+05G29;Mary-Poppins-Grundschule;Am Flugplatz Gatow 20;14089;Grundschule;52.472209;13.127426;32;13 %;33;9 %;9 %;;;;
+05Y03;Hans-Carossa-Gymnasium;Am Landschaftspark Gatow 40;14089;Gymnasium;52.47244;13.13028;84;1 %;83;1 %;1 %;;;;
+08G36;Löwenzahn-Schule (Grundschule);Drorystr. 3;12055;Grundschule;52.472499;13.448771;28;11 %;28;18 %;18 %;;;;x
+08G14;Konrad-Agahd-Schule (Grundschule);Thomasstr. 39;12053;Grundschule;52.4725;13.43556;28;18 %;25;8 %;8 %;;;;x
+08B05;Carl-Legien-Schule;Leinestraße 37;12049;;52.472605;13.424240;32;0 %;32;26 %;13 %;;13 %;;
+09S06;Schule am Wildgarten;Köpenicker Landstr. 185A;12437;Grundschule;52.473436;13.48707;30;0 %;34;9 %;6 %;;3 %;;x
+08G17;Richard-Schule (Grundschule);Richardplatz 14;12055;Grundschule;52.47359;13.44439;31;6 %;35;14 %;11 %;;3 %;;x
+04G27;Judith-Kerr-Grundschule;Friedrichshaller Straße 13;14199;;52.475278;13.294929;33;3 %;32;12 %;3 %;;9 %;;
+07G16;Ruppin-Grundschule;Offenbacher Str. 5A;14197;Grundschule;52.47538;13.32137;41;5 %;42;7 %;7 %;;;;
+08S01;Adolf-Reichwein-Schule;Sonnenallee 188;12059;"Förderschwerp.""Lernen""";52.475733;13.450826;30;3 %;31;3 %;3 %;;;;x
+08G09;Regenbogen-Schule (Grundschule);Morusstr. 32;12053;Grundschule;52.47578;13.43333;43;2 %;44;5 %;5 %;;;;x
+08K10;Zuckmayer-Schule;Kopfstr. 55;12053;Integrierte Sekundarschule;52.4761;13.43129;40;10 %;44;7 %;5 %;;2 %;;x
+07K10;Friedrich-Bergius-Schule;Perelsplatz 6-9;12159;Integrierte Sekundarschule;52.47618;13.33314;39;0 %;;;;;;;x
+08G06;Karl-Weise-Schule (Grundschule);Weisestr. 20;12049;Grundschule;52.476503;13.423961;24;8 %;27;19 %;19 %;;;;x
+04G23;Alt-Schmargendorf-Grundschule;Reichenhaller Str. 8;14199;Grundschule;52.477085;13.293432;33;0 %;36;6 %;3 %;;3 %;;
+08G18;Eduard-Mörike-Schule (Grundschule);Stuttgarter Str. 35-39;12059;Grundschule;52.477969;13.450143;35;29 %;35;26 %;;26 %;;;x
+04G24;Carl-Orff-Grundschule;Berkaer Str. 9-10;14199;Grundschule;52.47841;13.28709;35;0 %;;;;;;;
+07K11;Hugo-Gaudig-Schule;Boelckestraße 58-60;12101;;52.478586;13.376498;45;4 %;50;10 %;6 %;;4 %;;x
+07G24;Tempelherren-Grundschule;Boelckestr. 58-60;12101;Grundschule;52.478603;13.37647;25;16 %;23;13 %;13 %;;;;x
 11G14;Richard-Wagner-Grundschule;Ehrenfelsstr. 36;10318;Grundschule;52.479326;13.53427;40;5 %;37;3 %;;;3 %;;
-11G16;Schule an der Victoriastadt;Nöldnerstr. 44;10317;Grundschule;52.50159;13.48054;29;0 %;;;;;;;
-11G17;Brodowin-Schule (Grundschule);Liebenwalder Str. 22;13055;Grundschule;52.53738;13.50067;39;8 %;39;8 %;8 %;;;;x
-11G18;Grundschule am Wilhelmsberg;Sandinostr. 8;13055;Grundschule;52.537206;13.483664;35;9 %;45;20 %;;16 %;4 %;;
-11G19;Obersee-Grundschule;Roedernstr. 69-72;13053;Grundschule;52.543711;13.488079;27;11 %;25;16 %;16 %;;;;
-11G21;Schule Am Faulen See;Degnerstr. 71;13053;Grundschule;52.5521;13.49837;27;4 %;29;7 %;7 %;;;;
-11G22;Martin-Niemöller-Grundschule;Am Breiten Luch 5;13053;Grundschule;52.56339;13.51209;45;13 %;50;22 %;;22 %;;;x
-11G23;Friedrichsfelder Grundschule;Lincolnstr. 67;10315;Grundschule;52.503;13.50355;33;9 %;38;24 %;;24 %;;;
-11G25;Schule am Wäldchen (Grundschule);Wustrower Str. 28;13051;Grundschule;52.56846;13.50628;33;6 %;34;3 %;;;3 %;;x
-11G26;Randow-Schule (Grundschule);Randowstr. 45;13057;Grundschule;52.56405;13.51904;25;8 %;32;22 %;;22 %;;;x
-11G28;Feldmark-Schule (Grundschule);Wartiner Str. 23;13057;Grundschule;52.569161;13.531731;45;9 %;49;8 %;8 %;;;;x
-11G29;Matibi-Grundschule;Prendener Str. 15;13059;Grundschule;52.5724;13.52072;37;3 %;42;2 %;2 %;;;;
-11G31;Schmetterlings-Grundschule;Dolgenseestr. 60;10319;Grundschule;52.49417;13.50546;18;11 %;18;22 %;22 %;;;;x
-11G32;32. Schule (Grundschule);Bernhard-Bästlein-Straße 56;10367;;52.531794;13.480092;10;0 %;16;44 %;19 %;;25 %;;
-11K01;Alexander-Puschkin-Schule;Massower Str. 37;10315;Integrierte Sekundarschule;52.50795;13.51556;42;0 %;;;;;;;
-11K02;Mildred-Harnack-Schule;Schulze-Boysen-Str. 12;10365;Integrierte Sekundarschule;52.511321;13.481213;73;4 %;76;1 %;1 %;;;;
-11K04;Gutenberg-Schule;Sandinostr. 10;13055;Integrierte Sekundarschule;52.53573;13.48743;72;0 %;;;;;;;
-11K05;Fritz-Reuter-Schule;Prendener Str. 29;13059;Integrierte Sekundarschule;52.570237;13.52104;66;3 %;65;7 %;5 %;;2 %;;
-11K06;Schule am Rathaus;Rathausstr. 8;10367;Integrierte Sekundarschule;52.515892;13.48038;34;0 %;34;3 %;3 %;;;;x
-11K07;Vincent-van-Gogh-Schule (Integrierte Sekundarschule);Wustrower Str. 26;13051;Integrierte Sekundarschule;52.5678;13.50702;42;5 %;40;13 %;13 %;;;;x
-11K08;George-Orwell-Schule;Sewanstr. 223;10319;Integrierte Sekundarschule;52.496354;13.514933;36;3 %;42;2 %;2 %;;;;
-11K09;Philipp-Reis-Schule (Integrierte Sekundarschule);Werneuchener Str. 15;13055;Integrierte Sekundarschule;52.53952;13.49572;39;8 %;47;6 %;6 %;;;;
-11K10;Grüner Campus Malchow (Gemeinschaftsschule);Malchower Chaussee 2;13051;Integrierte Sekundarschule;52.569831;13.479469;140;14 %;153;16 %;;15 %;1 %;;
-11K11;Paul-Schmidt-Schule (Integrierte Sekundarschule);Malchower Weg 54;13053;Integrierte Sekundarschule;52.55475;13.50438;42;0 %;43;4 %;2 %;;2 %;;x
-11K12;Paul-und-Charlotte-Kniese-Schule (Gemeinschaftsschule);Erich-Kurz-Str. 6-10;10319;"Förderschwerp.""Geistige Entwicklung""";52.498846;13.519748;60;12 %;61;13 %;;13 %;;;x
-11S02;Schule am Fennpfuhl;Alfred-Jung-Str. 19;10369;"Förderschwerp.""Lernen""";52.52392;13.4769;25;0 %;;;;;;;x
-11S04;Paul-und-Charlotte-Kniese-Schule;Erich-Kurz-Str. 6-10;10319;Übrige Förderschwerpunkte;52.498846;13.519748;9;11 %;11;9 %;9 %;;;;x
-11S05;Schule am grünen Grund;Herzbergstr. 79;10365;Übrige Förderschwerpunkte;52.52822;13.50858;33;24 %;28;18 %;18 %;;;;
-11S06;Selma-Lagerlöf-Schule;Bernhard-Bästlein-Str. 56;10367;Übrige Förderschwerpunkte;52.53183;13.47998;24;4 %;22;5 %;5 %;;;;x
-11S07;Carl-von-Linné-Schule;Paul-Junius-Str. 15;10367;Berufsschule mit sonderpäd. Aufgaben;52.5217;13.47301;77;5 %;78;5 %;5 %;;;;x
-11S08;Schule Am Breiten Luch;Am Breiten Luch 19;13053;Grundschule;52.5627;13.5136;28;14 %;34;30 %;15 %;;15 %;;x
-11S12;Nils-Holgersson-Schule;Otto-Marquardt-Str. 12-14;10369;"Förderschwerp.""Geistige Entwicklung""";52.53405;13.47214;40;0 %;;;;;;;x
-11Y02;Johann-Gottfried-Herder-Gymnasium;Franz-Jacob-Str. 8;10369;Gymnasium;52.52671;13.467245;68;4 %;71;1 %;1 %;;;;
+04Y10;Marie-Curie-Gymnasium;Weimarische Str. 21;10715;Gymnasium;52.480119;13.324748;61;0 %;61;2 %;2 %;;;;
+08G07;Hermann-Boddin-Schule (Grundschule);Boddinstr. 55;12053;Grundschule;52.480416;13.431252;29;7 %;26;16 %;8 %;;8 %;;x
+07G06;Sternberg-Grundschule;Mettestr. 8;10825;Grundschule;52.48047;13.33924;25;4 %;23;13 %;9 %;;4 %;;x
+07Y02;Rückert-Gymnasium;Mettestr. 8;10825;Gymnasium;52.480979;13.339718 ;57;0 %;56;2 %;2 %;;;;
+04G26;Birger-Forell-Grundschule;Koblenzer Str. 22-24;10715;Grundschule;52.480726;13.321893;28;4 %;29;3 %;3 %;;;;
+07G21;Grundschule auf dem Tempelhofer Feld;Schulenburgring 7-11;12101;Grundschule;52.48081;13.38185;36;6 %;37;5 %;5 %;;;;
+09K07;Sophie-Brahe-Schule (Gemeinschaftsschule);Am Plänterwald 17-23;12435;Integrierte Sekundarschule;52.48171;13.47804;66;5 %;67;1 %;1 %;;;;
+04B08;Kläre-Bloch-Schule;Prinzregentenstraße 60;10715;;52.481962;13.333151;22;0 %;22;5 %;;;5 %;;
+08G08;Karlsgarten-Schule (Grundschule);Karlsgartenstr. 7;12049;Grundschule;52.482099;13.422505;39;5 %;39;8 %;8 %;;;;x
+04K07;Integrierte Sekundarschule Wilmersdorf;Kranzer Str. 3;14199;Integrierte Sekundarschule;52.482808;13.296098;35;6 %;;;;;;;
+04G18;Ernst-Habermann-Grundschule;Prinzregentenstr. 33-34;10715;Grundschule;52.48328;13.33269;20;0 %;;;;;;;
+08Y04;Ernst-Abbe-Gymnasium;Sonnenallee 79;12045;Gymnasium;52.48349;13.43711;47;4 %;49;6 %;6 %;;;;x
+04B06;Leopold-Ullstein-Schule (OSZ Wirtschaft);Prinzregentenstraße 32;10715;;52.483494;13.332888;63;2 %;63;5 %;2 %;;3 %;;
+08G03;Hans-Fallada-Schule (Grundschule);Harzer Str. 73;12059;Grundschule;52.483564;13.451851;40;3 %;39;11 %;8 %;;3 %;;x
+08S06;Hans-Fallada-Schule;Harzer Str. 73-74;12059;"Förderschwerp.""Lernen""";52.484204;13.453927;22;0 %;;;;;;;x
+07G10;Teltow-Grundschule;Feurigstr. 57;10827;Grundschule;52.484327;13.356154;42;12 %;43;11 %;9 %;;2 %;;x
+08G05;Elbe-Schule (Grundschule);Elbestr. 11;12045;Grundschule;52.48442;13.44062;25;4 %;25;12 %;12 %;;;;x
+04S06;Finkenkrug-Schule;Mannheimer Str. 21-22;10713;"Förderschwerp.""Geistige Entwicklung""";52.48448;13.31606;25;0 %;;;;;;;
+04A06;Peter-A.-Silbermann-Schule;Blissestraße 22;10713;;52.484515;13.319460;15;0 %;;;;;;;
+04G22;Grunewald-Grundschule;Delbrückstr. 20A;14193;Grundschule;52.484525;13.281094;35;11 %;36;3 %;3 %;;;;
+04Y07;Friedrich-Ebert-Gymnasium;Blissestr. 22;10713;Gymnasium;52.484621;13.319289;70;0 %;70;1 %;1 %;;;;
+07B03;OSZ Lotis (Logistik, Touristik und Steuern);Dudenstraße 35/37;10965;;52.484707;13.380283;117;1 %;115;3 %;3 %;;;;
+07G05;Havelland-Grundschule;Kolonnenstr. 30;10829;Grundschule;52.484772;13.367681;32;3 %;34;6 %;6 %;;;;
+07Y01;Robert-Blum-Gymnasium;Kolonnenstr. 21;10829;Gymnasium;52.48483;13.36487;64;3 %;;;;;;;
+08G01;Rixdorfer Schule (Grundschule);Donaustr. 120;12043;Grundschule;52.484904;13.431792;35;3 %;40;15 %;10 %;;5 %;;x
+04Y08;Hildegard-Wegscheider-Gymnasium;Lassenstr. 16-20;14193;Gymnasium;52.485116;13.275931;43;7 %;42;7 %;7 %;;;;
+08Y02;Albert-Schweitzer-Gymnasium;Karl-Marx-Str. 14;12043;Gymnasium;52.4852;13.42649;55;2 %;54;9 %;7 %;;2 %;;x
+05G24;Grundschule am Windmühlenberg;Am Kinderdorf 23-37;14089;Grundschule;52.48547;13.17431;21;0 %;;;;;;;
+10G33;Ulmen-Grundschule;Ulmenstr. 79-85;12621;Grundschule;52.48584;13.58006;34;3 %;40;8 %;8 %;;;;
+07K09;Gustav-Langenscheidt-Schule;Belziger Str. 43-51;10823;Integrierte Sekundarschule;52.485997;13.350718;40;0 %;39;3 %;3 %;;;;x
+09G30;Kiefholz-Grundschule;Kiefholzstr. 45;12435;Grundschule;52.48626;13.45609;21;19 %;21;5 %;5 %;;;;
+08G02;Theodor-Storm-Schule (Grundschule);Hobrechtstr. 76;12043;Grundschule;52.486488;13.426763;20;10 %;20;5 %;5 %;;;;x
+08K08;Gemeinschaftsschule auf dem Campus Rütli;Rütlistr. 41;12045;Integrierte Sekundarschule;52.487309;13.434226;85;0 %;94;3 %;1 %;;2 %;;x
+04Y11;Goethe-Gymnasium;Gasteiner Str. 23;10717;Gymnasium;52.48759;13.3225;46;0 %;48;2 %;;;2 %;;
+04S07;Comenius-Schule;Gieselerstr. 4;10713;Grundschule;52.48869;13.3181;101;3 %;96;2 %;2 %;;;;
+02K10;Ferdinand-Freiligrath-Schule (Integrierte Sekundarschule);Bergmannstr. 64;10961;Integrierte Sekundarschule;52.488798;13.40149;33;0 %;35;3 %;3 %;;;;x
+08K09;Röntgen-Schule;Wildenbruchstr. 53;12435;Integrierte Sekundarschule;52.488886;13.449558;43;2 %;44;4 %;2 %;;2 %;;x
+11G13;Karlshorster Grundschule;Lisztstr. 6;10318;Grundschule;52.48925;13.51994;36;8 %;42;12 %;10 %;;2 %;;
+07G14;Löcknitz-Grundschule;Berchtesgadener Str. 10-11;10779;Grundschule;52.489558;13.343356;26;4 %;;;;;;;
+02Y06;Leibniz-Gymnasium;Schleiermacherstr. 23;10961;Gymnasium;52.48978;13.39747;68;0 %;63;2 %;;;2 %;;
+10K06;Georg-Klingenberg-Schule;Alberichstr. 24;12683;Integrierte Sekundarschule;52.49015;13.55783;32;9 %;34;3 %;3 %;;;;
+10G16;Grundschule am Fuchsberg;Dankratweg 19;12683;Grundschule;52.49039;13.551484;25;0 %;;;;;;;
+02G13;Charlotte-Salomon-Grundschule;Großbeerenstr. 40;10965;Grundschule;52.49041;13.38183;45;7 %;41;2 %;2 %;;;;
+02G21;Reinhardswald-Grundschule;Gneisenaustr. 73-74;10961;Grundschule;52.49059;13.3999;46;2 %;49;6 %;6 %;;;;x
+02G31;Adolf-Glaßbrenner-Grundschule;Hagelberger Str. 34;10965;Grundschule;52.49085;13.38065;35;0 %;37;8 %;5 %;;3 %;;
+04Y09;Walther-Rathenau-Gymnasium;Herbertstr. 2-6;14193;Gymnasium;52.49143;13.28135;43;2 %;41;5 %;5 %;;;;
+02K02;Carl-von-Ossietzky-Schule (Gemeinschaftsschule);Blücherstr. 46;10961;Integrierte Sekundarschule;52.491647;13.404491;131;5 %;125;11 %;;5 %;;6 %;x
+02K04;Lina-Morgenstern-Schule (Gemeinschaftsschule);Gneisenaustr. 7;10961;Integrierte Sekundarschule;52.49178;13.38971;60;0 %;66;5 %;2 %;;3 %;;x
 11Y05;Hans-und-Hilde-Coppi-Oberschule;Römerweg 30-32;10318;Gymnasium;52.4918;13.52343;53;0 %;53;2 %;2 %;;;;
-11Y09;Barnim-Gymnasium;Ahrensfelder Chaussee 41;13057;Gymnasium;52.569201;13.549303;98;1 %;92;6 %;3 %;;3 %;;
-11Y10;Manfred-von-Ardenne-Gymnasium;Werneuchener Str. 27-28;13055;Gymnasium;52.54188;13.49242;46;0 %;52;2 %;;;2 %;;
+11G12;Lew-Tolstoi-Grundschule;Römerweg 120;10318;Grundschule;52.49199;13.53678;36;6 %;38;13 %;8 %;;5 %;;
+07A06;Volkshochschule Tempelhof-Schöneberg;Barbarossapl. 5;10781;;52.492305;13.349828;10;0 %;;;;;;;
+07G18;Grundschule am Barbarossaplatz;Barbarossaplatz 5;10781;Grundschule;52.49235;13.34978;35;0 %;32;3 %;;;3 %;;
+04K09;Otto-von-Guericke-Schule (Integrierte Sekundarschule);Eisenzahnstr. 47-48;10709;Integrierte Sekundarschule;52.49276;13.30516;41;5 %;42;2 %;2 %;;;;x
+07K01;Sophie-Scholl-Schule;Elßholzstr. 34-37;10781;Integrierte Sekundarschule;52.492808;13.356583;118;1 %;119;5 %;;;;5 %;
+07G13;Neumark-Grundschule;Steinmetzstr. 46-50;10783;Grundschule;52.49282;13.36249;26;0 %;28;7 %;7 %;;;;x
+02G11;Thalia-Grundschule;Alt-Stralau 34;10245;Grundschule;52.492881;13.476151;22;14 %;25;8 %;8 %;;;;
+02G33;Aziz-Nesin-Grundschule;Urbanstr. 15;10961;Grundschule;52.49312;13.40611;35;3 %;35;12 %;9 %;;3 %;;x
+02Y07;Robert-Koch-Gymnasium;Dieffenbachstr. 60;10967;Gymnasium;52.49323;13.41596;48;2 %;47;4 %;2 %;;2 %;;x
+09G01;Bouché-Schule (Grundschule);Bouchestr. 5-10;12435;Grundschule;52.49327;13.45252;30;13 %;38;13 %;13 %;;;;
+04G25;Cecilien-Schule (Grundschule);Nikolsburger Platz 5;10717;Grundschule;52.49331;13.32769;31;10 %;33;15 %;12 %;;3 %;;
+02Y08;Hermann-Hesse-Gymnasium;Böckhstr. 16;10967;Gymnasium;52.493579;13.419151;51;4 %;53;4 %;2 %;;2 %;;x
+04K04;Nelson-Mandela-Schule;Pfalzburger Str. 23;10719;;52.493672;13.321710;140;0 %;135;10 %;;;;10 %;
+02G16;Lenau-Grundschule;Nostitzstr. 60;10961;Grundschule;52.49381;13.39154;40;10 %;39;8 %;8 %;;;;x
+10G32;Kiekemal-Schule (Grundschule);Hultschiner Damm 219;12623;Grundschule;52.49407;13.60915;27;0 %;30;3 %;3 %;;;;
+07K06;Georg-von-Giesche-Schule;Hohenstaufenstr. 47-48;10779;Integrierte Sekundarschule;52.494144;13.342529;50;4 %;48;16 %;6 %;;10 %;;
+11G31;Schmetterlings-Grundschule;Dolgenseestr. 60;10319;Grundschule;52.49417;13.50546;18;11 %;18;22 %;22 %;;;;x
+07G12;Scharmützelsee-Grundschule;Hohenstaufenstr. 49;10779;Grundschule;52.494177;13.343268;38;3 %;37;3 %;3 %;;;;
+02G26;Lemgo-Grundschule;Böckhstr. 5;10967;Grundschule;52.494198;13.416454;36;8 %;37;22 %;14 %;;8 %;;x
+02K09;Albrecht-von-Graefe-Schule (Integrierte Sekundarschule);Graefestr. 85-88;10967;Integrierte Sekundarschule;52.494205;13.418709;24;4 %;35;12 %;9 %;;3 %;;x
+04K03;Robert-Jungk-Schule;Sächsische Str. 58;10707;Integrierte Sekundarschule;52.49448;13.31872;101;0 %;103;2 %;;;2 %;;
+02G20;Bürgermeister-Herz-Grundschule;Wilmsstr. 10;10961;Grundschule;52.49488;13.40516;37;0 %;36;6 %;6 %;;;;x
+07G03;Werbellinsee-Grundschule;Luitpoldstr. 38;10781;Grundschule;52.495036;13.348236;37;3 %;43;7 %;7 %;;;;
+07G01;Spreewald-Grundschule;Pallasstr. 15;10781;Grundschule;52.49539;13.35693;28;7 %;32;16 %;16 %;;;;x
+04G17;Johann-Peter-Hebel-Grundschule;Emser Str. 50;10719;Grundschule;52.49541;13.31942;40;3 %;39;3 %;3 %;;;;
+02G35;Rosa-Parks-Grundschule;Reichenberger Str. 65;10999;Grundschule;52.495472;13.43052;43;7 %;41;5 %;5 %;;;;x
+11G11;Bernhard-Grzimek-Schule (Grundschule);Sewanstr. 184;10319;Grundschule;52.49572;13.51176;34;6 %;34;3 %;;;3 %;;x
+02G23;Fichtelgebirge-Grundschule;Görlitzer Ufer 2;10997;Grundschule;52.49575;13.44495;36;8 %;36;12 %;6 %;;6 %;;
+11K08;George-Orwell-Schule;Sewanstr. 223;10319;Integrierte Sekundarschule;52.496354;13.514933;36;3 %;42;2 %;2 %;;;;
+04S04;Reinfelder-Schule;Maikäferpfad 30;14055;Grundschule;52.49693;13.26373;61;0 %;62;2 %;2 %;;;;
+02S02;Gustav-Meyer-Schule;Kohlfurter Str. 22;10999;"Förderschwerp.""Geistige Entwicklung""";52.497102;13.416721;33;12 %;40;8 %;8 %;;;;x
+02G22;Jens-Nydahl-Grundschule;Kohlfurter Str. 20;10999;Grundschule;52.497294;13.41619;42;10 %;44;25 %;;20 %;5 %;;x
+02G27;Hunsrück-Grundschule;Manteuffelstr. 79;10999;Grundschule;52.497732;13.426632;44;14 %;47;13 %;;13 %;;;x
+07G02;Finow-Grundschule;Welserstr. 16-22;10777;Grundschule;52.49823;13.34251;44;5 %;43;2 %;2 %;;;;
+02K03;Hector-Peterson-Schule;Tempelhofer Ufer 15;10963;Integrierte Sekundarschule;52.49832;13.3841;36;6 %;36;22 %;14 %;;8 %;;x
+11K12;Paul-und-Charlotte-Kniese-Schule (Gemeinschaftsschule);Erich-Kurz-Str. 6-10;10319;"Förderschwerp.""Geistige Entwicklung""";52.498846;13.519748;60;12 %;61;13 %;;13 %;;;x
+11S04;Paul-und-Charlotte-Kniese-Schule;Erich-Kurz-Str. 6-10;10319;Übrige Förderschwerpunkte;52.498162;13.519196;9;11 %;11;9 %;9 %;;;;x
+04S05;Ernst-Adolf-Eschke-Schule für Gehörlose;Waldschulallee 29;14055;Fachschule;52.4989;13.26508;42;0 %;;;;;;;x
+02B02;Hans-Böckler-Schule (OSZ Konstruktionsbautechnik);Lobeckstraße 76;10969;;52.499135;13.403127;70;6 %;65;8 %;6 %;;2 %;;
+07B02;Marie-Elisabeth-Lüders-Oberschule;Steinmetzstraße 79;10783;;52.499243;13.364800;47;4 %;38;8 %;3 %;;5 %;;
+02K08;Refik-Veseli-Schule (Integrierte Sekundarschule);Skalitzer Str. 55;10997;Integrierte Sekundarschule;52.49962;13.43555;59;3 %;59;8 %;8 %;;;;x
+02G24;Otto-Wels-Grundschule;Alexandrinenstr. 12;10969;Grundschule;52.499923;13.401623;58;9 %;56;7 %;7 %;;;;x
+04G21;Halensee-Grundschule;Joachim-Friedrich-Str. 35-36;10711;Grundschule;52.49993;13.2961;29;3 %;27;4 %;4 %;;;;
+02G29;Heinrich-Zille-Grundschule;Waldemarstr. 118;10997;Grundschule;52.500729;13.429182;42;2 %;42;9 %;2 %;;7 %;;x
+02G32;Clara-Grunwald-Grundschule;Hallesche Str. 24;10963;Grundschule;52.50077;13.38313;27;0 %;;;;;;;
+02B04;OSZ Handel 1;Wrangelstraße 98;10997;;52.500976;13.436659;200;0 %;195;3 %;1 %;;2 %;;
+11B02;Max-Taut-Schule (OSZ Gebäude, Umwelt, Technik);Fischerstraße 36;10317;;52.501125;13.486998;102;10 %;100;15 %;;11 %;4 %;;
+11G16;Schule an der Victoriastadt;Nöldnerstr. 44;10317;Grundschule;52.50159;13.48054;29;0 %;;;;;;;
+02G14;Galilei-Grundschule;Friedrichstr. 13;10969;Grundschule;52.501885;13.391531;33;0 %;;;;;;;x
+02S06;Liebmann-Schule;Friedrichstr. 13;10969;Übrige Förderschwerpunkte;52.501911;13.391958;19;16 %;18;6 %;6 %;;;;x
 11Y11;Immanuel-Kant-Gymnasium;Lückstr. 63;10317;Gymnasium;52.501956;13.489635;59;0 %;60;2 %;2 %;;;;
+04K05;Paula-Fürst-Schule (Gemeinschaftsschule);Sybelstr. 20-21;10629;Integrierte Sekundarschule;52.50227;13.30194;94;4 %;100;3 %;2 %;;1 %;;
+04Y03;Sophie-Charlotte-Gymnasium;Sybelstr. 2;10629;Gymnasium;52.5023;13.31237;77;0 %;73;4 %;1 %;;3 %;;
+04G06;Wald-Grundschule;Waldschulallee 83-93;14055;Grundschule;52.50259;13.259;29;0 %;;;;;;;
+02B01;August-Sander-Schule;Naglerstraße 1-3;10245;;52.502696;13.450472;93;1 %;95;7 %;4 %;;3 %;;
+02K06;Emanuel-Lasker-Schule;Modersohnstr. 53;10245;Integrierte Sekundarschule;52.50277;13.45729;39;10 %;43;11 %;9 %;;2 %;;
+11B04;Friedrich-List-Schule (OSZ Büromanagement und Wirtschaftssprachen);Marktstraße 2 - 3;10317;;52.503016;13.474535;86;2 %;84;8 %;2 %;;6 %;;
+02G19;Fanny-Hensel-Grundschule;Schöneberger Str. 23;10963;Grundschule;52.50303;13.38014;28;4 %;24;8 %;8 %;;;;x
+01Y07;Französisches Gymnasium;Derfflingerstr. 7;10785;Gymnasium;52.50318;13.35549;64;0 %;64;14 %;3 %;;;11 %;
+07A05;Kolleg Schöneberg;Nürnberger Str. 63;10787;;52.503250;13.341364;40;0 %;;;;;;;
+04Y02;Wald-Gymnasium;Waldschulallee 95;14055;Gymnasium;52.50343;13.25701;63;0 %;;;;;;;
+04G04;Joan-Miró-Grundschule;Bleibtreustr. 43;10623;Grundschule;52.50357;13.32014;66;5 %;67;15 %;;9 %;6 %;;
+01G44;Allegro-Grundschule;Lützowstr. 83-85;10785;Grundschule;52.503571;13.363001;36;3 %;46;15 %;;13 %;2 %;;x
+02G12;Kurt-Schumacher-Grundschule;Puttkamerstr. 19;10969;Grundschule;52.504384;13.388493;26;12 %;24;17 %;17 %;;;;x
+04K08;Peter-Ustinov-Schule;Kuno-Fischer-Str. 22-26;14057;Integrierte Sekundarschule;52.505241;13.290548;58;10 %;58;12 %;;10 %;2 %;;x
+02G18;Nürtingen-Grundschule;Mariannenplatz 28;10997;Grundschule;52.505469;13.426859;56;4 %;52;12 %;8 %;;4 %;;x
+02B03;OSZ Bekleidung und Mode;Kochstraße 9;10969;;52.505965;13.389044;69;1 %;69;4 %;3 %;;1 %;;
+02G10;Modersohn-Grundschule;Niemannstr. 3;10245;Grundschule;52.50705;13.46024;32;0 %;38;10 %;5 %;;5 %;;
+01G10;City-Grundschule;Sebastianstr. 57;10179;Grundschule;52.50737;13.40892;26;4 %;33;12 %;3 %;;9 %;;x
+11K01;Alexander-Puschkin-Schule;Massower Str. 37;10315;Integrierte Sekundarschule;52.50795;13.51556;42;0 %;;;;;;;
+04A04;Charlotte-Wolff-Kolleg;Pestalozzistraße 40;10627;;52.508095;13.303442;30;3 %;;;;;;;
+11G09;Bürgermeister-Ziethen-Schule (Grundschule);Massower Str. 39;10315;Grundschule;52.50818;13.51665;37;14 %;34;9 %;9 %;;;;x
+05G12;Grundschule am Weinmeisterhorn;Daberkowstr. 27;13593;Grundschule;52.50825;13.1742;23;13 %;26;8 %;8 %;;;;
+04G15;Charles-Dickens-Grundschule;Dickensweg 15;14055;Grundschule;52.508946;13.236971;39;5 %;40;13 %;5 %;;8 %;;
+02G09;Zille-Grundschule;Boxhagener Str. 46;10245;Grundschule;52.50898;13.4653;29;0 %;27;7 %;7 %;;;;
+04K02;Friedensburg-Schule;Goethestr. 8-9;10623;Integrierte Sekundarschule;52.50908;13.32082;109;0 %;113;5 %;1 %;;4 %;;
+04G01;Eichendorff-Grundschule;Goethestr. 19;10625;Grundschule;52.50921;13.31305;32;3 %;31;10 %;10 %;;;;
+04G02;Lietzensee-Grundschule;Witzlebenstr. 34;14057;Grundschule;52.5094;13.29502;28;14 %;28;14 %;14 %;;;;
+04Y01;Schiller-Gymnasium;Schillerstr. 125-127;10625;Gymnasium;52.50993;13.321596;82;1 %;79;3 %;3 %;;;;
+02Y05;Dathe-Gymnasium;Helsingforser Str. 11-13;10243;Gymnasium;52.510001;13.445399;68;0 %;69;1 %;;;1 %;;
+11G08;Robinson-Grundschule;Wönnichstr. 7;10317;Grundschule;52.510047;13.50046;22;14 %;22;14 %;14 %;;;;
+11G07;Hermann-Gmeiner-Schule (Grundschule);Harnackstr. 17;10365;Grundschule;52.5101;13.48594;28;18 %;33;30 %;;27 %;3 %;;x
+04Y05;Herder-Gymnasium;Westendallee 45-46;14052;Gymnasium;52.510663;13.257932;54;2 %;;;;;;;
+04B07;OSZ Körperpflege;Schillerstraße 120;10625;;52.510728;13.318963;68;1 %;68;8 %;1 %;;7 %;;
+05K08;Schule an der Haveldüne (Integrierte Sekundarschule);Jaczostr. 53-67;13595;Integrierte Sekundarschule;52.51098;13.18567;65;2 %;72;7 %;7 %;;;;
+04Y06;Heinz-Berggruen-Gymnasium;Bayernallee 4;14052;Gymnasium;52.51103;13.26722;72;1 %;71;1 %;1 %;;;;
+11K02;Mildred-Harnack-Schule;Schulze-Boysen-Str. 12;10365;Integrierte Sekundarschule;52.511321;13.481213;73;4 %;76;1 %;1 %;;;;
+11G06;Adam-Ries-Schule (Grundschule);Alt-Friedrichsfelde 66;10315;Grundschule;52.5114;13.53125;27;7 %;28;8 %;4 %;;4 %;;x
+02G08;Grundschule am Traveplatz;Jessnerstr. 24-32;10247;Grundschule;52.511492;13.471855;27;4 %;27;4 %;4 %;;;;
+10G26;Friedrich-Schiller-Grundschule;An der Schule 13-17;12623;Grundschule;52.5115;13.614782;18;0 %;;;;;;;
+04B02;Hans-Litten-Schule (OSZ Recht und Wirtschaft);Danckelmannstraße 25;14059;;52.511797;13.291284;119;4 %;127;7 %;;6 %;1 %;;
+10Y02;Otto-Nagel-Gymnasium;Schulstr. 11;12683;Gymnasium;52.511922;13.549199;62;2 %;62;5 %;5 %;;;;
+04B04;Ruth-Cohn-Schule (OSZ Sozialwesen);Bismarckstraße 20;10625;;52.512273;13.312921;92;3 %;92;6 %;2 %;;4 %;;
+01B05;Staatliche Wirtschaftsfachschule für Hotellerie und Gastronomie Berlin;Niederwallstraße 6;10117;;52.512364;13.397973;23;0 %;;;;;;;
+02G34;34. Schule (Grundschule);Scharnweberstr. 19;10247;Grundschule;52.51279;13.46783;27;4 %;29;3 %;;;3 %;;
+05G26;Grundschule am Amalienhof;Weinmeisterhornweg 122;13593;Grundschule;52.51289;13.1667;34;9 %;35;6 %;6 %;;;;x
+01G08;Grundschule am Brandenburger Tor;Wilhelmstr. 52;10117;Grundschule;52.51318;13.38276;42;2 %;39;11 %;3 %;;8 %;;
+04G14;Reinhold-Otto-Grundschule;Leistikowstr. 7-8;14050;Grundschule;52.513329;13.268399;29;3 %;31;3 %;3 %;;;;
+02Y01;Andreas-Oberschule;Koppenstr. 76;10243;Gymnasium;52.514039;13.434606;70;0 %;70;1 %;1 %;;;;
+02G07;Ludwig-Hoffmann-Grundschule;Lasdehner Str. 21-23;10243;Grundschule;52.514357;13.448886;27;0 %;27;4 %;4 %;;;;
+02S01;Schule am Friedrichshain;Lasdehner Str. 19;10243;Integrierte Sekundarschule;52.51449;13.4491;38;0 %;41;5 %;5 %;;;;x
+04S02;Arno-Fuchs-Schule;Richard-Wagner-Str. 30;10585;"Förderschwerp.""Geistige Entwicklung""";52.51489;13.30717;32;0 %;29;3 %;;;3 %;;x
+04G13;Nehring-Grundschule;Nehringstr. 9-10;14059;Grundschule;52.514893;13.293865;35;3 %;40;5 %;5 %;;;;
+04G07;Ludwig-Cauer-Grundschule;Cauerstr. 36-38;10587;Grundschule;52.515043;13.315123;27;0 %;28;4 %;4 %;;;;
+02K01;Ellen-Key-Schule;Rüdersdorfer Str. 20-28;10243;Integrierte Sekundarschule;52.5152;13.43689;72;0 %;72;3 %;;;3 %;;x
+02Y04;Georg-Friedrich-Händel-Gymnasium;Frankfurter Allee 6A;10247;Gymnasium;52.515331;13.455796;45;2 %;43;5 %;;;5 %;;
+11K06;Schule am Rathaus;Rathausstr. 8;10367;Integrierte Sekundarschule;52.515892;13.48038;34;0 %;34;3 %;3 %;;;;x
+04K06;Schule am Schloss (Integrierte Sekundarschule);Schloßstr. 55A;14059;Integrierte Sekundarschule;52.5161;13.29812;46;2 %;45;2 %;;;2 %;;x
+01G07;GutsMuths-Grundschule;Singerstr. 8;10179;Grundschule;52.516365;13.42412;26;8 %;27;7 %;7 %;;;;
+01Y11;Max-Planck-Gymnasium;Singerstr. 8A;10179;Gymnasium;52.516046;13.422977 ;67;0 %;67;6 %;3 %;;3 %;;x
+04B03;OSZ Kraftfahrzeugtechnik;Gierkepl. 1;10585;;52.516542;13.301925;71;6 %;74;7 %;7 %;;;;
+02G36;Blumen-Grundschule;Andreasstr. 50;10243;Übrige Förderschwerpunkte;52.51663;13.43215;56;4 %;51;10 %;8 %;;2 %;;x
+11G05;Grundschule auf dem lichten Berg;Atzpodienstr. 19;10365;Grundschule;52.51686;13.49421;30;17 %;32;12 %;9 %;;3 %;;
+02Y03;Heinrich-Hertz-Oberschule;Rigaer Str. 81-82;10247;Gymnasium;52.51695;13.46306;46;0 %;;;;;;;
+04B01;Loschmidt-Oberschule;Loschmidtstraße 19;10587;;52.517155;13.313183;51;0 %;51;2 %;2 %;;;;
+04G12;Schinkel-Grundschule;Nithackstr. 8;10585;Grundschule;52.51782;13.29876;41;10 %;44;7 %;7 %;;;;
+01G15;Anne-Frank-Grundschule;Paulstr. 20B;10557;Grundschule;52.51827;13.35527;25;4 %;27;7 %;7 %;;;;
+02G04;Pettenkofer-Grundschule;Pettenkoferstr. 20-24;10247;Grundschule;52.518656;13.471;32;9 %;38;11 %;8 %;;3 %;;
+02G03;Justus-von-Liebig-Grundschule;Liebigstr. 18A;10247;Grundschule;52.518699;13.457697;41;12 %;39;8 %;8 %;;;;
+02K07;Georg-Weerth-Schule;Eckertstr. 16;10249;Integrierte Sekundarschule;52.518996;13.450401;36;0 %;40;16 %;13 %;;3 %;;x
+01Y12;Gymnasium Tiergarten;Altonaer Str. 26;10555;Gymnasium;52.51935;13.3394;85;1 %;81;1 %;;;1 %;;
+02S03;Margarethe-von-Witzleben-Schule;Palisadenstr. 76-77;10243;Übrige Förderschwerpunkte;52.51984;13.4346;40;8 %;38;11 %;11 %;;;;
+05G05;Christoph-Földerich-Grundschule;Földerichplatz 5;13595;Grundschule;52.51986;13.193276;44;7 %;47;11 %;9 %;;2 %;;x
+02G01;Spartacus-Grundschule;Friedenstr. 40-45;10249;Grundschule;52.52106;13.43582;31;10 %;36;8 %;8 %;;;;
+04A08;Sportschule im Olympiapark - Poelchau-Schule;Prinz-Friedrich-Karl-Weg 1;14053;;52.521087;13.241917;57;7 %;61;13 %;8 %;;5 %;;
+10G29;Grundschule an der Wuhle;Teterower Ring 79;12619;Grundschule;52.52118;13.58041;32;0 %;36;9 %;6 %;;3 %;;
+04G05;Dietrich-Bonhoeffer-Grundschule;Spandauer Damm 205-215;14050;Grundschule;52.521371;13.26202;22;0 %;21;5 %;5 %;;;;
+01G19;Hansa-Grundschule;Lessingstr. 5;10555;Grundschule;52.5214;13.34019;25;0 %;26;12 %;8 %;;4 %;;
+02B05;Jane-Addams-Schule (OSZ Sozialwesen);Straßmannstraße 14/16;10249;;52.521658;13.448591;144;4 %;131;5 %;2 %;;3 %;;
+11S07;Carl-von-Linné-Schule;Paul-Junius-Str. 15;10367;Berufsschule mit sonderpäd. Aufgaben;52.5217;13.47301;77;5 %;78;5 %;5 %;;;;x
+01G16;Moabiter Grundschule;Paulstr. 28;10557;Grundschule;52.521974;13.35657;35;14 %;34;15 %;12 %;;3 %;;
+10G30;Mahlsdorfer Grundschule;Feldrain 47;12623;Grundschule;52.522102;13.628787;26;0 %;;;;;;;
+01S07;Charlotte-Pfeffer-Schule;Berolinastr. 8;10178;"Förderschwerp.""Geistige Entwicklung""";52.52226;13.42328;23;4 %;;;;;;;x
+01G47;Miriam-Makeba-Grundschule;Zinzendorfstr. 15-16;10555;Grundschule;52.52232;13.331446;40;5 %;41;19 %;12 %;;7 %;;x
+11G03;Grundschule im Gutspark;Josef-Orlopp-Str. 20;10367;Grundschule;52.52237;13.48307;33;6 %;29;3 %;3 %;;;;
+05G22;Christian-Morgenstern-Grundschule;Räcknitzer Steig 12;13593;Grundschule;52.5227;13.16816;46;15 %;55;29 %;;24 %;5 %;;x
+01B02;Staatliche Technikerschule Berlin;Bochumer Straße 8b;10555;;52.522747;13.338053;86;6 %;81;29 %;4 %;;;25 %;
+11B01;Hein-Moeller-Schule (OSZ Energietechnik II);Allee der Kosmonauten 18;10315;;52.523374;13.512337;63;16 %;66;23 %;;20 %;3 %;;
+04G08;Mierendorff-Grundschule;Mierendorffstr. 20-24;10589;Grundschule;52.523791;13.303338;38;13 %;39;13 %;8 %;;5 %;;x
+11S02;Schule am Fennpfuhl;Alfred-Jung-Str. 19;10369;"Förderschwerp.""Lernen""";52.52392;13.4769;25;0 %;;;;;;;x
+01B01;OSZ Banken, Immobilien und Versicherungen;Alt-Moabit 10;10557;;52.524055;13.357851;103;0 %;99;2 %;2 %;;;;
+02G02;Hausburg-Grundschule;Hausburgstr. 20;10249;Grundschule;52.524208;13.454324;43;2 %;45;17 %;;13 %;4 %;;
+01K04;Heinrich-von-Stephan-Schule (Gemeinschaftsschule);Neues Ufer 6;10553;Integrierte Sekundarschule;52.524775;13.316714;69;4 %;72;7 %;3 %;;4 %;;
+05K03;Bertolt-Brecht-Oberschule (Integrierte Sekundarschule);Wilhelmstr. 10;13595;Integrierte Sekundarschule;52.525308;13.192692;103;4 %;111;7 %;;7 %;;;
+02K05;Schule am Königstor (Integrierte Sekundarschule);Weinstr. 3;10249;Integrierte Sekundarschule;52.525666;13.425987;46;9 %;45;16 %;7 %;;9 %;;x
+05K02;Carlo-Schmid-Oberschule (Integrierte Sekundarschule);Lutoner Str. 15-19;13581;Integrierte Sekundarschule;52.5259;13.17464;94;6 %;107;7 %;;6 %;1 %;;x
+10G28;Grundschule am Hollerbusch;Erich-Kästner-Str. 64;12619;Grundschule;52.52593;13.59512;45;7 %;48;6 %;6 %;;;;x
+05G10;Grundschule am Birkenhain;Seeburger Str. 59;13581;Grundschule;52.52596;13.180519;28;7 %;35;17 %;;17 %;;;x
+01A04;Berlin-Kolleg;Turmstr. 75;10551;Berlin-Kolleg;52.526574;13.334076;66;0 %;66;5 %;2 %;;3 %;;
+03S03;Helene-Haeusler-Schule;Mendelssohnstr. 10;10405;"Förderschwerp.""Geistige Entwicklung""";52.5267;13.42002;35;0 %;34;6 %;;;6 %;;x
+11Y02;Johann-Gottfried-Herder-Gymnasium;Franz-Jacob-Str. 8;10369;Gymnasium;52.52671;13.467245;68;4 %;71;1 %;1 %;;;;
+01G04;Kastanienbaum-Grundschule;Gipsstr. 23A;10119;Grundschule;52.52678;13.4018;27;4 %;26;8 %;8 %;;;;
+01G05;Grundschule Neues Tor;Hannoversche Str. 20;10115;Grundschule;52.52759;13.38033;35;6 %;36;17 %;3 %;;14 %;;
+01G46;Grundschule am Koppenplatz;Koppenplatz 12;10115;Grundschule;52.52778;13.39745;54;7 %;59;11 %;8 %;;3 %;;
+11S05;Schule am grünen Grund;Herzbergstr. 79;10365;Übrige Förderschwerpunkte;52.52822;13.50858;33;24 %;28;18 %;18 %;;;;
+04Y04;Gottfried-Keller-Gymnasium;Olbersstr. 38;10589;Gymnasium;52.52888;13.3022;66;0 %;;;;;;;
+01G18;Carl-Bolle-Grundschule;Waldenserstr. 20-21;10551;Grundschule;52.528894;13.331807;35;20 %;34;27 %;;24 %;3 %;;x
+11G02;Schule am Roederplatz (Grundschule);Bernhard-Bästlein-Str. 22;10367;Grundschule;52.52899;13.48214;34;15 %;36;22 %;;19 %;3 %;;x
+10K09;Konrad-Wachsmann-Schule;Geithainer Str. 12;12627;Integrierte Sekundarschule;52.529047;13.622082;39;3 %;41;7 %;7 %;;;;
+03K07;Tesla-Schule (Gemeinschaftsschule);Rudi-Arndt-Str. 18;10407;Integrierte Sekundarschule;52.529086;13.446061;41;2 %;45;11 %;11 %;;;;
+10G25;Grundschule am Schleipfuhl;Nossener Str. 85;12627;Grundschule;52.52913;13.6081;35;0 %;34;3 %;3 %;;;;x
+11G01;Sonnenuhr-Grundschule;Franz-Jacob-Str. 33;10369;Grundschule;52.52933;13.46695;33;3 %;33;6 %;3 %;;3 %;;
+10G13;Johann-Strauss-Grundschule;Cecilienstr. 81;12683;Grundschule;52.52982;13.55966;38;0 %;;;;;;;
+10S07;Schule am Rosenhain;Klingenthaler Str. 32;12627;Integrierte Sekundarschule;52.53;13.60199;39;0 %;43;5 %;5 %;;;;x
+10B01;Oscar-Tietz-Schule (OSZ Handel II);Marzahner Chaussee 231;12681;;52.530093;13.533162;78;0 %;79;1 %;1 %;;;;
+10G14;Grundschule unter dem Regenbogen;Murtzaner Ring 37;12681;Grundschule;52.5301;13.54212;54;4 %;56;5 %;5 %;;;;x
+05G08;Konkordia-Grundschule;Elsflether Weg 26;13581;Grundschule;52.53018;13.19202;29;10 %;34;3 %;3 %;;;;
+01G11;Kurt-Tucholsky-Grundschule;Rathenower Str. 18;10559;Grundschule;52.53026;13.35303;50;10 %;55;19 %;;15 %;4 %;;x
+05G01;Ernst-Ludwig-Heim-Grundschule;Grunewaldstr. 8;13597;Grundschule;52.5304;13.20672;35;17 %;38;16 %;;16 %;;;x
+01K07;Hemingway-Schule;Gartenstr. 10-17;10115;Integrierte Sekundarschule;52.530483;13.391682;44;5 %;48;10 %;6 %;;4 %;;x
+03G02;Heinrich-Roller-Grundschule;Heinrich-Roller-Str. 18;10405;Grundschule;52.53064;13.42364;26;0 %;;;;;;;
+01Y02;John-Lennon-Gymnasium;Zehdenicker Str. 17;10119;Gymnasium;52.530923;13.404105;67;1 %;69;3 %;3 %;;;;
+05G17;Astrid-Lindgren-Grundschule;Südekumzeile 5;13591;Grundschule;52.5311;13.15652;38;3 %;49;14 %;10 %;;4 %;;x
+10S04;Schule am Pappelhof;Ketschendorfer Weg 21;12683;"Förderschwerp.""Geistige Entwicklung""";52.531157;13.553338;29;7 %;29;10 %;7 %;;3 %;;x
+03K01;Kurt-Schwitters-Schule;Greifswalder Str. 25;10405;Integrierte Sekundarschule;52.5314;13.42807;88;3 %;92;3 %;1 %;;2 %;;
+11G32;32. Schule (Grundschule);Bernhard-Bästlein-Straße 56;10367;;52.531794;13.480092;10;0 %;16;44 %;19 %;;25 %;;
+11S06;Selma-Lagerlöf-Schule;Bernhard-Bästlein-Str. 56;10367;Übrige Förderschwerpunkte;52.53183;13.47998;24;4 %;22;5 %;5 %;;;;x
+10G22;Kolibri-Grundschule;Schönewalder Str. 9;12627;Grundschule;52.532527;13.618558;45;7 %;54;19 %;;19 %;;;
+01G02;Papageno-Grundschule;Bergstr. 58;10115;Grundschule;52.532833;13.391048;38;13 %;41;15 %;10 %;;5 %;;
+03A05;Volkshochschule Pankow;Prenzlauer Allee 227/228;10405;;52.533245;13.420298;5;0 %;;;;;;;
+10Y03;Wilhelm-von-Siemens-Gymnasium;Allee der Kosmonauten 134;12683;Gymnasium;52.533571;13.551106;66;2 %;;;;;;;
+03G16;Grundschule am Teutoburger Platz;Templiner Str. 1-3;10119;Grundschule;52.533635;13.408651;29;3 %;30;3 %;3 %;;;;
+01K09;Hedwig-Dohm-Schule (Integrierte Sekundarschule);Stephanstr. 27;10559;Integrierte Sekundarschule;52.53367;13.34651;49;6 %;54;15 %;;13 %;2 %;;x
+03G05;Homer-Grundschule;Pasteurstr. 10-12;10407;Grundschule;52.53371;13.43237;34;12 %;32;13 %;13 %;;;;
+11S12;Nils-Holgersson-Schule;Otto-Marquardt-Str. 12-14;10369;"Förderschwerp.""Geistige Entwicklung""";52.53405;13.47214;40;0 %;;;;;;;x
+03Y17;17. Schule (Gymnasium);Conrad-Blenkle-Str. 34;10407;Gymnasium;52.534329;13.447008;19;5 %;28;7 %;7 %;;;;
+10Y11;Melanchthon-Gymnasium;Adele-Sandrock-Str. 73-75;12627;Gymnasium;52.534367;13.618584;60;0 %;64;7 %;5 %;;2 %;;
+03G15;Schule am Senefelderplatz;Schönhauser Allee 165;10435;;52.534482;13.411913;26;8 %;32;13 %;13 %;;;;
+05K09;Schule am Staakener Kleeblatt (Integrierte Sekundarschule);Brunsbütteler Damm 431-437;13591;Integrierte Sekundarschule;52.5349;13.13491;27;7 %;33;33 %;;27 %;6 %;;x
+03G06;Bötzow-Grundschule;John-Schehr-Str. 38;10407;Grundschule;52.535104;13.439793;27;4 %;28;4 %;4 %;;;;
+03G38;Grundschule im Blumenviertel;Syringenplatz 30;10407;Grundschule;52.535141;13.458074;33;3 %;37;3 %;3 %;;;;
+05G14;Linden-Grundschule;Staakener Feldstr. 6-8;13591;Grundschule;52.53517;13.14081;40;8 %;42;10 %;10 %;;;;
+10K07;Caspar-David-Friedrich-Schule;Alte Hellersdorfer Str. 7;12629;Integrierte Sekundarschule;52.535223;13.591017;45;4 %;43;4 %;2 %;;2 %;;
+01K10;Theodor-Heuss-Schule (Gemeinschaftsschule);Quitzowstr. 141;10559;Integrierte Sekundarschule;52.535722;13.354875;106;3 %;103;8 %;5 %;;3 %;;x
+11K04;Gutenberg-Schule;Sandinostr. 10;13055;Integrierte Sekundarschule;52.53573;13.48743;72;0 %;;;;;;;
+05G23;Grundschule am Brandwerder;Spandauer Str. 86;13591;Grundschule;52.53595;13.15293;25;8 %;27;22 %;;22 %;;;
+03G04;Grundschule an der Marie;Christburger Str. 7;10405;Grundschule;52.536148;13.42559;29;0 %;29;7 %;7 %;;;;
+05A03;Volkshochschule Spandau;Carl-Schurz-Straße 17;13597;;52.536267;13.201291;5;0 %;;;;;;;
+10A04;Victor-Klemperer-Kolleg;Martha-Arendsee-Str. 15;12681;Volkshochschul-Kolleg;52.5363;13.53885;43;0 %;46;7 %;7 %;;;;
+01Y04;Musikgymnasium Carl Philipp Emanuel Bach;Rheinsberger Str. 4-5;10115;;52.536666;13.395655;17;0 %;;;;;;;
+01G01;Grundschule am Arkonaplatz;Ruppiner Str. 47-48;10115;Grundschule;52.53684;13.40039;31;3 %;31;9 %;6 %;;3 %;;
+10K10;Wolfgang-Amadeus-Mozart-Schule (Gemeinschaftsschule);Cottbusser Str. 23;12627;Integrierte Sekundarschule;52.53699;13.59663;68;10 %;79;16 %;;10 %;6 %;;x
+03Y13;Felix-Mendelssohn-Bartholdy-Gymnasium;Eugen-Schönhaar-Str. 18;10407;Gymnasium;52.537087;13.437857;69;1 %;76;5 %;4 %;;1 %;;
+11G18;Grundschule am Wilhelmsberg;Sandinostr. 8;13055;Grundschule;52.537206;13.483664;35;9 %;45;20 %;;16 %;4 %;;
+11G17;Brodowin-Schule (Grundschule);Liebenwalder Str. 22;13055;Grundschule;52.53738;13.50067;39;8 %;39;8 %;8 %;;;;x
+03G03;Grundschule am Kollwitzplatz;Knaackstr. 67;10435;Grundschule;52.53768;13.41489;30;3 %;;;;;;;
+10G12;Grundschule an der Geißenweide;Amanlisweg 40;12685;Grundschule;52.537783;13.551797;31;3 %;28;4 %;4 %;;;;
+04B05;Anna-Freud-Schule (OSZ Sozialwesen);Halemweg 22;13627;;52.537810;13.287005;140;6 %;136;10 %;;7 %;3 %;;
+01G38;Gustav-Falke-Grundschule;Strelitzer Str. 42;13355;Grundschule;52.53795;13.39162;33;12 %;35;29 %;;20 %;9 %;;x
+10B02;Rahel-Hirsch-Schule (OSZ Gesundheit/Medizin);Peter-Weiss-Gasse 8;12627;;52.538157;13.607874;84;4 %;87;2 %;1 %;;1 %;;
+05K07;Schule an der Jungfernheide (Integrierte Sekundarschule);Lenther Steig 1-3;13629;Integrierte Sekundarschule;52.53843;13.26697;44;2 %;49;4 %;2 %;;2 %;;x
+05Y05;Lily-Braun-Gymnasium;Münsingerstr. 2;13597;Gymnasium;52.538567;13.199029;58;5 %;57;2 %;2 %;;;;
+05G04;Klosterfeld-Grundschule;Seegefelder Str. 125;13583;Grundschule;52.53861;13.17968;34;12 %;39;16 %;13 %;;3 %;;x
+01K03;Ernst-Reuter-Schule;Stralsunder Str. 57;13355;Integrierte Sekundarschule;52.538896;13.394373;111;11 %;109;15 %;;9 %;;6 %;x
+04G11;Helmuth-James-von-Moltke-Grundschule;Heckerdamm 221;13627;Grundschule;52.53903;13.30104;38;16 %;40;18 %;;18 %;;;x
+03G45;Grundschule im Hofgarten;Danziger Str. 50;10435;Grundschule;52.53921;13.41918;25;12 %;30;10 %;10 %;;;;
+05B02;Knobelsdorff-Schule (OSZ Bautechnik I);Nonnendammallee 140 - 143;13599;;52.539387;13.241813;144;1 %;147;3 %;2 %;;1 %;;
+11K09;Philipp-Reis-Schule (Integrierte Sekundarschule);Werneuchener Str. 15;13055;Integrierte Sekundarschule;52.53952;13.49572;39;8 %;47;6 %;6 %;;;;
+04G09;Erwin-von-Witzleben-Grundschule;Halemweg 34;13627;Grundschule;52.53967;13.2873;26;0 %;33;6 %;3 %;;3 %;;x
+05Y01;Freiherr-vom-Stein-Gymnasium;Galenstr. 40-44;13597;Gymnasium;52.539684;13.198479;68;6 %;68;4 %;4 %;;;;
+10G11;Grundschule an der Mühle;Kienbergstr. 59;12685;Grundschule;52.53976;13.5657;28;7 %;32;6 %;6 %;;;;
+10S08;Schule am Mummelsoll;Eilenburger Str. 4;12627;"Förderschwerp.""Geistige Entwicklung""";52.540282;13.629414;30;3 %;;;;;;;x
+05G15;Askanier-Grundschule;Borkzeile 34;13583;Grundschule;52.54049;13.19242;30;0 %;38;5 %;5 %;;;;x
+05G11;Robert-Reinick-Grundschule;Jungfernheideweg 33-48;13629;Grundschule;52.54065;13.27277;41;10 %;49;18 %;;16 %;2 %;;x
+03K04;Gustave-Eiffel-Schule;Hanns-Eisler-Str. 78-80;10409;Integrierte Sekundarschule;52.540662;13.44844;39;3 %;;;;;;;
+10G19;Bücherwurm-Schule am Weiher (Grundschule);Eilenburger Str. 1;12627;Grundschule;52.54068;13.62913;35;0 %;;;;;;;x
+03G46;Grundschule im Eliashof;Senefelderstr. 6;10437;Grundschule;52.540786;13.422734;21;10 %;22;19 %;14 %;;5 %;;
+05G16;Zeppelin-Grundschule;Heidebergplan 3-4;13591;Grundschule;52.5409;13.14635;19;5 %;22;9 %;9 %;;;;
+03G12;Paul-Lincke-Grundschule;Pieskower Weg 39;10409;Grundschule;52.54129;13.44553;33;3 %;37;11 %;8 %;;3 %;;
+03G08;Grundschule am Planetarium;Ella-Kay-Str. 47;10405;Grundschule;52.54145;13.43118;44;14 %;45;18 %;;18 %;;;
+01G28;Brüder-Grimm-Grundschule;Tegeler Str. 18-19;13353;Grundschule;52.54146;13.35783;40;8 %;36;14 %;11 %;;3 %;;x
+11Y10;Manfred-von-Ardenne-Gymnasium;Werneuchener Str. 27-28;13055;Gymnasium;52.54188;13.49242;46;0 %;52;2 %;;;2 %;;
+01S05;Schule in der Charité;Augustenburger Platz 1;13353;Übrige Förderschwerpunkte;52.542216;13.347104;55;2 %;;;;;;;
+01G39;Vineta-Grundschule;Demminer Str. 27;13355;Grundschule;52.54222;13.3969;35;11 %;36;14 %;14 %;;;;x
+10G18;Pusteblume-Grundschule;Kastanienallee 118;12627;Grundschule;52.54256;13.6001;41;17 %;43;19 %;;19 %;;;x
+01S01;Schule am Zille-Park;Ravenéstr. 10-12;13347;Integrierte Sekundarschule;52.542859;13.372782;34;9 %;35;9 %;6 %;;3 %;;x
+05Y02;Kant-Gymnasium;Bismarckstr. 54;13585;Gymnasium;52.54286;13.20115;52;4 %;;;;;;;
+05S03;Schule am Gartenfeld;Gartenfelder Str. 81;13599;"Förderschwerp.""Geistige Entwicklung""";52.543211;13.24234;28;7 %;30;3 %;3 %;;;;x
+10K02;Ernst-Haeckel-Schule;Luckenwalder Str. 53;12629;Integrierte Sekundarschule;52.54322;13.58574;58;0 %;63;2 %;2 %;;;;x
+01G35;Humboldthain-Grundschule;Grenzstr. 7;13355;Grundschule;52.54323;13.380143;43;7 %;48;14 %;10 %;;4 %;;x
+10Y08;Sartre-Gymnasium;Kyritzer Str. 103;12629;Gymnasium;52.54332;13.59106;53;4 %;56;4 %;2 %;;2 %;;
+11G19;Obersee-Grundschule;Roedernstr. 69-72;13053;Grundschule;52.543711;13.488079;27;11 %;25;16 %;16 %;;;;
+05G27;Charlie-Rivel-Grundschule;Flankenschanze 20;13585;Grundschule;52.543893;13.1996;44;11 %;49;16 %;;12 %;4 %;;x
+05G28;Grundschule an der Pulvermühle;Grützmacherweg 7;13599;Grundschule;52.544061;13.228327;26;15 %;32;19 %;;19 %;;;x
+05B01;OSZ TIEM (Technische Informatik, Industrieelektronik und EnergieManagement);Goldbeckweg 8;13599;;52.544109;13.230141;102;4 %;102;4 %;3 %;;1 %;;
+01G45;Leo-Lionni-Grundschule;Müllerstr. 158;13353;Grundschule;52.544342;13.361352;55;7 %;53;9 %;9 %;;;;x
+05G13;Bernd-Ryke-Grundschule;Daumstr. 12;13599;Grundschule;52.54494;13.2325;34;6 %;43;12 %;12 %;;;;x
+10K05;Jean-Piaget-Schule;Mittenwalder Str. 5;12629;Integrierte Sekundarschule;52.54542;13.59615;42;0 %;44;7 %;5 %;;2 %;;x
+05Y04;Carl-Friedrich-von-Siemens-Gymnasium;Jungfernheideweg 79;13629;Gymnasium;52.54559;13.26983;46;11 %;54;15 %;;15 %;;;
+05K06;Wolfgang-Borchert-Schule (Integrierte Sekundarschule);Blumenstr. 13;13585;Integrierte Sekundarschule;52.54571;13.1967;52;2 %;62;23 %;;18 %;5 %;;x
+03B07;Elinor-Ostrom-Schule (OSZ Bürowirtschaft und Dienstleistungen);Mandelstraße 6-8;10409;;52.545723;13.441338;93;2 %;90;7 %;4 %;;3 %;;
+03Y03;Käthe-Kollwitz-Gymnasium;Dunckerstr. 65-66;10439;Gymnasium;52.5458;13.42271;68;0 %;;;;;;;
+11A07;Schul- und Leistungssportzentrum Berlin (Sportforum);Fritz-Lesch-Straße 35;13053;;52.545961;13.476850;141;1 %;142;2 %;;;2 %;;
+01G31;Wedding-Grundschule;Antonstr. 10;13347;Grundschule;52.546206;13.362468;46;11 %;49;16 %;;14 %;2 %;;x
+01K06;Herbert-Hoover-Schule (Integrierte Sekundarschule);Pankstr. 18-19;13357;Integrierte Sekundarschule;52.546324;13.373398;47;4 %;53;15 %;6 %;;9 %;;x
+03B08;Staatliche Ballettschule Berlin und Schule für Artistik;Erich-Weinert-Straße 103;10409;;52.546387;13.435002;68;0 %;69;35 %;;;;35 %;
+03G09;Thomas-Mann-Grundschule;Greifenhagener Str. 58-59;10437;Grundschule;52.54663;13.41479;32;13 %;32;13 %;13 %;;;;
+03Y04;Heinrich-Schliemann-Gymnasium;Dunckerstr. 64;10439;Gymnasium;52.54663;13.42365;70;6 %;64;5 %;5 %;;;;
+10G17;Beatrix-Potter-Grundschule;Ludwigsfelder Str. 7;12629;Grundschule;52.54682;13.58926;42;10 %;42;14 %;12 %;;2 %;;x
+05K05;B.-Traven-Gemeinschaftsschule;Recklinghauser Weg 26-32;13583;Integrierte Sekundarschule;52.5469;13.17403;42;7 %;46;11 %;9 %;;2 %;;x
+01G37;Heinrich-Seidel-Grundschule;Ramlerstr. 9-10;13355;Grundschule;52.54695;13.39407;43;9 %;47;13 %;;13 %;;;x
+01K02;Ernst-Schering-Schule;Lütticher Str. 47-48;13353;Integrierte Sekundarschule;52.54701;13.34782;56;7 %;56;9 %;7 %;;2 %;;x
+03G18;Picasso-Grundschule;Gounodstr. 71;13088;Grundschule;52.547032;13.460359;38;8 %;39;5 %;5 %;;;;
+10G01;Paavo-Nurmi-Grundschule;Schorfheidestr. 42;12689;Grundschule;52.54728;13.56405;27;11 %;26;15 %;15 %;;;;x
+03G11;Schule am Falkplatz (Grundschule);Gleimstr. 49;10437;Grundschule;52.54749;13.40538;39;3 %;42;7 %;7 %;;;;
+05G07;Lynar-Grundschule;Lutherstr. 19-20;13585;Grundschule;52.54766;13.20683;46;13 %;51;16 %;;16 %;;;x
+10G10;Peter-Pan-Grundschule;Stolzenhagener Str. 9;12679;Grundschule;52.548156;13.551672;40;10 %;39;13 %;10 %;;3 %;;x
+03K11;Wilhelm-von-Humboldt-Schule (Gemeinschaftsschule);Erich-Weinert-Str. 70;10439;Integrierte Sekundarschule;52.54845;13.42476;72;8 %;77;6 %;3 %;;3 %;;
+05G30;Birken-Grundschule;Hügelschanze 8-9;13585;Grundschule;52.54863;13.19756;50;18 %;56;25 %;;21 %;4 %;;x
+05K01;Martin-Buber-Oberschule (Integrierte Sekundarschule);Im Spektefeld 33;13589;Integrierte Sekundarschule;52.54895;13.1565;95;1 %;95;2 %;2 %;;;;
+05G18;Grundschule im Beerwinkel;Im Spektefeld 31;13589;Grundschule;52.549023;13.154969;45;13 %;49;16 %;;16 %;;;x
+05S01;Schule am Grüngürtel;Askanierring 42;13585;"Förderschwerp.""Lernen""";52.549099;13.1934;15;0 %;;;;;;;x
+01G43;Albert-Gutzmann-Schule (Grundschule);Orthstr. 1;13357;Grundschule;52.549234;13.373261;26;4 %;26;20 %;8 %;;12 %;;x
+01S06;Albert-Gutzmann-Schule;Orthstr. 1;13357;Integrierte Sekundarschule;52.548458;13.372810;32;9 %;30;3 %;3 %;;;;x
+01Y09;Diesterweg-Gymnasium;Böttgerstr. 2-6;13357;Gymnasium;52.550012;13.378338;50;2 %;51;6 %;;;6 %;;x
+01G42;Anna-Lindh-Schule (Grundschule);Guineastr. 17-18;13351;Grundschule;52.550375;13.341886;69;4 %;70;13 %;;10 %;3 %;;x
+10G09;Grundschule am Bürgerpark;Jan-Petersen-Str. 18B;12679;Grundschule;52.55062;13.56569;29;3 %;33;12 %;9 %;;3 %;;
+01G41;Erika-Mann-Grundschule;Utrechter Str. 25-27;13347;Grundschule;52.55099;13.35786;57;9 %;62;18 %;;13 %;5 %;;x
+01K01;Willy-Brandt-Schule;Grüntaler Str. 5;13357;Integrierte Sekundarschule;52.55101;13.386048;52;21 %;54;20 %;;11 %;9 %;;x
+03G25;Carl-Humann-Grundschule;Scherenbergstr. 7;10439;Grundschule;52.55101;13.42173;29;3 %;;;;;;;
+03K05;Heinz-Brandt-Schule;Langhansstr. 120;13086;Integrierte Sekundarschule;52.551192;13.441808;44;5 %;44;4 %;2 %;;2 %;;
+05G06;Siegerland-Grundschule;Hermann-Schmidt-Weg 4;13589;Grundschule;52.55125;13.175203;33;9 %;38;16 %;;16 %;;;x
+01G25;Rudolf-Wissell-Grundschule;Ellerbeker Str. 7-8;13357;Grundschule;52.55158;13.39611;40;8 %;41;15 %;10 %;;5 %;;x
+03Y14;Primo-Levi-Gymnasium;Pistoriusstr. 133;13086;Gymnasium;52.5516;13.45369;92;0 %;96;1 %;;;1 %;;
+03A04;Abendgymnasium Prenzlauer Berg;Driesener Str. 22,;10439;;52.552049;13.405651;22;5 %;18;6 %;;;6 %;;
+11G21;Schule Am Faulen See;Degnerstr. 71;13053;Grundschule;52.5521;13.49837;27;4 %;29;7 %;7 %;;;;
+03G44;Georg-Zacharias-Grundschule;Sulzfelder Str. 15;13088;Grundschule;52.55219;13.47502;20;5 %;22;5 %;5 %;;;;
+10Y01;Tagore-Gymnasium;Sella-Hasse-Str. 25;12687;Gymnasium;52.55271;13.55658;65;3 %;67;4 %;3 %;;1 %;;
+03B04;Brillat-Savarin-Schule (OSZ Gastgewerbe);Buschallee 23A;13088;;52.552926;13.475441;151;0 %;;;;;;;
+10G08;Wilhelm-Busch-Grundschule;Parsteiner Ring 24;12679;Grundschule;52.55325;13.58137;38;8 %;40;15 %;;15 %;;;x
+10G07;Karl-Friedrich-Friesen-Grundschule;Max-Herrmann-Str. 5;12687;Grundschule;52.55335;13.56415;29;7 %;31;13 %;13 %;;;;x
+01G27;Gesundbrunnen-Grundschule;Prinzenallee 8;13357;Grundschule;52.55338;13.38292;48;10 %;48;19 %;;15 %;4 %;;x
+03G01;Schule am Hamburger Platz (Grundschule);Gustav-Adolf-Str. 21;13086;Grundschule;52.55381;13.43681;26;0 %;31;6 %;6 %;;;;
+11K11;Paul-Schmidt-Schule (Integrierte Sekundarschule);Malchower Weg 54;13053;Integrierte Sekundarschule;52.55475;13.50438;42;0 %;43;4 %;2 %;;2 %;;x
+03G17;Grundschule am Weißen See;Amalienstr. 6;13086;Grundschule;52.555294;13.457004;30;7 %;29;7 %;7 %;;;;
+10K01;Rudolf-Virchow-Schule;Glambecker Ring 90;12679;Integrierte Sekundarschule;52.5555;13.57573;97;6 %;104;5 %;5 %;;;;
+03G14;Bornholmer Grundschule;Ibsenstr. 17;10439;Grundschule;52.55572;13.40768;35;3 %;38;8 %;8 %;;;;
+01G40;Möwensee-Grundschule;Afrikanische Str. 123-125;13351;Grundschule;52.55575;13.33375;35;9 %;37;14 %;11 %;;3 %;;x
+03G41;Trelleborg-Schule (Grundschule);Eschengraben 40;13189;Grundschule;52.556012;13.421818;32;6 %;36;6 %;6 %;;;;
+05G25;Grundschule am Wasserwerk;Pionierstr. 197;13589;Grundschule;52.55625;13.16467;15;7 %;;;;;;;x
+05S04;Schule am Stadtrand;Pionierstr. 197;13589;Übrige Förderschwerpunkte;52.55625;13.16467;33;3 %;35;3 %;3 %;;;;x
+01K08;Schule am Schillerpark (Integrierte Sekundarschule);Ofener Str. 6;13349;Integrierte Sekundarschule;52.55628;13.3457;66;3 %;74;8 %;4 %;;4 %;;x
+01B03;OSZ Kommunikations-, Informations- und Medientechnik;Osloer Str. 23 – 26;13359;;52.556676;13.379415;89;2 %;84;5 %;4 %;;1 %;;
+01G24;Gottfried-Röhl-Grundschule;Ungarnstr. 75;13349;Grundschule;52.55719;13.35717;43;9 %;45;29 %;;27 %;2 %;;x
+01Y08;Lessing-Gymnasium;Schöningstr. 17;13349;Gymnasium;52.55734;13.34371;76;5 %;78;4 %;4 %;;;;
+01G29;Wilhelm-Hauff-Grundschule;Gotenburger Str. 8;13359;Grundschule;52.557813;13.384347;40;20 %;41;25 %;;20 %;5 %;;x
+03B10;Max-Bill-Schule (OSZ Planen, Bauen, Gestalten);Gustav-Adolf-Straße 66;13086;;52.557919;13.451605;181;2 %;171;7 %;2 %;;;5 %;
+10K12;Gretel-Bergmann-Gemeinschaftsschule;Liebensteiner Str. 24;12687;;52.558094;13.560166;93;5 %;99;9 %;;8 %;1 %;;x
+03K02;Kurt-Tucholsky-Schule (Integrierte Sekundarschule);Neumannstr. 9-11;13189;Integrierte Sekundarschule;52.55812;13.42333;69;0 %;77;6 %;5 %;;1 %;;
+05G02;Grundschule am Eichenwald;Gaismannshofer Weg 2;13587;Grundschule;52.558423;13.199146;30;3 %;33;9 %;9 %;;;;
+01B04;OSZ Gesundheit I;Schwyzer Str. 6;13349;;52.558542;13.354708;102;7 %;90;5 %;2 %;;3 %;;
+03K08;Hagenbeck-Schule;Gustav-Adolf-Str. 60;13086;Integrierte Sekundarschule;52.55879;13.44729;38;3 %;38;8 %;5 %;;3 %;;
+03G20;Grundschule im Moselviertel;Brodenbacher Weg 31;13088;Grundschule;52.559028;13.475454;26;8 %;27;7 %;7 %;;;;
+03G37;Klecks-Grundschule;Brixener Str. 40;13187;Grundschule;52.55989;13.40756;29;10 %;28;11 %;11 %;;;;
+01G32;Carl-Kraemer-Grundschule;Zechliner Str. 4;13359;Grundschule;52.56107;13.38284;43;23 %;42;36 %;;26 %;10 %;;x
 12B01;Georg-Schlesinger-Schule (OSZ Maschinen- und Fertigungstechnik);Kühleweinstraße 5;13409;;52.561173;13.371270;84;7 %;87;13 %;;13 %;;;
-12B02;Emil-Fischer-Schule (OSZ Ernährung und Lebensmitteltechnik);Cyclopstraße 1 -5;13437;;52.597633;13.331072;119;3 %;119;10 %;3 %;;;7 %;
-12B03;Ernst-Litfaß-Schule (OSZ Mediengestaltung und Medientechnologie);Cyclopstraße 1-5;13437;;52.598294;13.329874;83;4 %;83;13 %;;7 %;6 %;;
-12G01;Havelmüller-Grundschule;Namslaustr. 49-57;13507;Grundschule;52.578512;13.284936;24;8 %;26;4 %;4 %;;;;x
 12G02;Grundschule am Schäfersee;Baseler Str. 2-6;13407;Grundschule;52.5622;13.3554;36;11 %;37;14 %;14 %;;;;x
+11S08;Schule Am Breiten Luch;Am Breiten Luch 19;13053;Grundschule;52.5627;13.5136;28;14 %;34;30 %;15 %;;15 %;;x
+03K09;Janusz-Korczak-Schule (Integrierte Sekundarschule);Dolomitenstr. 94;13187;Integrierte Sekundarschule;52.562908;13.407559;31;0 %;32;3 %;3 %;;;;
 12G03;Reginhard-Grundschule;Letteallee 39-41;13409;Grundschule;52.563219;13.370292;32;16 %;33;15 %;15 %;;;;x
-12G04;Till-Eulenspiegel-Grundschule;Humboldtstr. 8-13;13407;Grundschule;52.5732;13.3423;28;4 %;29;6 %;3 %;;3 %;;
-12G05;Kolumbus-Grundschule;Büchsenweg 23A;13409;Grundschule;52.57569;13.36622;47;15 %;56;23 %;;23 %;;;x
-12G06;Hausotter-Grundschule;Hausotterplatz 4;13409;Grundschule;52.56963;13.375634;32;3 %;36;20 %;;17 %;3 %;;x
+11G22;Martin-Niemöller-Grundschule;Am Breiten Luch 5;13053;Grundschule;52.56339;13.51209;45;13 %;50;22 %;;22 %;;;x
+10G31;Franz-Carl-Achard-Grundschule;Flämingstr. 16-18;12621;Grundschule;52.56382;13.56592;25;4 %;30;10 %;10 %;;;;
+10K11;Marcana-Schule (Gemeinschaftsschule);Flämingstr. 16-18;12689;Integrierte Sekundarschule;52.564131;13.563720;22;5 %;23;13 %;9 %;;4 %;;x
+11G26;Randow-Schule (Grundschule);Randowstr. 45;13057;Grundschule;52.56405;13.51904;25;8 %;32;22 %;;22 %;;;x
+10G05;Ebereschen-Grundschule;Borkheider Str. 27;12689;Grundschule;52.56407;13.57294;27;4 %;;;;;;;x
+11G10;Schule im Ostseekarree (Grundschule);Barther Str. 27;13051;Grundschule;52.56409;13.50024;26;8 %;30;23 %;;23 %;;;x
+05K04;Heinrich-Böll-Oberschule (Integrierte Sekundarschule);Am Forstacker 9-11;13587;Integrierte Sekundarschule;52.565166;13.199033;87;10 %;94;13 %;;13 %;;;
+03G39;Grundschule Wolkenstein;Neumannstr. 65;13189;Grundschule;52.56527;13.42024;31;3 %;33;6 %;6 %;;;;
+03G22;Grundschule am Wasserturm;Tino-Schwierzina-Str. 66;13089;Grundschule;52.56546;13.43664;21;5 %;26;4 %;4 %;;;;
+01G36;Andersen-Grundschule;Kattegatstr. 26;13359;Grundschule;52.56553;13.38891;29;7 %;29;10 %;10 %;;;;x
+10G04;Falken-Grundschule;Geraer Ring 2;12689;Grundschule;52.56593;13.5564;24;4 %;26;4 %;4 %;;;;x
+03Y08;Carl-von-Ossietzky-Gymnasium;Görschstr. 42-44;13187;Gymnasium;52.566429;13.40007;80;3 %;78;4 %;3 %;;1 %;;
+03Y10;Rosa-Luxemburg-Gymnasium;Kissingenstr. 12;13189;Gymnasium;52.56669;13.41948;94;9 %;92;2 %;;;2 %;;
+10K03;Kerschensteiner-Schule;Golliner Str. 2;12689;Integrierte Sekundarschule;52.56681;13.579505;26;0 %;;;;;;;x
+05G20;Carl-Schurz-Grundschule;Hakenfelder Str. 32;13587;Grundschule;52.56751;13.199061;35;20 %;40;13 %;13 %;;;;x
+10G03;Selma-Lagerlöf-Grundschule;Wörlitzer Str. 31;12689;Marzahn-Hellersdorf;52.56767;13.57023;31;10 %;31;6 %;6 %;;;;x
+11K07;Vincent-van-Gogh-Schule (Integrierte Sekundarschule);Wustrower Str. 26;13051;Integrierte Sekundarschule;52.5678;13.50702;42;5 %;40;13 %;13 %;;;;x
+03G27;Elizabeth-Shaw-Grundschule;Grunowstr. 17;13187;Grundschule;52.56831;13.41044;26;8 %;29;10 %;10 %;;;;
+03K06;Reinhold-Burger-Schule;Neue Schönholzer Str. 32;13187;Integrierte Sekundarschule;52.56838;13.40303;46;9 %;47;9 %;9 %;;;;
+11G25;Schule am Wäldchen (Grundschule);Wustrower Str. 28;13051;Grundschule;52.56846;13.50628;33;6 %;34;3 %;;;3 %;;x
 12G07;Mark-Twain-Grundschule;Auguste-Viktoria-Allee 95;13403;Grundschule;52.56864;13.3264;37;5 %;36;14 %;8 %;;6 %;;x
-12G09;Grundschule an der Peckwisch;Tornower Weg 26-34;13439;Grundschule;52.59299;13.34869;40;10 %;43;16 %;;14 %;2 %;;x
-12G10;Peter-Witte-Grundschule;Rathauspromenade 75;13437;Grundschule;52.5863;13.33039;24;4 %;25;4 %;4 %;;;;
+03G26;Arnold-Zweig-Grundschule;Wollankstr. 131;13187;Grundschule;52.56868;13.40012;35;3 %;34;9 %;6 %;;3 %;;
+11G28;Feldmark-Schule (Grundschule);Wartiner Str. 23;13057;Grundschule;52.569161;13.531731;45;9 %;49;8 %;8 %;;;;x
+11Y09;Barnim-Gymnasium;Ahrensfelder Chaussee 41;13057;Gymnasium;52.569201;13.549303;98;1 %;92;6 %;3 %;;3 %;;
+12Y01;Friedrich-Engels-Gymnasium;Emmentaler Str. 67;13407;Gymnasium;52.56959;13.35743;79;1 %;82;2 %;2 %;;;;
+12G06;Hausotter-Grundschule;Hausotterplatz 4;13409;Grundschule;52.56963;13.375634;32;3 %;36;20 %;;17 %;3 %;;x
+10G34;Schule am grünen Stadtrand;Geraer Ring 54;12689;"Förderschwerp.""Lernen""";52.56973;13.56193;17;0 %;;;;;;;x
+12K05;Gustav-Freytag-Schule (Integrierte Sekundarschule);Breitkopfstr. 66-80;13409;Integrierte Sekundarschule;52.56976;13.36575;44;7 %;45;4 %;4 %;;;;x
+11K10;Grüner Campus Malchow (Gemeinschaftsschule);Malchower Chaussee 2;13051;Integrierte Sekundarschule;52.569831;13.479469;140;14 %;153;16 %;;15 %;1 %;;
+10K08;Johann-Julius-Hecker-Schule;Hohenwalder Str. 2;12689;Integrierte Sekundarschule;52.56993;13.57866;36;0 %;38;3 %;;;3 %;;x
+11K05;Fritz-Reuter-Schule;Prendener Str. 29;13059;Integrierte Sekundarschule;52.570237;13.52104;66;3 %;65;7 %;5 %;;2 %;;
+12Y02;Europäisches Gymnasium Bertha-von-Suttner;Reginhardstr. 172;13409;Gymnasium;52.57145;13.36873;92;3 %;90;3 %;3 %;;;;
+12K03;Max-Beckmann-Schule (Integrierte Sekundarschule);Auguste-Viktoria-Allee 37;13403;Integrierte Sekundarschule;52.57153;13.31463;94;4 %;94;3 %;2 %;;1 %;;
+11G29;Matibi-Grundschule;Prendener Str. 15;13059;Grundschule;52.5724;13.52072;37;3 %;42;2 %;2 %;;;;
+12K04;Paul-Löbe-Schule;Lindauer Allee 23-25;13407;Integrierte Sekundarschule;52.57316;13.35461;54;4 %;63;3 %;3 %;;;;x
+12G04;Till-Eulenspiegel-Grundschule;Humboldtstr. 8-13;13407;Grundschule;52.5732;13.3423;28;4 %;29;6 %;3 %;;3 %;;
+03G34;Mendel-Grundschule;Stiftsweg 3;13187;Grundschule;52.573478;13.416325;37;8 %;45;9 %;7 %;;2 %;;
+12G14;Alfred-Brehm-Grundschule;Ascheberger Weg 8A;13507;Grundschule;52.57359;13.28368;26;8 %;28;11 %;11 %;;;;
+12G29;Hermann-Schulz-Grundschule;Kienhorststr. 67-79;13403;Grundschule;52.57359;13.32554;33;6 %;35;17 %;;17 %;;;x
+12Y06;Schulfarm Insel Scharfenberg;Schwarzer Weg 103;13505;;52.574389;13.247287;46;4 %;47;6 %;4 %;;2 %;;
+12G05;Kolumbus-Grundschule;Büchsenweg 23A;13409;Grundschule;52.57569;13.36622;47;15 %;56;23 %;;23 %;;;x
+12G18;Grundschule am Tegelschen Ort;Gerlindeweg 11-23;13505;Grundschule;52.576181;13.228007;27;0 %;25;4 %;4 %;;;;
+03G47;Schule an der Strauchwiese;Mendelstr. 54;13187;Grundschule;52.57805;13.41782;15;13 %;21;10 %;10 %;;;;x
+03S09;Schule an der Strauchwiese;Mendelstr. 54;13187;Übrige Förderschwerpunkte;52.578528;13.418466;19;0 %;;;;;;;x
+03S07;Schule an der Heide;Hermann-Hesse-Str. 48-52;13156;"Förderschwerp.""Lernen""";52.578097;13.394472;12;0 %;;;;;;;
+12G01;Havelmüller-Grundschule;Namslaustr. 49-57;13507;Grundschule;52.578512;13.284936;24;8 %;26;4 %;4 %;;;;x
+03S08;Panke-Schule;Galenusstr. 64;13187;"Förderschwerp.""Geistige Entwicklung""";52.57877;13.41699;24;0 %;24;16 %;8 %;;8 %;;x
+03G32;Grundschule an den Buchen;Wilhelm-Wolff-Str. 19;13156;Grundschule;52.579207;13.394536;24;0 %;;;;;;;
+03B06;Konrad-Zuse-Schule;Hermann-Hesse-Straße 34/36;13156;;52.579357;13.395789;44;0 %;46;2 %;;;2 %;;
+12K06;Benjamin-Franklin-Schule (Integrierte Sekundarschule);Sommerfelder Str. 5-7;13509;Integrierte Sekundarschule;52.581447;13.300983;45;11 %;45;4 %;4 %;;;;
+03K03;Konrad-Duden-Schule (Integrierte Sekundarschule);Rolandstr. 35;13156;Integrierte Sekundarschule;52.58183;13.41744;34;3 %;38;3 %;3 %;;;;
+03G36;Elisabeth-Christinen-Grundschule;Lindenberger Str. 12;13156;Grundschule;52.58294;13.41741;22;9 %;22;14 %;9 %;;5 %;;
+03Y15;Max-Delbrück-Gymnasium;Kuckhoffstr. 2-22;13156;Gymnasium;52.583884;13.402118;74;0 %;;;;;;;
+12S01;Stötzner-Schule;Tietzstr. 26-28;13509;"Förderschwerp.""Lernen""";52.584273;13.304873;24;8 %;21;10 %;10 %;;;;x
 12G11;Ringelnatz-Grundschule;Wilhelm-Gericke-Str. 7;13437;Grundschule;52.5861;13.33753;24;8 %;25;8 %;8 %;;;;
+12G10;Peter-Witte-Grundschule;Rathauspromenade 75;13437;Grundschule;52.5863;13.33039;24;4 %;25;4 %;4 %;;;;
+12G15;Hoffmann-von-Fallersleben-Grundschule;Ziekowstr. 80-88;13509;Grundschule;52.58744;13.29515;26;4 %;27;11 %;11 %;;;;
 12G12;Borsigwalder Grundschule;Miraustr. 100;13509;Grundschule;52.58822;13.30561;31;10 %;32;16 %;16 %;;;;
 12G13;Franz-Marc-Grundschule;Treskowstr. 26-31;13507;Grundschule;52.58822;13.2828;31;6 %;29;3 %;3 %;;;;
-12G14;Alfred-Brehm-Grundschule;Ascheberger Weg 8A;13507;Grundschule;52.57359;13.28368;26;8 %;28;11 %;11 %;;;;
-12G15;Hoffmann-von-Fallersleben-Grundschule;Ziekowstr. 80-88;13509;Grundschule;52.58744;13.29515;26;4 %;27;11 %;11 %;;;;
-12G17;Ellef-Ringnes-Grundschule;Im Erpelgrund 11-17;13503;Grundschule;52.60802;13.23202;23;9 %;25;20 %;12 %;;8 %;;
-12G18;Grundschule am Tegelschen Ort;Gerlindeweg 11-23;13505;Grundschule;52.576181;13.228007;27;0 %;25;4 %;4 %;;;;
-12G19;Münchhausen-Grundschule;Artemisstr. 22-26;13469;Grundschule;52.60851;13.31718;29;7 %;32;3 %;3 %;;;;
-12G20;Grundschule am Vierrutenberg;Am Vierrutenberg 59-65;13469;Grundschule;52.617516;13.339396;28;7 %;28;8 %;4 %;;4 %;;
-12G21;Grundschule am Fließtal;Seebadstr. 42-43;13467;Grundschule;52.61528;13.32062;31;0 %;28;7 %;7 %;;;;
-12G22;Gustav-Dreyer-Grundschule;Freiherr-vom-Stein-Str. 31;13467;Grundschule;52.61309;13.30379;29;0 %;29;7 %;7 %;;;;
-12G23;Victor-Gollancz-Grundschule;Gollanczstr. 18-24;13465;Grundschule;52.63826;13.28757;41;0 %;40;8 %;;;8 %;;
-12G24;Renée-Sintenis-Grundschule;Laurinsteig 39-45;13465;Grundschule;52.63695;13.27237;33;0 %;;;;;;;
-12G26;Märkische Grundschule;Dannenwalder Weg 163-165;13439;Grundschule;52.5952;13.36016;38;0 %;40;8 %;3 %;;5 %;;
-12G27;Chamisso-Grundschule;Senftenberger Ring 27;13435;Grundschule;52.60169;13.35807;44;7 %;49;12 %;;12 %;;;x
-12G28;Grundschule in den Rollbergen;Waldshuter Zeile 6;13469;Grundschule;52.609905;13.335731;30;17 %;38;27 %;;24 %;3 %;;x
-12G29;Hermann-Schulz-Grundschule;Kienhorststr. 67-79;13403;Grundschule;52.57359;13.32554;33;6 %;35;17 %;;17 %;;;x
-12G30;Reineke-Fuchs-Grundschule;Foxweg 15;13403;Grundschule;52.574;13.30985;40;5 %;42;19 %;;17 %;2 %;;x
-12G32;Charlie-Chaplin-Grundschule;Wilhelmsruher Damm 90-94;13439;Grundschule;52.59744;13.36465;40;3 %;42;5 %;5 %;;;;x
-12G33;Lauterbach-Grundschule;Senftenberger Ring 41;13435;Grundschule;52.603879;13.359443;50;6 %;54;22 %;;22 %;;;x
-12G34;Otfried-Preußler-Grundschule;Schulzendorfer Str. 99;13503;Grundschule;52.613129;13.227141;37;5 %;42;10 %;10 %;;;;
-12K01;Julius-Leber-Schule;Treskowstr. 26-31;13507;Integrierte Sekundarschule;52.58822;13.2828;40;8 %;41;5 %;5 %;;;;x
-12K02;Bettina-von-Arnim-Schule;Senftenberger Ring 49;13435;Integrierte Sekundarschule;52.60511;13.35859;131;5 %;133;4 %;3 %;;1 %;;
-12K03;Max-Beckmann-Schule (Integrierte Sekundarschule);Auguste-Viktoria-Allee 37;13403;Integrierte Sekundarschule;52.57153;13.31463;94;4 %;94;3 %;2 %;;1 %;;
-12K04;Paul-Löbe-Schule;Lindauer Allee 23-25;13407;Integrierte Sekundarschule;52.57316;13.35461;54;4 %;63;3 %;3 %;;;;x
-12K05;Gustav-Freytag-Schule (Integrierte Sekundarschule);Breitkopfstr. 66-80;13409;Integrierte Sekundarschule;52.56976;13.36575;44;7 %;45;4 %;4 %;;;;x
-12K06;Benjamin-Franklin-Schule (Integrierte Sekundarschule);Sommerfelder Str. 5-7;13509;Integrierte Sekundarschule;52.581447;13.300983;45;11 %;45;4 %;4 %;;;;
-12K07;Jean-Krämer-Schule (Integrierte Sekundarschule) Wittenau;Alt-Wittenau 8-12;13437;Integrierte Sekundarschule;52.58995;13.33545;58;9 %;58;10 %;;10 %;;;x
-12K09;Carl-Benz-Schule (Integrierte Sekundarschule);Heidenheimer Str. 53-54;13467;Integrierte Sekundarschule;52.615646;13.298748;37;3 %;36;3 %;3 %;;;;
-12K10;Carl-Bosch-Schule;Frohnauer Str. 74-80;13467;Integrierte Sekundarschule;52.62349;13.29375;38;5 %;39;5 %;5 %;;;;x
-12K11;Albrecht-Haushofer-Schule;Kurzebracker Weg 40-46;13503;Integrierte Sekundarschule;52.61914;13.22771;33;6 %;42;14 %;;14 %;;;
-12K12;Campus Hannah Höch (Gemeinschaftsschule);Finsterwalder Str. 52-56;13435;Integrierte Sekundarschule;52.60028;13.34229;67;9 %;76;13 %;;13 %;;;x
-12S01;Stötzner-Schule;Tietzstr. 26-28;13509;"Förderschwerp.""Lernen""";52.584273;13.304873;24;8 %;21;10 %;10 %;;;;x
-12S03;Lauterbach-Schule;Senftenberger Ring 41;13435;Übrige Förderschwerpunkte;52.603879;13.359443;30;0 %;;;;;;;x
-12S04;Schule am Park;Eichborndamm 276-284;13437;"Förderschwerp.""Geistige Entwicklung""";52.594285;13.330313;33;3 %;;;;;;;x
-12S05;Wiesengrund-Schule;Frohnauer Str. 74-80;13467;Übrige Förderschwerpunkte;52.62349;13.29375;21;19 %;23;13 %;9 %;;4 %;;x
+12K01;Julius-Leber-Schule;Treskowstr. 26-31;13507;Integrierte Sekundarschule;52.588151;13.283286;40;8 %;41;5 %;5 %;;;;x
 12S06;Toulouse-Lautrec-Schule;Miraustr. 120-126;13509;Übrige Förderschwerpunkte;52.58901;13.30389;38;16 %;40;5 %;5 %;;;;x
-12Y01;Friedrich-Engels-Gymnasium;Emmentaler Str. 67;13407;Gymnasium;52.56959;13.35743;79;1 %;82;2 %;2 %;;;;
-12Y02;Europäisches Gymnasium Bertha-von-Suttner;Reginhardstr. 172;13409;Gymnasium;52.57145;13.36873;92;3 %;90;3 %;3 %;;;;
+12K07;Jean-Krämer-Schule (Integrierte Sekundarschule) Wittenau;Alt-Wittenau 8-12;13437;Integrierte Sekundarschule;52.58995;13.33545;58;9 %;58;10 %;;10 %;;;x
+03G43;Grundschule Wilhelmsruh;Lessingstr. 44;13158;Grundschule;52.5903;13.36421;27;0 %;28;4 %;4 %;;;;
+03G28;Grundschule im Hasengrund;Charlottenstr. 19;13156;Grundschule;52.59089;13.410577;33;3 %;33;18 %;15 %;;3 %;;
+03G13;Rudolf-Dörrier-Grundschule;Kastanienallee 59;13158;Grundschule;52.59125;13.37612;26;0 %;29;7 %;7 %;;;;
 12Y03;Humboldt-Gymnasium;Hatzfeldtallee 2-4;13509;Gymnasium;52.59176;13.28891;101;5 %;103;8 %;;6 %;2 %;;
 12Y04;Gabriele-von-Bülow-Gymnasium;Tile-Brügge-Weg 63;13509;Gymnasium;52.592148;13.297061;66;0 %;69;1 %;1 %;;;;
-12Y05;Georg-Herwegh-Gymnasium;Fellbacher Str. 18-19;13467;Gymnasium;52.616834;13.303382;71;4 %;;;;;;;
-12Y06;Schulfarm Insel Scharfenberg;Schwarzer Weg 103;13505;;52.574389;13.247287;46;4 %;47;6 %;4 %;;2 %;;
-12Y07;Romain-Rolland-Gymnasium;Place Moliere 4;13469;Gymnasium;52.598998;13.317865;80;0 %;77;2 %;1 %;;1 %;;
+03G21;Grundschule unter den Bäumen;Alt-Blankenburg 26;13129;Grundschule;52.592262;13.454422;24;4 %;26;4 %;;;4 %;;
+12G09;Grundschule an der Peckwisch;Tornower Weg 26-34;13439;Grundschule;52.59299;13.34869;40;10 %;43;16 %;;14 %;2 %;;x
+03B02;Berufliche Schule für Sozialwesen Pankow;Erbeskopfweg 6;13158;;52.594076;13.400333;57;2 %;62;12 %;6 %;;6 %;;
+12S04;Schule am Park;Eichborndamm 276-284;13437;"Förderschwerp.""Geistige Entwicklung""";52.594285;13.330313;33;3 %;;;;;;;x
+12G26;Märkische Grundschule;Dannenwalder Weg 163-165;13439;Grundschule;52.5952;13.36016;38;0 %;40;8 %;3 %;;5 %;;
+12G32;Charlie-Chaplin-Grundschule;Wilhelmsruher Damm 90-94;13439;Grundschule;52.59744;13.36465;40;3 %;42;5 %;5 %;;;;x
+12B02;Emil-Fischer-Schule (OSZ Ernährung und Lebensmitteltechnik);Cyclopstraße 1 -5;13437;;52.597633;13.331072;119;3 %;119;10 %;3 %;;;7 %;
+12B03;Ernst-Litfaß-Schule (OSZ Mediengestaltung und Medientechnologie);Cyclopstraße 1-5;13437;;52.598294;13.329874;83;4 %;83;13 %;;7 %;6 %;;
 12Y08;Thomas-Mann-Gymnasium;Königshorster Str. 10;13439;Gymnasium;52.59848;13.35224;74;0 %;;;;;;;
+12Y07;Romain-Rolland-Gymnasium;Place Moliere 4;13469;Gymnasium;52.598998;13.317865;80;0 %;77;2 %;1 %;;1 %;;
+12K12;Campus Hannah Höch (Gemeinschaftsschule);Finsterwalder Str. 52-56;13435;Integrierte Sekundarschule;52.60028;13.34229;67;9 %;76;13 %;;13 %;;;x
+12G27;Chamisso-Grundschule;Senftenberger Ring 27;13435;Grundschule;52.60169;13.35807;44;7 %;49;12 %;;12 %;;;x
+12G33;Lauterbach-Grundschule;Senftenberger Ring 41;13435;Grundschule;52.603879;13.359443;50;6 %;54;22 %;;22 %;;;x
+12S03;Lauterbach-Schule;Senftenberger Ring 41;13435;Übrige Förderschwerpunkte;52.604670;13.359752;30;0 %;;;;;;;x
+03G33;Jeanne-Barez-Schule (Grundschule);Hauptstr. 66;13127;Grundschule;52.60417;13.43415;35;3 %;36;6 %;6 %;;;;
+12K02;Bettina-von-Arnim-Schule;Senftenberger Ring 49;13435;Integrierte Sekundarschule;52.60511;13.35859;131;5 %;133;4 %;3 %;;1 %;;
+03S06;Schule am Birkenhof;Arnouxstraße 18;13127;;52.607843;13.423999;15;0 %;;;;;;;
+03G40;Schule am Birkenhof;Arnouxstr. 18;13127;Grundschule;52.60791;13.42388;29;7 %;30;10 %;10 %;;;;
+12G17;Ellef-Ringnes-Grundschule;Im Erpelgrund 11-17;13503;Grundschule;52.60802;13.23202;23;9 %;25;20 %;12 %;;8 %;;
+12G19;Münchhausen-Grundschule;Artemisstr. 22-26;13469;Grundschule;52.60851;13.31718;29;7 %;32;3 %;3 %;;;;
+03G23;Grundschule Alt-Karow;Bahnhofstr. 32;13125;Grundschule;52.609682;13.479743;18;6 %;19;5 %;5 %;;;;
+12G28;Grundschule in den Rollbergen;Waldshuter Zeile 6;13469;Grundschule;52.609905;13.335731;30;17 %;38;27 %;;24 %;3 %;;x
+12G22;Gustav-Dreyer-Grundschule;Freiherr-vom-Stein-Str. 31;13467;Grundschule;52.61309;13.30379;29;0 %;29;7 %;7 %;;;;
+12G34;Otfried-Preußler-Grundschule;Schulzendorfer Str. 99;13503;Grundschule;52.613129;13.227141;37;5 %;42;10 %;10 %;;;;
+03G10;Grundschule am Hohen Feld;Bedeweg 1;13125;Grundschule;52.61492;13.49606;36;3 %;40;3 %;;;3 %;;
+12G21;Grundschule am Fließtal;Seebadstr. 42-43;13467;Grundschule;52.61528;13.32062;31;0 %;28;7 %;7 %;;;;
+03Y16;Robert-Havemann-Gymnasium;Achillesstr. 79;13125;Gymnasium;52.615393;13.494218;74;1 %;74;1 %;1 %;;;;
+12K09;Carl-Benz-Schule (Integrierte Sekundarschule);Heidenheimer Str. 53-54;13467;Integrierte Sekundarschule;52.615646;13.298748;37;3 %;36;3 %;3 %;;;;
+12Y05;Georg-Herwegh-Gymnasium;Fellbacher Str. 18-19;13467;Gymnasium;52.616834;13.303382;71;4 %;;;;;;;
+12G20;Grundschule am Vierrutenberg;Am Vierrutenberg 59-65;13469;Grundschule;52.617516;13.339396;28;7 %;28;8 %;4 %;;4 %;;
+03G35;Platanengrundschule;Hauptstr. 20;13159;Grundschule;52.618258;13.389549;9;0 %;;;;;;;
+12K11;Albrecht-Haushofer-Schule;Kurzebracker Weg 40-46;13503;Integrierte Sekundarschule;52.61914;13.22771;33;6 %;42;14 %;;14 %;;;
+03G24;Grundschule im Panketal;Achillesstr. 31;13125;Grundschule;52.61986;13.486729;35;6 %;;;;;;;
+12K10;Carl-Bosch-Schule;Frohnauer Str. 74-80;13467;Integrierte Sekundarschule;52.62349;13.29375;38;5 %;39;5 %;5 %;;;;x
+12S05;Wiesengrund-Schule;Frohnauer Str. 74-80;13467;Übrige Förderschwerpunkte;52.623151;13.295038;21;19 %;23;13 %;9 %;;4 %;;x
+03S10;Marianne-Buggenhagen-Schule;Ernst-Busch-Str. 29;13125;Übrige Förderschwerpunkte;52.62953;13.49149;46;7 %;45;9 %;9 %;;;;
+03K10;Hufeland-Schule (Integrierte Sekundarschule);Walter-Friedrich-Str. 16-18;13125;Integrierte Sekundarschule;52.63325;13.49373;48;6 %;54;6 %;4 %;;2 %;;
+12G24;Renée-Sintenis-Grundschule;Laurinsteig 39-45;13465;Grundschule;52.63695;13.27237;33;0 %;;;;;;;
+03G29;Grundschule Am Sandhaus;Wiltbergstr. 37-39;13125;Grundschule;52.637343;13.490967;25;8 %;29;21 %;;21 %;;;
+12G23;Victor-Gollancz-Grundschule;Gollanczstr. 18-24;13465;Grundschule;52.63826;13.28757;41;0 %;40;8 %;;;8 %;;
