@@ -190,7 +190,7 @@ function updateMapHoverItem(coordinates, data, icon, offsetY) {
 
 	str += '<div class="top ' + icon.options.markerColor + '">' + data.Schulname + '</div>';
 	str += '<div class="middle">' + value + '</div>';
-	str += '<div class="bottom">Quereinsteiger ' + settings.year + '</div>';
+	str += '<div class="bottom">Quereinsteigende ' + (settings.year - 2000) + '</div>';
 
 	layerPopup = L.popup(options)
 		.setLatLng(coordinates)
