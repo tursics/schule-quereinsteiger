@@ -387,14 +387,48 @@
 	pointer-events: none;
 }
 .printerLabel .leaflet-popup-content-wrapper {
-	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2OTguMjgzIiBoZWlnaHQ9IjMyOS4wMzEiPjxwYXRoIGQ9Ik02ODguOTIgMjEzLjU2YzE1Ljc1Ni00Mi43NyA4LjIxNi05MS4wMTQtMTQuMTQ2LTEyOS45OTdDNjYxLjEyNyA1OC4zNCA2NTQuODI3IDI5LjYyIDY1NS4zOCAxLjAyNWMtMjA0LjIwNy4yMDQtNDA4LjQyLS41Ny02MTIuNjIuODA0IDIuMTEgMzcuNi0xMy44MzYgNzIuMDUtMjkuOTQ3IDEwNC45MDMtMTguMzc4IDQxLjY1OC0xNC44NjcgOTIuMTg1IDcuNDUgMTMxLjcyQzM1LjkyNiAyNjUuNzM0IDQyLjUgMjk2Ljg1IDQzLjU0IDMyOC4wMjRoNjExLjUzYy0xLjUxNy00MS44IDE5LjM2LTgxLjYyNiAzMy44NS0xMTQuNDY2eiIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1vcGFjaXR5PSIuNTAyIi8+PC9zdmc+");
-	background-size: 152px 71px;
+	background: url('assets/teacher-0.png');
+	background-size: 256px 128px;
 	background-repeat: no-repeat;
-	width: 150px;
-	height: 69px;
+	border-radius: 0;
+	color: #fff;
+	width: 256px;
+	height: 112px;
 	box-shadow: none;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 12px;
+	padding: 1px 0 16px 0;
+	margin: 0 0 -16px 0;
+}
+.printerLabel.teacher0 .leaflet-popup-content-wrapper {
+	background-image: url('assets/teacher-0.png');
+}
+.printerLabel.teacher1 .leaflet-popup-content-wrapper {
+	background-image: url('assets/teacher-1.png');
+}
+.printerLabel.teacher2 .leaflet-popup-content-wrapper {
+	background-image: url('assets/teacher-2.png');
+}
+.printerLabel.teacher3 .leaflet-popup-content-wrapper {
+	background-image: url('assets/teacher-3.png');
+}
+.printerLabel.teacher4 .leaflet-popup-content-wrapper {
+	background-image: url('assets/teacher-4.png');
+}
+.printerLabel.teacher5 .leaflet-popup-content-wrapper {
+	background-image: url('assets/teacher-5.png');
+}
+.printerLabel.teacher6 .leaflet-popup-content-wrapper {
+	background-image: url('assets/teacher-6.png');
+}
+.printerLabel.teacher7 .leaflet-popup-content-wrapper {
+	background-image: url('assets/teacher-7.png');
+}
+.printerLabel.teacher8 .leaflet-popup-content-wrapper {
+	background-image: url('assets/teacher-8.png');
+}
+.printerLabel.teacher9 .leaflet-popup-content-wrapper {
+	background-image: url('assets/teacher-9.png');
 }
 .printerLabel .leaflet-popup-content-wrapper a {
 	color: #000 !important;
@@ -403,8 +437,8 @@
 .printerLabel .leaflet-popup-content-wrapper .leaflet-popup-content {
 	overflow: hidden;
 	white-space: nowrap;
-	margin: 5px 10px;
-	width: 130px !important;
+	margin: 33px 0 0 85px;
+	width: 165px !important;
 	text-align: center;
 }
 .printerLabel .top, .printerLabel .bottom {
@@ -452,6 +486,9 @@
 }
 .printerLabel .leaflet-popup-content-wrapper.scale150 .middle {
 	font-size: 30px;
+}
+.printerLabel .leaflet-popup-tip {
+    background: #7d3f1c;
 }
 
 /* dialogs */

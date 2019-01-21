@@ -177,7 +177,7 @@ function updateMapHoverItem(coordinates, data, icon, offsetY) {
 	var options = {
 		closeButton: false,
 		offset: L.point(0, offsetY),
-		className: 'printerLabel'
+		className: 'printerLabel teacher' + Math.floor(Math.random() * 10)
 	},
 		str = '',
 		value = '';
@@ -187,10 +187,11 @@ function updateMapHoverItem(coordinates, data, icon, offsetY) {
 	} else {
 		value = (settings.year === 2017 ? data.count_2017 : data.count_2018) || '0';
 	}
+	icon.options.markerColor = '';
 
 	str += '<div class="top ' + icon.options.markerColor + '">' + data.Schulname + '</div>';
 	str += '<div class="middle">' + value + '</div>';
-	str += '<div class="bottom">Quereinsteigende ' + (settings.year - 2000) + '</div>';
+	str += '<div class="bottom">Quereinsteigende ' + settings.year + '</div>';
 
 	layerPopup = L.popup(options)
 		.setLatLng(coordinates)
