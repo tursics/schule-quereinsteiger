@@ -493,24 +493,24 @@
 
 /* dialogs */
 
-#popupInfo, #popupShare, #popupShare .ui-btn {
+#popupAuthor, #popupInfo, #popupShare, #popupShare .ui-btn {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 13px;
 }
-#popupInfo div div, #popupShare .ui-content div {
+#popupAuthor div div, #popupInfo div div, #popupShare .ui-content div {
 	margin: 0 0 .8em 0;
 }
-#popupInfo hr {
+#popupAuthor hr, #popupInfo hr {
 	border: 1px solid #38aadd;
 	margin: 0 0 .8em 0;
 }
-#popupInfo a {
+#popupAuthor a, #popupInfo a {
 	font-weight: 400;
 	color: #38aadd;
 	text-decoration: none;
 	border-bottom: 2px solid transparent;
 }
-#popupInfo a:hover {
+#popupAuthor a:hover, #popupInfo a:hover {
 	border-bottom-color: #38aadd;
 }
 #popupShare-popup {
