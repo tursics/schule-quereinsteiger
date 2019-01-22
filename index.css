@@ -254,7 +254,7 @@
 	text-decoration: none;
 	border-bottom: 2px solid transparent;
 }
-#searchBox .ui-slider-handle {
+#searchBox .ui-slider-handle, #searchBox .ui-btn, #searchBox .ui-slider-input {
 	border-color: #38aadd !important;
 }
 #searchBox .sample a:hover, #searchBox .filter a:hover {
