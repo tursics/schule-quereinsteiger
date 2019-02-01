@@ -422,10 +422,27 @@ function initMap(elementName, lat, lng, zoom) {
 			initSearchBox(data);
 //			initSocialMedia();
 			ddj.voronoi.init(map, elementName, data, {
-				markerRadius: 5,
-				markerColor: function (d) {
-					return d.hotSpot ? d.markerColor : 'none';
+				onAdd: function (marker, value) {
+					var color = getColor(value),
+						hexColor = color === 'red' ? '#e31a1c' :
+										color === 'orange' ? '#fdbf6f' :
+												color === 'green' ? '#33a02c' :
+														'#a3a3a3',
+						hexColorBrighter = '#ffffff',
+						district = value.BSN.substr(0, 2),
+						schoolType = value.BSN.substr(2, 1);
+
+					marker.color = (settings.district === district) || (settings.district === 'berlin') ? hexColor + '80' : hexColorBrighter + '80';
+					marker.markerColor = color === 'orange' ? '#ff7f00' : hexColor;
+					marker.hotSpot = 'x' === value['Brennpunktschule-2018'];
+
+					return ('all' === settings.type) || (schoolType === settings.type);
 				},
+				markerRadius: 5,
+				markerFill: function (data) {
+					return data.hotSpot ? data.markerColor : 'none';
+				},
+				pathStroke: '#777',
 				onMouseOver: function (data) {
 					updateMapHoverItem([data.lat, data.lng], data, {
 						options: {
