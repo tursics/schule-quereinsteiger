@@ -1,7 +1,7 @@
 /* tursics.de/story/ - JavaScript file */
 
 /*jslint browser: true*/
-/*global $,L,window,document,d3*/
+/*global $,L,window,document,ddj*/
 
 var map = null;
 var layerPopup = null;
@@ -16,14 +16,6 @@ var settings = {
 	year: 2018,
 	rangeMin: 1,
 	rangeMax: 24
-};
-
-// -----------------------------------------------------------------------------
-
-String.prototype.startsWith = String.prototype.startsWith || function (prefix) {
-	'use strict';
-
-	return this.indexOf(prefix) === 0;
 };
 
 // -----------------------------------------------------------------------------
@@ -385,250 +377,6 @@ function initSocialMedia() {
 */
 // -----------------------------------------------------------------------------
 
-function updateVoronoi(svg, g, data, voronoi) {
-	'use strict';
-
-	var positions = [];
-
-	layerPolygons = null;
-
-	$.each(data, function (key, val) {
-		if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
-			var latlng = new L.LatLng(val.lat, val.lng),
-				color = getColor(val),
-				district = val.BSN.substr(0, 2),
-				schoolType = val.BSN.substr(2, 1),
-				hexColor = color === 'red' ? '#e31a1c' :
-								color === 'orange' ? '#fdbf6f' :
-										color === 'green' ? '#33a02c' :
-												'#a3a3a3',
-				hexColorBrighter = '#ffffff';
-
-			if (('all' === settings.type) || (schoolType === settings.type)) {
-				positions.push({
-					index: key,
-					x: map.latLngToLayerPoint(latlng).x,
-					y: map.latLngToLayerPoint(latlng).y,
-					data: val,
-					tooltipColor: color,
-					markerColor: color === 'orange' ? '#ff7f00' : hexColor,
-					hotSpot: 'x' === val['Brennpunktschule-2018'],
-					color: (settings.district === district) || (settings.district === 'berlin') ? hexColor + '80' : hexColorBrighter + '80'
-				});
-			}
-		}
-	});
-
-	d3.selectAll('.AEDpoint').remove();
-
-	if (settings.showHotspots) {
-		g.selectAll('circle')
-			.data(positions)
-			.enter()
-			.append('circle')
-			.attr('class', 'AEDpoint')
-			.attr({
-				'cx': function (d) {
-					return d.x;
-				},
-				'cy': function (d) {
-					return d.y;
-				},
-				'r': '5',
-				fill: function (d) {
-					return d.hotSpot ? d.markerColor : 'none';
-				}
-			});
-	}
-
-	layerPolygons = voronoi(positions);
-	layerPolygons.forEach(function (v) {
-		v.cell = v;
-	});
-
-	svg.selectAll('.volonoi').remove();
-	svg.selectAll('path')
-		.data(layerPolygons)
-		.enter()
-		.append('svg:path')
-		.attr('class', 'volonoi')
-		.attr({
-			'd': function (d) {
-				if (!d) {
-					return null;
-				}
-				return 'M' + d.cell.join('L') + 'Z';
-			},
-			stroke: '#777',
-			fill: function (d) {
-				if (d && d.point && d.point.color) {
-					return d.point.color;
-				}
-				return 'none';
-			}
-		})
-		.on('mouseover', function (d, i) {
-			updateMapHoverItem([data[positions[i].index].lat, data[positions[i].index].lng], data[positions[i].index], {
-				options: {
-					markerColor: d.point.tooltipColor
-				}
-			}, 6);
-		})
-		.on('mouseout', function (d, i) {
-			updateMapVoidItem(data[positions[i].index]);
-		})
-		.on('click', function (d, i) {
-			updateMapSelectItem(data[positions[i].index]);
-		});
-}
-
-// -----------------------------------------------------------------------------
-/*
-function clipVoronoi(data) {
-	'use strict';
-
-	// http://publicatodo.co/Detalles/6043/Create-d3-hull-to-clip-voronoi-diagram-on-leaflet-map
-
-	var pointsFilteredToSelectedTypes = function () {
-		return data.filter(function (item) {
-			return true;
-		});
-	};
-
-	var bounds = map.getBounds(),
-		existing = d3.set(),
-		drawLimit = bounds.pad(0.4);
-
-	// Hull Function to create polygon from points //
-	var hullPoints = pointsFilteredToSelectedTypes().filter(function (d) {
-		var latlng = new L.LatLng(d.lat, d.lng);
-
-		if (!drawLimit.contains(latlng)) {
-			return false
-		};
-
-		var point = map.latLngToLayerPoint(latlng);
-
-		var key = point.toString();
-		if (existing.has(key)) { return false };
-		existing.add(key);
-
-		d.x = point.x;
-		d.y = point.y;
-		return true;
-	});
-
-	var hullFunction = d3.geom.hull()
-		.x(function (d) {
-			return d.x;
-		})
-		.y(function (d) {
-			return d.y;
-		});
-
-	var svgHull = d3.select(map.getPanes().overlayPane).append("svg")
-		.attr("id", "overlay")
-		.attr("class", "leaflet-zoom-hide")
-		.style("width", map.getSize().x + "px")
-		.style("height", map.getSize().y + "px");
-
-	svgHull.append("rect")
-		.attr("width", map.getSize().x + "px")
-		.attr("height", map.getSize().y + "px");
-
-	var hull = svgHull.append("path")
-		.attr("class", "hull");
-
-	var circle = svgHull.selectAll("circle");
-
-	redraw();
-
-	function redraw() {
-		hull.datum(d3.geom.hull(hullPoints)).attr("d", function (d) {
-			return "M" + d.join("L") + "Z";
-		});
-
-		circle = circle.data(hullPoints);
-		circle.enter().append("circle").attr("r", 3);
-		circle.attr("transform", function(d) {
-			return "translate(" + d + ")";
-		});
-	}
-}
-*/
-// -----------------------------------------------------------------------------
-
-function initVoronoi(elementName, data) {
-	'use strict';
-
-	var version = L.version.split('.'),
-		majorVersion = parseInt(version[0], 10),
-		svg,
-		g,
-		voronoi;
-
-	if (0 === majorVersion) {
-		map._initPathRoot();
-	} else {
-		L.svg().addTo(map);
-	}
-
-	svg = d3.select('#' + elementName).select('svg');
-
-	if (0 === majorVersion) {
-		g = svg.append('g').attr('class', 'leaflet-zoom-hide');
-	} else {
-		g = svg.select('g');
-		g.attr('class', 'leaflet-zoom-hide');
-	}
-
-	voronoi = d3.geom.voronoi()
-		.x(function (d) {
-			return d.x;
-		})
-		.y(function (d) {
-			return d.y;
-		});
-//		.clipExtent([[0, 0], [width, height]]);
-
-	map.on('viewreset moveend', function () {
-		updateVoronoi(svg, g, data, voronoi);
-	});
-	updateVoronoi(svg, g, data, voronoi);
-//	clipVoronoi(data);
-
-	$('#searchBox #cbRelative').on('click', function () {
-		settings.relativeValues = $('#searchBox #cbRelative').is(':checked');
-		updateVoronoi(svg, g, data, voronoi);
-	});
-	$('#searchBox #cbHotspot').on('click', function () {
-		settings.showHotspots = $('#searchBox #cbHotspot').is(':checked');
-		updateVoronoi(svg, g, data, voronoi);
-	});
-	$('#searchBox #selectDistrict').change(function () {
-		settings.district = $('#searchBox #selectDistrict option:selected').val();
-		updateVoronoi(svg, g, data, voronoi);
-	});
-	$('#searchBox #selectSchoolType').change(function () {
-		settings.type = $('#searchBox #selectSchoolType option:selected').val();
-		updateVoronoi(svg, g, data, voronoi);
-	});
-	$('#searchBox #selectYear').change(function () {
-		settings.year = parseInt($('#searchBox #selectYear option:selected').val(), 10);
-		updateVoronoi(svg, g, data, voronoi);
-	});
-	$('#searchBox #rangeMin').change(function () {
-		settings.rangeMin = parseInt($('#searchBox #rangeMin').val(), 10);
-		updateVoronoi(svg, g, data, voronoi);
-	});
-	$('#searchBox #rangeMax').change(function () {
-		settings.rangeMax = parseInt($('#searchBox #rangeMax').val(), 10);
-		updateVoronoi(svg, g, data, voronoi);
-	});
-}
-
-// -----------------------------------------------------------------------------
-
 var ControlInfo = L.Control.extend({
 	options: {
 		position: 'bottomright'
@@ -673,7 +421,25 @@ function initMap(elementName, lat, lng, zoom) {
 //			createMarker(data);
 			initSearchBox(data);
 //			initSocialMedia();
-			initVoronoi(elementName, data);
+			ddj.voronoi.init(map, elementName, data, {
+				markerRadius: 5,
+				markerColor: function (d) {
+					return d.hotSpot ? d.markerColor : 'none';
+				},
+				onMouseOver: function (data) {
+					updateMapHoverItem([data.lat, data.lng], data, {
+						options: {
+							markerColor: getColor(data)
+						}
+					}, 6);
+				},
+				onMouseOut: function (data) {
+					updateMapVoidItem(data);
+				},
+				onClick: function (data) {
+					updateMapSelectItem(data);
+				}
+			});
 		});
 	}
 }
@@ -721,6 +487,35 @@ $(document).on("pageshow", "#pageMap", function () {
 	$('#filterClose').on('click', function () {
 		$('#filterBox').css('display', 'none');
 		$('#filterOpen').css('display', 'inline-block');
+	});
+
+	$('#searchBox #cbRelative').on('click', function () {
+		settings.relativeValues = $('#searchBox #cbRelative').is(':checked');
+		ddj.voronoi.update();
+	});
+	$('#searchBox #cbHotspot').on('click', function () {
+		settings.showHotspots = $('#searchBox #cbHotspot').is(':checked');
+		ddj.voronoi.update();
+	});
+	$('#searchBox #selectDistrict').change(function () {
+		settings.district = $('#searchBox #selectDistrict option:selected').val();
+		ddj.voronoi.update();
+	});
+	$('#searchBox #selectSchoolType').change(function () {
+		settings.type = $('#searchBox #selectSchoolType option:selected').val();
+		ddj.voronoi.update();
+	});
+	$('#searchBox #selectYear').change(function () {
+		settings.year = parseInt($('#searchBox #selectYear option:selected').val(), 10);
+		ddj.voronoi.update();
+	});
+	$('#searchBox #rangeMin').change(function () {
+		settings.rangeMin = parseInt($('#searchBox #rangeMin').val(), 10);
+		ddj.voronoi.update();
+	});
+	$('#searchBox #rangeMax').change(function () {
+		settings.rangeMax = parseInt($('#searchBox #rangeMax').val(), 10);
+		ddj.voronoi.update();
 	});
 
 	$("#popupShare").on('popupafteropen', function () {
