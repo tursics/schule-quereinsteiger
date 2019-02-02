@@ -440,7 +440,7 @@ function initMap(elementName, lat, lng, zoom) {
 				},
 				markerRadius: 5,
 				markerFill: function (data) {
-					return data.hotSpot ? data.markerColor : 'none';
+					return settings.showHotspots ? (data.hotSpot ? data.markerColor : 'none') : 'none';
 				},
 				pathStroke: '#777',
 				onMouseOver: function (data) {
