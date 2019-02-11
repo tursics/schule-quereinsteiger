@@ -5,7 +5,6 @@
 
 var map = null;
 var layerPopup = null;
-var layerGroup = null;
 var layerPolygons = null;
 
 var settings = {
@@ -188,7 +187,7 @@ function updateMapHoverItem(coordinates, data, icon, offsetY) {
 	layerPopup = L.popup(options)
 		.setLatLng(coordinates)
 		.setContent(str)
-		.openOn(map);
+		.openOn(ddj.map.data.map);
 }
 
 // -----------------------------------------------------------------------------
@@ -204,29 +203,6 @@ function updateMapVoidItem() {
 
 // -----------------------------------------------------------------------------
 
-function createMarkerGroup() {
-	'use strict';
-
-	try {
-		layerGroup = L.featureGroup([]);
-		layerGroup.addTo(map);
-
-		layerGroup.addEventListener('click', function (evt) {
-			updateMapSelectItem(evt.layer.options.data);
-		});
-		layerGroup.addEventListener('mouseover', function (evt) {
-			updateMapHoverItem([evt.latlng.lat, evt.latlng.lng], evt.layer.options.data, evt.layer.options.icon, -32);
-		});
-		layerGroup.addEventListener('mouseout', function (evt) {
-			updateMapVoidItem(evt.layer.options.data);
-		});
-	} catch (e) {
-//		console.log(e);
-	}
-}
-
-// -----------------------------------------------------------------------------
-/*
 function createMarker(data) {
 	'use strict';
 
@@ -271,7 +247,7 @@ function createMarker(data) {
 //		console.log(e);
 	}
 }
-*/
+
 // -----------------------------------------------------------------------------
 
 function selectSuggestion(selection) {
@@ -397,72 +373,6 @@ var ControlInfo = L.Control.extend({
 
 // -----------------------------------------------------------------------------
 
-function initMap(elementName, lat, lng, zoom) {
-	'use strict';
-
-	if (null === map) {
-		var mapboxToken = 'pk.eyJ1IjoidHVyc2ljcyIsImEiOiI1UWlEY3RNIn0.U9sg8F_23xWXLn4QdfZeqg',
-			mapboxTiles = L.tileLayer('https://{s}.tiles.mapbox.com/v4/tursics.l7ad5ee8/{z}/{x}/{y}.png?access_token=' + mapboxToken, {
-				attribution: '<a href="http://www.openstreetmap.org" target="_blank">OpenStreetMap-Mitwirkende</a>, <a href="https://www.mapbox.com" target="_blank">Mapbox</a>'
-			}),
-			dataUrl = 'data/quereinsteiger.json';
-
-		map = L.map(elementName, {zoomControl: false, scrollWheelZoom: true})
-			.addLayer(mapboxTiles)
-			.setView([lat, lng], zoom);
-
-		map.addControl(L.control.zoom({ position: 'bottomright'}));
-		map.addControl(new ControlInfo());
-		map.once('focus', mapAction);
-
-		$.getJSON(dataUrl, function (data) {
-			data = enrichMissingData(data);
-			createMarkerGroup();
-//			createMarker(data);
-			initSearchBox(data);
-//			initSocialMedia();
-			ddj.voronoi.init(map, elementName, data, {
-				onAdd: function (marker, value) {
-					var color = getColor(value),
-						hexColor = color === 'red' ? '#e31a1c' :
-										color === 'orange' ? '#fdbf6f' :
-												color === 'green' ? '#33a02c' :
-														'#a3a3a3',
-						hexColorBrighter = '#ffffff',
-						district = value.BSN.substr(0, 2),
-						schoolType = value.BSN.substr(2, 1);
-
-					marker.color = (settings.district === district) || (settings.district === 'berlin') ? hexColor + '80' : hexColorBrighter + '80';
-					marker.markerColor = color === 'orange' ? '#ff7f00' : hexColor;
-					marker.hotSpot = 'x' === value['Brennpunktschule-2018'];
-
-					return ('all' === settings.type) || (schoolType === settings.type);
-				},
-				markerRadius: 5,
-				markerFill: function (data) {
-					return settings.showHotspots ? (data.hotSpot ? data.markerColor : 'none') : 'none';
-				},
-				pathStroke: '#777',
-				onMouseOver: function (data) {
-					updateMapHoverItem([data.lat, data.lng], data, {
-						options: {
-							markerColor: getColor(data)
-						}
-					}, 6);
-				},
-				onMouseOut: function (data) {
-					updateMapVoidItem(data);
-				},
-				onClick: function (data) {
-					updateMapSelectItem(data);
-				}
-			});
-		});
-	}
-}
-
-// -----------------------------------------------------------------------------
-
 $(document).on("pageshow", "#pageMap", function () {
 	'use strict';
 
@@ -480,7 +390,63 @@ $(document).on("pageshow", "#pageMap", function () {
 	}
 
 	// center the city hall
-	initMap('mapContainer', 52.518413, 13.408368, 13);
+	ddj.map.init('mapContainer', {
+		mapboxId: 'tursics.l7ad5ee8',
+		mapboxToken: 'pk.eyJ1IjoidHVyc2ljcyIsImEiOiI1UWlEY3RNIn0.U9sg8F_23xWXLn4QdfZeqg',
+		centerLat: 52.518413,
+		centerLng: 13.408368,
+		zoom: 13,
+		onFocusOnce: mapAction
+	});
+
+	var dataUrl = 'data/quereinsteiger.json';
+	$.getJSON(dataUrl, function (data) {
+		data = enrichMissingData(data);
+
+		ddj.marker.init(data);
+
+		initSearchBox(data);
+//		initSocialMedia();
+
+		ddj.voronoi.init(data, {
+			onAdd: function (marker, value) {
+				var color = getColor(value),
+					hexColor = color === 'red' ? '#e31a1c' :
+									color === 'orange' ? '#fdbf6f' :
+											color === 'green' ? '#33a02c' :
+													'#a3a3a3',
+					hexColorBrighter = '#ffffff',
+					district = value.BSN.substr(0, 2),
+					schoolType = value.BSN.substr(2, 1);
+
+				marker.color = (settings.district === district) || (settings.district === 'berlin') ? hexColor + '80' : hexColorBrighter + '80';
+				marker.markerColor = color === 'orange' ? '#ff7f00' : hexColor;
+				marker.hotSpot = 'x' === value['Brennpunktschule-2018'];
+
+				return ('all' === settings.type) || (schoolType === settings.type);
+			},
+			markerRadius: 5,
+			markerFill: function (data) {
+				return settings.showHotspots ? (data.hotSpot ? data.markerColor : 'none') : 'none';
+			},
+			pathStroke: '#777',
+			onMouseOver: function (data) {
+				updateMapHoverItem([data.lat, data.lng], data, {
+					options: {
+						markerColor: getColor(data)
+					}
+				}, 6);
+			},
+			onMouseOut: function (data) {
+				updateMapVoidItem(data);
+			},
+			onClick: function (data) {
+				updateMapSelectItem(data);
+			}
+		});
+	});
+
+	ddj.map.data.map.addControl(new ControlInfo());
 
 	$('#autocomplete').val('');
 	$('#receipt .group').on('click', function () {
