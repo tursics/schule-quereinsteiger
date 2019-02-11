@@ -203,53 +203,6 @@ function updateMapVoidItem() {
 
 // -----------------------------------------------------------------------------
 
-function createMarker(data) {
-	'use strict';
-
-	try {
-		var markerBlue = L.AwesomeMarkers.icon({
-			icon: 'fa-building-o',
-			prefix: 'fa',
-			markerColor: 'blue'
-		}),
-			markerOrange = L.AwesomeMarkers.icon({
-				icon: 'fa-building-o',
-				prefix: 'fa',
-				markerColor: 'orange'
-			}),
-			markerGreen = L.AwesomeMarkers.icon({
-				icon: 'fa-building-o',
-				prefix: 'fa',
-				markerColor: 'green'
-			}),
-			markerRed = L.AwesomeMarkers.icon({
-				icon: 'fa-building-o',
-				prefix: 'fa',
-				markerColor: 'red'
-			});
-
-		$.each(data, function (key, val) {
-			if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
-				var color = getColor(val),
-					marker = L.marker([parseFloat(val.lat), parseFloat(val.lng)], {
-						data: fixData(val),
-						icon: color === 'red' ? markerRed :
-								color === 'orange' ? markerOrange :
-										color === 'green' ? markerGreen :
-												markerBlue,
-						opacity: 1,
-						clickable: 1
-					});
-				layerGroup.addLayer(marker);
-			}
-		});
-	} catch (e) {
-//		console.log(e);
-	}
-}
-
-// -----------------------------------------------------------------------------
-
 function selectSuggestion(selection) {
 	'use strict';
 
@@ -403,7 +356,15 @@ $(document).on("pageshow", "#pageMap", function () {
 	$.getJSON(dataUrl, function (data) {
 		data = enrichMissingData(data);
 
-		ddj.marker.init(data);
+		ddj.marker.init(data, {
+			onAdd: function (marker, value) {
+				marker.color = getColor(value);
+				marker.iconPrefix = 'fa';
+				marker.iconFace = 'fa-building-o';
+
+				return true;
+			}
+		});
 
 		initSearchBox(data);
 //		initSocialMedia();
