@@ -195,8 +195,8 @@ function updateMapHoverItem(coordinates, data, icon, offsetY) {
 function updateMapVoidItem() {
 	'use strict';
 
-	if (layerPopup && map) {
-		map.closePopup(layerPopup);
+	if (layerPopup && ddj.map.data.map) {
+		ddj.map.data.map.closePopup(layerPopup);
 		layerPopup = null;
     }
 }
@@ -361,8 +361,22 @@ $(document).on("pageshow", "#pageMap", function () {
 				marker.color = getColor(value);
 				marker.iconPrefix = 'fa';
 				marker.iconFace = 'fa-building-o';
+				marker.hotSpot = 'x' === value['Brennpunktschule-2018'];
 
-				return true;
+				return settings.showHotspots ? (marker.hotSpot ? true : false) : false;
+			},
+			onMouseOver: function (latlng, data) {
+				updateMapHoverItem(latlng, data, {
+					options: {
+						markerColor: getColor(data)
+					}
+				}, 6);
+			},
+			onMouseOut: function (latlng, data) {
+				updateMapVoidItem(data);
+			},
+			onClick: function (latlng, data) {
+				updateMapSelectItem(data);
 			}
 		});
 
@@ -436,30 +450,37 @@ $(document).on("pageshow", "#pageMap", function () {
 	$('#searchBox #cbRelative').on('click', function () {
 		settings.relativeValues = $('#searchBox #cbRelative').is(':checked');
 		ddj.voronoi.update();
+		ddj.marker.update();
 	});
 	$('#searchBox #cbHotspot').on('click', function () {
 		settings.showHotspots = $('#searchBox #cbHotspot').is(':checked');
 		ddj.voronoi.update();
+		ddj.marker.update();
 	});
 	$('#searchBox #selectDistrict').change(function () {
 		settings.district = $('#searchBox #selectDistrict option:selected').val();
 		ddj.voronoi.update();
+		ddj.marker.update();
 	});
 	$('#searchBox #selectSchoolType').change(function () {
 		settings.type = $('#searchBox #selectSchoolType option:selected').val();
 		ddj.voronoi.update();
+		ddj.marker.update();
 	});
 	$('#searchBox #selectYear').change(function () {
 		settings.year = parseInt($('#searchBox #selectYear option:selected').val(), 10);
 		ddj.voronoi.update();
+		ddj.marker.update();
 	});
 	$('#searchBox #rangeMin').change(function () {
 		settings.rangeMin = parseInt($('#searchBox #rangeMin').val(), 10);
 		ddj.voronoi.update();
+		ddj.marker.update();
 	});
 	$('#searchBox #rangeMax').change(function () {
 		settings.rangeMax = parseInt($('#searchBox #rangeMax').val(), 10);
 		ddj.voronoi.update();
+		ddj.marker.update();
 	});
 
 	$("#popupShare").on('popupafteropen', function () {
