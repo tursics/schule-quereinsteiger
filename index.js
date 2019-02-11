@@ -3,7 +3,6 @@
 /*jslint browser: true*/
 /*global $,L,window,document,ddj*/
 
-var map = null;
 var layerPopup = null;
 var layerPolygons = null;
 
@@ -209,14 +208,14 @@ function selectSuggestion(selection) {
 	if (layerGroup && layerGroup._layers && (layerGroup._layers.length > 0)) {
 		$.each(layerGroup._layers, function (key, val) {
 			if (val.options.data.BSN === selection) {
-				map.panTo(new L.LatLng(val.options.data.lat, val.options.data.lng));
+				ddj.map.data.map.panTo(new L.LatLng(val.options.data.lat, val.options.data.lng));
 				updateMapSelectItem(val.options.data);
 			}
 		});
 	} else {
 		$.each(layerPolygons, function (key, val) {
 			if (val && (val.point.data.BSN === selection)) {
-				map.panTo(new L.LatLng(val.point.data.lat, val.point.data.lng));
+				ddj.map.data.map.panTo(new L.LatLng(val.point.data.lat, val.point.data.lng));
 				updateMapSelectItem(val.point.data);
 			}
 		});
@@ -356,7 +355,7 @@ $(document).on("pageshow", "#pageMap", function () {
 	$.getJSON(dataUrl, function (data) {
 		data = enrichMissingData(data);
 
-		ddj.marker.init(data, {
+/*		ddj.marker.init(data, {
 			onAdd: function (marker, value) {
 				marker.color = getColor(value);
 				marker.iconPrefix = 'fa';
@@ -378,7 +377,7 @@ $(document).on("pageshow", "#pageMap", function () {
 			onClick: function (latlng, data) {
 				updateMapSelectItem(data);
 			}
-		});
+		});*/
 
 		initSearchBox(data);
 //		initSocialMedia();
