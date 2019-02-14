@@ -4,7 +4,6 @@
 /*global $,L,window,document,ddj*/
 
 var layerPopup = null;
-var layerPolygons = null;
 
 var settings = {
 	relativeValues: true,
@@ -205,81 +204,21 @@ function updateMapVoidItem() {
 function selectSuggestion(selection) {
 	'use strict';
 
-	if (layerGroup && layerGroup._layers && (layerGroup._layers.length > 0)) {
-		$.each(layerGroup._layers, function (key, val) {
+	if (ddj.marker && ddj.marker.data.layerGroup && ddj.marker.data.layerGroup._layers && (ddj.marker.data.layerGroup._layers.length > 0)) {
+		$.each(ddj.marker.data.layerGroup._layers, function (key, val) {
 			if (val.options.data.BSN === selection) {
 				ddj.map.data.map.panTo(new L.LatLng(val.options.data.lat, val.options.data.lng));
 				updateMapSelectItem(val.options.data);
 			}
 		});
 	} else {
-		$.each(layerPolygons, function (key, val) {
-			if (val && (val.point.data.BSN === selection)) {
-				ddj.map.data.map.panTo(new L.LatLng(val.point.data.lat, val.point.data.lng));
-				updateMapSelectItem(val.point.data);
+		$.each(ddj.data.userData, function (key, val) {
+			if (val && (val.BSN === selection)) {
+				ddj.map.data.map.panTo(new L.LatLng(val.lat, val.lng));
+				updateMapSelectItem(val);
 			}
 		});
 	}
-}
-
-//-----------------------------------------------------------------------------
-
-function initSearchBox(data) {
-	'use strict';
-
-	var schools = [];
-
-	try {
-		$.each(data, function (key, val) {
-			if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
-				var name = val.Schulname,
-					color = getColor(val);
-
-				if ('' !== val.BSN) {
-					name += ' (' + val.BSN + ')';
-				}
-				schools.push({ value: name, data: val.BSN, color: color, desc: val.Schulart });
-			}
-		});
-	} catch (e) {
-//		console.log(e);
-	}
-
-	schools.sort(function (a, b) {
-		if (a.value === b.value) {
-			return a.data > b.data ? 1 : -1;
-		}
-
-		return a.value > b.value ? 1 : -1;
-	});
-
-	$('#autocomplete').focus(function () {
-		mapAction();
-
-		window.scrollTo(0, 0);
-		document.body.scrollTop = 0;
-		$('#pageMap').animate({
-			scrollTop: parseInt(0, 10)
-		}, 500);
-	});
-	$('#autocomplete').autocomplete({
-		lookup: schools,
-		onSelect: function (suggestion) {
-			selectSuggestion(suggestion.data);
-		},
-		formatResult: function (suggestion, currentValue) {
-			var color = suggestion.color,
-				icon = 'fa-building-o',
-				str = '';
-
-			str += '<div class="autocomplete-icon back' + color + '"><i class="fa ' + icon + '" aria-hidden="true"></i></div>';
-			str += '<div>' + suggestion.value.replace(new RegExp(currentValue.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&"), 'gi'), '<strong>' + currentValue + '</strong>') + '</div>';
-			str += '<div class="' + color + '">' + suggestion.desc + '</div>';
-			return str;
-		},
-		showNoSuggestionNotice: true,
-		noSuggestionNotice: '<i class="fa fa-info-circle" aria-hidden="true"></i> Geben sie den Namen einer Schule ein'
-	});
 }
 
 // -----------------------------------------------------------------------------
@@ -355,6 +294,8 @@ $(document).on("pageshow", "#pageMap", function () {
 	$.getJSON(dataUrl, function (data) {
 		data = enrichMissingData(data);
 
+		ddj.init(data);
+
 /*		ddj.marker.init(data, {
 			onAdd: function (marker, value) {
 				marker.color = getColor(value);
@@ -379,7 +320,51 @@ $(document).on("pageshow", "#pageMap", function () {
 			}
 		});*/
 
-		initSearchBox(data);
+		ddj.search.init('autocomplete', data, {
+			showNoSuggestion: true,
+			titleNoSuggestion: '<i class="fa fa-info-circle" aria-hidden="true"></i> Geben sie bitte den Namen einer Schule ein',
+			onAdd: function (obj, value) {
+				var name = value.Schulname,
+					color = getColor(value),
+					schoolType = value.BSN.substr(2, 1);
+
+				if ('' !== value.BSN) {
+					name += ' (' + value.BSN + ')';
+				}
+
+				obj.sortValue1 = name;
+				obj.sortValue2 = value.BSN;
+				obj.data = value.BSN;
+				obj.color = color;
+				obj.value = name;
+				obj.desc = value.Schulart;
+
+				return ('all' === settings.type) || (schoolType === settings.type);
+			},
+			onFocus: function() {
+				mapAction();
+
+				window.scrollTo(0, 0);
+				document.body.scrollTop = 0;
+				$('#pageMap').animate({
+					scrollTop: parseInt(0, 10)
+				}, 500);
+			},
+			onFormat: function(suggestion, currentValue) {
+						var color = suggestion.color,
+							icon = 'fa-building-o',
+							str = '';
+
+						str += '<div class="autocomplete-icon back' + color + '"><i class="fa ' + icon + '" aria-hidden="true"></i></div>';
+						str += '<div>' + suggestion.value.replace(new RegExp(currentValue.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&"), 'gi'), '<strong>' + currentValue + '</strong>') + '</div>';
+						str += '<div class="' + color + '">' + suggestion.desc + '</div>';
+						return str;
+			},
+			onClick: function (data) {
+				selectSuggestion(data.BSN);
+			}
+		});
+
 //		initSocialMedia();
 
 		ddj.voronoi.init(data, {
