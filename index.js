@@ -287,7 +287,7 @@ $(document).on("pageshow", "#pageMap", function () {
 
 		ddj.init(data);
 
-/*		ddj.marker.init(data, {
+/*		ddj.marker.init({
 			onAdd: function (marker, value) {
 				marker.color = getColor(value);
 				marker.iconPrefix = 'fa';
@@ -358,7 +358,7 @@ $(document).on("pageshow", "#pageMap", function () {
 
 //		initSocialMedia();
 
-		ddj.voronoi.init(data, {
+		ddj.voronoi.init({
 			onAdd: function (marker, value) {
 				var color = getColor(value),
 					hexColor = color === 'red' ? '#e31a1c' :
