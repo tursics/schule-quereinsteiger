@@ -204,21 +204,12 @@ function updateMapVoidItem() {
 function selectSuggestion(selection) {
 	'use strict';
 
-	if (ddj.marker && ddj.marker.data.layerGroup && ddj.marker.data.layerGroup._layers && (ddj.marker.data.layerGroup._layers.length > 0)) {
-		$.each(ddj.marker.data.layerGroup._layers, function (key, val) {
-			if (val.options.data.BSN === selection) {
-				ddj.map.data.map.panTo(new L.LatLng(val.options.data.lat, val.options.data.lng));
-				updateMapSelectItem(val.options.data);
-			}
-		});
-	} else {
-		$.each(ddj.data.userData, function (key, val) {
-			if (val && (val.BSN === selection)) {
-				ddj.map.data.map.panTo(new L.LatLng(val.lat, val.lng));
-				updateMapSelectItem(val);
-			}
-		});
-	}
+	$.each(ddj.getData(), function (key, val) {
+		if (val && (val.BSN === selection)) {
+			ddj.map.data.map.panTo(new L.LatLng(val.lat, val.lng));
+			updateMapSelectItem(val);
+		}
+	});
 }
 
 // -----------------------------------------------------------------------------
@@ -320,7 +311,7 @@ $(document).on("pageshow", "#pageMap", function () {
 			}
 		});*/
 
-		ddj.search.init('autocomplete', data, {
+		ddj.search.init('autocomplete', {
 			showNoSuggestion: true,
 			titleNoSuggestion: '<i class="fa fa-info-circle" aria-hidden="true"></i> Geben sie bitte den Namen einer Schule ein',
 			onAdd: function (obj, value) {
@@ -341,7 +332,7 @@ $(document).on("pageshow", "#pageMap", function () {
 
 				return ('all' === settings.type) || (schoolType === settings.type);
 			},
-			onFocus: function() {
+			onFocus: function () {
 				mapAction();
 
 				window.scrollTo(0, 0);
@@ -350,15 +341,15 @@ $(document).on("pageshow", "#pageMap", function () {
 					scrollTop: parseInt(0, 10)
 				}, 500);
 			},
-			onFormat: function(suggestion, currentValue) {
-						var color = suggestion.color,
-							icon = 'fa-building-o',
-							str = '';
+			onFormat: function (suggestion, currentValue) {
+				var color = suggestion.color,
+					icon = 'fa-building-o',
+					str = '';
 
-						str += '<div class="autocomplete-icon back' + color + '"><i class="fa ' + icon + '" aria-hidden="true"></i></div>';
-						str += '<div>' + suggestion.value.replace(new RegExp(currentValue.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&"), 'gi'), '<strong>' + currentValue + '</strong>') + '</div>';
-						str += '<div class="' + color + '">' + suggestion.desc + '</div>';
-						return str;
+				str += '<div class="autocomplete-icon back' + color + '"><i class="fa ' + icon + '" aria-hidden="true"></i></div>';
+				str += '<div>' + suggestion.value.replace(new RegExp(currentValue.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&"), 'gi'), '<strong>' + currentValue + '</strong>') + '</div>';
+				str += '<div class="' + color + '">' + suggestion.desc + '</div>';
+				return str;
 			},
 			onClick: function (data) {
 				selectSuggestion(data.BSN);
