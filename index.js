@@ -185,7 +185,7 @@ function updateMapHoverItem(coordinates, data, icon, offsetY) {
 	layerPopup = L.popup(options)
 		.setLatLng(coordinates)
 		.setContent(str)
-		.openOn(ddj.map.data.map);
+		.openOn(ddj.getMap());
 }
 
 // -----------------------------------------------------------------------------
@@ -193,8 +193,8 @@ function updateMapHoverItem(coordinates, data, icon, offsetY) {
 function updateMapVoidItem() {
 	'use strict';
 
-	if (layerPopup && ddj.map.data.map) {
-		ddj.map.data.map.closePopup(layerPopup);
+	if (layerPopup && ddj.getMap()) {
+		ddj.getMap().closePopup(layerPopup);
 		layerPopup = null;
     }
 }
@@ -206,7 +206,7 @@ function selectSuggestion(selection) {
 
 	$.each(ddj.getData(), function (key, val) {
 		if (val && (val.BSN === selection)) {
-			ddj.map.data.map.panTo(new L.LatLng(val.lat, val.lng));
+			ddj.getMap().panTo(new L.LatLng(val.lat, val.lng));
 			updateMapSelectItem(val);
 		}
 	});
@@ -311,7 +311,7 @@ $(document).on("pageshow", "#pageMap", function () {
 			}
 		});*/
 
-		ddj.search.init('autocomplete', {
+		ddj.search.init({
 			showNoSuggestion: true,
 			titleNoSuggestion: '<i class="fa fa-info-circle" aria-hidden="true"></i> Geben sie bitte den Namen einer Schule ein',
 			onAdd: function (obj, value) {
@@ -396,7 +396,7 @@ $(document).on("pageshow", "#pageMap", function () {
 		});
 	});
 
-	ddj.map.data.map.addControl(new ControlInfo());
+	ddj.getMap().addControl(new ControlInfo());
 
 	$('#autocomplete').val('');
 	$('#receipt .group').on('click', function () {
