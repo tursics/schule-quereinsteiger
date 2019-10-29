@@ -1,0 +1,1302 @@
+[
+ {
+   "BSN": "01G01",
+   "Schulname": "Grundschule am Arkonaplatz",
+   "Strasse": "Ruppiner Str. 47-48",
+   "PLZ": 10115,
+   "Schulart": "Grundschule",
+   "lat": 52.53684,
+   "lng": 13.40039,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "01G02",
+   "Schulname": "Papageno-Grundschule",
+   "Strasse": "Bergstr. 58",
+   "PLZ": 10115,
+   "Schulart": "Grundschule",
+   "lat": 52.532833,
+   "lng": 13.391048,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "01G08",
+   "Schulname": "Grundschule am Brandenburger Tor",
+   "Strasse": "Wilhelmstr. 52",
+   "PLZ": 10117,
+   "Schulart": "Grundschule",
+   "lat": 52.51318,
+   "lng": 13.38276,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "01G38",
+   "Schulname": "Gustav-Falke-Grundschule",
+   "Strasse": "Strelitzer Str. 42",
+   "PLZ": 13355,
+   "Schulart": "Grundschule",
+   "lat": 52.53795,
+   "lng": 13.39162,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "01G46",
+   "Schulname": "Grundschule am Koppenplatz",
+   "Strasse": "Koppenplatz 12",
+   "PLZ": 10115,
+   "Schulart": "Grundschule",
+   "lat": 52.52778,
+   "lng": 13.39745,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "01K03",
+   "Schulname": "Ernst-Reuter-Schule",
+   "Strasse": "Stralsunder Str. 57",
+   "PLZ": 13355,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.538896,
+   "lng": 13.394373,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "01K08",
+   "Schulname": "Schule am Schillerpark (Integrierte Sekundarschule)",
+   "Strasse": "Ofener Str. 6",
+   "PLZ": 13349,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.55628,
+   "lng": 13.3457,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "01K09",
+   "Schulname": "Hedwig-Dohm-Schule (Integrierte Sekundarschule)",
+   "Strasse": "Stephanstr. 27",
+   "PLZ": 10559,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.53367,
+   "lng": 13.34651,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "02G21",
+   "Schulname": "Reinhardswald-Grundschule",
+   "Strasse": "Gneisenaustr. 73-74",
+   "PLZ": 10961,
+   "Schulart": "Grundschule",
+   "lat": 52.49059,
+   "lng": 13.3999,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "02K01",
+   "Schulname": "Ellen-Key-Schule",
+   "Strasse": "Rüdersdorfer Str. 20-28",
+   "PLZ": 10243,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.5152,
+   "lng": 13.43689,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "02Y01",
+   "Schulname": "Andreas-Oberschule",
+   "Strasse": "Koppenstr. 76",
+   "PLZ": 10243,
+   "Schulart": "Gymnasium",
+   "lat": 52.514039,
+   "lng": 13.434606,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "02Y06",
+   "Schulname": "Leibniz-Gymnasium",
+   "Strasse": "Schleiermacherstr. 23",
+   "PLZ": 10961,
+   "Schulart": "Gymnasium",
+   "lat": 52.48978,
+   "lng": 13.39747,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "02Y07",
+   "Schulname": "Robert-Koch-Gymnasium",
+   "Strasse": "Dieffenbachstr. 60",
+   "PLZ": 10967,
+   "Schulart": "Gymnasium",
+   "lat": 52.49323,
+   "lng": 13.41596,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "02Y08",
+   "Schulname": "Hermann-Hesse-Oberschule",
+   "Strasse": "Böckhstr. 16",
+   "PLZ": 10967,
+   "Schulart": "Gymnasium",
+   "lat": 52.493579,
+   "lng": 13.419151,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "03G21",
+   "Schulname": "Grundschule unter den Bäumen",
+   "Strasse": "Alt-Blankenburg 26",
+   "PLZ": 13129,
+   "Schulart": "Grundschule",
+   "lat": 52.592262,
+   "lng": 13.454422,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "03G26",
+   "Schulname": "Arnold-Zweig-Grundschule",
+   "Strasse": "Wollankstr. 131",
+   "PLZ": 13187,
+   "Schulart": "Grundschule",
+   "lat": 52.56868,
+   "lng": 13.40012,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "03G28",
+   "Schulname": "Grundschule im Hasengrund",
+   "Strasse": "Charlottenstr. 19",
+   "PLZ": 13156,
+   "Schulart": "Grundschule",
+   "lat": 52.59089,
+   "lng": 13.410577,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "03G33",
+   "Schulname": "Jeanne-Barez-Schule (Grundschule)",
+   "Strasse": "Hauptstr. 66",
+   "PLZ": 13127,
+   "Schulart": "Grundschule",
+   "lat": 52.60417,
+   "lng": 13.43415,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "03G36",
+   "Schulname": "Elisabeth-Christinen-Grundschule",
+   "Strasse": "Lindenberger Str. 12",
+   "PLZ": 13156,
+   "Schulart": "Grundschule",
+   "lat": 52.58294,
+   "lng": 13.41741,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "03G44",
+   "Schulname": "Georg-Zacharias-Grundschule",
+   "Strasse": "Sulzfelder Str. 15",
+   "PLZ": 13088,
+   "Schulart": "Grundschule",
+   "lat": 52.55219,
+   "lng": 13.47502,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "03K01",
+   "Schulname": "Kurt-Schwitters-Schule",
+   "Strasse": "Greifswalder Str. 25",
+   "PLZ": 10405,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.5314,
+   "lng": 13.42807,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "03K05",
+   "Schulname": "Heinz-Brandt-Schule",
+   "Strasse": "Langhansstr. 120",
+   "PLZ": 13086,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.551192,
+   "lng": 13.441808,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "03K06",
+   "Schulname": "Reinhold-Burger-Schule",
+   "Strasse": "Neue Schönholzer Str. 32",
+   "PLZ": 13187,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.56838,
+   "lng": 13.40303,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "03Y04",
+   "Schulname": "Heinrich-Schliemann-Gymnasium",
+   "Strasse": "Dunckerstr. 64",
+   "PLZ": 10439,
+   "Schulart": "Gymnasium",
+   "lat": 52.54663,
+   "lng": 13.42365,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "03Y08",
+   "Schulname": "Carl-von-Ossietzky-Gymnasium",
+   "Strasse": "Görschstr. 42-44",
+   "PLZ": 13187,
+   "Schulart": "Gymnasium",
+   "lat": 52.566429,
+   "lng": 13.40007,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "04G01",
+   "Schulname": "Eichendorff-Grundschule",
+   "Strasse": "Goethestr. 19",
+   "PLZ": 10625,
+   "Schulart": "Grundschule",
+   "lat": 52.50921,
+   "lng": 13.31305,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "04G04",
+   "Schulname": "Joan-Miró-Grundschule",
+   "Strasse": "Bleibtreustr. 43",
+   "PLZ": 10623,
+   "Schulart": "Grundschule",
+   "lat": 52.50357,
+   "lng": 13.32014,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "04G06",
+   "Schulname": "Wald-Grundschule",
+   "Strasse": "Waldschulallee 83-93",
+   "PLZ": 14055,
+   "Schulart": "Grundschule",
+   "lat": 52.50259,
+   "lng": 13.259,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "04G11",
+   "Schulname": "Helmuth-James-von-Moltke-Grundschule",
+   "Strasse": "Heckerdamm 221",
+   "PLZ": 13627,
+   "Schulart": "Grundschule",
+   "lat": 52.53903,
+   "lng": 13.30104,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "04G24",
+   "Schulname": "Carl-Orff-Grundschule",
+   "Strasse": "Berkaer Str. 9-10",
+   "PLZ": 14199,
+   "Schulart": "Grundschule",
+   "lat": 52.47841,
+   "lng": 13.28709,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "04K02",
+   "Schulname": "Friedensburg-Schule",
+   "Strasse": "Goethestr. 8-9",
+   "PLZ": 10623,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.50908,
+   "lng": 13.32082,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "04K03",
+   "Schulname": "Robert-Jungk-Schule",
+   "Strasse": "Sächsische Str. 58",
+   "PLZ": 10707,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.49448,
+   "lng": 13.31872,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "04K07",
+   "Schulname": "Integrierte Sekundarschule Wilmersdorf",
+   "Strasse": "Kranzer Str. 3",
+   "PLZ": 14199,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.482808,
+   "lng": 13.296098,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "04K08",
+   "Schulname": "Peter-Ustinov-Schule",
+   "Strasse": "Kuno-Fischer-Str. 22-26",
+   "PLZ": 14057,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.505241,
+   "lng": 13.290548,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "04Y01",
+   "Schulname": "Schiller-Gymnasium",
+   "Strasse": "Schillerstr. 125-127",
+   "PLZ": 10625,
+   "Schulart": "Gymnasium",
+   "lat": 52.50993,
+   "lng": 13.321596,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "04Y05",
+   "Schulname": "Herder-Gymnasium",
+   "Strasse": "Westendallee 45-46",
+   "PLZ": 14052,
+   "Schulart": "Gymnasium",
+   "lat": 52.510663,
+   "lng": 13.257932,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "04Y07",
+   "Schulname": "Friedrich-Ebert-Gymnasium",
+   "Strasse": "Blissestr. 22",
+   "PLZ": 10713,
+   "Schulart": "Gymnasium",
+   "lat": 52.484621,
+   "lng": 13.319289,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "04Y10",
+   "Schulname": "Marie-Curie-Gymnasium",
+   "Strasse": "Weimarische Str. 21",
+   "PLZ": 10715,
+   "Schulart": "Gymnasium",
+   "lat": 52.480119,
+   "lng": 13.324748,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "05G02",
+   "Schulname": "Grundschule am Eichenwald",
+   "Strasse": "Gaismannshofer Weg 2",
+   "PLZ": 13587,
+   "Schulart": "Grundschule",
+   "lat": 52.558423,
+   "lng": 13.199146,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "05G08",
+   "Schulname": "Konkordia-Grundschule",
+   "Strasse": "Elsflether Weg 26",
+   "PLZ": 13581,
+   "Schulart": "Grundschule",
+   "lat": 52.53018,
+   "lng": 13.19202,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "05G11",
+   "Schulname": "Robert-Reinick-Grundschule",
+   "Strasse": "Jungfernheideweg 33-48",
+   "PLZ": 13629,
+   "Schulart": "Grundschule",
+   "lat": 52.54065,
+   "lng": 13.27277,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "05G12",
+   "Schulname": "Grundschule am Weinmeisterhorn",
+   "Strasse": "Daberkowstr. 27",
+   "PLZ": 13593,
+   "Schulart": "Grundschule",
+   "lat": 52.50825,
+   "lng": 13.1742,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "05G15",
+   "Schulname": "Askanier-Grundschule",
+   "Strasse": "Borkzeile 34",
+   "PLZ": 13583,
+   "Schulart": "Grundschule",
+   "lat": 52.54049,
+   "lng": 13.19242,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "05G24",
+   "Schulname": "Grundschule am Windmühlenberg",
+   "Strasse": "Am Kinderdorf 23-37",
+   "PLZ": 14089,
+   "Schulart": "Grundschule",
+   "lat": 52.48547,
+   "lng": 13.17431,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "05G25",
+   "Schulname": "Grundschule am Wasserwerk",
+   "Strasse": "Pionierstr. 197",
+   "PLZ": 13589,
+   "Schulart": "Grundschule",
+   "lat": 52.55625,
+   "lng": 13.16467,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "05K01",
+   "Schulname": "Martin-Buber-Oberschule (Integrierte Sekundarschule)",
+   "Strasse": "Im Spektefeld 33",
+   "PLZ": 13589,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.54895,
+   "lng": 13.1565,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "05K02",
+   "Schulname": "Carlo-Schmid-Oberschule (Integrierte Sekundarschule)",
+   "Strasse": "Lutoner Str. 15-19",
+   "PLZ": 13581,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.5259,
+   "lng": 13.17464,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "05K03",
+   "Schulname": "Bertolt-Brecht-Oberschule (Integrierte Sekundarschule)",
+   "Strasse": "Wilhelmstr. 10",
+   "PLZ": 13595,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.525308,
+   "lng": 13.192692,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "05K04",
+   "Schulname": "Heinrich-Böll-Oberschule (Integrierte Sekundarschule)",
+   "Strasse": "Am Forstacker 9-11",
+   "PLZ": 13587,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.565166,
+   "lng": 13.199033,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "05K05",
+   "Schulname": "B.-Traven-Gemeinschaftsschule",
+   "Strasse": "Recklinghauser Weg 26-32",
+   "PLZ": 13583,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.5469,
+   "lng": 13.17403,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "05K06",
+   "Schulname": "Wolfgang-Borchert-Schule (Integrierte Sekundarschule)",
+   "Strasse": "Blumenstr. 13",
+   "PLZ": 13585,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.54571,
+   "lng": 13.1967,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "05K08",
+   "Schulname": "Schule an der Haveldüne (Integrierte Sekundarschule)",
+   "Strasse": "Jaczostr. 53-67",
+   "PLZ": 13595,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.51098,
+   "lng": 13.18567,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "05Y03",
+   "Schulname": "Hans-Carossa-Gymnasium",
+   "Strasse": "Am Landschaftspark Gatow 40",
+   "PLZ": 14089,
+   "Schulart": "Gymnasium",
+   "lat": 52.47244,
+   "lng": 13.13028,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "05Y05",
+   "Schulname": "Lily-Braun-Gymnasium",
+   "Strasse": "Münsingerstr. 2",
+   "PLZ": 13597,
+   "Schulart": "Gymnasium",
+   "lat": 52.538567,
+   "lng": 13.199029,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "06G04",
+   "Schulname": "Erich-Kästner-Grundschule",
+   "Strasse": "Bachstelzenweg 2-8",
+   "PLZ": 14195,
+   "Schulart": "Grundschule",
+   "lat": 52.458141,
+   "lng": 13.283199,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "06G12",
+   "Schulname": "Quentin-Blake-Grundschule",
+   "Strasse": "Hüttenweg 40",
+   "PLZ": 14195,
+   "Schulart": "Grundschule",
+   "lat": 52.454097,
+   "lng": 13.27055,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "06G21",
+   "Schulname": "Paul-Schneider-Grundschule",
+   "Strasse": "Seydlitzstr. 30-34",
+   "PLZ": 12249,
+   "Schulart": "Grundschule",
+   "lat": 52.431002,
+   "lng": 13.341243,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "06G22",
+   "Schulname": "Giesensdorfer Grundschule",
+   "Strasse": "Ostpreußendamm 63",
+   "PLZ": 12207,
+   "Schulart": "Grundschule",
+   "lat": 52.422226,
+   "lng": 13.31101,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "06G24",
+   "Schulname": "Grundschule unter den Kastanien",
+   "Strasse": "Kastanienstr. 6 -8",
+   "PLZ": 12209,
+   "Schulart": "Grundschule",
+   "lat": 52.42546,
+   "lng": 13.32527,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "06K02",
+   "Schulname": "Wilma-Rudolph-Schule (Integrierte Sekundarschule)",
+   "Strasse": "Am Hegewinkel 2A",
+   "PLZ": 14169,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.45479,
+   "lng": 13.26097,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "06K08",
+   "Schulname": "Max-von-Laue-Schule",
+   "Strasse": "Dürerstr. 27",
+   "PLZ": 12203,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.43725,
+   "lng": 13.305628,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "06K10",
+   "Schulname": "Helene-Lange-Schule (Integrierte Sekundarschule)",
+   "Strasse": "Lauenburger Str. 110",
+   "PLZ": 12169,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.4528,
+   "lng": 13.33586,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "06Y06",
+   "Schulname": "Beethoven-Oberschule",
+   "Strasse": "Barbarastr. 9",
+   "PLZ": 12249,
+   "Schulart": "Gymnasium",
+   "lat": 52.43293,
+   "lng": 13.34283,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "06Y07",
+   "Schulname": "Paulsen-Gymnasium",
+   "Strasse": "Gritznerstr. 57",
+   "PLZ": 12163,
+   "Schulart": "Gymnasium",
+   "lat": 52.46219,
+   "lng": 13.314388,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "06Y09",
+   "Schulname": "Fichtenberg-Oberschule",
+   "Strasse": "Rothenburgstr. 18",
+   "PLZ": 12165,
+   "Schulart": "Gymnasium",
+   "lat": 52.45398,
+   "lng": 13.31302,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "06Y10",
+   "Schulname": "Lilienthal-Gymnasium",
+   "Strasse": "Ringstr. 2-3",
+   "PLZ": 12203,
+   "Schulart": "Gymnasium",
+   "lat": 52.43595,
+   "lng": 13.31215,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "06Y11",
+   "Schulname": "Goethe-Gymnasium Lichterfelde",
+   "Strasse": "Drakestr. 72-75",
+   "PLZ": 12205,
+   "Schulart": "Gymnasium",
+   "lat": 52.434929,
+   "lng": 13.305363,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "06Y12",
+   "Schulname": "Willi-Graf-Gymnasium",
+   "Strasse": "Ostpreußendamm 166",
+   "PLZ": 12207,
+   "Schulart": "Gymnasium",
+   "lat": 52.43469,
+   "lng": 13.32096,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "07G02",
+   "Schulname": "Finow-Grundschule",
+   "Strasse": "Welserstr. 16-22",
+   "PLZ": 10777,
+   "Schulart": "Grundschule",
+   "lat": 52.49823,
+   "lng": 13.34251,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "07G12",
+   "Schulname": "Scharmützelsee-Grundschule",
+   "Strasse": "Hohenstaufenstr. 49",
+   "PLZ": 10779,
+   "Schulart": "Grundschule",
+   "lat": 52.494177,
+   "lng": 13.343268,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "07G14",
+   "Schulname": "Löcknitz-Grundschule",
+   "Strasse": "Berchtesgadener Str. 10-11",
+   "PLZ": 10779,
+   "Schulart": "Grundschule",
+   "lat": 52.489558,
+   "lng": 13.343356,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "07G31",
+   "Schulname": "Carl-Sonnenschein-Grundschule",
+   "Strasse": "Am Hellespont 4-6",
+   "PLZ": 12109,
+   "Schulart": "Grundschule",
+   "lat": 52.443699,
+   "lng": 13.408152,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "07G36",
+   "Schulname": "Grundschule am Dielingsgrund",
+   "Strasse": "Dielingsgrund 35",
+   "PLZ": 12305,
+   "Schulart": "Grundschule",
+   "lat": 52.41166,
+   "lng": 13.40863,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "07G37",
+   "Schulname": "Ikarus-Grundschule",
+   "Strasse": "Körtingstr. 45",
+   "PLZ": 12107,
+   "Schulart": "Grundschule",
+   "lat": 52.43363,
+   "lng": 13.38389,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "07K01",
+   "Schulname": "Sophie-Scholl-Schule",
+   "Strasse": "Elßholzstr. 34-37",
+   "PLZ": 10781,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.492808,
+   "lng": 13.356583,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "07K02",
+   "Schulname": "Carl-Zeiss-Schule",
+   "Strasse": "Barnetstr. 12-14",
+   "PLZ": 12305,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.39571,
+   "lng": 13.40258,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "07K03",
+   "Schulname": "Gustav-Heinemann-Schule",
+   "Strasse": "Waldsassener Str. 62",
+   "PLZ": 12279,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.40662,
+   "lng": 13.34754,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "07K04",
+   "Schulname": "Theodor-Haubach-Schule",
+   "Strasse": "Grimmstr. 9-11",
+   "PLZ": 12305,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.398399,
+   "lng": 13.403988,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "07K05",
+   "Schulname": "Solling-Schule",
+   "Strasse": "Alt-Marienfelde 52",
+   "PLZ": 12277,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.41397,
+   "lng": 13.36527,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "07K06",
+   "Schulname": "Georg-von-Giesche-Schule",
+   "Strasse": "Hohenstaufenstr. 47-48",
+   "PLZ": 10779,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.494144,
+   "lng": 13.342529,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "07K10",
+   "Schulname": "Friedrich-Bergius-Schule",
+   "Strasse": "Perelsplatz 6-9",
+   "PLZ": 12159,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.47618,
+   "lng": 13.33314,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "07Y03",
+   "Schulname": "Rheingau-Gymnasium",
+   "Strasse": "Schwalbacher Str. 3-4",
+   "PLZ": 12161,
+   "Schulart": "Gymnasium",
+   "lat": 52.470206,
+   "lng": 13.322611,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "07Y06",
+   "Schulname": "Askanisches Gymnasium",
+   "Strasse": "Kaiserin-Augusta-Str. 19-20",
+   "PLZ": 12103,
+   "Schulart": "Gymnasium",
+   "lat": 52.45992,
+   "lng": 13.37992,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "07Y07",
+   "Schulname": "Eckener-Gymnasium",
+   "Strasse": "Kaiserstr. 17-21",
+   "PLZ": 12105,
+   "Schulart": "Gymnasium",
+   "lat": 52.4451,
+   "lng": 13.38052,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "07Y09",
+   "Schulname": "Georg-Büchner-Gymnasium",
+   "Strasse": "Lichtenrader Damm 224",
+   "PLZ": 12305,
+   "Schulart": "Gymnasium",
+   "lat": 52.39186,
+   "lng": 13.406604,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "08G09",
+   "Schulname": "Regenbogen-Schule (Grundschule)",
+   "Strasse": "Morusstr. 32",
+   "PLZ": 12053,
+   "Schulart": "Grundschule",
+   "lat": 52.47578,
+   "lng": 13.43333,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "08G27",
+   "Schulname": "Oskar-Heinroth-Schule (Grundschule)",
+   "Strasse": "Rohrdommelweg 1",
+   "PLZ": 12359,
+   "Schulart": "Grundschule",
+   "lat": 52.44057,
+   "lng": 13.47209,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "08G30",
+   "Schulname": "Schule am Sandsteinweg (Grundschule)",
+   "Strasse": "Hornblendeweg 2",
+   "PLZ": 12349,
+   "Schulart": "Grundschule",
+   "lat": 52.41829,
+   "lng": 13.40469,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "08K02",
+   "Schulname": "Hermann-von-Helmholtz-Schule",
+   "Strasse": "Wutzkyallee 68",
+   "PLZ": 12353,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.421823,
+   "lng": 13.472974,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "08K03",
+   "Schulname": "Otto-Hahn-Schule",
+   "Strasse": "Buschkrugallee 63",
+   "PLZ": 12359,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.45809,
+   "lng": 13.449,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "08K05",
+   "Schulname": "Clay-Schule",
+   "Strasse": "Bildhauerweg 9",
+   "PLZ": 12355,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.41759,
+   "lng": 13.48999,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "08Y03",
+   "Schulname": "Albert-Einstein-Gymnasium",
+   "Strasse": "Parchimer Allee 109",
+   "PLZ": 12359,
+   "Schulart": "Gymnasium",
+   "lat": 52.44553,
+   "lng": 13.44245,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "09G04",
+   "Schulname": "Sonnenblumen-Schule (Grundschule)",
+   "Strasse": "Radenzer Str. 16",
+   "PLZ": 12437,
+   "Schulart": "Grundschule",
+   "lat": 52.46163,
+   "lng": 13.48872,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "09G26",
+   "Schulname": "Schule an den Püttbergen (Grundschule)",
+   "Strasse": "Fürstenwalder Allee 182",
+   "PLZ": 12589,
+   "Schulart": "Grundschule",
+   "lat": 52.43385,
+   "lng": 13.70158,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "09K06",
+   "Schulname": "Hans-Grade-Schule (Integrierte Sekundarschule)",
+   "Strasse": "Heubergerweg 37",
+   "PLZ": 12487,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.444484,
+   "lng": 13.499022,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "09K07",
+   "Schulname": "Sophie-Brahe-Schule (Gemeinschaftsschule)",
+   "Strasse": "Am Plänterwald 17-23",
+   "PLZ": 12435,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.48171,
+   "lng": 13.47804,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "09K08",
+   "Schulname": "Schule an der Dahme (Integrierte Sekundarschule)",
+   "Strasse": "Glienicker Str. 24 -30",
+   "PLZ": 12557,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.44056,
+   "lng": 13.56727,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "09K09",
+   "Schulname": "Grünauer Schule (Gemeinschaftsschule)",
+   "Strasse": "Walchenseestr. 40",
+   "PLZ": 12527,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.419368,
+   "lng": 13.576124,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "10G12",
+   "Schulname": "Grundschule an der Geißenweide",
+   "Strasse": "Amanlisweg 40",
+   "PLZ": 12685,
+   "Schulart": "Grundschule",
+   "lat": 52.537783,
+   "lng": 13.551797,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "10G16",
+   "Schulname": "Grundschule am Fuchsberg",
+   "Strasse": "Dankratweg 19",
+   "PLZ": 12683,
+   "Schulart": "Grundschule",
+   "lat": 52.49039,
+   "lng": 13.551484,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "10G26",
+   "Schulname": "Friedrich-Schiller-Grundschule",
+   "Strasse": "An der Schule 13-17",
+   "PLZ": 12623,
+   "Schulart": "Grundschule",
+   "lat": 52.5115,
+   "lng": 13.614782,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "10G29",
+   "Schulname": "Grundschule an der Wuhle",
+   "Strasse": "Teterower Ring 79",
+   "PLZ": 12619,
+   "Schulart": "Grundschule",
+   "lat": 52.52118,
+   "lng": 13.58041,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "10G30",
+   "Schulname": "Mahlsdorfer Grundschule",
+   "Strasse": "Feldrain 47",
+   "PLZ": 12623,
+   "Schulart": "Grundschule",
+   "lat": 52.522102,
+   "lng": 13.628787,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "10G32",
+   "Schulname": "Kiekemal-Schule (Grundschule)",
+   "Strasse": "Hultschiner Damm 219",
+   "PLZ": 12623,
+   "Schulart": "Grundschule",
+   "lat": 52.49407,
+   "lng": 13.60915,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "10K01",
+   "Schulname": "Rudolf-Virchow-Schule",
+   "Strasse": "Glambecker Ring 90",
+   "PLZ": 12679,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.5555,
+   "lng": 13.57573,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "10K07",
+   "Schulname": "Caspar-David-Friedrich-Schule",
+   "Strasse": "Alte Hellersdorfer Str. 7",
+   "PLZ": 12629,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.535223,
+   "lng": 13.591017,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "10Y01",
+   "Schulname": "Tagore-Gymnasium",
+   "Strasse": "Sella-Hasse-Str. 25",
+   "PLZ": 12687,
+   "Schulart": "Gymnasium",
+   "lat": 52.55271,
+   "lng": 13.55658,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "10Y02",
+   "Schulname": "Otto-Nagel-Gymnasium",
+   "Strasse": "Schulstr. 11",
+   "PLZ": 12683,
+   "Schulart": "Gymnasium",
+   "lat": 52.511922,
+   "lng": 13.549199,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "11G03",
+   "Schulname": "Grundschule im Gutspark",
+   "Strasse": "Josef-Orlopp-Str. 20",
+   "PLZ": 10367,
+   "Schulart": "Grundschule",
+   "lat": 52.52237,
+   "lng": 13.48307,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "11G06",
+   "Schulname": "Adam-Ries-Grundschule",
+   "Strasse": "Alt-Friedrichsfelde 66",
+   "PLZ": 10315,
+   "Schulart": "Grundschule",
+   "lat": 52.5114,
+   "lng": 13.53125,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "11G17",
+   "Schulname": "Brodowin-Grundschule",
+   "Strasse": "Liebenwalder Str. 22",
+   "PLZ": 13055,
+   "Schulart": "Grundschule",
+   "lat": 52.53738,
+   "lng": 13.50067,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "11G29",
+   "Schulname": "Matibi-Grundschule",
+   "Strasse": "Prendener Str. 15",
+   "PLZ": 13059,
+   "Schulart": "Grundschule",
+   "lat": 52.5724,
+   "lng": 13.52072,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "11K01",
+   "Schulname": "Alexander-Puschkin-Schule",
+   "Strasse": "Massower Str. 37",
+   "PLZ": 10315,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.50795,
+   "lng": 13.51556,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "11K02",
+   "Schulname": "Mildred-Harnack-Schule",
+   "Strasse": "Schulze-Boysen-Str. 12",
+   "PLZ": 10365,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.511321,
+   "lng": 13.481213,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "11K05",
+   "Schulname": "Fritz-Reuter-Schule",
+   "Strasse": "Prendener Str. 29",
+   "PLZ": 13059,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.570237,
+   "lng": 13.52104,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "11K07",
+   "Schulname": "Vincent-van-Gogh-Schule (Integrierte Sekundarschule)",
+   "Strasse": "Wustrower Str. 26",
+   "PLZ": 13051,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.5678,
+   "lng": 13.50702,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "11K09",
+   "Schulname": "Philipp-Reis-Schule (Integrierte Sekundarschule)",
+   "Strasse": "Werneuchener Str. 15",
+   "PLZ": 13055,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.53952,
+   "lng": 13.49572,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "11K10",
+   "Schulname": "Grüner Campus Malchow (Gemeinschaftsschule)",
+   "Strasse": "Malchower Chaussee 2",
+   "PLZ": 13051,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.569831,
+   "lng": 13.479469,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "11K11",
+   "Schulname": "Paul-Schmidt-Schule (Integrierte Sekundarschule)",
+   "Strasse": "Malchower Weg 54",
+   "PLZ": 13053,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.55475,
+   "lng": 13.50438,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "11Y09",
+   "Schulname": "Barnim-Gymnasium",
+   "Strasse": "Ahrensfelder Chaussee 41",
+   "PLZ": 13057,
+   "Schulart": "Gymnasium",
+   "lat": 52.569201,
+   "lng": 13.549303,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "11Y11",
+   "Schulname": "Immanuel-Kant-Gymnasium",
+   "Strasse": "Lückstr. 63",
+   "PLZ": 10317,
+   "Schulart": "Gymnasium",
+   "lat": 52.501956,
+   "lng": 13.489635,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "12G02",
+   "Schulname": "Grundschule am Schäfersee",
+   "Strasse": "Baseler Str. 2-6",
+   "PLZ": 13407,
+   "Schulart": "Grundschule",
+   "lat": 52.5622,
+   "lng": 13.3554,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "12G10",
+   "Schulname": "Peter-Witte-Grundschule",
+   "Strasse": "Rathauspromenade 75",
+   "PLZ": 13437,
+   "Schulart": "Grundschule",
+   "lat": 52.5863,
+   "lng": 13.33039,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "12G12",
+   "Schulname": "Borsigwalder Grundschule",
+   "Strasse": "Miraustr. 100",
+   "PLZ": 13509,
+   "Schulart": "Grundschule",
+   "lat": 52.58822,
+   "lng": 13.30561,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "12G14",
+   "Schulname": "Alfred-Brehm-Grundschule",
+   "Strasse": "Ascheberger Weg 8A",
+   "PLZ": 13507,
+   "Schulart": "Grundschule",
+   "lat": 52.57359,
+   "lng": 13.28368,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "12K02",
+   "Schulname": "Bettina-von-Arnim-Schule",
+   "Strasse": "Senftenberger Ring 49",
+   "PLZ": 13435,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.60511,
+   "lng": 13.35859,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "12K06",
+   "Schulname": "Benjamin-Franklin-Schule (Integrierte Sekundarschule)",
+   "Strasse": "Sommerfelder Str. 5-7",
+   "PLZ": 13509,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.581447,
+   "lng": 13.300983,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "12K07",
+   "Schulname": "Jean-Krämer-Schule (Integrierte Sekundarschule) Wittenau",
+   "Strasse": "Alt-Wittenau 8-12",
+   "PLZ": 13437,
+   "Schulart": "Integrierte Sekundarschule",
+   "lat": 52.58995,
+   "lng": 13.33545,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "12Y01",
+   "Schulname": "Friedrich-Engels-Gymnasium",
+   "Strasse": "Emmentaler Str. 67",
+   "PLZ": 13407,
+   "Schulart": "Gymnasium",
+   "lat": 52.56959,
+   "lng": 13.35743,
+   "KlassenMehrAls26_32_Schueler": "X"
+ },
+ {
+   "BSN": "12Y03",
+   "Schulname": "Humboldt-Gymnasium",
+   "Strasse": "Hatzfeldtallee 2-4",
+   "PLZ": 13509,
+   "Schulart": "Gymnasium",
+   "lat": 52.59176,
+   "lng": 13.28891,
+   "KlassenMehrAls26_32_Schueler": "X"
+ }
+]

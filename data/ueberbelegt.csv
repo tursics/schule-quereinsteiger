@@ -1,0 +1,131 @@
+BSN;Schulname;Strasse;PLZ;Schulart;lat;lng;KlassenMehrAls26_32_Schueler
+01G01;Grundschule am Arkonaplatz;Ruppiner Str. 47-48;10115;Grundschule;52.53684;13.40039;X
+01G02;Papageno-Grundschule;Bergstr. 58;10115;Grundschule;52.532833;13.391048;X
+01G08;Grundschule am Brandenburger Tor;Wilhelmstr. 52;10117;Grundschule;52.51318;13.38276;X
+01G38;Gustav-Falke-Grundschule;Strelitzer Str. 42;13355;Grundschule;52.53795;13.39162;X
+01G46;Grundschule am Koppenplatz;Koppenplatz 12;10115;Grundschule;52.52778;13.39745;X
+01K03;Ernst-Reuter-Schule;Stralsunder Str. 57;13355;Integrierte Sekundarschule;52.538896;13.394373;X
+01K08;Schule am Schillerpark (Integrierte Sekundarschule);Ofener Str. 6;13349;Integrierte Sekundarschule;52.55628;13.3457;X
+01K09;Hedwig-Dohm-Schule (Integrierte Sekundarschule);Stephanstr. 27;10559;Integrierte Sekundarschule;52.53367;13.34651;X
+02G21;Reinhardswald-Grundschule;Gneisenaustr. 73-74;10961;Grundschule;52.49059;13.3999;X
+02K01;Ellen-Key-Schule;Rüdersdorfer Str. 20-28;10243;Integrierte Sekundarschule;52.5152;13.43689;X
+02Y01;Andreas-Oberschule;Koppenstr. 76;10243;Gymnasium;52.514039;13.434606;X
+02Y06;Leibniz-Gymnasium;Schleiermacherstr. 23;10961;Gymnasium;52.48978;13.39747;X
+02Y07;Robert-Koch-Gymnasium;Dieffenbachstr. 60;10967;Gymnasium;52.49323;13.41596;X
+02Y08;Hermann-Hesse-Oberschule;Böckhstr. 16;10967;Gymnasium;52.493579;13.419151;X
+03G21;Grundschule unter den Bäumen;Alt-Blankenburg 26;13129;Grundschule;52.592262;13.454422;X
+03G26;Arnold-Zweig-Grundschule;Wollankstr. 131;13187;Grundschule;52.56868;13.40012;X
+03G28;Grundschule im Hasengrund;Charlottenstr. 19;13156;Grundschule;52.59089;13.410577;X
+03G33;Jeanne-Barez-Schule (Grundschule);Hauptstr. 66;13127;Grundschule;52.60417;13.43415;X
+03G36;Elisabeth-Christinen-Grundschule;Lindenberger Str. 12;13156;Grundschule;52.58294;13.41741;X
+03G44;Georg-Zacharias-Grundschule;Sulzfelder Str. 15;13088;Grundschule;52.55219;13.47502;X
+03K01;Kurt-Schwitters-Schule;Greifswalder Str. 25;10405;Integrierte Sekundarschule;52.5314;13.42807;X
+03K05;Heinz-Brandt-Schule;Langhansstr. 120;13086;Integrierte Sekundarschule;52.551192;13.441808;X
+03K06;Reinhold-Burger-Schule;Neue Schönholzer Str. 32;13187;Integrierte Sekundarschule;52.56838;13.40303;X
+03Y04;Heinrich-Schliemann-Gymnasium;Dunckerstr. 64;10439;Gymnasium;52.54663;13.42365;X
+03Y08;Carl-von-Ossietzky-Gymnasium;Görschstr. 42-44;13187;Gymnasium;52.566429;13.40007;X
+04G01;Eichendorff-Grundschule;Goethestr. 19;10625;Grundschule;52.50921;13.31305;X
+04G04;Joan-Miró-Grundschule;Bleibtreustr. 43;10623;Grundschule;52.50357;13.32014;X
+04G06;Wald-Grundschule;Waldschulallee 83-93;14055;Grundschule;52.50259;13.259;X
+04G11;Helmuth-James-von-Moltke-Grundschule;Heckerdamm 221;13627;Grundschule;52.53903;13.30104;X
+04G24;Carl-Orff-Grundschule;Berkaer Str. 9-10;14199;Grundschule;52.47841;13.28709;X
+04K02;Friedensburg-Schule;Goethestr. 8-9;10623;Integrierte Sekundarschule;52.50908;13.32082;X
+04K03;Robert-Jungk-Schule;Sächsische Str. 58;10707;Integrierte Sekundarschule;52.49448;13.31872;X
+04K07;Integrierte Sekundarschule Wilmersdorf;Kranzer Str. 3;14199;Integrierte Sekundarschule;52.482808;13.296098;X
+04K08;Peter-Ustinov-Schule;Kuno-Fischer-Str. 22-26;14057;Integrierte Sekundarschule;52.505241;13.290548;X
+04Y01;Schiller-Gymnasium;Schillerstr. 125-127;10625;Gymnasium;52.50993;13.321596;X
+04Y05;Herder-Gymnasium;Westendallee 45-46;14052;Gymnasium;52.510663;13.257932;X
+04Y07;Friedrich-Ebert-Gymnasium;Blissestr. 22;10713;Gymnasium;52.484621;13.319289;X
+04Y10;Marie-Curie-Gymnasium;Weimarische Str. 21;10715;Gymnasium;52.480119;13.324748;X
+05G02;Grundschule am Eichenwald;Gaismannshofer Weg 2;13587;Grundschule;52.558423;13.199146;X
+05G08;Konkordia-Grundschule;Elsflether Weg 26;13581;Grundschule;52.53018;13.19202;X
+05G11;Robert-Reinick-Grundschule;Jungfernheideweg 33-48;13629;Grundschule;52.54065;13.27277;X
+05G12;Grundschule am Weinmeisterhorn;Daberkowstr. 27;13593;Grundschule;52.50825;13.1742;X
+05G15;Askanier-Grundschule;Borkzeile 34;13583;Grundschule;52.54049;13.19242;X
+05G24;Grundschule am Windmühlenberg;Am Kinderdorf 23-37;14089;Grundschule;52.48547;13.17431;X
+05G25;Grundschule am Wasserwerk;Pionierstr. 197;13589;Grundschule;52.55625;13.16467;X
+05K01;Martin-Buber-Oberschule (Integrierte Sekundarschule);Im Spektefeld 33;13589;Integrierte Sekundarschule;52.54895;13.1565;X
+05K02;Carlo-Schmid-Oberschule (Integrierte Sekundarschule);Lutoner Str. 15-19;13581;Integrierte Sekundarschule;52.5259;13.17464;X
+05K03;Bertolt-Brecht-Oberschule (Integrierte Sekundarschule);Wilhelmstr. 10;13595;Integrierte Sekundarschule;52.525308;13.192692;X
+05K04;Heinrich-Böll-Oberschule (Integrierte Sekundarschule);Am Forstacker 9-11;13587;Integrierte Sekundarschule;52.565166;13.199033;X
+05K05;B.-Traven-Gemeinschaftsschule;Recklinghauser Weg 26-32;13583;Integrierte Sekundarschule;52.5469;13.17403;X
+05K06;Wolfgang-Borchert-Schule (Integrierte Sekundarschule);Blumenstr. 13;13585;Integrierte Sekundarschule;52.54571;13.1967;X
+05K08;Schule an der Haveldüne (Integrierte Sekundarschule);Jaczostr. 53-67;13595;Integrierte Sekundarschule;52.51098;13.18567;X
+05Y03;Hans-Carossa-Gymnasium;Am Landschaftspark Gatow 40;14089;Gymnasium;52.47244;13.13028;X
+05Y05;Lily-Braun-Gymnasium;Münsingerstr. 2;13597;Gymnasium;52.538567;13.199029;X
+06G04;Erich-Kästner-Grundschule;Bachstelzenweg 2-8;14195;Grundschule;52.458141;13.283199;X
+06G12;Quentin-Blake-Grundschule;Hüttenweg 40;14195;Grundschule;52.454097;13.27055;X
+06G21;Paul-Schneider-Grundschule;Seydlitzstr. 30-34;12249;Grundschule;52.431002;13.341243;X
+06G22;Giesensdorfer Grundschule;Ostpreußendamm 63;12207;Grundschule;52.422226;13.31101;X
+06G24;Grundschule unter den Kastanien;Kastanienstr. 6 -8;12209;Grundschule;52.42546;13.32527;X
+06K02;Wilma-Rudolph-Schule (Integrierte Sekundarschule);Am Hegewinkel 2A;14169;Integrierte Sekundarschule;52.45479;13.26097;X
+06K08;Max-von-Laue-Schule;Dürerstr. 27;12203;Integrierte Sekundarschule;52.43725;13.305628;X
+06K10;Helene-Lange-Schule (Integrierte Sekundarschule);Lauenburger Str. 110;12169;Integrierte Sekundarschule;52.4528;13.33586;X
+06Y06;Beethoven-Oberschule;Barbarastr. 9;12249;Gymnasium;52.43293;13.34283;X
+06Y07;Paulsen-Gymnasium;Gritznerstr. 57;12163;Gymnasium;52.46219;13.314388;X
+06Y09;Fichtenberg-Oberschule;Rothenburgstr. 18;12165;Gymnasium;52.45398;13.31302;X
+06Y10;Lilienthal-Gymnasium;Ringstr. 2-3;12203;Gymnasium;52.43595;13.31215;X
+06Y11;Goethe-Gymnasium Lichterfelde;Drakestr. 72-75;12205;Gymnasium;52.434929;13.305363;X
+06Y12;Willi-Graf-Gymnasium;Ostpreußendamm 166;12207;Gymnasium;52.43469;13.32096;X
+07G02;Finow-Grundschule;Welserstr. 16-22;10777;Grundschule;52.49823;13.34251;X
+07G12;Scharmützelsee-Grundschule;Hohenstaufenstr. 49;10779;Grundschule;52.494177;13.343268;X
+07G14;Löcknitz-Grundschule;Berchtesgadener Str. 10-11;10779;Grundschule;52.489558;13.343356;X
+07G31;Carl-Sonnenschein-Grundschule;Am Hellespont 4-6;12109;Grundschule;52.443699;13.408152;X
+07G36;Grundschule am Dielingsgrund;Dielingsgrund 35;12305;Grundschule;52.41166;13.40863;X
+07G37;Ikarus-Grundschule;Körtingstr. 45;12107;Grundschule;52.43363;13.38389;X
+07K01;Sophie-Scholl-Schule;Elßholzstr. 34-37;10781;Integrierte Sekundarschule;52.492808;13.356583;X
+07K02;Carl-Zeiss-Schule;Barnetstr. 12-14;12305;Integrierte Sekundarschule;52.39571;13.40258;X
+07K03;Gustav-Heinemann-Schule;Waldsassener Str. 62;12279;Integrierte Sekundarschule;52.40662;13.34754;X
+07K04;Theodor-Haubach-Schule;Grimmstr. 9-11;12305;Integrierte Sekundarschule;52.398399;13.403988;X
+07K05;Solling-Schule;Alt-Marienfelde 52;12277;Integrierte Sekundarschule;52.41397;13.36527;X
+07K06;Georg-von-Giesche-Schule;Hohenstaufenstr. 47-48;10779;Integrierte Sekundarschule;52.494144;13.342529;X
+07K10;Friedrich-Bergius-Schule;Perelsplatz 6-9;12159;Integrierte Sekundarschule;52.47618;13.33314;X
+07Y03;Rheingau-Gymnasium;Schwalbacher Str. 3-4;12161;Gymnasium;52.470206;13.322611;X
+07Y06;Askanisches Gymnasium;Kaiserin-Augusta-Str. 19-20;12103;Gymnasium;52.45992;13.37992;X
+07Y07;Eckener-Gymnasium;Kaiserstr. 17-21;12105;Gymnasium;52.4451;13.38052;X
+07Y09;Georg-Büchner-Gymnasium;Lichtenrader Damm 224;12305;Gymnasium;52.39186;13.406604;X
+08G09;Regenbogen-Schule (Grundschule);Morusstr. 32;12053;Grundschule;52.47578;13.43333;X
+08G27;Oskar-Heinroth-Schule (Grundschule);Rohrdommelweg 1;12359;Grundschule;52.44057;13.47209;X
+08G30;Schule am Sandsteinweg (Grundschule);Hornblendeweg 2;12349;Grundschule;52.41829;13.40469;X
+08K02;Hermann-von-Helmholtz-Schule;Wutzkyallee 68;12353;Integrierte Sekundarschule;52.421823;13.472974;X
+08K03;Otto-Hahn-Schule;Buschkrugallee 63;12359;Integrierte Sekundarschule;52.45809;13.449;X
+08K05;Clay-Schule;Bildhauerweg 9;12355;Integrierte Sekundarschule;52.41759;13.48999;X
+08Y03;Albert-Einstein-Gymnasium;Parchimer Allee 109;12359;Gymnasium;52.44553;13.44245;X
+09G04;Sonnenblumen-Schule (Grundschule);Radenzer Str. 16;12437;Grundschule;52.46163;13.48872;X
+09G26;Schule an den Püttbergen (Grundschule);Fürstenwalder Allee 182;12589;Grundschule;52.43385;13.70158;X
+09K06;Hans-Grade-Schule (Integrierte Sekundarschule);Heubergerweg 37;12487;Integrierte Sekundarschule;52.444484;13.499022;X
+09K07;Sophie-Brahe-Schule (Gemeinschaftsschule);Am Plänterwald 17-23;12435;Integrierte Sekundarschule;52.48171;13.47804;X
+09K08;Schule an der Dahme (Integrierte Sekundarschule);Glienicker Str. 24 -30;12557;Integrierte Sekundarschule;52.44056;13.56727;X
+09K09;Grünauer Schule (Gemeinschaftsschule);Walchenseestr. 40;12527;Integrierte Sekundarschule;52.419368;13.576124;X
+10G12;Grundschule an der Geißenweide;Amanlisweg 40;12685;Grundschule;52.537783;13.551797;X
+10G16;Grundschule am Fuchsberg;Dankratweg 19;12683;Grundschule;52.49039;13.551484;X
+10G26;Friedrich-Schiller-Grundschule;An der Schule 13-17;12623;Grundschule;52.5115;13.614782;X
+10G29;Grundschule an der Wuhle;Teterower Ring 79;12619;Grundschule;52.52118;13.58041;X
+10G30;Mahlsdorfer Grundschule;Feldrain 47;12623;Grundschule;52.522102;13.628787;X
+10G32;Kiekemal-Schule (Grundschule);Hultschiner Damm 219;12623;Grundschule;52.49407;13.60915;X
+10K01;Rudolf-Virchow-Schule;Glambecker Ring 90;12679;Integrierte Sekundarschule;52.5555;13.57573;X
+10K07;Caspar-David-Friedrich-Schule;Alte Hellersdorfer Str. 7;12629;Integrierte Sekundarschule;52.535223;13.591017;X
+10Y01;Tagore-Gymnasium;Sella-Hasse-Str. 25;12687;Gymnasium;52.55271;13.55658;X
+10Y02;Otto-Nagel-Gymnasium;Schulstr. 11;12683;Gymnasium;52.511922;13.549199;X
+11G03;Grundschule im Gutspark;Josef-Orlopp-Str. 20;10367;Grundschule;52.52237;13.48307;X
+11G06;Adam-Ries-Grundschule;Alt-Friedrichsfelde 66;10315;Grundschule;52.5114;13.53125;X
+11G17;Brodowin-Grundschule;Liebenwalder Str. 22;13055;Grundschule;52.53738;13.50067;X
+11G29;Matibi-Grundschule;Prendener Str. 15;13059;Grundschule;52.5724;13.52072;X
+11K01;Alexander-Puschkin-Schule;Massower Str. 37;10315;Integrierte Sekundarschule;52.50795;13.51556;X
+11K02;Mildred-Harnack-Schule;Schulze-Boysen-Str. 12;10365;Integrierte Sekundarschule;52.511321;13.481213;X
+11K05;Fritz-Reuter-Schule;Prendener Str. 29;13059;Integrierte Sekundarschule;52.570237;13.52104;X
+11K07;Vincent-van-Gogh-Schule (Integrierte Sekundarschule);Wustrower Str. 26;13051;Integrierte Sekundarschule;52.5678;13.50702;X
+11K09;Philipp-Reis-Schule (Integrierte Sekundarschule);Werneuchener Str. 15;13055;Integrierte Sekundarschule;52.53952;13.49572;X
+11K10;Grüner Campus Malchow (Gemeinschaftsschule);Malchower Chaussee 2;13051;Integrierte Sekundarschule;52.569831;13.479469;X
+11K11;Paul-Schmidt-Schule (Integrierte Sekundarschule);Malchower Weg 54;13053;Integrierte Sekundarschule;52.55475;13.50438;X
+11Y09;Barnim-Gymnasium;Ahrensfelder Chaussee 41;13057;Gymnasium;52.569201;13.549303;X
+11Y11;Immanuel-Kant-Gymnasium;Lückstr. 63;10317;Gymnasium;52.501956;13.489635;X
+12G02;Grundschule am Schäfersee;Baseler Str. 2-6;13407;Grundschule;52.5622;13.3554;X
+12G10;Peter-Witte-Grundschule;Rathauspromenade 75;13437;Grundschule;52.5863;13.33039;X
+12G12;Borsigwalder Grundschule;Miraustr. 100;13509;Grundschule;52.58822;13.30561;X
+12G14;Alfred-Brehm-Grundschule;Ascheberger Weg 8A;13507;Grundschule;52.57359;13.28368;X
+12K02;Bettina-von-Arnim-Schule;Senftenberger Ring 49;13435;Integrierte Sekundarschule;52.60511;13.35859;X
+12K06;Benjamin-Franklin-Schule (Integrierte Sekundarschule);Sommerfelder Str. 5-7;13509;Integrierte Sekundarschule;52.581447;13.300983;X
+12K07;Jean-Krämer-Schule (Integrierte Sekundarschule) Wittenau;Alt-Wittenau 8-12;13437;Integrierte Sekundarschule;52.58995;13.33545;X
+12Y01;Friedrich-Engels-Gymnasium;Emmentaler Str. 67;13407;Gymnasium;52.56959;13.35743;X
+12Y03;Humboldt-Gymnasium;Hatzfeldtallee 2-4;13509;Gymnasium;52.59176;13.28891;X
