@@ -1,0 +1,234 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=7; IE=EmulateIE9; IE=10" />
+
+	<meta name="author" content="Thomas Tursics" />
+	<meta name="keywords" content="Berlin,Schule,Quereinsteiger,Quereinsteigende" />
+	<meta name="robots" content="index,follow" />
+
+ 	<title>Verteilung von Quereinsteigenden über Berliner Bezirke</title>
+	<meta property="og:title" content="Verteilung von Quereinsteigenden über Berliner Bezirke" />
+	<meta name="twitter:title" content="Verteilung von Quereinsteigenden über Berliner Bezirke">
+
+	<meta name="description" content="Die Lehrkräfte-Quereinsteigende in den Berliner Schulen werden auf dieser Karte visualisiert. Hier können verschiedene Thesen geprüft werden, wie die Frage, ob sich Quereinsteigende auf die Außenbezirke konzentrieren oder ob sie sich auf Brennpunktschulen der Schulform Grundschule konzentrieren." />
+	<meta property="og:description" content="Die Lehrkräfte-Quereinsteigende in den Berliner Schulen werden auf dieser Karte visualisiert. Hier können verschiedene Thesen geprüft werden, wie die Frage, ob sich Quereinsteigende auf die Außenbezirke konzentrieren oder ob sie sich auf Brennpunktschulen der Schulform Grundschule konzentrieren." />
+	<meta name="twitter:description" content="Die Lehrkräfte-Quereinsteigende in den Berliner Schulen werden auf dieser Karte visualisiert. Hier können verschiedene Thesen geprüft werden, wie die Frage, ob sich Quereinsteigende auf die Außenbezirke konzentrieren oder ob sie sich auf Brennpunktschulen der Schulform Grundschule konzentrieren.">
+
+	<link rel="image_src" type="image/png" href="http://www.tursics.de/story/quereinsteigende/assets/social.gif" />
+	<meta property="og:image" content="http://www.tursics.de/story/quereinsteigende/assets/social.gif" />
+	<meta name="twitter:image:src" content="http://www.tursics.de/story/quereinsteigende/assets/social.gif">
+
+	<meta property="og:url" content="http://www.tursics.de/story/quereinsteigende/">
+	<meta name="twitter:domain" content="http://www.tursics.de/story/quereinsteigende/">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:creator" content="@tursics">
+
+	<link rel="stylesheet" href="lib/jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.css">
+	<link rel="stylesheet" href="lib/font-awesome-4.6.3/css/font-awesome.css">
+	<link rel="stylesheet" href="lib/leaflet-0.7.7/leaflet.css" />
+	<link rel="stylesheet" href="ueberbelegt.css" />
+	<link rel="stylesheet" href="lib/leaflet.awesome-markers-2.0.2/leaflet.awesome-markers.css">
+
+	<script src="lib/d3-3.5.5/d3.min.js"></script>
+	<script src="lib/leaflet-0.7.7/leaflet.js"></script>
+	<script src="lib/jquery.mobile-1.4.2/jquery-1.11.1.min.js"></script>
+	<script src="ueberbelegt/tursics.ddj.js"></script>
+	<script src="ueberbelegt/tursics.ddj.map.js"></script>
+	<script src="ueberbelegt/tursics.ddj.marker.js"></script>
+	<script src="ueberbelegt/tursics.ddj.search.js"></script>
+	<script src="ueberbelegt/tursics.ddj.voronoi.js"></script>
+	<script src="ueberbelegt.js"></script>
+	<script src="lib/jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.js"></script>
+	<script src="lib/jquery.autocomplete-1.2.25/jquery.autocomplete.min.js"></script>
+	<script src="lib/leaflet.awesome-markers-2.0.2/leaflet.awesome-markers.min.js"></script>
+
+	<link rel="apple-touch-icon" sizes="57x57" href="/assets/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/assets/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/assets/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/assets/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/assets/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="./assets/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon-96x96.png">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/assets/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+	<div data-role="page" id="pageMap">
+		<div role="main" class="ui-content" id="mapContainer"></div>
+		<div id="searchBox">
+			<h3>Quereinsteigende</h3>
+			<div class="sample">
+				Zum Beispiel: <a href="#">32. Schule</a>, <a href="#">Ballettschule</a>
+			</div>
+			<div class="searchInput">
+				<input type="text" name="schools" id="autocomplete" placeholder="Geben Sie einen Schulnamen ein" />
+				<div><i class="fa fa-search" aria-hidden="true"></i></div>
+			</div>
+			<div class="priceBar"><div class="priceRed"></div><div class="priceOrange"></div><div class="priceBlue"></div><div class="priceGreen"></div></div>
+			<div class="filter" style="padding: 1em 0 0 0;">
+				<i class="fa fa-filter" aria-hidden="true"></i> Passe die Darstellung an:<br>
+				<div id="filterOpen"><i class="fa fa-chevron-down" aria-hidden="true"></i>anzeigen</div>
+				<div id="filterBox">
+					<select id="selectDistrict" data-native-menu="false" data-inline="false">
+						<option value="">Bezirk</option>
+						<option value="berlin" selected>Berlin</option>
+						<option value="04">Charlottenburg-Wilmersdorf</option>
+						<option value="02">Friedrichshain-Kreuzberg</option>
+						<option value="11">Lichtenberg</option>
+						<option value="10">Marzahn-Hellersdorf</option>
+						<option value="01">Mitte</option>
+						<option value="08">Neukölln</option>
+						<option value="03">Pankow</option>
+						<option value="12">Reinickendorf</option>
+						<option value="05">Spandau</option>
+						<option value="06">Steglitz-Zehlendorf</option>
+						<option value="07">Tempelhof-Schöneberg</option>
+						<option value="09">Treptow-Köpenick</option>
+					</select>
+					<select id="selectSchoolType" data-native-menu="false" data-inline="false">
+						<option value="">Schultyp</option>
+						<option value="all" selected>Alle Schultypen</option>
+						<option value="G">Grundschulen</option>
+						<option value="K">Integrierte Sekundarschulen</option>
+						<option value="Y">Gymnasien</option>
+						<option value="S">Schulen mit Förderschwerpunkt</option>
+						<option value="B">Berufliche Schulen</option>
+						<option value="A">Kolleg und Volkshochschulen</option>
+<!--						<option value="P">Privatschulen</option> -->
+					</select>
+					<select id="selectYear" data-native-menu="false" data-inline="false">
+						<option value="">Schuljahr</option>
+						<option value="2017">2017/18</option>
+						<option value="2018" selected>2018/19</option>
+					</select>
+					<input type="checkbox" checked name="cbHotspot" id="cbHotspot"><label for="cbHotspot">Zeige Brennpunktschulen</label>
+					<input type="checkbox" checked name="cbRelative" id="cbRelative"><label for="cbRelative">Zeige relative Werte</label>
+					<div data-role="rangeslider">
+						<label for="rangeMin">Färbe Schulen in gelb bei Werten von:</label>
+						<input name="rangeMin" id="rangeMin" min="0" max="45" value="1" type="range" />
+						<label for="rangeMax">Färbe Schulen in gelb bei Werten von:</label>
+						<input name="rangeMax" id="rangeMax" min="0" max="45" value="24" type="range" />
+					</div>
+					<div id="filterClose"><i class="fa fa-chevron-up" aria-hidden="true"></i>verkleinern</div>
+				</div>
+			</div>
+			<div class="priceBar"><div class="priceRed"></div><div class="priceOrange"></div><div class="priceBlue"></div><div class="priceGreen"></div></div>
+			<div id="receiptBox" style="padding: 0 0 .5em 0;">
+				<div id="receipt" class="normal">
+					<div class="full bold" id="recSchulname"></div>
+					<div class="empty"></div>
+					<div class="full"><span id="recSchulart"></span> (<span id="recBSN"></span>)</div>
+					<div class="full" id="recStrasse"></div>
+					<div class="full"><span id="recPLZ"></span> Berlin</div>
+					<div class="empty"></div>
+					<div class="bold">Schuljahr 2017/18</div>
+					<div class="bold">==============</div>
+					<div class="bold">Lehrkräfte: <span id="recAlleLehrkraefte_2017"></span></div>
+					<div class="bold">Quereinsteigende: <span id="recAlleQ_2017"></span></div>
+					<div class="bold">Gesamt: <span id="reccount2017"></span></div>
+					<div class="empty"></div>
+					<div class="bold">Schuljahr 2018/19</div>
+					<div class="bold">==============</div>
+					<div class="bold">Lehrkräfte: <span id="recAlleLehrkraefte_2018"></span></div>
+					<div class="bold">Quereinsteigende: <span id="recAlleQ_2018"></span></div>
+					<div class="bold">Seiteneinsteigende: <span id="recAlleS_2018"></span></div>
+					<div class="bold">Gesamt: <span id="reccount2018"></span></div>
+					<div class="empty"></div>
+					<div class="bold">Brennpunktschule: <span id="rechotspot"></span></div>
+				</div>
+				<div id="receiptClose"><i class="fa fa-chevron-up" aria-hidden="true"></i>verkleinern</div>
+			</div>
+		</div>
+		<div data-role="popup" id="popupShare" data-theme="a" class="ui-corner-all">
+			<div style="padding:0;margin:-1px 0 0 -1px;overflow-x:hidden;">
+				<div data-role="tabs" id="tabs" style="padding:0;">
+					<div data-role="navbar">
+						<ul>
+							<li><a href="#shareLink" id="tabShareLink" data-ajax="false" class="ui-btn-active">Link teilen</a></li>
+							<li><a href="#embedMap" id="tabEmbedMap" data-ajax="false">Karte einbetten</a></li>
+						</ul>
+					</div>
+					<div id="shareLink" class="ui-body-d ui-content">
+						<div>
+							In sozialen Netzwerken teilen:
+							<div class="social">
+								<a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.tursics.de%2Fstory%2Fquereinsteigende%2F" rel="popup" title="Bei Facebook teilen">Facebook<span></span></a>
+								<a class="twitter"  href="https://twitter.com/intent/tweet?text=Quereinsteigende%20in%20Berliner%20Schulen&amp;url=http://www.tursics.de/story/quereinsteigende/" rel="popup" title="Bei Twitter teilen">Twitter<span></span></a>
+								<a class="whatsapp" href="whatsapp://send?text=Quereinsteigende%20in%20Berliner%20Schulen%3A%20http%3A%2F%2Fwww.tursics.de%2Fstory%2Fquereinsteigende%2F" rel="popup" title="Bei WhatsApp teilen">WhatsApp<span></span></a>
+							</div>
+						</div>
+						<div>
+							oder den Link kopieren:<br>
+							<input value="http://www.tursics.de/story/quereinsteigende/">
+						</div>
+						<div style="text-align:center;margin:0;"><a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-a" data-rel="back">Schließen</a></div>
+					</div>
+					<div id="embedMap" class="ui-body-d ui-content">
+						<div style="width:400px">
+							Den Codeschnipsel können Sie direkt in Ihre Webseite oder in Ihren Wordpress-Blog einbauen.<br>
+						</div>
+						<div class="ui-field-contain ui-grid-b">
+							<div class="ui-block-a" style="padding:0 1em 0 0;margin:0;">
+								<select id="selectEmbedSize" data-native-menu="false" data-inline="false">
+									<option value="400x300">Klein</option>
+									<option value="650x450">Mittel</option>
+									<option value="800x600">Groß</option>
+								</select>
+							</div>
+							<div class="ui-block-b" style="width:66.666%;padding:.25em 0 0 0;margin:0;">
+								<input id="inputEmbedURI" value="" data-inline="true">
+							</div>
+						</div>
+						<iframe></iframe>
+						<div style="text-align:center;margin:.8em 0 0 0;"><a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-a" data-rel="back">Schließen</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-role="popup" id="popupInfo" data-theme="a" class="ui-corner-all">
+			<div style="padding:10px 20px;">
+				<h3>Verteilung von Quereinsteigenden über Berliner Bezirke</h3>
+				<div>Die Daten aus der Kleinen Anfrage <a href="https://kleineanfragen.de/berlin/18/17293-lehrkraefte-quereinsteigende-in-den-berliner-schulen-im-schuljahr-2018-2019">„Lehrkräfte-Quereinsteigende in den Berliner Schulen im Schuljahr 2018/2019“</a> wurde auf dieser Karte visualisiert.</div>
+				<div>Hier können verschiedene Thesen geprüft werden, wie die Frage, ob sich Quereinsteigende auf die Außenbezirke konzentrieren (Nein!) oder ob sie sich auf Brennpunktschulen der Schulform Grundschule konzentrieren (Ja!).</div>
+				<div>Mit wenigen Klicks lassen sich bestimmte Filter einstellen und somit verschiedene Analysen durchführen.</div>
+				<div>Die Schulen haben zur besseren Darstellung idealisierte Einzugsbereiche. Diese sind grün, orange oder rot eingefärbt. Grün bedeutet, es gibt keine Quereinsteigende. Orange zeigt Quereinsteigende mit einem Anteil zwischen 1-24% und rot markiert eine Quote von 25% und mehr.</div>
+				<div>Die Darstellung der Zahlen bestärkt den <a href="https://leaberlin.de/">Landeselternausschuß</a> nochmalig in seiner Forderung nach einer festen Quote als Obergrenze für Quereinsteigende und der damit verbundenen notwendigen Personalsteuerung, sowie in unserer Forderung, dass keine Quereinsteigende für die Schulanfangsphase eingesetzt werden dürfen. Noch wichtiger ist natürlich ausreichend Lehrkräfte über ein reguläres Studium auszubilden, die ihr Referendariat an den Berliner Schulen auch absolvieren und für den Berliner Schuldienst gewonnen werden.</div>
+				<div style="text-align:center;margin:.8em 0 0 0;"><a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-a" data-rel="back">Schließen</a></div>
+			</div>
+		</div>
+		<div data-role="popup" id="popupAuthor" data-theme="a" class="ui-corner-all">
+			<div style="padding:10px 20px;">
+				<h3>Über die Karte</h3>
+				<div>
+ 					Berlin, 22.01.2019
+				</div>
+				<div>
+					Thomas Tursics, Mitglied des Landeselternausschusses, Open Data-Experte und Entwickler der Visualisierung von <a href="http://schulsanierung.tursics.de/">„Wie kaputt ist Ihre Schule“</a>, die zuletzt in der „City Vis 2018“ (Technologie Stiftung) in der Senatsverwaltung für Stadtentwicklung und Wohnen ausgestellt wurde - hat in seiner neuesten Arbeit die Daten aus der Kleinen Anfrage „Lehrkräfte-Quereinsteigende in den Berliner Schulen im Schuljahr 2018/2019“ in einer Karte visualisiert.
+				</div>
+				<div>
+					Die Daten stammen aus der Kleinen Anfrage <a href="https://kleineanfragen.de/berlin/18/17293-lehrkraefte-quereinsteigende-in-den-berliner-schulen-im-schuljahr-2018-2019">Lehrkräfte-Quereinsteigende in den Berliner Schulen im Schuljahr 2018/2019</a>
+					und können als <a href="https://raw.githubusercontent.com/tursics/schule-quereinsteiger/master/data/quereinsteiger.csv">Rohdaten heruntergeladen</a> werden.
+					Die Webseitenquelltexte können Sie <a href="https://github.com/tursics/schule-quereinsteiger">auf github</a> ansehen und frei (MIT-Lizenz) verwenden.
+					Das Emoticon stammt von <a href="https://www.emojidex.com/">emojidex.com</a> unter der emojidex Open License.
+				</div>
+				<div>
+					Haben Sie eine Anmerkung oder einen Fehler entdeckt, dann freue ich mich über <a href="mailto:thomas@tursics.de">Ihre E-Mail</a>.
+				</div>
+				<div style="text-align:center;margin:.8em 0 0 0;"><a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-a" data-rel="back">Schließen</a></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
